@@ -1,0 +1,1253 @@
+{
+  "meta": {
+    "last_updated": "2026-05-11",
+    "record_count": 29,
+    "schema_version": "1.2",
+    "source_image": "2026-02_Active-Materials_Europe.jpg",
+    "notes": "Battery Active Material Production (Europe) as of February 2026. Source: Battery-News.com / FEM RWTH Aachen University. All capacities in tonnes per year (t/a). pCAM = Precursor cathode active material, CAM = Cathode active material, AAM = Anode active material. Chemistry codes: SG = Synthetic graphite, NG = Natural graphite, NMC = Nickel Manganese Cobalt, LFP = Lithium Iron Phosphate, LNMO = Lithium Nickel Manganese Oxide, NCA = Nickel Cobalt Aluminum, Si = Silicon.",
+    "schema_changelog": {
+      "1.2": "Added 'stage' field and 'open_questions' in attributes{}",
+      "1.1": "Added required 'sector' field",
+      "1.0": "Initial schema"
+    }
+  },
+  "companies": [
+    {
+      "id": "vianode-heroya",
+      "name": "Vianode",
+      "sector": "active_material_producer",
+      "country": "Norway",
+      "city": "Herøya",
+      "lat": 59.07,
+      "lon": 9.63,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 2000,
+          "unit": "t/a",
+          "known": true,
+          "label": "synthetic graphite anode material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "SG"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Vianode is a Hydro spin-off producing synthetic graphite anode materials."
+    },
+    {
+      "id": "morrow-mo-i-rana",
+      "name": "Morrow",
+      "sector": "active_material_producer",
+      "country": "Norway",
+      "city": "Mo i Rana",
+      "lat": 66.31,
+      "lon": 14.14,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 80000,
+          "unit": "t/a",
+          "known": true,
+          "label": "cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "LNMO"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Morrow is primarily a cell manufacturer — verify whether CAM production is a planned integrated facility or a separate entity"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": ""
+    },
+    {
+      "id": "carbonx-delft",
+      "name": "CarbonX",
+      "sector": "active_material_producer",
+      "country": "Netherlands",
+      "city": "Delft",
+      "lat": 51.99,
+      "lon": 4.36,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "t/a",
+          "known": false,
+          "label": "anode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "SG"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Monitor Rotterdam mixing facility completion and qualification progress with battery makers"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "CarbonX (TU Delft spin-off, 2014) is developing synthetic graphite anode materials using proprietary emulsion feedstock technology. Currently at pilot/pre-commercial stage — building a high-capacity feedstock mixing facility in the Port of Rotterdam. Raised €4M in 2024; in advanced qualification stages with major battery makers. 20,000 t/a production lines under feasibility study for Europe and US. No commercial production yet.",
+        "source": "https://carbonx.nl/carbonx-secures-new-funding-to-build-resilient-battery-supply-chains/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "e-magy-broek-op-langedijk",
+      "name": "E-Magy",
+      "sector": "active_material_producer",
+      "country": "Netherlands",
+      "city": "Broek op Langedijk",
+      "lat": 52.69,
+      "lon": 4.8,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 300,
+          "unit": "t/a",
+          "known": true,
+          "label": "silicon anode material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "Si"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "E-Magy is a Dutch startup producing nano-porous silicon anode materials."
+    },
+    {
+      "id": "altilium-teesside",
+      "name": "Altilium",
+      "sector": "active_material_producer",
+      "country": "Great Britain",
+      "city": "Teesside",
+      "lat": 54.57,
+      "lon": -1.23,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 30000,
+          "unit": "t/a",
+          "known": true,
+          "label": "pCAM / CAM",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "pCAM"
+        },
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Image reads 'allium' — assumed to be Altilium. Verify company name."
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Altilium focuses on recycled cathode materials (closed-loop from black mass)."
+    },
+    {
+      "id": "prayon-engis",
+      "name": "Prayon",
+      "sector": "active_material_producer",
+      "country": "Belgium",
+      "city": "Engis",
+      "lat": 50.57,
+      "lon": 5.43,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "t/a",
+          "known": false,
+          "label": "LFP cathode material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Capacity not disclosed in source image — research actual production volume"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Prayon is a Belgian phosphate chemistry specialist producing LFP cathode materials."
+    },
+    {
+      "id": "orano-dunkirk",
+      "name": "Orano",
+      "sector": "active_material_producer",
+      "country": "France",
+      "city": "Dunkirk",
+      "lat": 51.04,
+      "lon": 2.38,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 40000,
+          "unit": "t/a",
+          "known": true,
+          "label": "pCAM / CAM",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "pCAM"
+        },
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Image reads 'orena' — assumed to be Orano (French nuclear/materials group). Verify."
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": ""
+    },
+    {
+      "id": "axens-saint-saulve",
+      "name": "Axens",
+      "sector": "active_material_producer",
+      "country": "France",
+      "city": "Saint-Saulve",
+      "lat": 50.36,
+      "lon": 3.55,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": 25000,
+          "unit": "t/a",
+          "known": true,
+          "label": "NMC cathode material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Axens is an IFP Energies nouvelles subsidiary producing cathode active materials."
+    },
+    {
+      "id": "ferroglobe-sabon",
+      "name": "Ferroglobe",
+      "sector": "active_material_producer",
+      "country": "Spain",
+      "city": "Sabón",
+      "lat": 43.29,
+      "lon": -8.48,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 27000,
+          "unit": "t/a",
+          "known": true,
+          "label": "silicon anode material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "Si"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Battery-grade silicon output not yet at commercial scale — monitor R&D-to-pilot conversion"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Ferroglobe operates an established silicon metal plant at Sabón (Arteixo, A Coruña) since 1972, currently at commercial scale for silicon metal. Battery-specific application — high-purity silicon for Li-ion anodes — is in R&D/pilot phase following €2M investment in 2021–2022. Not yet producing battery-grade material at commercial volumes.",
+        "source": "https://www.ferroglobe.com/news-releases/news-release-details/ferroglobe-celebrates-50th-anniversary-its-sabon-plant",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "hunan-yuneng-spain",
+      "name": "Hunan Yuneng",
+      "sector": "active_material_producer",
+      "country": "Spain",
+      "city": "Mérida",
+      "lat": 38.91,
+      "lon": -6.34,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": null,
+      "capacities": [
+        {
+          "value": null,
+          "unit": "t/a",
+          "known": false,
+          "label": "LFP cathode material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Monitor Phase 1 production start — construction permit granted, building underway"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Hunan Yuneng is a major Chinese LFP cathode material producer with announced European ambitions.",
+      "research": {
+        "summary": "Hunan Yuneng (major Chinese LFP cathode maker) received a building permit and has begun construction of a 50,000 t/a LFP cathode plant at the ExpacioMérida industrial park in Mérida, Extremadura, Spain. Phase 1 investment ~€125M; total planned investment €800M with expansion to 300,000 t/a. ~500 jobs. Construction confirmed underway as of early 2026.",
+        "source": "https://www.electrive.com/2026/05/08/hunan-yuneng-plans-cathode-material-factory-in-spain/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "ptl-sundsvall",
+      "name": "PTL",
+      "sector": "active_material_producer",
+      "country": "Sweden",
+      "city": "Sundsvall",
+      "lat": 62.39,
+      "lon": 17.31,
+      "year": null,
+      "year_label": null,
+      "status": "Paused",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "t/a",
+          "known": false,
+          "label": "Si-Graphene anode material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "Si-Graphene"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Project scrapped Dec 2024 — monitor if Putailai revisits Europe after regulatory/market conditions change"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "PTL (Putailai New Energy Technology, Shanghai) planned Europe's largest anode material factory in Sundsvall, Sweden — SEK 13B investment, 50,000 t/a initial phase expandable to 100,000 t/a. Project was scrapped in December 2024 after Swedish Strategic Products Inspectorate imposed regulatory conditions deemed unacceptable by the Chinese parent, compounded by Northvolt's collapse reducing demand outlook.",
+        "source": "https://www.bnnbloomberg.ca/business/international/2024/12/20/chinas-ptl-scraps-sweden-battery-plant-after-northvolt-collapse/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "talga-lulea",
+      "name": "Talga",
+      "sector": "active_material_producer",
+      "country": "Sweden",
+      "city": "Luleå",
+      "lat": 65.58,
+      "lon": 22.15,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 19500,
+          "unit": "t/a",
+          "known": true,
+          "label": "natural graphite anode material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NG"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Talga Group (Australian-listed) operates natural graphite deposits in northern Sweden and processes AAM in Luleå."
+    },
+    {
+      "id": "basf-harjavalta",
+      "name": "BASF",
+      "sector": "active_material_producer",
+      "country": "Finland",
+      "city": "Harjavalta",
+      "lat": 61.31,
+      "lon": 22.14,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "t/a",
+          "known": false,
+          "label": "precursor cathode active material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "pCAM"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Capacity not disclosed in source image — research current pCAM output at Harjavalta"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "BASF produces pCAM at Harjavalta using nickel and cobalt refined on-site."
+    },
+    {
+      "id": "grafintec-vaasa",
+      "name": "Grafintec",
+      "sector": "active_material_producer",
+      "country": "Finland",
+      "city": "Vaasa",
+      "lat": 63.1,
+      "lon": 21.62,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "t/a",
+          "known": false,
+          "label": "natural graphite",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NG"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Definitive Feasibility Study planned 2025 — monitor DFS outcome and GVA10 Phase 1 construction start; first production targeted 2027"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Grafintec Oy (owned by Beowulf Mining plc, UK-Swedish) is developing a Graphite Anode Materials Plant (GAMP) in Vaasa producing coated spherical graphite (CSPG) for battery anodes. JV with Epsilon Advanced Materials: Phase 1 (GVA10) targets 10,000 t/a, Phase 2 adds 40,000 t/a to reach 50,000 t/a. Full GAMP capacity 20,000 t/a CSPG. Definitive Feasibility Study planned 2025; first production targeted 2027.",
+        "source": "https://www.grafintec.fi/en/press-release/new-site-reserved-in-the-gigavaasa-area-for-establishing-anode-materials-production/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "greyv-vaasa",
+      "name": "Greyv",
+      "sector": "active_material_producer",
+      "country": "Finland",
+      "city": "Vaasa",
+      "lat": 63.1,
+      "lon": 21.62,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 34000,
+          "unit": "t/a",
+          "known": true,
+          "label": "precursor cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "pCAM"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify company name — image reads 'Greyv' or similar. Confirm identity and current project status."
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": ""
+    },
+    {
+      "id": "umicore-kokkola",
+      "name": "Umicore",
+      "sector": "active_material_producer",
+      "country": "Finland",
+      "city": "Kokkola",
+      "lat": 63.84,
+      "lon": 23.13,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": 20000,
+          "unit": "t/a",
+          "known": true,
+          "label": "precursor cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "pCAM"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Umicore Finland Oy operates a pCAM (precursor cathode active material) production facility in Kokkola, home to one of Europe's largest cobalt refineries outside China. pCAM production with new NMC technology began in 2014; a second mass production line was inaugurated subsequently. Kokkola is a key node in Umicore's European CAM supply chain, producing NMC precursors for EV battery makers.",
+        "source": "https://www.umicore.fi/en/news/umicore-inaugurates-second-pcam-mass-production-line-in-kokkola/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "cngr-finland-hamina",
+      "name": "CNGR Finland",
+      "sector": "active_material_producer",
+      "country": "Finland",
+      "city": "Hamina",
+      "lat": 60.57,
+      "lon": 27.19,
+      "year": null,
+      "year_label": null,
+      "status": "Paused",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 100000,
+          "unit": "t/a",
+          "known": true,
+          "label": "active material",
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "CNGR Advanced Material withdrew from project — Finnish Minerals Group seeking new partner; monitor revival"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "CNGR Finland Oy (JV: CNGR Advanced Material 70% + Finnish Minerals Group 30%) planned a 60,000 t/a pCAM plant in Hamina, Finland. Environmental permit was approved. However, CNGR Advanced Material withdrew from the project citing a challenging market environment. Finnish Minerals Group is seeking a new partner. Capacity was reported as 60,000 t/a (not 100,000 as initially logged — source image may have shown maximum expansion figure).",
+        "source": "https://www.mineralsgroup.fi/topical/news/cngr-advanced-material-withdraws-from-the-pcam-plant-project-in-hamina.html",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "easpring-finland-kotka",
+      "name": "Easpring Finland",
+      "sector": "active_material_producer",
+      "country": "Finland",
+      "city": "Kotka",
+      "lat": 60.47,
+      "lon": 26.95,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 60000,
+          "unit": "t/a",
+          "known": true,
+          "label": "cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Sample production targeted summer 2026; commercial production 2027 — monitor construction progress"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Easpring Finland New Materials Oy (JV: Beijing Easpring Material Technology 70% + Finnish Minerals Group 30%) is building Finland's first CAM plant in Kotka. Target capacity 60,000 t/a NMC/NCA cathode material (~500–800k EV equivalent/yr). Environmental permit granted; groundbreaking held; construction began spring 2025. Sample production targeted summer 2026, commercial production 2027.",
+        "source": "https://www.kotka.fi/en/easpring-finland-receives-environmental-permit-kotka-hamina-region-strengthens-its-position-as-a-pioneer-in-the-battery-cluster/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "unknown-tallinn",
+      "name": "Unknown",
+      "sector": "active_material_producer",
+      "country": "Estonia",
+      "city": "Tallinn",
+      "lat": 59.44,
+      "lon": 24.75,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "stage": "rd",
+      "capacities": [
+        {
+          "value": 1000,
+          "unit": "t/a",
+          "known": true,
+          "label": "synthetic graphite anode material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "AAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "SG"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — logo not readable. 1,000 t/a SG AAM in Tallinn, Estonia, target 2027. Small scale suggests R&D or early pilot."
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": ""
+    },
+    {
+      "id": "topsoe-frederikshavn",
+      "name": "Topsoe",
+      "sector": "active_material_producer",
+      "country": "Denmark",
+      "city": "Frederikshavn",
+      "lat": 57.43,
+      "lon": 10.54,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 200,
+          "unit": "t/a",
+          "known": true,
+          "label": "LNMO cathode material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "LNMO"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "Topsoe (Haldor Topsoe) is a Danish catalysis company expanding into LNMO battery cathode materials."
+    },
+    {
+      "id": "ibu-tec-weimar",
+      "name": "IBU-tec",
+      "sector": "active_material_producer",
+      "country": "Germany",
+      "city": "Weimar",
+      "lat": 50.98,
+      "lon": 11.33,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": 4000,
+          "unit": "t/a",
+          "known": true,
+          "label": "LFP cathode material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "IBU-tec Advanced Materials AG is a German specialty chemicals company producing LFP via flash calcination."
+    },
+    {
+      "id": "altech-spremberg",
+      "name": "Altech Industries Germany",
+      "sector": "active_material_producer",
+      "country": "Germany",
+      "city": "Spremberg",
+      "lat": 51.57,
+      "lon": 14.37,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/a",
+          "known": true,
+          "label": "active material",
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Preliminary feasibility study completed — monitor pilot plant construction start and production commissioning"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Altech Industries Germany (subsidiary of Altech Batteries Ltd, ASX) is developing a battery-grade graphite coating plant at the Schwarze Pumpe Industrial Park, Spremberg (Brandenburg). The facility uses Altech's proprietary alumina-coating technology to coat 10,000 t/a of anode-grade graphite for Li-ion batteries. Preliminary feasibility study completed; supported by Saxony state government.",
+        "source": "https://www.altechgroup.com/projects/german-battery-materials-coating-plant/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "basf-schwarzheide",
+      "name": "BASF",
+      "sector": "active_material_producer",
+      "country": "Germany",
+      "city": "Schwarzheide",
+      "lat": 51.49,
+      "lon": 13.87,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/a",
+          "known": true,
+          "label": "cathode active material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "BASF CAM plant in Schwarzheide, Brandenburg — phase 1 capacity 10,000 t/a, producing NCA and NMC."
+    },
+    {
+      "id": "elyte-kaiserslautern",
+      "name": "E-Lyte Innovations",
+      "sector": "active_material_producer",
+      "country": "Germany",
+      "city": "Kaiserslautern",
+      "lat": 49.44,
+      "lon": 7.77,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": 20000,
+          "unit": "t/a",
+          "known": true,
+          "label": "electrolyte",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "Electrolyte"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "E-Lyte Innovations GmbH opened Germany's first battery electrolyte production facility in Kaiserslautern in 2024, in partnership with FUCHS SE. Capacity: 20,000 t/a of electrolyte for Li-ion, Na-ion and supercapacitor applications. Plans to add another 20,000 t/a by 2026. Positioned as Europe's first industrial-scale, independent electrolyte producer.",
+        "source": "https://battery-news.de/en/2024/09/13/e-lyte-opens-electrolyte-manufacturing-facility-in-germany/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "pbt-hagen",
+      "name": "Pure Battery Technologies",
+      "sector": "active_material_producer",
+      "country": "Germany",
+      "city": "Hagen",
+      "lat": 51.36,
+      "lon": 7.47,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": null,
+      "capacities": [
+        {
+          "value": 75000,
+          "unit": "t/a",
+          "known": true,
+          "label": "precursor cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "pCAM"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Production start earmarked early 2028 — monitor construction and permitting progress"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Pure Battery Technologies (PBT, founded 2017, HQ Brisbane, Australia) acquired the Königswarter & Ebell (K+E) facility in Hagen, Germany in 2020. The Hagen plant processes Mixed Hydroxide Precipitate (MHP) and battery black mass into pCAM (precursor Cathode Active Material) using a low-CO2 hydrometallurgical process — up to 85% less CO2 than conventional methods. Current permitted capacity: 2,500 t Ni/yr; expanding to 15,000 t/a pCAM. Production start earmarked early 2028. EIB InvestEU-backed.",
+        "source": "https://purebatterytech.com/hagen-project/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "ionway-nysa",
+      "name": "Ionway",
+      "sector": "active_material_producer",
+      "country": "Poland",
+      "city": "Nysa",
+      "lat": 50.47,
+      "lon": 17.33,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "stage": null,
+      "capacities": [
+        {
+          "value": 60000,
+          "unit": "t/a",
+          "known": true,
+          "label": "NMC cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify company full name and current project status — 'Ionway' as read from image"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": ""
+    },
+    {
+      "id": "ecopro-debrecen",
+      "name": "EcoPro",
+      "sector": "active_material_producer",
+      "country": "Hungary",
+      "city": "Debrecen",
+      "lat": 47.53,
+      "lon": 21.63,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [
+        {
+          "value": 54500,
+          "unit": "t/a",
+          "known": true,
+          "label": "NCA cathode active material",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        },
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "EcoPro BM — South Korean cathode material company with European plant in Debrecen."
+    },
+    {
+      "id": "huayou-cobalt-acs",
+      "name": "Huayou Cobalt",
+      "sector": "active_material_producer",
+      "country": "Hungary",
+      "city": "Ács",
+      "lat": 47.71,
+      "lon": 18.0,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        {
+          "value": 100000,
+          "unit": "t/a",
+          "known": true,
+          "label": "cathode active material",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "CAM"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Building reportedly ready Q1 2025 — monitor equipment installation and Phase 1 (50,000 t/a) production start"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Huayou Cobalt (China) began construction of its first European CAM plant in Ács, Hungary in June 2024 (piling and columns underway by end-2024). Plant building (116,000 m²) targeted for occupation Q1 2025. Full capacity 100,000 t/a NMC; Phase 1 at 50,000 t/a. ~€1.4B total investment, ~900 jobs. Likely in equipment installation/commissioning phase as of mid-2026.",
+        "source": "https://buildingconnections.eu/en/mi-epul/2024/06/11/indul-acs-uj-gyaranak-epitese/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "italmatch-arese",
+      "name": "Italmatch Chemicals",
+      "sector": "active_material_producer",
+      "country": "Italy",
+      "city": "Arese",
+      "lat": 45.55,
+      "lon": 9.08,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "capacities": [
+        {
+          "value": 12,
+          "unit": "t/a",
+          "known": true,
+          "label": "electrolyte",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "material_type",
+          "name": "Electrolyte"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current production volume and stage — R&D/pilot as of last reports"
+        ]
+      },
+      "source_image": "2026-02_Active-Materials_Europe.jpg",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "research": {
+        "summary": "Italmatch Chemicals (Arese, near Milan) participates in the IPCEI Batteries European project as Europe's sole producer of Phosphorus Pentachloride (PCl5), a precursor for LiPF6 battery electrolyte. Operates a pilot electrolyte precursor plant in Arese (~12 t/a, R&D/demonstration scale). Part of a European effort to establish domestic LiPF6 production capacity.",
+        "source": "https://www.italmatch.com/research-and-development/european-battery-innovation-ipcei/",
+        "date": "2026-05-12"
+      }
+    }
+  ]
+}

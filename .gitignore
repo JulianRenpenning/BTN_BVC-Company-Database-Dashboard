@@ -1,0 +1,15 @@
+# Source images — large files, not needed for the web app
+reference-data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment
+.env

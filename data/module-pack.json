@@ -1,0 +1,3108 @@
+{
+  "meta": {
+    "last_updated": "2026-05-11",
+    "record_count": 103,
+    "schema_version": "1.2",
+    "source_map": "Battery Module & Pack Production (Europe) as of February 2026",
+    "notes": "No capacity figures shown in source image. Status 'Planned' applied to sites marked with * (under construction). Default status: Operational.",
+    "schema_changelog": {
+      "1.2": "Added 'stage' field (commercial | pilot | rd | unknown | null) and 'open_questions' list in attributes{}"
+    }
+  },
+  "companies": [
+    {
+      "id": "siemens-trondheim",
+      "name": "Siemens",
+      "sector": "module_pack_manufacturer",
+      "country": "Norway",
+      "city": "Trondheim",
+      "lat": 63.43,
+      "lon": 10.39,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "nes-godvik",
+      "name": "Norwegian Electric Systems",
+      "sector": "module_pack_manufacturer",
+      "country": "Norway",
+      "city": "Godvik",
+      "lat": 60.37,
+      "lon": 5.23,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "marine battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "NES specialises in marine/offshore battery systems.",
+      "stage": null
+    },
+    {
+      "id": "beyonder-rogaland-pack",
+      "name": "Beyonder",
+      "sector": "module_pack_manufacturer",
+      "country": "Norway",
+      "city": "Stavanger",
+      "lat": 58.97,
+      "lon": 5.73,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer in cell map.",
+      "stage": null
+    },
+    {
+      "id": "scania-sodertalje",
+      "name": "Scania",
+      "sector": "module_pack_manufacturer",
+      "country": "Sweden",
+      "city": "Södertälje",
+      "lat": 59.2,
+      "lon": 17.63,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "truck battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "unknown-gothenburg-pack",
+      "name": "Unknown (circular arrow logo)",
+      "sector": "module_pack_manufacturer",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "lat": 57.71,
+      "lon": 11.97,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identity unresolved after web research. Circular arrow logo in Gothenburg module/pack — possible candidates: Micropower Group (HQ Växjö, R&D in Gothenburg), Volvo Energy (Volvo Cars battery subsidiary). Research further with sector-specific sources."
+        ]
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Possibly Polestar or Volvo Cars. Logo shows circular arrow motif.",
+      "stage": null
+    },
+    {
+      "id": "eleo-helmond",
+      "name": "Eleo",
+      "sector": "module_pack_manufacturer",
+      "country": "Netherlands",
+      "city": "Helmond",
+      "lat": 51.48,
+      "lon": 5.66,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 500,
+          "unit": "MWh",
+          "known": true,
+          "type": "current",
+          "label": "annual battery pack production"
+        }
+      ],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo originally misread as \"c<e3\" from source image. A Yanmar company since 2022; part of Yanmar Electrification Unit from April 2025.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Eleo (a Yanmar company, HQ Automotive Campus Helmond) designs and manufactures modular battery packs for off-highway EVs — agriculture, construction, and industrial equipment. New Helmond facility opened January 2023 (inaugurated by King Willem-Alexander), scaling production capacity tenfold to 500 MWh/yr (~10,000 packs/yr). Integrated into Yanmar's global Electrification Unit from April 2025. Batteries scalable from 50–720V, up to 1,000 kWh.",
+        "source": "https://www.yanmar.com/us/news/2023/01/26/119520.html",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "cleantron-nieuw-vennep",
+      "name": "Cleantron",
+      "sector": "module_pack_manufacturer",
+      "country": "Netherlands",
+      "city": "Nieuw-Vennep",
+      "lat": 52.26,
+      "lon": 4.64,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "intercel-haarlem",
+      "name": "Intercel",
+      "sector": "module_pack_manufacturer",
+      "country": "Netherlands",
+      "city": "Haarlem",
+      "lat": 52.38,
+      "lon": 4.64,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "jlr-hams-hall",
+      "name": "Jaguar Land Rover",
+      "sector": "module_pack_manufacturer",
+      "country": "Great Britain",
+      "city": "Hams Hall",
+      "lat": 52.49,
+      "lon": -1.68,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Tata Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "JLR electrification hub at Hams Hall, West Midlands.",
+      "stage": null
+    },
+    {
+      "id": "aesc-sunderland-pack",
+      "name": "AESC",
+      "sector": "module_pack_manufacturer",
+      "country": "Great Britain",
+      "city": "Sunderland",
+      "lat": 54.91,
+      "lon": -1.38,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Envision Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "williams-wantage",
+      "name": "Williams Advanced Engineering",
+      "sector": "module_pack_manufacturer",
+      "country": "Great Britain",
+      "city": "Wantage",
+      "lat": 51.59,
+      "lon": -1.43,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "high-performance battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Williams Racing",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "fortescue-banbury",
+      "name": "Fortescue",
+      "sector": "module_pack_manufacturer",
+      "country": "Great Britain",
+      "city": "Banbury",
+      "lat": 52.06,
+      "lon": -1.34,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "volvocars-gent",
+      "name": "Volvo Cars",
+      "sector": "module_pack_manufacturer",
+      "country": "Belgium",
+      "city": "Gent",
+      "lat": 51.05,
+      "lon": 3.72,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "parent_company": "Geely",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Circular logo; likely Volvo Cars Gent (EX40/C40 production). Verify.",
+      "stage": null
+    },
+    {
+      "id": "audi-brussels",
+      "name": "Audi",
+      "sector": "module_pack_manufacturer",
+      "country": "Belgium",
+      "city": "Brussels",
+      "lat": 50.85,
+      "lon": 4.35,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Audi Brussels — e-tron/Q8 e-tron production.",
+      "stage": null
+    },
+    {
+      "id": "abee-wallonia",
+      "name": "ABEE",
+      "sector": "module_pack_manufacturer",
+      "country": "Belgium",
+      "city": "Wallonia",
+      "lat": 50.5,
+      "lon": 4.76,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Specific city in Wallonia not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "forseepower-poitiers",
+      "name": "Forsee Power",
+      "sector": "module_pack_manufacturer",
+      "country": "France",
+      "city": "Poitiers",
+      "lat": 46.58,
+      "lon": 0.34,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        },
+        {
+          "category": "application",
+          "name": "bus / truck / industrial"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "ckenergy-brassac",
+      "name": "CK energy",
+      "sector": "module_pack_manufacturer",
+      "country": "France",
+      "city": "Brassac-lez-Mines",
+      "lat": 45.41,
+      "lon": 3.33,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo shows 'CK' / 'energy'. Possibly Coreel or another French battery company. Verify.",
+      "stage": null
+    },
+    {
+      "id": "acc-billy-berclau",
+      "name": "ACC",
+      "sector": "module_pack_manufacturer",
+      "country": "France",
+      "city": "Billy-Berclau",
+      "lat": 50.51,
+      "lon": 2.87,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Stellantis / TotalEnergies / Mercedes-Benz",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "verkor-dunkirk-pack",
+      "name": "Verkor",
+      "sector": "module_pack_manufacturer",
+      "country": "France",
+      "city": "Dunkirk",
+      "lat": 51.03,
+      "lon": 2.38,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "aesc-lambres-douai",
+      "name": "AESC",
+      "sector": "module_pack_manufacturer",
+      "country": "France",
+      "city": "Lambres-lez-Douai",
+      "lat": 50.33,
+      "lon": 3.08,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Envision Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "leclanche-yverdon",
+      "name": "Leclanché",
+      "sector": "module_pack_manufacturer",
+      "country": "Switzerland",
+      "city": "Yverdon-les-Bains",
+      "lat": 46.78,
+      "lon": 6.64,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        },
+        {
+          "category": "application",
+          "name": "maritime / stationary"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Swiss HQ of Leclanché.",
+      "stage": null
+    },
+    {
+      "id": "geovolta-schwyz",
+      "name": "GEO Volta",
+      "sector": "module_pack_manufacturer",
+      "country": "Switzerland",
+      "city": "Schwyz",
+      "lat": 47.02,
+      "lon": 8.65,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "dw-winterthur",
+      "name": "DW Design Werk",
+      "sector": "module_pack_manufacturer",
+      "country": "Switzerland",
+      "city": "Winterthur",
+      "lat": 47.5,
+      "lon": 8.72,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "calb-sines-pack",
+      "name": "CALB",
+      "sector": "module_pack_manufacturer",
+      "country": "Portugal",
+      "city": "Sines",
+      "lat": 37.95,
+      "lon": -8.87,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Under construction (*). Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "samsung-karlsdorf",
+      "name": "Samsung SDI",
+      "sector": "module_pack_manufacturer",
+      "country": "Austria",
+      "city": "Karlsdorf",
+      "lat": 49.11,
+      "lon": 8.47,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Source image lists under Austria; Karlsdorf-Neuthard is in Germany (BW). Verify assignment.",
+      "stage": null
+    },
+    {
+      "id": "kreisel-rainbach",
+      "name": "Kreisel Electric",
+      "sector": "module_pack_manufacturer",
+      "country": "Austria",
+      "city": "Rainbach i.M.",
+      "lat": 48.52,
+      "lon": 14.52,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        },
+        {
+          "category": "application",
+          "name": "automotive / industrial"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "miba-bad-leonfelden",
+      "name": "Miba",
+      "sector": "module_pack_manufacturer",
+      "country": "Austria",
+      "city": "Bad Leonfelden",
+      "lat": 48.52,
+      "lon": 14.3,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module component"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Miba AG — Austrian industrial company, battery module components and systems.",
+      "stage": null
+    },
+    {
+      "id": "enepaq-vilnius",
+      "name": "Enepaq",
+      "sector": "module_pack_manufacturer",
+      "country": "Lithuania",
+      "city": "Vilnius",
+      "lat": 54.69,
+      "lon": 25.28,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "anodox-riga",
+      "name": "Anodox Energy Systems",
+      "sector": "module_pack_manufacturer",
+      "country": "Latvia",
+      "city": "Riga",
+      "lat": 56.95,
+      "lon": 24.11,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "celttech-tampere",
+      "name": "Celttech",
+      "sector": "module_pack_manufacturer",
+      "country": "Finland",
+      "city": "Tampere",
+      "lat": 61.5,
+      "lon": 23.77,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo shown as 'Celttech'; verify company name.",
+      "stage": null
+    },
+    {
+      "id": "valmet-automotive-salo",
+      "name": "Valmet Automotive",
+      "sector": "module_pack_manufacturer",
+      "country": "Finland",
+      "city": "Salo",
+      "lat": 60.39,
+      "lon": 23.13,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Company logo not legible. Salo was formerly home to Nokia facilities.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Valmet Automotive operates a battery pack production plant in Salo, Finland (separate from their Uusikaupunki facility). The Salo plant started production and was extended within 12 months to meet demand growth. Produces high-voltage battery packs for automotive OEMs including Volvo Cars and Mercedes-Benz. Part of Valmet Automotive's three-site battery system network in Salo, Uusikaupunki, and Kirchardt (Germany).",
+        "source": "https://www.valmet-automotive.com/media/valmet-automotives-salo-battery-plant-gets-a-second-customer-plant-extension-completed/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "valmet-uusikaupunki",
+      "name": "Valmet Automotive",
+      "sector": "module_pack_manufacturer",
+      "country": "Finland",
+      "city": "Uusikaupunki",
+      "lat": 60.79,
+      "lon": 21.41,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo not fully legible; identified as likely Valmet Automotive (known battery pack assembler in Uusikaupunki). Verify.",
+      "stage": null
+    },
+    {
+      "id": "mercedes-jawor",
+      "name": "Mercedes-Benz",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Jawor",
+      "lat": 51.04,
+      "lon": 16.21,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Mercedes-Benz Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Mercedes-Benz battery factory in Jawor, Poland.",
+      "stage": null
+    },
+    {
+      "id": "embs-gliwice",
+      "name": "EMBS",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Gliwice",
+      "lat": 50.29,
+      "lon": 18.67,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "bmz-gliwice",
+      "name": "BMZ",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Gliwice",
+      "lat": 50.3,
+      "lon": 18.68,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "BMZ Group Polish plant.",
+      "stage": null
+    },
+    {
+      "id": "scania-gdansk",
+      "name": "Scania",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Gdańsk",
+      "lat": 54.37,
+      "lon": 18.63,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "truck battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "impact-warszawa",
+      "name": "IMPACT Clean Power Technology",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Warszawa",
+      "lat": 52.23,
+      "lon": 21.01,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        },
+        {
+          "category": "application",
+          "name": "bus / commercial vehicle"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "forseepower-wroclaw",
+      "name": "Forsee Power",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Wrocław",
+      "lat": 51.11,
+      "lon": 17.04,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "wamtechnik-warszawa",
+      "name": "WamTechnik",
+      "sector": "module_pack_manufacturer",
+      "country": "Poland",
+      "city": "Warszawa",
+      "lat": 52.24,
+      "lon": 21.02,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Shown with a second co-branded logo; joint venture partner not identified.",
+      "stage": null
+    },
+    {
+      "id": "univercell-flintbek-pack",
+      "name": "UniverCell",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Flintbek",
+      "lat": 54.33,
+      "lon": 10.08,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "man-nurnberg",
+      "name": "MAN",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Nürnberg",
+      "lat": 49.45,
+      "lon": 11.08,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "truck battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "futavis-aachen",
+      "name": "Futavis",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Aachen",
+      "lat": 50.78,
+      "lon": 6.08,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery management system"
+        },
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Futavis GmbH — BMS and pack integration.",
+      "stage": null
+    },
+    {
+      "id": "catl-arnstadt",
+      "name": "CATL",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Arnstadt",
+      "lat": 50.83,
+      "lon": 10.95,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "CATL's Erfurt/Arnstadt gigafactory also does module and pack.",
+      "stage": null
+    },
+    {
+      "id": "audi-ingolstadt",
+      "name": "Audi",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Ingolstadt",
+      "lat": 48.77,
+      "lon": 11.43,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "audi-bollinger-hofe",
+      "name": "Audi / Porsche",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Böllinger Höfe",
+      "lat": 49.14,
+      "lon": 9.22,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        },
+        {
+          "category": "application",
+          "name": "premium EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Neckarsulm/Heilbronn area. Taycan/e-tron GT battery assembly.",
+      "stage": null
+    },
+    {
+      "id": "mercedes-kamenz",
+      "name": "Mercedes-Benz",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Kamenz",
+      "lat": 51.27,
+      "lon": 14.1,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Mercedes-Benz Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "ACC battery factory (Mercedes-Benz stake).",
+      "stage": null
+    },
+    {
+      "id": "mercedes-unterturkheim",
+      "name": "Mercedes-Benz",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Untertürkheim",
+      "lat": 48.78,
+      "lon": 9.26,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Mercedes-Benz Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "mercedes-bruhl",
+      "name": "Mercedes-Benz",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Brühl",
+      "lat": 49.4,
+      "lon": 8.52,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Mercedes-Benz Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "mercedes-sindelfingen",
+      "name": "Mercedes-Benz",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Sindelfingen",
+      "lat": 48.71,
+      "lon": 9.0,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Mercedes-Benz Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "elringklinger-thale",
+      "name": "ElringKlinger",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Thale",
+      "lat": 51.74,
+      "lon": 11.05,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module housing"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "eas-nordhausen-pack",
+      "name": "EAS",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Nordhausen",
+      "lat": 51.5,
+      "lon": 10.79,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "bmw-leipzig",
+      "name": "BMW",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Leipzig",
+      "lat": 51.34,
+      "lon": 12.38,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "BMW Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "bmw-regensburg",
+      "name": "BMW",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Regensburg",
+      "lat": 49.01,
+      "lon": 12.1,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "BMW Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "bmw-dingolfing",
+      "name": "BMW",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Dingolfing",
+      "lat": 48.63,
+      "lon": 12.5,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "BMW Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "BMW's largest German plant; battery center for Neue Klasse.",
+      "stage": null
+    },
+    {
+      "id": "bmw-irlbach",
+      "name": "BMW",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Irlbach-Straßkirchen",
+      "lat": 48.77,
+      "lon": 12.68,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "BMW Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Under construction (*).",
+      "stage": null
+    },
+    {
+      "id": "intilion-thale",
+      "name": "INTILION",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Thale",
+      "lat": 51.73,
+      "lon": 11.04,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "stationary battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Hoppecke",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "INTILION is the stationary energy storage subsidiary of Hoppecke.",
+      "stage": null
+    },
+    {
+      "id": "gotion-gottingen",
+      "name": "Gotion",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Göttingen",
+      "lat": 51.54,
+      "lon": 9.93,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "fischer-achern",
+      "name": "Fischer Germany",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Achern",
+      "lat": 48.63,
+      "lon": 8.08,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "ap-akkupower-schorndorf",
+      "name": "AP Akkupower",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Schorndorf",
+      "lat": 48.8,
+      "lon": 9.53,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "ford-cologne",
+      "name": "Ford",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Cologne",
+      "lat": 50.93,
+      "lon": 6.96,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Ford Motor Company",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Ford Cologne — Explorer/Capri EV production.",
+      "stage": null
+    },
+    {
+      "id": "vw-braunschweig",
+      "name": "Volkswagen",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Braunschweig",
+      "lat": 52.27,
+      "lon": 10.52,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "VW Braunschweig — major battery pack assembly plant for MEB vehicles.",
+      "stage": null
+    },
+    {
+      "id": "tesvolt-wittenberg",
+      "name": "Tesvolt",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Lutherstadt Wittenberg",
+      "lat": 51.87,
+      "lon": 12.64,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "stationary battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Tesvolt — commercial stationary storage systems.",
+      "stage": null
+    },
+    {
+      "id": "mdcpower-kolleda",
+      "name": "MDC Power",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Kölleda",
+      "lat": 51.18,
+      "lon": 11.23,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "microvast-ludwigsfelde",
+      "name": "Microvast",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Ludwigsfelde",
+      "lat": 52.3,
+      "lon": 13.25,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        },
+        {
+          "category": "application",
+          "name": "commercial vehicle / industrial"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "akkuvision-aschaffenburg",
+      "name": "AkkuVision",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Aschaffenburg",
+      "lat": 49.98,
+      "lon": 9.15,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "triathlon-glauchau",
+      "name": "Triathlon",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Glauchau",
+      "lat": 50.83,
+      "lon": 12.52,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "industrial battery pack"
+        },
+        {
+          "category": "application",
+          "name": "forklift / material handling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "scio-aschaffenburg",
+      "name": "SCIO",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Aschaffenburg",
+      "lat": 49.97,
+      "lon": 9.16,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "sonnen-wildpoldsried",
+      "name": "Sonnen",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Wildpoldsried",
+      "lat": 47.77,
+      "lon": 10.4,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "home battery pack"
+        },
+        {
+          "category": "application",
+          "name": "residential storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Shell",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "tesla-grunheide-pack",
+      "name": "Tesla",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Grünheide",
+      "lat": 52.39,
+      "lon": 13.84,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "draxlmaier-sachsenheim",
+      "name": "DRÄXLMAIER",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Sachsenheim",
+      "lat": 49.0,
+      "lon": 9.07,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "draxlmaier-leipzig",
+      "name": "DRÄXLMAIER",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Leipzig",
+      "lat": 51.35,
+      "lon": 12.39,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Second Dräxlmaier site shown separately in source image.",
+      "stage": null
+    },
+    {
+      "id": "fenecon-kunzig",
+      "name": "FENECON",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Deggendorf",
+      "lat": 48.83,
+      "lon": 12.97,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "stationary battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Source image shows 'Künzig'; FENECON is based in Deggendorf district.",
+      "stage": null
+    },
+    {
+      "id": "fenecon-iggensbach",
+      "name": "FENECON",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Iggensbach",
+      "lat": 48.83,
+      "lon": 12.9,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "stationary battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Second FENECON site.",
+      "stage": null
+    },
+    {
+      "id": "bmz-karlstein",
+      "name": "BMZ",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Karlstein am Main",
+      "lat": 50.01,
+      "lon": 9.09,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        },
+        {
+          "category": "application",
+          "name": "industrial / mobility"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "BMZ Group headquarters.",
+      "stage": null
+    },
+    {
+      "id": "estream-monchengladbach",
+      "name": "e-stream",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Mönchengladbach",
+      "lat": 51.2,
+      "lon": 6.44,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "sbs-kleinostheim",
+      "name": "SBS",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Kleinostheim",
+      "lat": 50.01,
+      "lon": 9.07,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "webasto-stockdorf",
+      "name": "Webasto",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Stockdorf",
+      "lat": 48.04,
+      "lon": 11.38,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Webasto SE — battery pack assembly and thermal management.",
+      "stage": null
+    },
+    {
+      "id": "voltabox-paderborn",
+      "name": "Voltabox",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Paderborn",
+      "lat": 51.72,
+      "lon": 8.76,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "industrial battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Paragon Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Now part of Paragon Group.",
+      "stage": null
+    },
+    {
+      "id": "valmetautomotive-kirchardt",
+      "name": "Valmet Automotive",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Kirchardt",
+      "lat": 49.22,
+      "lon": 9.01,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Valmet Automotive's German battery pack assembly plant.",
+      "stage": null
+    },
+    {
+      "id": "cenntro-herne",
+      "name": "Cenntro",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Herne",
+      "lat": 51.54,
+      "lon": 7.22,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "commercial EV battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "acc-kaiserslautern",
+      "name": "ACC",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Kaiserslautern",
+      "lat": 49.44,
+      "lon": 7.77,
+      "year": 2025,
+      "year_label": "2025 (shelved)",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": 13.4,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "initial planned capacity"
+        },
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": null,
+          "label": "ultimate planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Stellantis / TotalEnergies / Mercedes-Benz",
+        "open_questions": [
+          "Monitor whether Stellantis/TotalEnergies/Mercedes-Benz revive the project — no timeline as of Q1 2026"
+        ]
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Construction halted since mid-2024. Project definitively shelved Feb 2026 — prerequisites for restart not met.",
+      "stage": "pilot",
+      "research": {
+        "summary": "ACC (JV of Stellantis, TotalEnergies, and Mercedes-Benz) planned a 40 GWh gigafactory in Kaiserslautern, with an initial 13.4 GWh phase targeting 2025. Construction was halted in mid-2024 amid slowing EV demand, and in February 2026 ACC confirmed the Kaiserslautern and Termoli (Italy) projects are shelved — stating the prerequisites for restarting are not in place. No timeline for resumption has been given.",
+        "source": "https://www.euronews.com/business/2026/02/07/stellantis-backed-acc-shelves-plans-to-open-battery-gigafactories-in-italy-and-germany",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "borgwarner-darmstadt",
+      "name": "BorgWarner",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Darmstadt",
+      "lat": 49.87,
+      "lon": 8.65,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "alzner-itzehoe",
+      "name": "Alzner Battery",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Itzehoe",
+      "lat": 53.92,
+      "lon": 9.52,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "varta-ellwangen",
+      "name": "VARTA",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Ellwangen",
+      "lat": 48.96,
+      "lon": 10.13,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "lionsmart-hildburghausen",
+      "name": "Lion Smart",
+      "sector": "module_pack_manufacturer",
+      "country": "Germany",
+      "city": "Hildburghausen",
+      "lat": 50.43,
+      "lon": 10.73,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack development"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "inobat-bratislava",
+      "name": "InoBat",
+      "sector": "module_pack_manufacturer",
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "lat": 48.15,
+      "lon": 17.11,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "stellantis-trnava",
+      "name": "Stellantis",
+      "sector": "module_pack_manufacturer",
+      "country": "Slovakia",
+      "city": "Trnava",
+      "lat": 48.37,
+      "lon": 17.59,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Stellantis",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "seat-martorell",
+      "name": "SEAT",
+      "sector": "module_pack_manufacturer",
+      "country": "Spain",
+      "city": "Martorell",
+      "lat": 41.47,
+      "lon": 1.93,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "S logo = SEAT/CUPRA. Future Volkswagen Group Martorell EV hub.",
+      "stage": null
+    },
+    {
+      "id": "catl-figueruelas",
+      "name": "CATL",
+      "sector": "module_pack_manufacturer",
+      "country": "Spain",
+      "city": "Figueruelas",
+      "lat": 41.75,
+      "lon": -1.13,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Stellantis Zaragoza/Figueruelas plant.",
+      "stage": null
+    },
+    {
+      "id": "ford-valencia",
+      "name": "Ford",
+      "sector": "module_pack_manufacturer",
+      "country": "Spain",
+      "city": "Valencia",
+      "lat": 39.47,
+      "lon": -0.38,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Ford Motor Company",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Ford Almussafes plant (EV transition).",
+      "stage": null
+    },
+    {
+      "id": "hyundai-navarra",
+      "name": "Hyundai",
+      "sector": "module_pack_manufacturer",
+      "country": "Spain",
+      "city": "Navarra",
+      "lat": 42.82,
+      "lon": -1.65,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Hyundai Motor Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Volkswagen Navarra plant or Hyundai. Verify.",
+      "stage": null
+    },
+    {
+      "id": "rimac-sveta-nedelja",
+      "name": "RIMAC",
+      "sector": "module_pack_manufacturer",
+      "country": "Croatia",
+      "city": "Sveta Nedelja",
+      "lat": 45.79,
+      "lon": 15.88,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "high-performance battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Rimac Automobili — hypercar and OEM battery pack supplier.",
+      "stage": null
+    },
+    {
+      "id": "sunlight-xanthi",
+      "name": "Sunlight Group",
+      "sector": "module_pack_manufacturer",
+      "country": "Greece",
+      "city": "Xanthi",
+      "lat": 41.13,
+      "lon": 24.89,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "industrial battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "bmz-skopje",
+      "name": "BMZ",
+      "sector": "module_pack_manufacturer",
+      "country": "North Macedonia",
+      "city": "Skopje",
+      "lat": 41.99,
+      "lon": 21.43,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "BMZ Group North Macedonia plant.",
+      "stage": null
+    },
+    {
+      "id": "bmw-debrecen",
+      "name": "BMW",
+      "sector": "module_pack_manufacturer",
+      "country": "Hungary",
+      "city": "Debrecen",
+      "lat": 47.54,
+      "lon": 21.64,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "BMW Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "catl-debrecen-pack",
+      "name": "CATL",
+      "sector": "module_pack_manufacturer",
+      "country": "Hungary",
+      "city": "Debrecen",
+      "lat": 47.53,
+      "lon": 21.63,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Under construction (*).",
+      "stage": null
+    },
+    {
+      "id": "samsung-god-pack",
+      "name": "Samsung SDI",
+      "sector": "module_pack_manufacturer",
+      "country": "Hungary",
+      "city": "Göd",
+      "lat": 47.71,
+      "lon": 19.14,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "byd-fot",
+      "name": "BYD",
+      "sector": "module_pack_manufacturer",
+      "country": "Hungary",
+      "city": "Fót",
+      "lat": 47.66,
+      "lon": 19.19,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "BYD Hungarian production facility.",
+      "stage": null
+    },
+    {
+      "id": "byd-komarom",
+      "name": "BYD",
+      "sector": "module_pack_manufacturer",
+      "country": "Hungary",
+      "city": "Komárom",
+      "lat": 47.74,
+      "lon": 18.12,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "byd-szeged",
+      "name": "BYD",
+      "sector": "module_pack_manufacturer",
+      "country": "Hungary",
+      "city": "Szeged",
+      "lat": 46.25,
+      "lon": 20.15,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "hyundai-nosovice",
+      "name": "Hyundai",
+      "sector": "module_pack_manufacturer",
+      "country": "Czech Republic",
+      "city": "Nošovice",
+      "lat": 49.62,
+      "lon": 18.22,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Hyundai Motor Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "skoda-mlada-boleslav",
+      "name": "Škoda",
+      "sector": "module_pack_manufacturer",
+      "country": "Czech Republic",
+      "city": "Mladá Boleslav",
+      "lat": 50.41,
+      "lon": 14.91,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "prime-bucharest",
+      "name": "Prime",
+      "sector": "module_pack_manufacturer",
+      "country": "Romania",
+      "city": "Bucharest",
+      "lat": 44.43,
+      "lon": 26.1,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo reads 'Prime'. Verify company name.",
+      "stage": null
+    },
+    {
+      "id": "draxlmaier-timisoara",
+      "name": "DRÄXLMAIER",
+      "sector": "module_pack_manufacturer",
+      "country": "Romania",
+      "city": "Timișoara",
+      "lat": 45.75,
+      "lon": 21.23,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Under construction (*).",
+      "stage": null
+    },
+    {
+      "id": "solarmd-rousse",
+      "name": "SolarMD",
+      "sector": "module_pack_manufacturer",
+      "country": "Bulgaria",
+      "city": "Rousse",
+      "lat": 43.85,
+      "lon": 25.95,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "stellantis-turin",
+      "name": "Stellantis",
+      "sector": "module_pack_manufacturer",
+      "country": "Italy",
+      "city": "Turin",
+      "lat": 45.07,
+      "lon": 7.69,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "automotive battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "parent_company": "Stellantis",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Stellantis Mirafiori plant — Fiat 500e.",
+      "stage": null
+    },
+    {
+      "id": "faam-teverola-pack",
+      "name": "FAAM",
+      "sector": "module_pack_manufacturer",
+      "country": "Italy",
+      "city": "Teverola",
+      "lat": 40.99,
+      "lon": 14.21,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery module & pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Also listed as cell manufacturer.",
+      "stage": null
+    },
+    {
+      "id": "voltmec-modena",
+      "name": "Voltmec",
+      "sector": "module_pack_manufacturer",
+      "country": "Italy",
+      "city": "Modena",
+      "lat": 44.65,
+      "lon": 10.93,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "flashbattery-santilario",
+      "name": "Flash Battery",
+      "sector": "module_pack_manufacturer",
+      "country": "Italy",
+      "city": "Sant'Ilario d'Enza",
+      "lat": 44.7,
+      "lon": 10.45,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "custom battery pack"
+        },
+        {
+          "category": "application",
+          "name": "industrial / AGV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "podium-pont-saint-martin",
+      "name": "Podium",
+      "sector": "module_pack_manufacturer",
+      "country": "Italy",
+      "city": "Pont-Saint-Martin",
+      "lat": 45.6,
+      "lon": 7.8,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "product_type",
+          "name": "battery pack"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Module-Pack_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo reads 'Podium'. Verify full company name and activity.",
+      "stage": null
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "last_updated": "2026-05-12",
+    "record_count": 17,
+    "schema_version": "1.3",
+    "source_image": "2026-02_Solid-State_Europe.jpg",
+    "notes": "Solid-state battery manufacturers, Europe, as of February 2026. Source image phase distribution: R&D ×8, Ramp-up ×7, Launched ×2. Individual phase assignments use domain knowledge; open_questions flagged where uncertain. Stage mapping: Launched → commercial, Ramp-up → pilot, R&D → rd.",
+    "schema_changelog": {
+      "1.3": "Formalized deduplication rules; research freshness logic",
+      "1.2": "Added 'stage' field and 'open_questions' in attributes{}",
+      "1.1": "Added required 'sector' field",
+      "1.0": "Initial schema"
+    }
+  },
+  "companies": [
+    {
+      "id": "ilika-romsey",
+      "name": "Ilika",
+      "sector": "cell_manufacturer",
+      "country": "United Kingdom",
+      "city": "Romsey",
+      "lat": 51.00,
+      "lon": -1.50,
+      "year": 2009,
+      "year_label": "2009",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "oxide solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current phase — source image shows aggregate phase distribution only; assigned 'pilot/ramp-up' based on domain knowledge"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Publicly listed UK solid-state battery company. Develops Stereax microbatteries and Goliath large-format cells. Oxide ceramic electrolyte."
+    },
+    {
+      "id": "lina-energy-warrington",
+      "name": "LiNa Energy",
+      "sector": "cell_manufacturer",
+      "country": "United Kingdom",
+      "city": "Warrington",
+      "lat": 53.39,
+      "lon": -2.59,
+      "year": 2017,
+      "year_label": "2017",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "oxide solid electrolyte (NASICON-type)" },
+        { "category": "chemistry", "name": "sodium-metal chloride" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current phase — source image footnote ¹: sodium-metal chloride battery type"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Developing sodium-metal chloride solid-state batteries using NASICON-type ceramic electrolyte. Inherently non-flammable chemistry."
+    },
+    {
+      "id": "taisan-cambridge",
+      "name": "TaiSan",
+      "sector": "cell_manufacturer",
+      "country": "United Kingdom",
+      "city": "Cambridge",
+      "lat": 52.20,
+      "lon": 0.12,
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state (quasi-solid-state)" },
+        { "category": "chemistry", "name": "polymer solid electrolyte" },
+        { "category": "chemistry", "name": "sodium" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm phase — assigned R&D based on 2022 founding and quasi-solid-state sodium technology stage"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Founded Jan 2022 by Sanzhar Taizhan (Forbes 30 Under 30). Quasi-solid-state sodium batteries for automotive. Raised £1.3M pre-seed (EIT InnoEnergy) + £3.2M Series A. Excludes lithium, nickel, cobalt, copper. Compatible with existing Li-ion manufacturing lines."
+    },
+    {
+      "id": "hyet-lithium-arnhem",
+      "name": "HyET Lithium",
+      "sector": "cell_manufacturer",
+      "country": "Netherlands",
+      "city": "Arnhem",
+      "lat": 51.98,
+      "lon": 5.91,
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "unknown solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Solid electrolyte type not specified in source image ('Unknown')",
+          "Confirm relationship to HyET Group (hydrogen compression technology)"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Spin-off in the HyET Group ecosystem. Electrolyte type listed as Unknown in source image."
+    },
+    {
+      "id": "avesta-ninove",
+      "name": "AVESTA (ABEE)",
+      "sector": "cell_manufacturer",
+      "country": "Belgium",
+      "city": "Ninove",
+      "lat": 50.85,
+      "lon": 4.02,
+      "year": 2019,
+      "year_label": "2019",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "oxide solid electrolyte" },
+        { "category": "chemistry", "name": "sulfide solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Source image shows founded 2023 — this is the Ninove R&D facility opening date; actual company founding is 2019",
+          "Confirm whether gigafactory plans in Seneffe (Manage) are still active"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Avesta Battery & Energy Engineering (ABEE), part of AVESTA Holding. Ninove R&D facility opened Nov 2023 (€27M, largest SSB upscaling centre in Benelux). Oxide and sulfide solid electrolyte pilot lines. Also announced gigafactory in Seneffe (3 GWh) and battery recycling plant in Dour."
+    },
+    {
+      "id": "solithor-sint-truiden",
+      "name": "SOLiTHOR",
+      "sector": "cell_manufacturer",
+      "country": "Belgium",
+      "city": "Sint-Truiden",
+      "lat": 50.82,
+      "lon": 5.18,
+      "year": 2021,
+      "year_label": "2021",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "composite solid electrolyte (SCE, silica nanoporous matrix)" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current phase — assigned R&D/early pilot based on 2021 founding and publicly known stage"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Spin-out from imec (Belgium). Proprietary sol-gel-derived Solid Composite Electrolyte (SCE) with nanoporous silica matrix. Achieved 1,000+ cycles on 3Ah lithium-metal cell. Targets automotive and maritime applications. Headquarters in Sint-Truiden, 65 km from Brussels."
+    },
+    {
+      "id": "basquevolt-vitoria-gasteiz",
+      "name": "BASQUEVOLT",
+      "sector": "cell_manufacturer",
+      "country": "Spain",
+      "city": "Vitoria-Gasteiz",
+      "lat": 42.85,
+      "lon": -2.67,
+      "year": 2011,
+      "year_label": "2011",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "polymer composite solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Basque Country solid-state battery startup, spin-off from CIC energiGUNE. Polymer composite solid electrolyte. Backed by Iberdrola, Total Energies, Stellantis among others."
+    },
+    {
+      "id": "ensurge-oslo",
+      "name": "ENSURGE",
+      "sector": "cell_manufacturer",
+      "country": "Norway",
+      "city": "Oslo",
+      "lat": 59.91,
+      "lon": 10.75,
+      "year": 2012,
+      "year_label": "2012",
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state microbattery" },
+        { "category": "chemistry", "name": "oxide solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Source image footnote ²: focus on microbatteries — confirm if larger-format cells are in development"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Formerly Thin Film Electronics ASA. Corporate HQ Oslo; R&D and manufacturing in San Jose (US). Solid-state lithium microbatteries via roll-to-roll printing on stainless steel. Delivering commercial shipments to medical device and consumer electronics customers. Source image footnote ²: focus on microbatteries."
+    },
+    {
+      "id": "qkera-garching",
+      "name": "Qkera",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Garching",
+      "lat": 48.25,
+      "lon": 11.65,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "oxide solid electrolyte (ceramic, 1–20 µm)" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Source image shows founded 2024; confirmed founding date is November 2023 (TUM spin-off)"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "TUM spin-off (Prof. Jennifer Rupp, Dr. Andreas Weis), founded Nov 2023. Ceramic oxide solid electrolyte (1–20 µm) with proprietary bilayer approach. 30–50% higher energy density claimed. Compatible with roll-to-roll manufacturing. Won 2024 Falling Walls competition."
+    },
+    {
+      "id": "theion-berlin",
+      "name": "theion",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lon": 13.40,
+      "year": 2020,
+      "year_label": "2020",
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "polymer solid electrolyte (within cathode)" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Source image footnote ³: polymer electrolyte integrated within cathode structure — confirm technology status"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Berlin-based solid-state startup. Polymer electrolyte integrated within the cathode. Source image footnote ³: within cathode."
+    },
+    {
+      "id": "blue-solutions-ergue-gaberic",
+      "name": "Blue Solutions",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Ergué-Gabéric",
+      "lat": 47.97,
+      "lon": -4.10,
+      "year": 2011,
+      "year_label": "2011",
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "polymer solid electrolyte (LMP — Lithium Metal Polymer)" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current production capacity in GWh — not disclosed in source image"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Bolloré Group subsidiary. Commercially producing LMP (Lithium Metal Polymer) solid-state batteries. Deployed in Bluebus electric buses and stationary energy storage. Plant in Ergué-Gabéric (near Quimper), Brittany. One of the two 'Launched' phase companies per source image."
+    },
+    {
+      "id": "iten-dardilly",
+      "name": "ITEN",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Dardilly",
+      "lat": 45.80,
+      "lon": 4.74,
+      "year": 2011,
+      "year_label": "2011",
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state thin-film microbattery" },
+        { "category": "chemistry", "name": "oxide solid electrolyte (thin-film)" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "French solid-state thin-film microbattery maker near Lyon. Commercial production for IoT, medical, and industrial applications. Source image footnote ⁴: thin-film battery. One of the two 'Launched' phase companies per source image."
+    },
+    {
+      "id": "solvionic-toulouse",
+      "name": "Solvionic",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Toulouse",
+      "lat": 43.60,
+      "lon": 1.44,
+      "year": 2003,
+      "year_label": "2003",
+      "status": "Unknown",
+      "stage": "pilot",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "polymer / ionic liquid solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify classification — Solvionic is primarily an ionic liquid and electrolyte materials developer/supplier, not a cell manufacturer; presence on solid-state manufacturers map may reflect their role as electrolyte partner in EU consortia (SOLiDIFY, EPSILON)"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Founded 2003 by François Malbosc. Toulouse-based ionic liquid and solid electrolyte developer. 20 t/year pilot line (2021). €1.4M EPSILON project for solid electrolyte formulations. SOLiDIFY EU consortium partner. Primarily a materials/electrolyte supplier rather than full cell manufacturer."
+    },
+    {
+      "id": "prologium-dunkirk",
+      "name": "ProLogium",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Dunkirk",
+      "lat": 51.03,
+      "lon": 2.38,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "pilot",
+      "capacities": [
+        { "value": null, "unit": "GWh", "known": false, "type": "planned", "label": "Dunkirk European gigafactory — capacity undisclosed" }
+      ],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "oxide solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm Dunkirk gigafactory timeline — as of early 2026 reports indicate significant delays and possible scaling back",
+          "Founded 2006 in Taiwan (Taoyuan City HQ) — record placed under France for European facility"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Taiwanese solid-state battery maker (founded 2006, HQ Taoyuan City). Planning European gigafactory in Dunkirk, France; source image footnote ⁵. Record placed under France for European facility context."
+    },
+    {
+      "id": "swiss-clean-battery-frauenfeld",
+      "name": "Swiss Clean Battery",
+      "sector": "cell_manufacturer",
+      "country": "Switzerland",
+      "city": "Frauenfeld",
+      "lat": 47.56,
+      "lon": 8.90,
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [
+        { "value": null, "unit": "GWh", "known": false, "type": "planned", "label": "scaling plan 1.2–7.6 GWh — announced but unconfirmed" }
+      ],
+      "products": [
+        { "category": "cell_type", "name": "solid-state (HPB technology license)" },
+        { "category": "chemistry", "name": "unknown solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify current production status — 2024 production start was announced but not confirmed achieved",
+          "Confirm solid electrolyte chemistry under HPB AG license"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Swiss Clean Battery AG, founded Feb 2022 in Frauenfeld (Canton Thurgau). Exclusive license from High Performance Battery Technology AG (HPB AG, Teufen). Plans: 1.2–7.6 GWh scaling, 246M CHF investment, production start originally announced 2024."
+    },
+    {
+      "id": "faam-monterubbiano",
+      "name": "FAAM",
+      "sector": "cell_manufacturer",
+      "country": "Italy",
+      "city": "Monterubbiano",
+      "lat": 43.08,
+      "lon": 13.73,
+      "year": null,
+      "year_label": null,
+      "status": "Unknown",
+      "stage": "unknown",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state (unconfirmed)" },
+        { "category": "chemistry", "name": "unknown solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify whether FAAM has a solid-state battery program — primary operations are LFP lithium-ion (Teverola 2, 8 GWh); inclusion in solid-state map requires verification",
+          "Source image year '2025' for this company (founded 1974) likely refers to a new solid-state program or entity — confirm",
+          "Electrolyte type shown as 'Unknown' in source image"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "Italian battery manufacturer founded 1974 in Monterubbiano (FM). Primarily LFP cell production; Teverola 2 gigafactory (8 GWh, LFP) under construction. Inclusion in solid-state manufacturers map is unverified — may reflect a new research program or be a misclassification."
+    },
+    {
+      "id": "gq-energy-villa-minozzo",
+      "name": "GQ energy",
+      "sector": "cell_manufacturer",
+      "country": "Italy",
+      "city": "Villa Minozzo",
+      "lat": 44.37,
+      "lon": 10.47,
+      "year": 2017,
+      "year_label": "2017",
+      "status": "Unknown",
+      "stage": "rd",
+      "capacities": [],
+      "products": [
+        { "category": "cell_type", "name": "solid-state" },
+        { "category": "chemistry", "name": "unknown solid electrolyte" }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Electrolyte type not specified in source image ('Unknown') — confirm technology"
+        ]
+      },
+      "source_image": "2026-02_Solid-State_Europe.jpg",
+      "date_added": "2026-05-12",
+      "notes": "GQenergy Srl, founded April 2017 in Villa Minozzo (Reggio Emilia). Develops solid-state cells with a proprietary special membrane for stationary and EV energy storage."
+    }
+  ]
+}

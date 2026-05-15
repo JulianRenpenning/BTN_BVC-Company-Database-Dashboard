@@ -1,0 +1,2395 @@
+{
+  "meta": {
+    "last_updated": "2026-05-11",
+    "record_count": 57,
+    "schema_version": "1.2",
+    "source_map": "Battery Recycling Projects (Europe) as of February 2026",
+    "notes": "Capacity in tonnes per year (t/y). Recycling methods in products[]: Mechanical (M), Hydrometallurgy (H), Pyrometallurgy (P), Direct recycling (D). Dual capacities = current + target. target_year in capacity object when shown.",
+    "schema_changelog": {
+      "1.2": "Added 'stage' field (commercial | pilot | rd | unknown | null) and 'open_questions' list in attributes{}"
+    }
+  },
+  "companies": [
+    {
+      "id": "hydrovolt-fredrikstad",
+      "name": "Hydrovolt",
+      "sector": "recycler",
+      "country": "Norway",
+      "city": "Fredrikstad",
+      "lat": 59.21,
+      "lon": 10.93,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 12000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Hydro + Volkswagen JV",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "glencore-morrow-moss",
+      "name": "Glencore / Morrow",
+      "sector": "recycler",
+      "country": "Norway",
+      "city": "Moss",
+      "lat": 59.43,
+      "lon": 10.66,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Partnership between Glencore and Morrow Batteries for battery recycling.",
+      "stage": null
+    },
+    {
+      "id": "nikkelverk-kristiansand",
+      "name": "Nikkelverk (Glencore)",
+      "sector": "recycler",
+      "country": "Norway",
+      "city": "Kristiansand",
+      "lat": 58.15,
+      "lon": 7.99,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Pyrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Glencore",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Nikkelverk is Glencore's Norwegian smelter; capacity not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "stena-halmstad",
+      "name": "Stena",
+      "sector": "recycler",
+      "country": "Sweden",
+      "city": "Halmstad",
+      "lat": 56.67,
+      "lon": 12.86,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 20000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2029,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Stena Recycling",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "akkuser-nivala",
+      "name": "Akkuser",
+      "sector": "recycler",
+      "country": "Finland",
+      "city": "Nivala",
+      "lat": 63.93,
+      "lon": 24.97,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 800,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 3000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo shown as green circle; identified as likely Akkuser Oy (Finnish battery recycler in Nivala). Verify.",
+      "stage": null
+    },
+    {
+      "id": "fortum-harjavalta",
+      "name": "Fortum",
+      "sector": "recycler",
+      "country": "Finland",
+      "city": "Harjavalta",
+      "lat": 61.31,
+      "lon": 22.15,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 1000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 30000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Fortum's battery recycling hydromet plant.",
+      "stage": null
+    },
+    {
+      "id": "fortum-ikaalinen",
+      "name": "Fortum",
+      "sector": "recycler",
+      "country": "Finland",
+      "city": "Ikaalinen",
+      "lat": 61.77,
+      "lon": 23.26,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 5000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "r3robotics-mondercange",
+      "name": "R3 Robotics",
+      "sector": "recycler",
+      "country": "Luxembourg",
+      "city": "Mondercange",
+      "lat": 49.58,
+      "lon": 6.0,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Capacity not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "sktes-rotterdam",
+      "name": "SK tes",
+      "sector": "recycler",
+      "country": "Netherlands",
+      "city": "Rotterdam",
+      "lat": 51.92,
+      "lon": 4.48,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "allilium-teesside",
+      "name": "allilium",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Teesside",
+      "lat": 54.57,
+      "lon": -1.23,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 50000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2026,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "allilium-devon",
+      "name": "allilium",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Devon",
+      "lat": 50.72,
+      "lon": -3.52,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 100,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 8000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2026,
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Pilot plant currently at 100 t/y, scaling to 8,000 t/y.",
+      "stage": null
+    },
+    {
+      "id": "cellcycle-manchester",
+      "name": "CELLCYCLE",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Manchester",
+      "lat": 53.48,
+      "lon": -2.24,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 6000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "ecobat-darlaston",
+      "name": "ecobat",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Darlaston",
+      "lat": 52.58,
+      "lon": -2.02,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 20000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "recover-newport",
+      "name": "Recover",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Newport",
+      "lat": 51.59,
+      "lon": -3.0,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Capacity not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "recyclus-wolverhampton",
+      "name": "Recyclus Group",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Wolverhampton",
+      "lat": 52.59,
+      "lon": -2.13,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 22000,
+          "unit": "t/y",
+          "known": true,
+          "label": "capacity",
+          "type": "current"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "veolia-minworth",
+      "name": "VEOLIA",
+      "sector": "recycler",
+      "country": "Great Britain",
+      "city": "Minworth",
+      "lat": 52.53,
+      "lon": -1.76,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 5000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "abee-dour",
+      "name": "ABEE",
+      "sector": "recycler",
+      "country": "Belgium",
+      "city": "Dour",
+      "lat": 50.4,
+      "lon": 3.77,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 20000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Direct recycling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "aurubis-olen",
+      "name": "Aurubis",
+      "sector": "recycler",
+      "country": "Belgium",
+      "city": "Olen",
+      "lat": 51.15,
+      "lon": 4.86,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 100000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2027,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Planned large-scale hydromet refinery at Aurubis Olen (Belgium copper plant).",
+      "stage": null
+    },
+    {
+      "id": "umicore-hoboken",
+      "name": "Umicore",
+      "sector": "recycler",
+      "country": "Belgium",
+      "city": "Hoboken",
+      "lat": 51.18,
+      "lon": 4.35,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 7000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Pyrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Umicore Hoboken is one of Europe's longest-running battery recycling operations.",
+      "stage": null
+    },
+    {
+      "id": "battri-saint-laurent-blangy",
+      "name": "battri",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Saint-Laurent-Blangy",
+      "lat": 50.31,
+      "lon": 2.81,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 15000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "hydrovolt-hordain",
+      "name": "Hydrovolt",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Hordain",
+      "lat": 50.32,
+      "lon": 3.39,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Capacity not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "glencore-harnes",
+      "name": "Glencore",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Harnes",
+      "lat": 50.45,
+      "lon": 2.91,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "cosnam-saintquentin",
+      "name": "CoSNAM",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Saint-Quentin",
+      "lat": 49.85,
+      "lon": 3.29,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 1000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 5000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Pyrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "recupyl-grenoble",
+      "name": "Recupyl (SK Tes)",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Grenoble",
+      "lat": 45.18,
+      "lon": 5.72,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 600,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify current operational status under SK Tes ownership"
+        ]
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Company name not legible in source image.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Recupyl, founded in 1993 as a Grenoble INP/LEPMI spin-off, operates a Li-ion battery recycling plant in Grenoble using a proprietary low-temperature hydrometallurgical process. Capacity: 14 t/day of Li-ion batteries with >90% recovery rates; cobalt and lithium recovered at up to 99% purity. Acquired by TES (now SK Tes) in 2018. One of Europe's pioneer battery recycling operations.",
+        "source": "https://www.sktes.com/press-release/tes-to-acquire-assets-of-recupyl-sas-2",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "veolia-dieuze",
+      "name": "VEOLIA",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Dieuze",
+      "lat": 48.8,
+      "lon": 6.73,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 4000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "veolia-amneville",
+      "name": "VEOLIA",
+      "sector": "recycler",
+      "country": "France",
+      "city": "Amnéville",
+      "lat": 49.27,
+      "lon": 6.14,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 7000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "cnli-alicante",
+      "name": "CNLi",
+      "sector": "recycler",
+      "country": "Spain",
+      "city": "Alicante",
+      "lat": 38.35,
+      "lon": -0.49,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 45000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "endesa-cubillos",
+      "name": "Endesa",
+      "sector": "recycler",
+      "country": "Spain",
+      "city": "Cubillos del Sil",
+      "lat": 42.61,
+      "lon": -6.56,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 8000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "befesa-erandio",
+      "name": "Befesa Zinc Aser",
+      "sector": "recycler",
+      "country": "Spain",
+      "city": "Erandio",
+      "lat": 43.31,
+      "lon": -2.98,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify whether Befesa Erandio processes battery material or only industrial EAF steel dust. The source image may have included this as battery-adjacent (lead/zinc recovery). Re-classify to industrial recycler if no EV battery processing confirmed."
+        ]
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Company logo not clearly legible. Possibly Recylab or similar Spanish recycler.",
+      "stage": null,
+      "research": {
+        "summary": "Befesa Zinc Aser operates a plant in Erandio (Basque Country) that recycles electric arc furnace (EAF) steel dust, recovering zinc and lead. It is the only EAF dust recycling plant of its kind in Spain. While it recovers lead (a battery material), the facility targets steel production waste rather than end-of-life EV or Li-ion batteries. Classification as battery recycler should be re-verified.",
+        "source": "https://www.befesa.com/services/steel-dust/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "sungeelhitech-navarra",
+      "name": "SungEel HiTech",
+      "sector": "recycler",
+      "country": "Spain",
+      "city": "Navarra",
+      "lat": 42.82,
+      "lon": -1.65,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "botaas-valladolid",
+      "name": "Botaas / efi",
+      "sector": "recycler",
+      "country": "Spain",
+      "city": "Valladolid",
+      "lat": 41.65,
+      "lon": -4.72,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 6000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2027,
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Two logos shown in image (Botaas + efi). Joint venture or co-located facilities.",
+      "stage": null
+    },
+    {
+      "id": "accurec-krefeld",
+      "name": "ACCUREC",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Krefeld",
+      "lat": 51.34,
+      "lon": 6.56,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 4500,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 20000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2027,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "aurubis-hamburg",
+      "name": "Aurubis",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Hamburg",
+      "lat": 53.55,
+      "lon": 10.0,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Capacity not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "basf-schwarzheide",
+      "name": "BASF",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Schwarzheide",
+      "lat": 51.49,
+      "lon": 13.86,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 15000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "BASF's planned battery recycling plant at their Schwarzheide chemicals campus.",
+      "stage": null
+    },
+    {
+      "id": "cellco-randersacker",
+      "name": "CellCo",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Randersacker",
+      "lat": 49.74,
+      "lon": 9.98,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 25000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Direct recycling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Logo partially legible; appears to read 'CelCo' or 'CellCo'. Verify company name.",
+      "stage": null
+    },
+    {
+      "id": "cylib-aachen",
+      "name": "cylib",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Aachen",
+      "lat": 50.78,
+      "lon": 6.08,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 120,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity (pilot)",
+          "type": "current"
+        },
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2027,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "cylib GmbH, RWTH Aachen spin-off focused on direct and hydromet recycling.",
+      "stage": null
+    },
+    {
+      "id": "cylib-dormagen",
+      "name": "cylib",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Dormagen",
+      "lat": 51.1,
+      "lon": 6.83,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Second cylib site; capacity not stated separately.",
+      "stage": null
+    },
+    {
+      "id": "duesenfeld-wendeburg",
+      "name": "Duesenfeld",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Wendeburg",
+      "lat": 52.3,
+      "lon": 10.43,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 3000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 5000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2026,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Direct recycling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Duesenfeld GmbH — mechanical + direct recycling process, near Braunschweig.",
+      "stage": null
+    },
+    {
+      "id": "ecobat-hettstedt",
+      "name": "ecobat",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Hettstedt",
+      "lat": 51.65,
+      "lon": 11.5,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 20000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "elos-zwickau",
+      "name": "ELOS",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Zwickau",
+      "lat": 50.72,
+      "lon": 12.5,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 3500,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "fortum-kirchardt",
+      "name": "Fortum",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Kirchardt",
+      "lat": 49.22,
+      "lon": 9.01,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 3000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "hcstarck-goslar",
+      "name": "H.C. Starck",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Goslar",
+      "lat": 51.91,
+      "lon": 10.43,
+      "year": 2029,
+      "year_label": "2029",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 20000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2029,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "londrive-aachen",
+      "name": "londrive",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Aachen",
+      "lat": 50.77,
+      "lon": 6.07,
+      "year": 2029,
+      "year_label": "2029",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 3000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2029,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "glencore-magdeburg",
+      "name": "Glencore",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Magdeburg",
+      "lat": 52.12,
+      "lon": 11.63,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 30000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "nickelhutte-aue",
+      "name": "NickelHütte AUE",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Aue",
+      "lat": 50.59,
+      "lon": 12.7,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Pyrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Multi-process recycler using M+H+P.",
+      "stage": null
+    },
+    {
+      "id": "northvolt-heide-recycling",
+      "name": "Lyten (ex-Northvolt Drei)",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Heide",
+      "lat": 54.19,
+      "lon": 9.1,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Sector likely misclassified — Northvolt Drei was a cell gigafactory, not a recycler; Lyten is continuing as cell/battery factory. Consider moving to companies.json.",
+          "Monitor Lyten Heide construction: first partial permit granted April 2026; phased rollout of NMC and Li-S chemistries planned"
+        ]
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Listed under recycling; no capacity shown. Status uncertain given Northvolt's 2024 bankruptcy.",
+      "stage": "pilot",
+      "research": {
+        "summary": "Originally Northvolt Drei — a planned 60+ GWh cell gigafactory near Heide, Dithmarschen. Northvolt filed for bankruptcy in Sweden March 2025. Lyten (US Li-S battery startup) acquired all remaining Northvolt assets in Sweden and Germany in August 2025. For Heide, Lyten received the first partial construction permit under Federal Immission Control Act in April 2026. Lyten plans a phased factory with NMC and proprietary Li-S cells, targeting ~1,000 jobs (vs. Northvolt's original 3,000). Note: this entry is in recycling.json but should likely be reclassified as a cell manufacturer.",
+        "source": "https://www.electrive.com/2026/04/10/partial-permit-for-heide-plant-as-lyten-northvolt-repays-millions/",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "pure-hagen",
+      "name": "PURE",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Hagen",
+      "lat": 51.36,
+      "lon": 7.47,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 2500,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 15000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "redux-bremerhaven",
+      "name": "REDUX",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Bremerhaven",
+      "lat": 53.55,
+      "lon": 8.58,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "prezero-relionbat-meppen",
+      "name": "PreZero / RE.LION.BAT.",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Meppen",
+      "lat": 52.69,
+      "lon": 7.3,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 30000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Joint operation of PreZero (Schwarz Group) and RE.LION.BAT.",
+      "stage": null
+    },
+    {
+      "id": "lozero-munich",
+      "name": "lozero",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Munich",
+      "lat": 48.14,
+      "lon": 11.58,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 500,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        },
+        {
+          "value": 30000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "walch-baudenbach",
+      "name": "WALCH",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Baudenbach",
+      "lat": 49.55,
+      "lon": 10.7,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 5000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Method not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "encory-salching",
+      "name": "Encory",
+      "sector": "recycler",
+      "country": "Germany",
+      "city": "Salching",
+      "lat": 48.75,
+      "lon": 12.65,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Direct recycling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "BMW Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Encory is a BMW Group subsidiary focused on circular battery economy.",
+      "stage": null
+    },
+    {
+      "id": "elemental-zawiercie",
+      "name": "Elemental",
+      "sector": "recycler",
+      "country": "Poland",
+      "city": "Zawiercie",
+      "lat": 50.5,
+      "lon": 19.42,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 12000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2026,
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "royalbees-legnica",
+      "name": "Royal Bees",
+      "sector": "recycler",
+      "country": "Poland",
+      "city": "Legnica",
+      "lat": 51.21,
+      "lon": 16.16,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 3600,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "sungeelhitech-bukowice",
+      "name": "SungEel HiTech",
+      "sector": "recycler",
+      "country": "Poland",
+      "city": "Bukowice",
+      "lat": 51.21,
+      "lon": 16.1,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 7000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        },
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "eneris-zarki",
+      "name": "eneris",
+      "sector": "recycler",
+      "country": "Poland",
+      "city": "Żarki",
+      "lat": 50.63,
+      "lon": 19.43,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Capacity not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "glencore-portovesme",
+      "name": "Glencore",
+      "sector": "recycler",
+      "country": "Italy",
+      "city": "Portovesme",
+      "lat": 39.22,
+      "lon": 8.39,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 50000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": null,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Hydrometallurgy"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Glencore's Italian hydromet recycling plant, Sardinia.",
+      "stage": null
+    },
+    {
+      "id": "riplastic-seval",
+      "name": "riplastic",
+      "sector": "recycler",
+      "country": "Italy",
+      "city": "Seval",
+      "lat": 44.3,
+      "lon": 8.5,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 15000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "City name 'Seval' as shown in source image; may require verification.",
+      "stage": null
+    },
+    {
+      "id": "batrec-wimmis",
+      "name": "BATREC",
+      "sector": "recycler",
+      "country": "Switzerland",
+      "city": "Wimmis",
+      "lat": 46.68,
+      "lon": 7.63,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 4000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "kyburz-freienstein",
+      "name": "KYBURZ",
+      "sector": "recycler",
+      "country": "Switzerland",
+      "city": "Freienstein",
+      "lat": 47.57,
+      "lon": 8.51,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 200,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Direct recycling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "librec-biberist",
+      "name": "Librec",
+      "sector": "recycler",
+      "country": "Switzerland",
+      "city": "Biberist",
+      "lat": 47.18,
+      "lon": 7.55,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 9000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "exitcom-kocaeli",
+      "name": "EXITCOM",
+      "sector": "recycler",
+      "country": "Türkiye",
+      "city": "Kocaeli",
+      "lat": 40.86,
+      "lon": 29.89,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Method not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "allilium-medet",
+      "name": "allilium",
+      "sector": "recycler",
+      "country": "Bulgaria",
+      "city": "Medet",
+      "lat": 42.5,
+      "lon": 24.92,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 8000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "abee-stara-zagora",
+      "name": "ABEE",
+      "sector": "recycler",
+      "country": "Bulgaria",
+      "city": "Stara Zagora",
+      "lat": 42.43,
+      "lon": 25.64,
+      "year": 2028,
+      "year_label": "2028",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 50000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2028,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Direct recycling"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Large direct recycling plant planned.",
+      "stage": null
+    },
+    {
+      "id": "abee-burgas",
+      "name": "Avesta Battery & Energy Engineering",
+      "sector": "recycler",
+      "country": "Bulgaria",
+      "city": "Burgas",
+      "lat": 42.51,
+      "lon": 27.47,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 14000,
+          "unit": "t/y",
+          "known": true,
+          "label": "target capacity",
+          "target_year": 2026,
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "recycling_process",
+          "name": "Mechanical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Monitor construction start — R&D hub in Plovdiv first, then Burgas recycling plant. No firm completion date confirmed."
+        ]
+      },
+      "source_image": "2026-02_Recycling_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Company logo not legible in source image.",
+      "stage": "pilot",
+      "research": {
+        "summary": "Avesta Battery & Energy Engineering (ABEE, Belgian) plans a 50,000 t/a automotive battery recycling facility in Burgas, Bulgaria as part of the BulgaPower initiative (€1.1B total). The Burgas location was chosen for Black Sea logistics access. Also includes a solid-state gigafactory (10 GWh) in Stara Zagora and an R&D hub in Plovdiv. ~300 jobs in Burgas out of 1,000+ total.",
+        "source": "https://recyclinginternational.com/business/europes-biggest-battery-hub-for-bulgaria/55738/",
+        "date": "2026-05-12"
+      }
+    }
+  ]
+}

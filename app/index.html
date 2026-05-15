@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Value Chain — Company Database</title>
+
+  <!-- Leaflet (map) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>Battery Value Chain<span class="header-subtitle">Company Database</span></h1>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- Sidebar filters -->
+  <aside class="sidebar">
+    <span id="record-count" class="badge sidebar-badge">— records</span>
+    <div class="sidebar-title">Filters</div>
+
+    <div class="filter-group">
+      <label>Country</label>
+      <select id="filter-country"><option value="">All countries</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Sector</label>
+      <select id="filter-sector"><option value="">All sectors</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Status</label>
+      <select id="filter-status">
+        <option value="">All statuses</option>
+        <option>Operational</option>
+        <option>Planned</option>
+        <option value="Paused">Paused / Cancelled</option>
+        <option>Unknown</option>
+      </select>
+    </div>
+    <div class="filter-group checkbox-group">
+      <label>
+        <input type="checkbox" id="filter-known-only" />
+        Known capacity only
+      </label>
+    </div>
+
+    <button id="btn-reset" class="btn-reset">Reset filters</button>
+
+    <div class="map-legend">
+      <div class="legend-item"><span class="legend-dot operational"></span> Operational</div>
+      <div class="legend-item"><span class="legend-dot planned"></span> Planned</div>
+      <div class="legend-item"><span class="legend-dot paused"></span> Paused / Cancelled</div>
+      <div class="legend-item"><span class="legend-dot unknown"></span> Unknown</div>
+      <div class="legend-note">Bubble size ∝ capacity</div>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="map">Map</button>
+      <button class="tab-btn" data-tab="table">Table</button>
+      <button class="tab-btn" data-tab="chart">Chart</button>
+    </nav>
+
+    <!-- Map tab -->
+    <div id="tab-map" class="tab-panel active">
+      <div id="map"></div>
+    </div>
+
+    <!-- Table tab -->
+    <div id="tab-table" class="tab-panel">
+      <div class="table-wrap">
+        <table id="company-table">
+          <thead>
+            <tr>
+              <th data-sort="name">Company <span class="sort-icon">↕</span></th>
+              <th data-sort="sector">Sector <span class="sort-icon">↕</span></th>
+              <th data-sort="country">Country <span class="sort-icon">↕</span></th>
+              <th data-sort="city">City <span class="sort-icon">↕</span></th>
+              <th data-sort="capacity">Current Cap. <span class="sort-icon">↕</span></th>
+              <th data-sort="planned">Planned Cap. <span class="sort-icon">↕</span></th>
+              <th>Status</th>
+              <th>Chemistry</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Chart tab -->
+    <div id="tab-chart" class="tab-panel">
+      <div class="chart-grid">
+        <div class="chart-container">
+          <canvas id="capacity-chart"></canvas>
+        </div>
+        <div class="chart-container">
+          <canvas id="status-chart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

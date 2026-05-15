@@ -1,0 +1,1531 @@
+{
+  "meta": {
+    "last_updated": "2026-05-11",
+    "record_count": 38,
+    "schema_version": "1.2",
+    "schema_changelog": {
+      "1.1": "Added required 'sector' field. Values: cell_manufacturer | module_pack_manufacturer | recycler | component_manufacturer | equipment_provider",
+      "1.0": "Initial schema",
+      "1.2": "Added 'stage' field (commercial | pilot | rd | unknown | null) and 'open_questions' list in attributes{}"
+    }
+  },
+  "companies": [
+    {
+      "id": "morrow-agder",
+      "name": "Morrow Batteries",
+      "sector": "cell_manufacturer",
+      "country": "Norway",
+      "city": "Arendal",
+      "region": "Agder",
+      "lat": 58.46,
+      "lon": 8.77,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "lithium-ion"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Listed as Paused as of February 2026. Image label: Agder.",
+      "stage": null
+    },
+    {
+      "id": "beyonder-rogaland",
+      "name": "Beyonder",
+      "sector": "cell_manufacturer",
+      "country": "Norway",
+      "city": "Stavanger",
+      "region": "Rogaland",
+      "lat": 58.97,
+      "lon": 5.73,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "carbon hybrid supercapacitor"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Beyonder produces high-power carbon-based energy storage, not conventional Li-ion cells.",
+      "stage": null
+    },
+    {
+      "id": "novo-gothenburg",
+      "name": "NOVO",
+      "sector": "cell_manufacturer",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "region": null,
+      "lat": 57.71,
+      "lon": 11.97,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": 50,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "lithium-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Paused as of Feb 2026. Identity of NOVO requires further research — possibly successor to a prior gigafactory project in Gothenburg.",
+      "stage": null
+    },
+    {
+      "id": "volvo-group-mariestad",
+      "name": "Volvo Group",
+      "sector": "cell_manufacturer",
+      "country": "Sweden",
+      "city": "Mariestad",
+      "region": null,
+      "lat": 58.71,
+      "lon": 13.83,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Construction timeline delayed 1–2 years — production now projected after 2030 (was 2025). Monitor progress."
+        ]
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Company shown as circular theta (θ) logo. Name not legible in source image.",
+      "stage": "pilot",
+      "research": {
+        "summary": "Volvo Group is planning a large-scale battery cell factory in Mariestad, Sweden (close to existing powertrain plant in Skövde) for commercial vehicle cells — electric trucks, buses, and construction equipment. Originally targeting production in 2025; timeline has shifted and cell production is now projected after 2030 due to slower EV uptake. When operational, ~3,000 jobs expected. Facility will produce cells specifically designed for commercial vehicle applications.",
+        "source": "https://www.volvogroup.com/en/about-us/organization/our-production-facilities/Mariestad-Battery-Plant.html",
+        "date": "2026-05-12"
+      }
+    },
+    {
+      "id": "lyten-skelleftea",
+      "name": "Lyten",
+      "sector": "cell_manufacturer",
+      "country": "Sweden",
+      "city": "Skellefteå",
+      "region": null,
+      "lat": 64.75,
+      "lon": 20.95,
+      "year": null,
+      "year_label": "X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "lithium-sulfur"
+        },
+        {
+          "category": "cell_type",
+          "name": "lithium-sulfur pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Lyten develops lithium-sulfur cells using 3D graphene. Year undisclosed.",
+      "stage": null
+    },
+    {
+      "id": "agratas-somerset",
+      "name": "Agratas",
+      "sector": "cell_manufacturer",
+      "country": "Great Britain",
+      "city": "Somerset",
+      "region": null,
+      "lat": 51.13,
+      "lon": -3.01,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "lithium-ion"
+        },
+        {
+          "category": "application",
+          "name": "automotive"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Tata Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Agratas is the battery subsidiary of Tata Group.",
+      "stage": null
+    },
+    {
+      "id": "aesc-sunderland",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "Great Britain",
+      "city": "Sunderland",
+      "region": null,
+      "lat": 54.91,
+      "lon": -1.38,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 35,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Envision Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Envision AESC UK gigafactory.",
+      "stage": null
+    },
+    {
+      "id": "tiamat-douvrin",
+      "name": "TIAMAT",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Douvrin",
+      "region": null,
+      "lat": 50.47,
+      "lon": 2.84,
+      "year": 2029,
+      "year_label": "2029",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 5,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "sodium-ion"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "TIAMAT is a French sodium-ion battery startup spun out of CNRS.",
+      "stage": null
+    },
+    {
+      "id": "acc-douvrin",
+      "name": "ACC",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Douvrin",
+      "region": null,
+      "lat": 50.47,
+      "lon": 2.86,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Stellantis / TotalEnergies / Mercedes-Benz",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "ACC = Automotive Cells Company. Billy-Berclau/Douvrin site.",
+      "stage": null
+    },
+    {
+      "id": "verkor-dunkirk",
+      "name": "Verkor",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Dunkirk",
+      "region": null,
+      "lat": 51.03,
+      "lon": 2.38,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 50,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Shown in image as 'VK' logo. Verkor's Dunkirk gigafactory.",
+      "stage": null
+    },
+    {
+      "id": "bluesolutions-quimper",
+      "name": "Blue Solutions",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Quimper",
+      "region": null,
+      "lat": 48.0,
+      "lon": -4.1,
+      "year": 2032,
+      "year_label": "2032",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 25,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "lithium-metal-polymer (LMP)"
+        },
+        {
+          "category": "cell_type",
+          "name": "solid-state polymer"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Bolloré Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Blue Solutions is the Bolloré Group battery subsidiary, producing LMP cells.",
+      "stage": null
+    },
+    {
+      "id": "aesc-douai",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Douai",
+      "region": null,
+      "lat": 50.37,
+      "lon": 3.08,
+      "year": 2029,
+      "year_label": "2029",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Envision Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Envision AESC French gigafactory near Douai.",
+      "stage": null
+    },
+    {
+      "id": "prologium-dunkirk",
+      "name": "ProLogium",
+      "sector": "cell_manufacturer",
+      "country": "France",
+      "city": "Dunkirk",
+      "region": null,
+      "lat": 51.03,
+      "lon": 2.4,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 16,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid-state"
+        },
+        {
+          "category": "cell_type",
+          "name": "solid-state ceramic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "ProLogium solid-state gigafactory, Dunkirk.",
+      "stage": null
+    },
+    {
+      "id": "calb-sines",
+      "name": "CALB",
+      "sector": "cell_manufacturer",
+      "country": "Portugal",
+      "city": "Sines",
+      "region": null,
+      "lat": 37.95,
+      "lon": -8.87,
+      "year": 2028,
+      "year_label": "2028",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 15,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "powerco-sagunt",
+      "name": "PowerCo",
+      "sector": "cell_manufacturer",
+      "country": "Spain",
+      "city": "Sagunto",
+      "region": null,
+      "lat": 39.68,
+      "lon": -0.28,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "lithium-ion"
+        },
+        {
+          "category": "chemistry",
+          "name": "unified cell"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "PowerCo is VW Group's battery company. Spanish site near Valencia.",
+      "stage": null
+    },
+    {
+      "id": "basquevolt-vitoria",
+      "name": "BASQUEVOLT",
+      "sector": "cell_manufacturer",
+      "country": "Spain",
+      "city": "Vitoria-Gasteiz",
+      "region": "Basque Country",
+      "lat": 42.85,
+      "lon": -2.67,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid-state"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Spanish solid-state battery startup (CIDETEC spin-off).",
+      "stage": null
+    },
+    {
+      "id": "aesc-navalmoral",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "Spain",
+      "city": "Navalmoral de la Mata",
+      "region": "Extremadura",
+      "lat": 39.89,
+      "lon": -5.55,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 50,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Envision Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "catl-stellantis-zaragoza",
+      "name": "CATL / Stellantis",
+      "sector": "cell_manufacturer",
+      "country": "Spain",
+      "city": "Zaragoza",
+      "region": "Aragon",
+      "lat": 41.65,
+      "lon": -0.89,
+      "year": null,
+      "year_label": "20XX",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 50,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "CATL + Stellantis JV",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Planned CATL-Stellantis JV gigafactory.",
+      "stage": null
+    },
+    {
+      "id": "inobat-valladolid",
+      "name": "InoBat",
+      "sector": "cell_manufacturer",
+      "country": "Spain",
+      "city": "Valladolid",
+      "region": null,
+      "lat": 41.65,
+      "lon": -4.72,
+      "year": 2029,
+      "year_label": "2029",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 32,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "leclanche-willstatt",
+      "name": "Leclanché",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Willstätt",
+      "region": "Baden-Württemberg",
+      "lat": 48.55,
+      "lon": 7.94,
+      "year": 2020,
+      "year_label": "2020",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 2.5,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "powerco-salzgitter",
+      "name": "PowerCo",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Salzgitter",
+      "region": "Lower Saxony",
+      "lat": 52.15,
+      "lon": 10.33,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "unified cell"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "Volkswagen Group",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "catl-erfurt",
+      "name": "CATL",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Erfurt",
+      "region": "Thuringia",
+      "lat": 50.98,
+      "lon": 11.03,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 14,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "eas-nordhausen",
+      "name": "EAS",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Nordhausen",
+      "region": "Thuringia",
+      "lat": 51.5,
+      "lon": 10.79,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 0.5,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "lyten-heide",
+      "name": "Lyten",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Heide",
+      "region": "Schleswig-Holstein",
+      "lat": 54.19,
+      "lon": 9.1,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "lithium-sulfur"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "univercell-flintbek",
+      "name": "UniverCell",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Flintbek",
+      "region": "Schleswig-Holstein",
+      "lat": 54.33,
+      "lon": 10.08,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "tesla-grunheide",
+      "name": "Tesla",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Grünheide",
+      "region": "Brandenburg",
+      "lat": 52.39,
+      "lon": 13.84,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "4680 cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "v4smart-nordlingen",
+      "name": "V4Smart",
+      "sector": "cell_manufacturer",
+      "country": "Germany",
+      "city": "Nördlingen",
+      "region": "Bavaria",
+      "lat": 48.85,
+      "lon": 10.49,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "lithium-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "lges-wroclaw",
+      "name": "LG Energy Solution",
+      "sector": "cell_manufacturer",
+      "country": "Poland",
+      "city": "Wrocław",
+      "region": "Lower Silesia",
+      "lat": 51.11,
+      "lon": 17.04,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 115,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC / NCMA"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch / cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Largest single battery factory in Europe by capacity.",
+      "stage": null
+    },
+    {
+      "id": "inobat-voderady",
+      "name": "InoBat",
+      "sector": "cell_manufacturer",
+      "country": "Slovakia",
+      "city": "Voderady",
+      "region": null,
+      "lat": 48.41,
+      "lon": 17.7,
+      "year": 2020,
+      "year_label": "2020",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "custom lithium-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "inobat-gotion-surany",
+      "name": "InoBat / Gotion",
+      "sector": "cell_manufacturer",
+      "country": "Slovakia",
+      "city": "Šurany",
+      "region": null,
+      "lat": 47.99,
+      "lon": 18.18,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "parent_company": "InoBat + Gotion High-Tech JV",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "catl-debrecen",
+      "name": "CATL",
+      "sector": "cell_manufacturer",
+      "country": "Hungary",
+      "city": "Debrecen",
+      "region": null,
+      "lat": 47.53,
+      "lon": 21.63,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 100,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP / NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "eve-debrecen",
+      "name": "EVE Energy",
+      "sector": "cell_manufacturer",
+      "country": "Hungary",
+      "city": "Debrecen",
+      "region": null,
+      "lat": 47.55,
+      "lon": 21.65,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 28,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical 46xx"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "samsung-god",
+      "name": "Samsung SDI",
+      "sector": "cell_manufacturer",
+      "country": "Hungary",
+      "city": "Göd",
+      "region": null,
+      "lat": 47.71,
+      "lon": 19.14,
+      "year": null,
+      "year_label": "202X",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "sk-komarom",
+      "name": "SK On",
+      "sector": "cell_manufacturer",
+      "country": "Hungary",
+      "city": "Komárom",
+      "region": null,
+      "lat": 47.74,
+      "lon": 18.12,
+      "year": 2028,
+      "year_label": "2028",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 47.3,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "locations_combined": "Komárom & Ivancsa",
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Two Hungarian sites combined in image label.",
+      "stage": null
+    },
+    {
+      "id": "sunwoda-nyiregyhaza",
+      "name": "SUNWODA",
+      "sector": "cell_manufacturer",
+      "country": "Hungary",
+      "city": "Nyíregyháza",
+      "region": null,
+      "lat": 47.95,
+      "lon": 21.72,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC / LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "",
+      "stage": null
+    },
+    {
+      "id": "faam-teverola",
+      "name": "FAAM",
+      "sector": "cell_manufacturer",
+      "country": "Italy",
+      "city": "Teverola",
+      "region": "Campania",
+      "lat": 40.99,
+      "lon": 14.21,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 8,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "current"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP / NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Image shows 'Terevola' — likely typo for Teverola.",
+      "stage": null
+    },
+    {
+      "id": "inobat-serbia",
+      "name": "InoBat",
+      "sector": "cell_manufacturer",
+      "country": "Serbia",
+      "city": "Serbia (location TBD)",
+      "region": null,
+      "lat": 44.02,
+      "lon": 20.91,
+      "year": 2032,
+      "year_label": "2032",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 32,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Specific city not stated in source image.",
+      "stage": null
+    },
+    {
+      "id": "elevenes-subotica",
+      "name": "ElevenEs",
+      "sector": "cell_manufacturer",
+      "country": "Serbia",
+      "city": "Subotica",
+      "region": null,
+      "lat": 46.1,
+      "lon": 19.67,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 48,
+          "unit": "GWh",
+          "known": true,
+          "label": "annual cell production",
+          "type": "planned"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Monitor Giga-II (40 GWh by end-2027) construction progress"
+        ]
+      },
+      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
+      "date_added": "2026-05-11",
+      "notes": "Company logo not clearly legible. Possibly ElevenEs or another Serbian battery startup.",
+      "stage": "commercial",
+      "research": {
+        "summary": "ElevenEs (spin-out of Al Pack Group, Serbia) opened Europe's first industrial LFP battery cell factory in Subotica in 2023. Giga-I is operational with ~500 MWh/yr initial output, targeting 8 GWh by 2026. Giga-II planned for 40 GWh by end-2027, bringing combined capacity to 48 GWh with €700M total investment. Produces prismatic LFP cells for EV and stationary storage markets.",
+        "source": "https://batteryindustry.net/elevenes-opens-europes-first-lfp-battery-cell-factory-in-serbias-subotica/",
+        "date": "2026-05-12"
+      }
+    }
+  ]
+}
