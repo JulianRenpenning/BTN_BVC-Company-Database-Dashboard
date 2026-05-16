@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-05-16",
-    "record_count": 38,
+    "record_count": 35,
     "schema_version": "1.3",
     "schema_changelog": {
       "1.1": "Added required 'sector' field. Values: cell_manufacturer | module_pack_manufacturer | recycler | component_manufacturer | equipment_provider",
@@ -498,64 +498,7 @@
         "date": "2026-05-16"
       }
     },
-    {
-      "id": "bluesolutions-quimper",
-      "name": "Blue Solutions",
-      "sector": "cell_manufacturer",
-      "country": "France",
-      "city": "Quimper",
-      "region": "Brittany",
-      "lat": 48.0,
-      "lon": -4.1,
-      "year": 2032,
-      "year_label": "2032",
-      "status": "Operational",
-      "capacities": [
-        {
-          "value": 0.5,
-          "unit": "GWh",
-          "known": true,
-          "label": "current annual LMP cell production (Quimper + Montréal combined)",
-          "type": "current"
-        },
-        {
-          "value": 25,
-          "unit": "GWh",
-          "known": true,
-          "label": "planned annual capacity (long-term)",
-          "type": "planned",
-          "target_year": 2032
-        }
-      ],
-      "products": [
-        {
-          "category": "chemistry",
-          "name": "lithium-metal-polymer (LMP)"
-        },
-        {
-          "category": "cell_type",
-          "name": "solid-state polymer"
-        }
-      ],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": false,
-        "parent_company": "Bolloré Group",
-        "open_questions": [
-          "Confirm 25 GWh 2032 target — expansion strategy uses modular ~2.5 GWh gigatowers; scale-up timeline unclear",
-          "Third production line being installed at Quimper — confirm capacity addition"
-        ]
-      },
-      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
-      "date_added": "2026-05-11",
-      "notes": "Blue Solutions (Bolloré Group) produces LMP polymer solid-state cells. Current output ~500 MWh/year across Quimper and Montréal lines. A third line is being installed in Quimper.",
-      "stage": "commercial",
-      "research": {
-        "summary": "Blue Solutions operates two LMP (Lithium-Metal-Polymer) solid-state battery production lines with a combined capacity of ~500 MWh/year — one in Quimper (Brittany) and one in Montréal. A third line is being installed at Quimper. Long-term expansion strategy uses modular ~2.5 GWh 'gigatowers'. The 25 GWh target for 2032 is from the original source image and could not be confirmed from current sources; actual expansion pace is significantly lower. Next-gen GEN4 battery SOP targeted for 2030.",
-        "source": "https://www.blue-solutions.com/blue-solutions-the-french-champion-of-solid-state-batteries/",
-        "date": "2026-05-16"
-      }
-    },
+
     {
       "id": "aesc-douai",
       "name": "AESC",
@@ -611,55 +554,7 @@
         "date": "2026-05-16"
       }
     },
-    {
-      "id": "prologium-dunkirk",
-      "name": "ProLogium",
-      "sector": "cell_manufacturer",
-      "country": "France",
-      "city": "Dunkirk",
-      "region": "Hauts-de-France",
-      "lat": 51.03,
-      "lon": 2.4,
-      "year": 2028,
-      "year_label": "2028",
-      "status": "Planned",
-      "capacities": [
-        {
-          "value": 4,
-          "unit": "GWh",
-          "known": true,
-          "label": "planned capacity (Fab 1 Phase 2, by 2030)",
-          "type": "planned",
-          "target_year": 2030
-        }
-      ],
-      "products": [
-        {
-          "category": "chemistry",
-          "name": "solid-state ceramic (LLCB)"
-        },
-        {
-          "category": "cell_type",
-          "name": "solid-state ceramic"
-        }
-      ],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": false,
-        "open_questions": [
-          "Original source image showed 16 GWh — revised plan: Fab 1 Phase 1: 0.8 GWh by 2028; Phase 2: 4 GWh by 2030; Phase 3: 12 GWh by 2032"
-        ]
-      },
-      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
-      "date_added": "2026-05-11",
-      "notes": "Groundbreaking February 2026. Phased build: 0.8 GWh by 2028, 4 GWh by 2030, 12 GWh by 2032, with land reserved for up to 48 GWh long-term. Produces 'Superfluidized All-Inorganic Solid-State' cells (Gen4).",
-      "stage": "pilot",
-      "research": {
-        "summary": "ProLogium broke ground on its Dunkirk solid-state battery gigafactory in February 2026. The phased plan calls for Fab 1 Phase 1 completion (0.8 GWh) in 2028, Phase 2 (4 GWh) by 2030, and Phase 3 (12 GWh) by 2032. Land at the Port of Dunkirk has been reserved for future expansion to up to 48 GWh. The previous 16 GWh figure cited in industry trackers has been superseded by this detailed phased roadmap.",
-        "source": "https://electriccarsreport.com/2026/02/prologium-breaks-ground-on-12-gwh-solid-state-battery-gigafactory-in-france/",
-        "date": "2026-05-16"
-      }
-    },
+
     {
       "id": "calb-sines",
       "name": "CALB",
@@ -757,49 +652,7 @@
         "date": "2026-05-16"
       }
     },
-    {
-      "id": "basquevolt-vitoria",
-      "name": "BASQUEVOLT",
-      "sector": "cell_manufacturer",
-      "country": "Spain",
-      "city": "Vitoria-Gasteiz",
-      "region": "Basque Country",
-      "lat": 42.85,
-      "lon": -2.67,
-      "year": 2027,
-      "year_label": "2027",
-      "status": "Planned",
-      "capacities": [
-        {
-          "value": 10,
-          "unit": "GWh",
-          "known": true,
-          "label": "planned annual cell production",
-          "type": "planned",
-          "target_year": 2027
-        }
-      ],
-      "products": [
-        {
-          "category": "chemistry",
-          "name": "solid-state"
-        }
-      ],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": false,
-        "open_questions": []
-      },
-      "source_image": "2026-02_Cell-Manufacturers_Europe.png",
-      "date_added": "2026-05-11",
-      "notes": "Spanish solid-state battery startup (CIDETEC spin-off). A-Sample Line launched 2024 delivering prototype cells to automotive and aviation customers. Pilot line planned for 2025, commercial production 2027.",
-      "stage": "pilot",
-      "research": {
-        "summary": "BasqueVolt (CIDETEC spin-off, backed by EIT InnoEnergy) launched its A-Sample Line manufacturing facility in 2024, producing prototype solid-state cells up to 80 Ah for automotive and aviation partners. Commercial production of 10 GWh/year is targeted for 2027. A new R&D centre was planned to inaugurate by end-2025. Investment exceeds €700M for the first production line.",
-        "source": "https://basquevolt.com/en/news/news/basquevolt-basque-solid-state-battery-initiative-stars-up-produce-10gwh-2027",
-        "date": "2026-05-16"
-      }
-    },
+
     {
       "id": "aesc-navalmoral",
       "name": "AESC",

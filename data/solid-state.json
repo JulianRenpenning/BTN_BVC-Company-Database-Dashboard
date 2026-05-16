@@ -192,13 +192,16 @@
       "sector": "cell_manufacturer",
       "country": "Spain",
       "city": "Vitoria-Gasteiz",
+      "region": "Basque Country",
       "lat": 42.85,
       "lon": -2.67,
-      "year": 2011,
-      "year_label": "2011",
+      "year": 2027,
+      "year_label": "2027",
       "status": "Planned",
       "stage": "pilot",
-      "capacities": [],
+      "capacities": [
+        { "value": 10, "unit": "GWh", "known": true, "type": "planned", "label": "planned annual cell production", "target_year": 2027 }
+      ],
       "products": [
         { "category": "cell_type", "name": "solid-state" },
         { "category": "chemistry", "name": "polymer composite solid electrolyte" }
@@ -210,7 +213,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Basque Country solid-state battery startup, spin-off from CIC energiGUNE. Polymer composite solid electrolyte. Backed by Iberdrola, Total Energies, Stellantis among others."
+      "notes": "Basque Country solid-state battery startup, spin-off from CIDETEC / CIC energiGUNE. Polymer composite solid electrolyte. Backed by Iberdrola, TotalEnergies, Stellantis and EIT InnoEnergy. A-Sample Line launched 2024 delivering prototype solid-state cells up to 80 Ah to automotive and aviation customers. Commercial production of 10 GWh/year targeted for 2027.",
+      "research": {
+        "summary": "BasqueVolt (CIDETEC spin-off, backed by EIT InnoEnergy) launched its A-Sample Line manufacturing facility in 2024, producing prototype solid-state cells up to 80 Ah for automotive and aviation partners. Commercial production of 10 GWh/year is targeted for 2027. A new R&D centre was planned to inaugurate by end-2025. Investment exceeds €700M for the first production line.",
+        "source": "https://basquevolt.com/en/news/news/basquevolt-basque-solid-state-battery-initiative-stars-up-produce-10gwh-2027",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "ensurge-oslo",
@@ -302,13 +310,17 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Ergué-Gabéric",
+      "region": "Brittany",
       "lat": 47.97,
       "lon": -4.10,
       "year": 2011,
       "year_label": "2011",
       "status": "Operational",
       "stage": "commercial",
-      "capacities": [],
+      "capacities": [
+        { "value": 0.5, "unit": "GWh", "known": true, "type": "current", "label": "current annual LMP cell production (Ergué-Gabéric + Montréal combined)" },
+        { "value": 25, "unit": "GWh", "known": true, "type": "planned", "label": "planned annual capacity (long-term)", "target_year": 2032 }
+      ],
       "products": [
         { "category": "cell_type", "name": "solid-state" },
         { "category": "chemistry", "name": "polymer solid electrolyte (LMP — Lithium Metal Polymer)" }
@@ -316,13 +328,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
+        "parent_company": "Bolloré Group",
         "open_questions": [
-          "Confirm current production capacity in GWh — not disclosed in source image"
+          "Confirm 25 GWh 2032 target — expansion strategy uses modular ~2.5 GWh gigatowers; scale-up timeline unclear",
+          "Third production line being installed at Ergué-Gabéric — confirm capacity addition"
         ]
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Bolloré Group subsidiary. Commercially producing LMP (Lithium Metal Polymer) solid-state batteries. Deployed in Bluebus electric buses and stationary energy storage. Plant in Ergué-Gabéric (near Quimper), Brittany. One of the two 'Launched' phase companies per source image."
+      "notes": "Bolloré Group subsidiary. Commercially producing LMP (Lithium Metal Polymer) solid-state batteries. Deployed in Bluebus electric buses and stationary energy storage. Plant in Ergué-Gabéric (near Quimper), Brittany. Combined output ~500 MWh/year across Ergué-Gabéric and Montréal production lines. A third line is being installed at Ergué-Gabéric. One of the two 'Launched' phase companies per source image.",
+      "research": {
+        "summary": "Blue Solutions operates two LMP (Lithium-Metal-Polymer) solid-state battery production lines with a combined capacity of ~500 MWh/year — one in Ergué-Gabéric (Brittany) and one in Montréal. A third line is being installed at Ergué-Gabéric. Long-term expansion strategy uses modular ~2.5 GWh 'gigatowers'. The 25 GWh target for 2032 is from the original source image and could not be confirmed from current sources; actual expansion pace is significantly lower. Next-gen GEN4 battery SOP targeted for 2030.",
+        "source": "https://www.blue-solutions.com/blue-solutions-the-french-champion-of-solid-state-batteries/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "iten-dardilly",
@@ -384,30 +403,36 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Dunkirk",
+      "region": "Hauts-de-France",
       "lat": 51.03,
       "lon": 2.38,
-      "year": null,
-      "year_label": null,
+      "year": 2028,
+      "year_label": "2028",
       "status": "Planned",
       "stage": "pilot",
       "capacities": [
-        { "value": null, "unit": "GWh", "known": false, "type": "planned", "label": "Dunkirk European gigafactory — capacity undisclosed" }
+        { "value": 4, "unit": "GWh", "known": true, "type": "planned", "label": "planned capacity (Fab 1 Phase 2, by 2030)", "target_year": 2030 }
       ],
       "products": [
         { "category": "cell_type", "name": "solid-state" },
-        { "category": "chemistry", "name": "oxide solid electrolyte" }
+        { "category": "chemistry", "name": "oxide solid electrolyte (LLCB)" }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Confirm Dunkirk gigafactory timeline — as of early 2026 reports indicate significant delays and possible scaling back",
+          "Original source image showed 16 GWh — revised plan: Fab 1 Phase 1: 0.8 GWh by 2028; Phase 2: 4 GWh by 2030; Phase 3: 12 GWh by 2032",
           "Founded 2006 in Taiwan (Taoyuan City HQ) — record placed under France for European facility"
         ]
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Taiwanese solid-state battery maker (founded 2006, HQ Taoyuan City). Planning European gigafactory in Dunkirk, France; source image footnote ⁵. Record placed under France for European facility context."
+      "notes": "Taiwanese solid-state battery maker (founded 2006, HQ Taoyuan City). Groundbreaking February 2026. Phased build: 0.8 GWh by 2028, 4 GWh by 2030, 12 GWh by 2032, with land reserved for up to 48 GWh long-term. Produces 'Superfluidized All-Inorganic Solid-State' cells (Gen4). Record placed under France for European facility context.",
+      "research": {
+        "summary": "ProLogium broke ground on its Dunkirk solid-state battery gigafactory in February 2026. The phased plan calls for Fab 1 Phase 1 completion (0.8 GWh) in 2028, Phase 2 (4 GWh) by 2030, and Phase 3 (12 GWh) by 2032. Land at the Port of Dunkirk has been reserved for future expansion to up to 48 GWh. The previous 16 GWh figure cited in industry trackers has been superseded by this detailed phased roadmap.",
+        "source": "https://electriccarsreport.com/2026/02/prologium-breaks-ground-on-12-gwh-solid-state-battery-gigafactory-in-france/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "swiss-clean-battery-frauenfeld",
