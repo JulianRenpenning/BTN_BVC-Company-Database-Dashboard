@@ -1,6 +1,6 @@
 # BTN_BVC-Company-Database-Dashboard — Project Log
 
-**Last updated:** 2026-05-16 (Session 3 — GitHub Pages deployed)  
+**Last updated:** 2026-05-16 (Session 4 — Full research pass on companies.json)  
 **Owner:** Julian Renpenning (Battery-Tech Network)
 
 ---
@@ -240,6 +240,41 @@ reference-data/
 - [x] GitHub Pages enabled — app live at: **https://julianrenpenning.github.io/BTN_BVC-Company-Database-Dashboard/app/**
 - [x] GitHub Pages publish workflow documented in `CLAUDE.md`
 
+### Session 4 — 2026-05-16
+
+- [x] **Full research pass on `data/companies.json`** — all 38 cell manufacturer records researched, verified, and updated via WebSearch + WebFetch
+  - Research summaries (`research.summary`, `research.source`, `research.date: "2026-05-16"`) added to all 38 records (2 already existed from Session 2; 36 added fresh)
+  - **Status corrections (Planned → Operational):** PowerCo Salzgitter, Verkor Dunkirk, ACC Douvrin, AESC Sunderland, AESC Douai, EVE Debrecen, CATL Erfurt, SK On Komárom, UniverCell Flintbek, V4Smart Nördlingen, Lyten Skellefteå, CATL Debrecen, Blue Solutions Quimper
+  - **Status correction (Paused → Cancelled):** Morrow Batteries — **bankrupt as of 6 May 2026**
+  - **Capacity corrections:**
+    - LG Energy Solution Wrocław: 115 GWh → 86 GWh current (100 GWh planned Stage IV target)
+    - FAAM Teverola: 8 GWh "current" → 0.3 GWh current (Teverola 1) + 8 GWh planned (Teverola 2)
+    - CATL Debrecen: 100 GWh "current" → 40 GWh current (Phase 1) + 100 GWh planned (long-term)
+    - InoBat Voderady: 10 GWh "current" → ~0.05 GWh (pilot line, 50,000 cells/year max)
+    - Leclanché Willstätt: 2.5 GWh → 1 GWh current + 2 GWh planned (EU grant expansion)
+    - ACC Douvrin: 40 GWh planned → 13 GWh current + 40 GWh planned (2030)
+    - Verkor Dunkirk: 50 GWh planned → 16 GWh current + 50 GWh planned (2030)
+    - AESC Sunderland: 35 GWh planned → 15.8 GWh current + 35 GWh planned
+    - AESC Douai: 30 GWh planned → 10 GWh current + 30 GWh planned (2030)
+    - PowerCo Salzgitter: 40 GWh planned → 20 GWh current + 40 GWh planned
+    - SK On Komárom: 47.3 GWh planned → 47.5 GWh current (all 3 Hungarian plants operational)
+    - InoBat/Gotion Šurany: 40 GWh → 20 GWh Phase 1 (40–60 GWh long-term)
+    - ProLogium Dunkirk: 16 GWh planned → 4 GWh by 2030, 12 GWh by 2032 (phased build)
+    - Tesla Grünheide: unknown → 18 GWh planned H1 2027 ($250M investment, announced May 2026)
+    - CATL Erfurt: 14 GWh planned → 14 GWh current + 60 GWh planned (end 2026 expansion)
+    - Beyonder: unknown → 5 GWh target noted
+    - Lyten Skellefteå: unknown → 16 GWh current (acquired Northvolt Ett assets, Feb 2026)
+    - Lyten Heide: unknown → 15 GWh under construction
+    - AESC Navalmoral: 50 GWh → 30 GWh (confirmed plans); year 2025 → 2026
+    - CATL/Stellantis Zaragoza: year 20XX → 2026 (construction started Nov 2025)
+    - UniverCell Flintbek: 10 GWh planned → 1.5 GWh current (specialty non-automotive)
+  - **City/location corrections:**
+    - InoBat Serbia: "Serbia (location TBD)" → Ćuprija (central Serbia), coordinates added
+    - TIAMAT: city corrected from Douvrin to Amiens region (actual site near Boves)
+  - **Stage field population:** 28 records updated from `null` to appropriate stage (commercial/pilot)
+  - Schema version updated: 1.2 → 1.3 in meta
+  - Committed and pushed to GitHub; teal research dots now visible on all 38 company pins
+
 ---
 
 ## Pending Tasks
@@ -251,7 +286,8 @@ reference-data/
 - [ ] **Resolve 2 remaining unknown companies:**
   - Unknown, Tallinn, Estonia — SG anode active material producer, 1,000 t/a
   - Unknown, Gothenburg, Sweden (circular arrow logo) — module & pack sector
-- [ ] **Research pass** — sweep all records with `open_questions` entries and fill gaps via web search
+- [x] **Research pass on `companies.json`** — completed Session 4 (2026-05-16); all 38 records have fresh research summaries
+- [ ] **Research pass on remaining files** — sweep `recycling.json`, `module-pack.json`, `active-materials.json`, `solid-state.json`, `components.json` for records with `open_questions`
 
 ### Medium priority — app improvements
 

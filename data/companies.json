@@ -1,12 +1,13 @@
 {
   "meta": {
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-16",
     "record_count": 38,
-    "schema_version": "1.2",
+    "schema_version": "1.3",
     "schema_changelog": {
       "1.1": "Added required 'sector' field. Values: cell_manufacturer | module_pack_manufacturer | recycler | component_manufacturer | equipment_provider",
       "1.0": "Initial schema",
-      "1.2": "Added 'stage' field (commercial | pilot | rd | unknown | null) and 'open_questions' list in attributes{}"
+      "1.2": "Added 'stage' field (commercial | pilot | rd | unknown | null) and 'open_questions' list in attributes{}",
+      "1.3": "Formalized deduplication rules; added research freshness logic (365-day threshold); research dot in table"
     }
   },
   "companies": [
@@ -19,26 +20,26 @@
       "region": "Agder",
       "lat": 58.46,
       "lon": 8.77,
-      "year": null,
-      "year_label": "20XX",
-      "status": "Paused",
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Cancelled",
       "capacities": [
         {
-          "value": null,
+          "value": 1,
           "unit": "GWh",
-          "known": false,
-          "label": "annual cell production",
-          "type": "planned"
+          "known": true,
+          "label": "annual cell production at time of closure",
+          "type": "current"
         }
       ],
       "products": [
         {
           "category": "cell_type",
-          "name": "lithium-ion"
+          "name": "prismatic"
         },
         {
           "category": "chemistry",
-          "name": "NMC"
+          "name": "LFP"
         }
       ],
       "materials": [],
@@ -48,8 +49,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Listed as Paused as of February 2026. Image label: Agder.",
-      "stage": null
+      "notes": "Factory opened summer 2024 with 1 GWh LFP prismatic cell capacity. Filed for bankruptcy on 6 May 2026 after failing to secure further financing amid EV market overcapacity and cost pressures.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Morrow Batteries opened its Arendal factory in summer 2024 producing prismatic LFP cells with ~1 GWh annual capacity. The company struggled through layoffs (Jan 2025) and a production pause before the board filed for formal bankruptcy proceedings on 6 May 2026. The failure was attributed to capital-intensive early-stage industrialisation colliding with a globally oversupplied, price-pressured battery market and a restrictive investment environment.",
+        "source": "https://www.electrive.com/2026/05/11/norwegian-cell-manufacturer-morrow-batteries-files-for-insolvency/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "beyonder-rogaland",
@@ -65,47 +71,54 @@
       "status": "Planned",
       "capacities": [
         {
-          "value": null,
+          "value": 5,
           "unit": "GWh",
-          "known": false,
-          "label": "annual production",
+          "known": true,
+          "label": "planned annual production capacity",
           "type": "planned"
         }
       ],
       "products": [
         {
           "category": "cell_type",
-          "name": "carbon hybrid supercapacitor"
+          "name": "carbon hybrid supercapacitor (LiC)"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Confirm commercial production timeline — pilot facility in Stavanger operational but full-scale factory location and timeline not confirmed"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Beyonder produces high-power carbon-based energy storage, not conventional Li-ion cells.",
-      "stage": null
+      "notes": "Beyonder produces lithium-ion capacitor (LiC) hybrid energy storage combining supercapacitor cathode and battery-type anode. Raw materials from sustainable forestry residue.",
+      "stage": "pilot",
+      "research": {
+        "summary": "Beyonder operates a battery centre with R&D, labs, and prototype production in Stavanger. The company has developed a patented LiC (Lithium-Ion Capacitor) technology and has an available production capacity model of up to 5 GWh. Equinor Ventures is among the investors. A signed contract with AFRY covers the pilot factory build-out, but mass production timelines and final site selection remain unconfirmed.",
+        "source": "https://afry.com/en/newsroom/press-releases/beyonder-signs-contract-afry-battery-production-pilot-factory",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "novo-gothenburg",
-      "name": "NOVO",
+      "name": "NOVO Energy",
       "sector": "cell_manufacturer",
       "country": "Sweden",
       "city": "Gothenburg",
       "region": null,
       "lat": 57.71,
       "lon": 11.97,
-      "year": 2026,
-      "year_label": "2026",
+      "year": null,
+      "year_label": "20XX",
       "status": "Paused",
       "capacities": [
         {
           "value": 50,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "planned annual cell production",
           "type": "planned"
         }
       ],
@@ -117,13 +130,20 @@
       ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
-        "open_questions": []
+        "logo_research_needed": false,
+        "open_questions": [
+          "Partner search ongoing — no technology partner announced; resumption timeline undefined"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Paused as of Feb 2026. Identity of NOVO requires further research — possibly successor to a prior gigafactory project in Gothenburg.",
-      "stage": null
+      "notes": "Originally a Northvolt-Volvo JV. Northvolt bankruptcy left Volvo as sole owner without a technology partner. Construction in Gothenburg started September 2023.",
+      "stage": null,
+      "research": {
+        "summary": "Volvo Cars put NOVO Energy into indefinite hibernation on 13 January 2026, laying off 75 employees, following earlier restructuring (150 jobs cut in Jan 2025). The Northvolt insolvency left Volvo without a suitable cell technology partner to operate the planned Gothenburg gigafactory. Volvo continues searching for a partner but no announcement has been made as of May 2026. The planned 50 GWh facility has not progressed beyond early construction.",
+        "source": "https://www.electrive.com/2026/01/13/volvo-cars-puts-battery-cell-subsidiary-novo-energy-into-hibernation/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "volvo-group-mariestad",
@@ -135,7 +155,7 @@
       "lat": 58.71,
       "lon": 13.83,
       "year": 2030,
-      "year_label": "2030",
+      "year_label": "2030+",
       "status": "Planned",
       "capacities": [
         {
@@ -156,7 +176,7 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Company shown as circular theta (θ) logo. Name not legible in source image.",
+      "notes": "Volvo Group (commercial vehicles) battery cell factory for trucks, buses, and construction equipment. Distinct from Volvo Cars/NOVO Energy project.",
       "stage": "pilot",
       "research": {
         "summary": "Volvo Group is planning a large-scale battery cell factory in Mariestad, Sweden (close to existing powertrain plant in Skövde) for commercial vehicle cells — electric trucks, buses, and construction equipment. Originally targeting production in 2025; timeline has shifted and cell production is now projected after 2030 due to slower EV uptake. When operational, ~3,000 jobs expected. Facility will produce cells specifically designed for commercial vehicle applications.",
@@ -173,37 +193,45 @@
       "region": null,
       "lat": 64.75,
       "lon": 20.95,
-      "year": null,
-      "year_label": "X",
-      "status": "Planned",
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 16,
           "unit": "GWh",
-          "known": false,
-          "label": "annual cell production",
-          "type": "planned"
+          "known": true,
+          "label": "installed capacity (acquired from Northvolt)",
+          "type": "current"
         }
       ],
       "products": [
         {
           "category": "chemistry",
-          "name": "lithium-sulfur"
+          "name": "lithium-sulfur (long-term roadmap)"
         },
         {
           "category": "cell_type",
-          "name": "lithium-sulfur pouch"
+          "name": "lithium-ion (current production)"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Monitor ramp-up: commercial cell sales to start H2 2026; confirm first customer deliveries",
+          "Lithium-sulfur cell introduction timeline not yet confirmed for Skellefteå"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Lyten develops lithium-sulfur cells using 3D graphene. Year undisclosed.",
-      "stage": null
+      "notes": "Lyten completed acquisition of Northvolt Ett (Skellefteå) and Northvolt Labs (Västerås) on 27 February 2026. Existing 16 GWh capacity inherited. Will introduce Li-S chemistry over time.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Lyten completed the acquisition of Northvolt's Swedish assets — including the Skellefteå (Northvolt Ett) factory and Northvolt Labs in Västerås — on 27 February 2026. The site has 16 GWh of installed battery manufacturing capacity and 160+ hectares of land. Lyten plans to begin commercial cell sales from Skellefteå in H2 2026, initially producing lithium-ion cells while gradually introducing its lithium-sulfur (3D graphene) technology. A 1 GW data centre campus is also planned at the site.",
+        "source": "https://www.ess-news.com/2026/02/27/lyten-completes-northvolt-acquisition-set-to-manufacture-lithium-sulfur-batteries-at-gigascale-and-kickstart-rd-in-sweden/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "agratas-somerset",
@@ -222,8 +250,9 @@
           "value": 40,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -240,12 +269,19 @@
       "attributes": {
         "logo_research_needed": false,
         "parent_company": "Tata Group",
-        "open_questions": []
+        "open_questions": [
+          "Production start delayed to late 2027 at earliest — monitor construction progress"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Agratas is the battery subsidiary of Tata Group.",
-      "stage": null
+      "notes": "Agratas is the battery subsidiary of Tata Group. UK government confirmed £380M grant on 9 April 2026. Steel frame two-thirds complete as of early 2026.",
+      "stage": null,
+      "research": {
+        "summary": "Agratas (Tata Group's battery subsidiary) is constructing a 40 GWh gigafactory at the Gravity Smart Campus in Somerset, UK. The UK government confirmed a £380M grant on 9 April 2026, with total private investment of £4 billion expected. The steelwork is two-thirds complete; production start has slipped to late 2027. When operational, 4,200 direct jobs are expected, making it the largest battery factory in the UK.",
+        "source": "https://www.weaf.co.uk/agratas-gigafactory-project-update/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "aesc-sunderland",
@@ -256,15 +292,22 @@
       "region": null,
       "lat": 54.91,
       "lon": -1.38,
-      "year": 2030,
-      "year_label": "2030",
-      "status": "Planned",
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 15.8,
+          "unit": "GWh",
+          "known": true,
+          "label": "initial annual cell production",
+          "type": "current"
+        },
         {
           "value": 35,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "planned annual capacity",
           "type": "planned"
         }
       ],
@@ -286,18 +329,23 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Envision AESC UK gigafactory.",
-      "stage": null
+      "notes": "Envision AESC UK gigafactory. Commenced operations December 16, 2025. Now the largest operational battery manufacturing facility in the UK.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Envision AESC officially opened its Sunderland gigafactory on 16 December 2025, making it the UK's largest operational battery plant. Initial capacity is 15.8 GWh/year, sufficient for ~200,000 EVs annually, with primary customer Nissan. The facility can expand to 35 GWh in later phases. Capacity plan evolved from the original 9 GWh target at announcement to 15.8 GWh at launch.",
+        "source": "https://electrification-solutions.com/envision-aesc-commences-production-at-new-uk-gigafactory/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "tiamat-douvrin",
       "name": "TIAMAT",
       "sector": "cell_manufacturer",
       "country": "France",
-      "city": "Douvrin",
-      "region": null,
-      "lat": 50.47,
-      "lon": 2.84,
+      "city": "Amiens",
+      "region": "Hauts-de-France",
+      "lat": 49.89,
+      "lon": 2.3,
       "year": 2029,
       "year_label": "2029",
       "status": "Planned",
@@ -306,8 +354,9 @@
           "value": 5,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2029
         }
       ],
       "products": [
@@ -323,12 +372,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "700 MWh first-phase commissioning slipped from 2025 to 2026 — confirm updated timeline",
+          "€150M funding round announced 2024 not yet finalized"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "TIAMAT is a French sodium-ion battery startup spun out of CNRS.",
-      "stage": null
+      "notes": "TIAMAT is a French sodium-ion battery startup spun out of CNRS. Factory site is at ZAC Jules Verne 2 near Boves/Amiens, not Douvrin as listed in source image. Stellantis Ventures investor.",
+      "stage": "pilot",
+      "research": {
+        "summary": "TIAMAT (CNRS spin-out) plans a 5 GWh sodium-ion gigafactory near Amiens (Boves), with full capacity targeted for 2029. A 700 MWh first-phase commissioning was originally planned for 2025 but has slipped to 2026. A public consultation was held April–June 2025. A €150M funding round announced in 2024 is still not finalized, with total cost estimated above €500M. Stellantis Ventures is a backer.",
+        "source": "https://www.ess-news.com/2025/04/25/consultation-over-5-gwh-french-sodium-ion-battery-factory/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "acc-douvrin",
@@ -336,19 +393,27 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Douvrin",
-      "region": null,
+      "region": "Hauts-de-France",
       "lat": 50.47,
       "lon": 2.86,
-      "year": 2030,
-      "year_label": "2030",
-      "status": "Planned",
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 13,
+          "unit": "GWh",
+          "known": true,
+          "label": "initial annual cell production",
+          "type": "current"
+        },
         {
           "value": 40,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual capacity",
+          "type": "planned",
+          "target_year": 2030
         }
       ],
       "products": [
@@ -365,12 +430,19 @@
       "attributes": {
         "logo_research_needed": false,
         "parent_company": "Stellantis / TotalEnergies / Mercedes-Benz",
-        "open_questions": []
+        "open_questions": [
+          "German (Kaiserslautern) and Italian (Termoli) gigafactory plans definitively shelved (Feb 2026) — Douvrin is now sole site"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "ACC = Automotive Cells Company. Billy-Berclau/Douvrin site.",
-      "stage": null
+      "notes": "ACC = Automotive Cells Company. Billy-Berclau/Douvrin site opened end of 2023. Plans for Kaiserslautern DE and Termoli IT gigafactories were dropped in February 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "ACC's Billy-Berclau/Douvrin gigafactory started production in late 2023 with an initial 13 GWh capacity block, targeting 40 GWh by 2030. In February 2026, Stellantis-backed ACC confirmed it had definitively dropped plans for additional sites in Germany (Kaiserslautern) and Italy (Termoli) due to deteriorating market conditions. ACC's near-term priority is proving reliable ramp-up at Douvrin with competitive unit economics.",
+        "source": "https://www.cnbc.com/2026/02/07/stellantis-backed-acc-drops-plans-for-italian-german-factories-union.html",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "verkor-dunkirk",
@@ -378,19 +450,27 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Dunkirk",
-      "region": null,
+      "region": "Hauts-de-France",
       "lat": 51.03,
       "lon": 2.38,
-      "year": 2030,
-      "year_label": "2030",
-      "status": "Planned",
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 16,
+          "unit": "GWh",
+          "known": true,
+          "label": "initial annual cell production",
+          "type": "current"
+        },
         {
           "value": 50,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual capacity",
+          "type": "planned",
+          "target_year": 2030
         }
       ],
       "products": [
@@ -410,8 +490,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Shown in image as 'VK' logo. Verkor's Dunkirk gigafactory.",
-      "stage": null
+      "notes": "Verkor inaugurated its Bourbourg (Dunkerque) gigafactory on 11 December 2025. First batteries for the Alpine A390 planned for 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Verkor officially inaugurated its first gigafactory in Bourbourg near Dunkerque on 11 December 2025 under the patronage of French President Macron. Initial capacity is 16 GWh/year (1,200 direct jobs), targeting 50 GWh by 2030. As of March 2026 production lines are fully optimized and running continuously; first commercial battery deliveries for the Alpine A390 are planned for 2026.",
+        "source": "https://www.electrive.com/2025/12/15/verkor-opens-16-gwh-battery-cell-factory-in-dunkirk/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "bluesolutions-quimper",
@@ -419,19 +504,27 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Quimper",
-      "region": null,
+      "region": "Brittany",
       "lat": 48.0,
       "lon": -4.1,
       "year": 2032,
       "year_label": "2032",
-      "status": "Planned",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 0.5,
+          "unit": "GWh",
+          "known": true,
+          "label": "current annual LMP cell production (Quimper + Montréal combined)",
+          "type": "current"
+        },
         {
           "value": 25,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual capacity (long-term)",
+          "type": "planned",
+          "target_year": 2032
         }
       ],
       "products": [
@@ -448,12 +541,20 @@
       "attributes": {
         "logo_research_needed": false,
         "parent_company": "Bolloré Group",
-        "open_questions": []
+        "open_questions": [
+          "Confirm 25 GWh 2032 target — expansion strategy uses modular ~2.5 GWh gigatowers; scale-up timeline unclear",
+          "Third production line being installed at Quimper — confirm capacity addition"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Blue Solutions is the Bolloré Group battery subsidiary, producing LMP cells.",
-      "stage": null
+      "notes": "Blue Solutions (Bolloré Group) produces LMP polymer solid-state cells. Current output ~500 MWh/year across Quimper and Montréal lines. A third line is being installed in Quimper.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Blue Solutions operates two LMP (Lithium-Metal-Polymer) solid-state battery production lines with a combined capacity of ~500 MWh/year — one in Quimper (Brittany) and one in Montréal. A third line is being installed at Quimper. Long-term expansion strategy uses modular ~2.5 GWh 'gigatowers'. The 25 GWh target for 2032 is from the original source image and could not be confirmed from current sources; actual expansion pace is significantly lower. Next-gen GEN4 battery SOP targeted for 2030.",
+        "source": "https://www.blue-solutions.com/blue-solutions-the-french-champion-of-solid-state-batteries/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "aesc-douai",
@@ -461,19 +562,27 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Douai",
-      "region": null,
+      "region": "Hauts-de-France",
       "lat": 50.37,
       "lon": 3.08,
-      "year": 2029,
-      "year_label": "2029",
-      "status": "Planned",
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "label": "initial annual cell production",
+          "type": "current"
+        },
         {
           "value": 30,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual capacity",
+          "type": "planned",
+          "target_year": 2030
         }
       ],
       "products": [
@@ -494,8 +603,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Envision AESC French gigafactory near Douai.",
-      "stage": null
+      "notes": "Envision AESC French gigafactory near Douai. Officially launched 3 June 2025. Supplies Renault EV platform.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Envision AESC officially launched its Douai gigafactory on 3 June 2025, inaugurated by French President Macron and Envision Group Chairman Zhang Lei. Initial capacity is 10 GWh/year supplying ~200,000 EVs annually for Renault. The plant is set to expand to 24–30 GWh by 2030, creating 2,500 direct jobs.",
+        "source": "https://electrification-solutions.com/envision-aescs-douai-gigafactory-officially-launches-powering-europes-green-mobility-revolution/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "prologium-dunkirk",
@@ -503,25 +617,26 @@
       "sector": "cell_manufacturer",
       "country": "France",
       "city": "Dunkirk",
-      "region": null,
+      "region": "Hauts-de-France",
       "lat": 51.03,
       "lon": 2.4,
-      "year": 2030,
-      "year_label": "2030",
+      "year": 2028,
+      "year_label": "2028",
       "status": "Planned",
       "capacities": [
         {
-          "value": 16,
+          "value": 4,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned capacity (Fab 1 Phase 2, by 2030)",
+          "type": "planned",
+          "target_year": 2030
         }
       ],
       "products": [
         {
           "category": "chemistry",
-          "name": "solid-state"
+          "name": "solid-state ceramic (LLCB)"
         },
         {
           "category": "cell_type",
@@ -531,12 +646,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Original source image showed 16 GWh — revised plan: Fab 1 Phase 1: 0.8 GWh by 2028; Phase 2: 4 GWh by 2030; Phase 3: 12 GWh by 2032"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "ProLogium solid-state gigafactory, Dunkirk.",
-      "stage": null
+      "notes": "Groundbreaking February 2026. Phased build: 0.8 GWh by 2028, 4 GWh by 2030, 12 GWh by 2032, with land reserved for up to 48 GWh long-term. Produces 'Superfluidized All-Inorganic Solid-State' cells (Gen4).",
+      "stage": "pilot",
+      "research": {
+        "summary": "ProLogium broke ground on its Dunkirk solid-state battery gigafactory in February 2026. The phased plan calls for Fab 1 Phase 1 completion (0.8 GWh) in 2028, Phase 2 (4 GWh) by 2030, and Phase 3 (12 GWh) by 2032. Land at the Port of Dunkirk has been reserved for future expansion to up to 48 GWh. The previous 16 GWh figure cited in industry trackers has been superseded by this detailed phased roadmap.",
+        "source": "https://electriccarsreport.com/2026/02/prologium-breaks-ground-on-12-gwh-solid-state-battery-gigafactory-in-france/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "calb-sines",
@@ -555,8 +677,9 @@
           "value": 15,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2028
         }
       ],
       "products": [
@@ -576,8 +699,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Construction started February 24, 2025. Total investment €2.07B. Portugal granted €350M incentives (Jan 2026). 'National Interest Project' status. Zero-carbon AI gigafactory concept.",
+      "stage": null,
+      "research": {
+        "summary": "CALB broke ground on its Sines, Portugal battery gigafactory on 24 February 2025 (€2.07B investment). Portugal's government confirmed €350M in incentives via AICEP on 20 January 2026, with National Interest Project status granted to accelerate permitting. The 15 GWh LFP/prismatic facility is on track for 2028 delivery, with ~300,000 EVs/year of capacity. An earlier 2025 production start date was abandoned in favour of a more realistic 2028 timeline.",
+        "source": "https://www.ess-news.com/2026/01/28/portugal-signs-off-e350-million-incentives-for-calbs-e2-07-billion-sines-battery-plant/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "powerco-sagunt",
@@ -585,19 +713,20 @@
       "sector": "cell_manufacturer",
       "country": "Spain",
       "city": "Sagunto",
-      "region": null,
+      "region": "Valencia",
       "lat": 39.68,
       "lon": -0.28,
-      "year": null,
-      "year_label": "202X",
+      "year": 2027,
+      "year_label": "2027",
       "status": "Planned",
       "capacities": [
         {
           "value": 40,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production (Phase 1)",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -614,12 +743,19 @@
       "attributes": {
         "logo_research_needed": false,
         "parent_company": "Volkswagen Group",
-        "open_questions": []
+        "open_questions": [
+          "Pilot production expected Sep/Oct 2026; series production July 2027 — monitor milestone delivery"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "PowerCo is VW Group's battery company. Spanish site near Valencia.",
-      "stage": null
+      "notes": "PowerCo (VW Group battery company) Spanish site near Valencia. Series production target: July 2027. Pilot production (pre-series): Sep/Oct 2026. Initial 40 GWh expandable to 60 GWh.",
+      "stage": null,
+      "research": {
+        "summary": "PowerCo has set July 2027 as the series production start date for its Sagunto (Valencia) gigafactory, with pilot/pre-series volumes expected Sep/Oct 2026. Initial capacity is 40 GWh (two production units), expandable to 60 GWh. Clean & Dry Rooms installation is underway as of 2026. The site is modelled on the lead Salzgitter factory. Multiple delays relative to the 2022 announcement stem from slower European EV adoption and regulatory/funding processes.",
+        "source": "https://www.electrive.com/2025/10/28/powerco-battery-production-in-spain-scheduled-to-start-in-july-2027/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "basquevolt-vitoria",
@@ -638,8 +774,9 @@
           "value": 10,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -655,8 +792,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Spanish solid-state battery startup (CIDETEC spin-off).",
-      "stage": null
+      "notes": "Spanish solid-state battery startup (CIDETEC spin-off). A-Sample Line launched 2024 delivering prototype cells to automotive and aviation customers. Pilot line planned for 2025, commercial production 2027.",
+      "stage": "pilot",
+      "research": {
+        "summary": "BasqueVolt (CIDETEC spin-off, backed by EIT InnoEnergy) launched its A-Sample Line manufacturing facility in 2024, producing prototype solid-state cells up to 80 Ah for automotive and aviation partners. Commercial production of 10 GWh/year is targeted for 2027. A new R&D centre was planned to inaugurate by end-2025. Investment exceeds €700M for the first production line.",
+        "source": "https://basquevolt.com/en/news/news/basquevolt-basque-solid-state-battery-initiative-stars-up-produce-10gwh-2027",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "aesc-navalmoral",
@@ -667,22 +809,23 @@
       "region": "Extremadura",
       "lat": 39.89,
       "lon": -5.55,
-      "year": 2025,
-      "year_label": "2025",
+      "year": 2026,
+      "year_label": "2026",
       "status": "Planned",
       "capacities": [
         {
-          "value": 50,
+          "value": 30,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2026
         }
       ],
       "products": [
         {
           "category": "chemistry",
-          "name": "NMC"
+          "name": "LFP"
         },
         {
           "category": "cell_type",
@@ -693,12 +836,19 @@
       "attributes": {
         "logo_research_needed": false,
         "parent_company": "Envision Group",
-        "open_questions": []
+        "open_questions": [
+          "Source image showed 50 GWh — confirmed capacity is 30 GWh; monitor production start date"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Groundbreaking July 2024. €1.1B Phase 1 investment. Intended to be Europe's first mass-production LFP gigafactory. Production start target 2026. Planned capacity updated from 50 GWh (source image) to 30 GWh per confirmed plans.",
+      "stage": null,
+      "research": {
+        "summary": "AESC broke ground in Navalmoral de la Mata (Extremadura) in July 2024 with a US$1.1B Phase 1 investment for a 30 GWh LFP battery gigafactory. The factory is intended to be Europe's first carbon-neutral and first mass-production LFP site, slated to become operational in 2026. The capacity figure in the source image (50 GWh) appears to be incorrect; confirmed plans indicate 30 GWh. Around 900 initial direct jobs are planned.",
+        "source": "https://www.miningsee.eu/envision-aesc-initiates-construction-of-eur-1-billion-lfp-battery-gigafactory-in-spain/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "catl-stellantis-zaragoza",
@@ -709,16 +859,17 @@
       "region": "Aragon",
       "lat": 41.65,
       "lon": -0.89,
-      "year": null,
-      "year_label": "20XX",
+      "year": 2026,
+      "year_label": "2026",
       "status": "Planned",
       "capacities": [
         {
           "value": 50,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2026
         }
       ],
       "products": [
@@ -734,13 +885,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "parent_company": "CATL + Stellantis JV",
-        "open_questions": []
+        "parent_company": "CATL + Stellantis JV (50:50)",
+        "open_questions": [
+          "Production start targeted end of 2026 — monitor milestone; construction scheduled to conclude by March 2028"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Planned CATL-Stellantis JV gigafactory.",
-      "stage": null
+      "notes": "50:50 JV between CATL and Stellantis. Located in Figueruelas near Zaragoza. Construction started November 2025. €4.1B total investment. Up to 1 million EVs per year when at full capacity.",
+      "stage": null,
+      "research": {
+        "summary": "CATL and Stellantis broke ground on their Figueruelas/Zaragoza LFP gigafactory in November 2025 (€4.1B, 50:50 JV). Production start is targeted for end of 2026; staffing shortages delayed the original late-2025 start. The 50 GWh facility will manufacture LFP cells and modules for up to 1 million EVs/year, with construction expected to conclude by March 2028. Spain and the EU are providing substantial subsidies.",
+        "source": "https://www.electrive.com/2025/11/26/catl-and-stellantis-start-battery-plant-construction-in-spain/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "inobat-valladolid",
@@ -748,19 +906,20 @@
       "sector": "cell_manufacturer",
       "country": "Spain",
       "city": "Valladolid",
-      "region": null,
+      "region": "Castile and León",
       "lat": 41.65,
       "lon": -4.72,
-      "year": 2029,
-      "year_label": "2029",
+      "year": 2027,
+      "year_label": "2027",
       "status": "Planned",
       "capacities": [
         {
           "value": 32,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned annual cell production",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -772,12 +931,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Production start reported variously as 2026 or 2027 — confirm updated timeline"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "InoBat secured €54M Spanish government grant and €456K loan in Sep 2025. Total investment €712M (may scale to €5B with Gotion partnership including anode/cathode manufacturing). Part of Spain's Perte VEC program.",
+      "stage": null,
+      "research": {
+        "summary": "InoBat secured a €54M grant and €456K loan from the Spanish government in September 2025 for its 32 GWh Valladolid gigafactory. Total private investment is ~€712M, potentially scaling to €5B with Gotion's involvement adding anode and cathode manufacturing. Production start is reported as 2026 or 2027 depending on the source, with full 32 GWh operation by 2029. The project is part of Spain's PERTE VEC strategic vehicle electrification programme.",
+        "source": "https://www.electrive.com/2025/09/12/inobat-secures-funding-for-battery-cell-plant-in-spain/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "leclanche-willstatt",
@@ -793,11 +959,18 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": 2.5,
+          "value": 1,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "current annual cell production",
           "type": "current"
+        },
+        {
+          "value": 2,
+          "unit": "GWh",
+          "known": true,
+          "label": "planned annual capacity after EU-funded expansion",
+          "type": "planned"
         }
       ],
       "products": [
@@ -813,12 +986,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "€74.2M EU grant requires €141.3M complementary funding by financial close (June 2026) — confirm funding secured",
+          "Source image showed 2.5 GWh — confirmed current capacity is ~1 GWh; expansion target is 2 GWh"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Swiss-headquartered cell manufacturer. Factory in Willstätt operational since ~2020. PFAS-free, water-based manufacturing process. EU Innovation Fund grant of €74.2M signed for 2 GWh expansion.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Leclanché operates its Willstätt, Germany cell factory at ~1 GWh/year using a proprietary water-based, PFAS-free manufacturing process for NMC pouch cells. A €74.2M EU CINEA grant was signed to expand the site to 2 GWh/year; financial close is scheduled for end of June 2026, subject to securing €141.3M in complementary funding via a Pinnacle strategic partnership. The 2.5 GWh figure in the original source image appears to be an overstatement; confirmed target is 2 GWh.",
+        "source": "https://www.leclanche.com/leclanche-and-cinea-sign-e74-2-million-grant-agreement-to-support-sustainable-battery-production-in-europe/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "powerco-salzgitter",
@@ -829,15 +1010,22 @@
       "region": "Lower Saxony",
       "lat": 52.15,
       "lon": 10.33,
-      "year": null,
-      "year_label": "202X",
-      "status": "Planned",
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "label": "initial annual cell production (ramp-up phase)",
+          "type": "current"
+        },
         {
           "value": 40,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "planned annual capacity",
           "type": "planned"
         }
       ],
@@ -845,6 +1033,10 @@
         {
           "category": "chemistry",
           "name": "unified cell"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
         }
       ],
       "materials": [],
@@ -855,8 +1047,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "First Unified Cells 'made in Europe' produced December 2025. Series production ramp from 2026 targeting 20 GWh, expandable to 40 GWh. Lead plant for PowerCo's Valencia and St. Thomas (Canada) factories.",
+      "stage": "commercial",
+      "research": {
+        "summary": "PowerCo commissioned the Salzgitter gigafactory in December 2025, producing the first European 'Unified Cells' (prismatic). Series production ramp-up targets 20 GWh by 2026 for Volkswagen, Škoda, and Cupra models, with capacity expandable to 40 GWh. Salzgitter serves as the lead plant and technology reference for PowerCo's subsequent gigafactories in Sagunto (Spain) and St. Thomas (Canada).",
+        "source": "https://www.volkswagen-group.com/en/press-releases/start-of-european-battery-cell-production-powerco-commissions-salzgitter-gigafactory-20045",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "catl-erfurt",
@@ -867,16 +1064,24 @@
       "region": "Thuringia",
       "lat": 50.98,
       "lon": 11.03,
-      "year": null,
-      "year_label": "202X",
-      "status": "Planned",
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Operational",
       "capacities": [
         {
           "value": 14,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "current annual cell production",
+          "type": "current"
+        },
+        {
+          "value": 60,
+          "unit": "GWh",
+          "known": true,
+          "label": "planned annual capacity after expansion",
+          "type": "planned",
+          "target_year": 2026
         }
       ],
       "products": [
@@ -892,12 +1097,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Expansion to 60 GWh targeted by end of 2026 — confirm ramp milestones"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "CATL's first European factory, located in Arnstadt near Erfurt (often referred to as Erfurt/Thuringia). Operational since ~2022. Customers include BMW (€4B order), Daimler, PSA, Volvo, JLR.",
+      "stage": "commercial",
+      "research": {
+        "summary": "CATL's Arnstadt (near Erfurt) plant — its first European factory — has been operational since ~2022 with 14 GWh current capacity. The company is expanding to up to 60 GWh by end of 2026. Battery testing capacity is also being doubled by early 2026, creating one of Europe's largest cell testing facilities. Key customers include BMW (€4B order), Daimler, PSA, Volvo, and JLR. CATL employs ~1,700 people in Arnstadt.",
+        "source": "https://newarebattery.com/catl-boosts-battery-cell-factory-in-germany-to-100gwh/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "eas-nordhausen",
@@ -909,15 +1121,15 @@
       "lat": 51.5,
       "lon": 10.79,
       "year": null,
-      "year_label": "202X",
-      "status": "Planned",
+      "year_label": null,
+      "status": "Operational",
       "capacities": [
         {
           "value": 0.5,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "annual cell production (niche / specialty)",
+          "type": "current"
         }
       ],
       "products": [
@@ -933,12 +1145,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Confirm current production capacity — 0.5 GWh from source image, but EAS is a specialty niche producer; exact figure unverified"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "EAS Batteries GmbH has operated in Nordhausen for 25+ years as a highly specialised niche producer of cylindrical NMC cells. Not a mass-production gigafactory; focus on non-automotive specialty markets and R&D.",
+      "stage": "commercial",
+      "research": {
+        "summary": "EAS Batteries is a 25-year-old specialty cell manufacturer in Nordhausen producing custom cylindrical NMC cells for R&D, aerospace, medical, and industrial applications. Current capacity is small-scale (estimated ~0.5 GWh from source image, unconfirmed). Recent R&D activities include the SkaleD extrusion-based electrode coating project and licensing of new electrolyte technology from Asahi Kasei for ultra-high-power cells. EAS is not positioned as a mass-market automotive gigafactory.",
+        "source": "https://eas-batteries.com/about-eas",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "lyten-heide",
@@ -954,28 +1173,39 @@
       "status": "Planned",
       "capacities": [
         {
-          "value": null,
+          "value": 15,
           "unit": "GWh",
-          "known": false,
-          "label": "annual cell production",
+          "known": true,
+          "label": "planned capacity under construction (Phase 1)",
           "type": "planned"
         }
       ],
       "products": [
         {
           "category": "chemistry",
-          "name": "lithium-sulfur"
+          "name": "lithium-sulfur (long-term roadmap)"
+        },
+        {
+          "category": "cell_type",
+          "name": "lithium-ion (initial)"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Lyten acquisition of Northvolt Drei (Heide) was in progress as of early 2026 — confirm completion of acquisition"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Formerly Northvolt Drei. Lyten announced a binding agreement to acquire this site in August 2025; acquisition in progress as of early 2026. 15 GWh under construction, plans to scale to >30 GWh.",
+      "stage": null,
+      "research": {
+        "summary": "Lyten signed a binding agreement to acquire the Northvolt Drei gigafactory site in Heide (Schleswig-Holstein) in August 2025, with the acquisition still in progress as of early 2026. The site has 15 GWh of capacity under construction with plans to scale to >30 GWh. Lyten also separately acquired Northvolt's Swedish assets (Skellefteå) in February 2026 and plans to introduce lithium-sulfur battery manufacturing across its European hubs over time.",
+        "source": "https://www.fastmarkets.com/insights/lithium-battery-maker-lyten-buys-further-northvolt-assets-in-europe/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "univercell-flintbek",
@@ -988,13 +1218,20 @@
       "lon": 10.08,
       "year": 2026,
       "year_label": "2026",
-      "status": "Planned",
+      "status": "Operational",
       "capacities": [
+        {
+          "value": 1.5,
+          "unit": "GWh",
+          "known": true,
+          "label": "current annual cell production",
+          "type": "current"
+        },
         {
           "value": 10,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "planned annual capacity (expansion)",
           "type": "planned"
         }
       ],
@@ -1002,17 +1239,28 @@
         {
           "category": "chemistry",
           "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch / cylindrical"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Confirm 10 GWh expansion timeline — source image figure; $35M Series B (March 2026) targets scaling but no gigafactory timeline given"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "UniverCell is Europe's largest non-automotive premium battery cell producer. Current capacity 1.5 GWh. Focus on aerospace, medical, renewable energy, and e-mobility specialty markets. $35M Series B closed March 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "UniverCell Holding (Flintbek) operates 1.5 GWh of production capacity specialising in custom electrode foils, pouch, and cylindrical cells for non-automotive markets (aerospace, medical, renewable energy). A $35M funding round closed on 4 March 2026 to accelerate scaling including a new cylindrical cell line. The 10 GWh figure from the source image appears to be a long-term expansion target; no firm timeline was announced. Around 100 employees are planned by end-2025.",
+        "source": "https://www.startupresearcher.com/news/univercell-raises-usd35-million-to-expand-battery-cell-production-in-europe",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "tesla-grunheide",
@@ -1028,11 +1276,12 @@
       "status": "Planned",
       "capacities": [
         {
-          "value": null,
+          "value": 18,
           "unit": "GWh",
-          "known": false,
-          "label": "annual cell production",
-          "type": "planned"
+          "known": true,
+          "label": "planned annual 4680 cell production",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -1048,8 +1297,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Tesla is adding 4680 cell manufacturing to Giga Berlin. Production start H1 2027. Capacity target upgraded from 8 GWh to 18 GWh in May 2026 with $250M additional investment.",
+      "stage": null,
+      "research": {
+        "summary": "Tesla announced on 12 May 2026 a $250M investment to expand 4680 cell production at Giga Berlin, more than doubling the annual capacity target from 8 GWh to 18 GWh. Cell production at Grünheide is expected to start in H1 2027, creating over 1,500 new jobs. This is in addition to the existing Giga Berlin vehicle assembly operations.",
+        "source": "https://electrek.co/2026/05/12/tesla-giga-berlin-250-million-battery-cell-investment-18-gwh/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "v4smart-nordlingen",
@@ -1060,33 +1314,45 @@
       "region": "Bavaria",
       "lat": 48.85,
       "lon": 10.49,
-      "year": 2024,
-      "year_label": "2024",
-      "status": "Planned",
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
       "capacities": [
         {
           "value": null,
           "unit": "GWh",
           "known": false,
           "label": "annual cell production",
-          "type": "planned"
+          "type": "current"
         }
       ],
       "products": [
         {
           "category": "cell_type",
-          "name": "lithium-ion"
+          "name": "cylindrical (ultra-high-performance)"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC + silicon anode (Gen 2)"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "parent_company": "Porsche AG",
+        "open_questions": [
+          "Confirm production capacity in GWh — small-scale specialty production; gigafactory-scale capacity not yet announced"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Formerly VARTA V4Drive. Porsche acquired the cylindrical cell business from VARTA AG in March 2025 and renamed it V4Smart. Production at Nördlingen started April 2025. Gen2 cells use Group14 silicon anode material.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Porsche acquired VARTA's ultra-high-performance cylindrical cell business (V4Drive → V4Smart) in March 2025. Production of cylindrical cells at the Nördlingen facility began in April 2025. In August 2025, V4Smart unveiled its second-generation cell using Group14's SCC55 silicon anode material. A fully digitalized cloud-based production system was deployed in partnership with MHP (October 2025). Around 400 jobs created by end-2025. Production capacity in GWh is small-scale and not publicly disclosed.",
+        "source": "https://www.electrive.com/2025/03/05/porsche-renames-v4drive-to-v4smart/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "lges-wroclaw",
@@ -1102,11 +1368,18 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": 115,
+          "value": 86,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "current annual cell production",
           "type": "current"
+        },
+        {
+          "value": 100,
+          "unit": "GWh",
+          "known": true,
+          "label": "planned capacity after Stage IV expansion",
+          "type": "planned"
         }
       ],
       "products": [
@@ -1122,12 +1395,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Source image showed 115 GWh — confirmed current is ~86 GWh; 100 GWh is the Stage IV expansion target; 115 GWh was an older projection that has not materialised"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Largest single battery factory in Europe by capacity.",
-      "stage": null
+      "notes": "Europe's largest single battery factory. Serving Audi, BMW, Fiat, Ford, Porsche, Volkswagen. Significant pivot toward ESS (BESS) production alongside EV cells. 9,500 employees. €3.2B total investment.",
+      "stage": "commercial",
+      "research": {
+        "summary": "LG Energy Solution Wrocław is Europe's largest battery plant with ~86 GWh of current annual capacity. The ongoing Stage IV expansion will bring total capacity to 100 GWh upon completion. The earlier projection of 115 GWh by 2025 (from 2022 plans) has not materialised; the confirmed target is 100 GWh. The facility has pivoted significantly toward BESS (energy storage) applications alongside EV cells due to a slowdown in EV demand. 9,500 employees, €3.2B total investment.",
+        "source": "https://invest-in-wroclaw.pl/5-years-of-lg-energy-solution-wroclaw-the-largest-investment-in-the-region",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "inobat-voderady",
@@ -1138,15 +1418,15 @@
       "region": null,
       "lat": 48.41,
       "lon": 17.7,
-      "year": 2020,
-      "year_label": "2020",
+      "year": 2023,
+      "year_label": "2023",
       "status": "Operational",
       "capacities": [
         {
-          "value": 10,
+          "value": 0.05,
           "unit": "GWh",
-          "known": true,
-          "label": "annual cell production",
+          "known": false,
+          "label": "estimated annual cell production (pilot line)",
           "type": "current"
         }
       ],
@@ -1157,18 +1437,26 @@
         },
         {
           "category": "cell_type",
-          "name": "custom lithium-ion"
+          "name": "custom lithium-ion (automotive-grade)"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Source image showed 10 GWh — this figure belongs to the InoBat/Gotion Šurany gigafactory, not Voderady; Voderady is a pilot R&D line (50,000 cells/year max installed capacity)",
+          "Confirm whether Voderady will scale or remain R&D/pilot only"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "First battery production line in Slovakia launched December 2023. Maximum installed capacity: 50,000 cells/year (pilot scale, estimated ~0.05 GWh). The 10 GWh figure in the source image refers to the much larger Gotion-InoBat joint venture in Šurany, recorded separately.",
+      "stage": "pilot",
+      "research": {
+        "summary": "InoBat launched Slovakia's first battery cell production line at Voderady in December 2023, with a maximum installed capacity of 50,000 battery cells per year — a small R&D/pilot-scale line estimated at ~0.05 GWh annually. The 10 GWh figure originally associated with this record belongs to the Gotion-InoBat (GIB EnergyX) joint venture gigafactory in Šurany, which is a separate facility. Voderady hosts InoBat's R&D labs and serves as the technology development site.",
+        "source": "https://www.inobat.eu/newsroom/the-first-battery-line-in-slovakia-is-launched/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "inobat-gotion-surany",
@@ -1179,16 +1467,17 @@
       "region": null,
       "lat": 47.99,
       "lon": 18.18,
-      "year": null,
-      "year_label": "202X",
+      "year": 2027,
+      "year_label": "2027",
       "status": "Planned",
       "capacities": [
         {
-          "value": 40,
+          "value": 20,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned capacity (Phase 1)",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -1204,13 +1493,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "parent_company": "InoBat + Gotion High-Tech JV",
-        "open_questions": []
+        "parent_company": "Gotion High-Tech (80%) + InoBat (20%) JV",
+        "open_questions": [
+          "Source image showed 40 GWh — Phase 1 is confirmed at 20 GWh; Phase 2 could reach 40 GWh; long-term potential up to 60 GWh"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "GIB EnergyX Slovakia JV (Gotion 80%, InoBat 20%). Construction started October 2025. Trial production Sep 2026, series production 2027. €1.234B Phase 1 investment. 1,300 direct jobs in Phase 1.",
+      "stage": null,
+      "research": {
+        "summary": "Gotion InoBat Batteries (GIB) broke ground in Šurany in October 2025 on Slovakia's first battery gigafactory. Phase 1 capacity is 20 GWh (confirmed), expandable to 40 GWh in Phase 2 and up to 60 GWh total. Trial production is scheduled for September 2026 with full series production in 2027. Gotion holds 80% of the JV, InoBat 20%. Investment of €1.234B in Phase 1; ~1,300 direct jobs.",
+        "source": "https://www.electrive.com/2025/10/31/gotion-kicks-off-factory-construction-in-slovakia/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "catl-debrecen",
@@ -1221,16 +1517,23 @@
       "region": null,
       "lat": 47.53,
       "lon": 21.63,
-      "year": 2025,
-      "year_label": "2025",
+      "year": 2026,
+      "year_label": "2026",
       "status": "Operational",
       "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "label": "initial annual cell production (Phase 1)",
+          "type": "current"
+        },
         {
           "value": 100,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "current"
+          "label": "planned annual capacity (long-term)",
+          "type": "planned"
         }
       ],
       "products": [
@@ -1246,12 +1549,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Monitor ramp-up: initial 40 GWh capacity is fully booked; confirm production is running; 100 GWh is the long-term planned target"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "CATL's second European factory (€7.3B investment). Cell production launched early 2026 after slight delays (was targeted Dec 2025, then Mar/Apr 2026). Module assembly line also launched May 2026. 100 GWh is the long-term planned capacity.",
+      "stage": "commercial",
+      "research": {
+        "summary": "CATL's Debrecen gigafactory (€7.3B investment) commenced cell production in early 2026 after slight delays from the original December 2025 target. The initial Phase 1 capacity is 40 GWh — already fully booked by customers. A new battery module assembly line (5 GWh/year) was launched in May 2026. The facility employs over 1,000 people (targeting 9,000 at full build-out). The 100 GWh figure is the long-term planned capacity for subsequent expansion phases.",
+        "source": "https://english.news.cn/europe/20251204/2fa573891f854f7388a31fb88d34b6f6/c.html",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "eve-debrecen",
@@ -1262,22 +1572,22 @@
       "region": null,
       "lat": 47.55,
       "lon": 21.65,
-      "year": 2026,
-      "year_label": "2026",
-      "status": "Planned",
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
       "capacities": [
         {
           "value": 28,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "annual cell production capacity",
+          "type": "current"
         }
       ],
       "products": [
         {
           "category": "chemistry",
-          "name": "LFP"
+          "name": "NMC"
         },
         {
           "category": "cell_type",
@@ -1287,12 +1597,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Capacity reported as 28 GWh and 30 GWh in different sources — confirm final installed capacity"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "EVE Power / BMW supply partnership. Located in BMW's Debrecen iFactory supply cluster. First production cells produced February 16, 2025. 46xx cylindrical cells at 800V, up to 350 kW charging.",
+      "stage": "commercial",
+      "research": {
+        "summary": "EVE Energy's Debrecen factory produced its first battery cells on 16 February 2025 — ahead of the originally planned 2026 start. The facility produces 46xx-format cylindrical NMC cells for BMW's iFactory next door, with 800V architecture and up to 350 kW charging. Capacity is reported as 28–30 GWh (some variation between sources). €1B total investment with ~€38M from the Hungarian government; ~1,000+ jobs.",
+        "source": "https://www.marklines.com/en/news/299100",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "samsung-god",
@@ -1311,14 +1628,14 @@
           "value": 40,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
+          "label": "current annual cell production",
           "type": "current"
         }
       ],
       "products": [
         {
           "category": "chemistry",
-          "name": "NMC"
+          "name": "NMC / NCA"
         },
         {
           "category": "cell_type",
@@ -1332,8 +1649,13 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Two production units with combined ~40 GWh capacity. Undergoing €2.37B renovation and upgrade to P6 6th-generation prismatic NCA cells for Hyundai-Kia EV supply from 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Samsung SDI's Göd facility operates two production units with a combined ~40 GWh annual capacity, sufficient for ~600,000 mid-size EVs. The plant is undergoing a €2.37B renovation and expansion to standardise production on stacked prismatic cells. A new supply contract requires P6 6th-generation prismatic NCA cells for Hyundai-Kia European EVs, starting from 2026. The conversion process involves both upgrading existing factory 1 and scaling factory 2.",
+        "source": "https://www.electrive.com/2025/05/27/samsung-sdi-paves-way-for-prismatic-batteries-at-hungary-plant/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "sk-komarom",
@@ -1344,16 +1666,16 @@
       "region": null,
       "lat": 47.74,
       "lon": 18.12,
-      "year": 2028,
-      "year_label": "2028",
-      "status": "Planned",
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Operational",
       "capacities": [
         {
-          "value": 47.3,
+          "value": 47.5,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "combined annual capacity (Komárom I+II + Iváncsa)",
+          "type": "current"
         }
       ],
       "products": [
@@ -1369,13 +1691,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "locations_combined": "Komárom & Ivancsa",
-        "open_questions": []
+        "locations_combined": "Komárom I (7.5 GWh, 2020) + Komárom II (~9.5 GWh, 2022) + Iváncsa (30 GWh, 2024)",
+        "open_questions": [
+          "Plants operating significantly below capacity due to weak EV demand — monitor utilisation rates"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Two Hungarian sites combined in image label.",
-      "stage": null
+      "notes": "Three SK On Hungarian plants all now operational: Komárom I (7.5 GWh, since 2020), Komárom II (~9.5 GWh, since 2022), and Iváncsa (30 GWh, since 2024). Combined capacity ~47.5 GWh.",
+      "stage": "commercial",
+      "research": {
+        "summary": "SK On operates three battery plants in Hungary: Komárom I (7.5 GWh, since 2020), Komárom II (~9.5 GWh, since 2022), and a large new plant in Iváncsa (30 GWh, operational since 2024 with >90% yield within three months). Combined capacity is ~47.5 GWh. However, due to weaker-than-expected EV demand, none of the plants were operating at full utilisation in 2024–2025. SK On remains a critical EV battery supplier to Ford, Volkswagen Group, and Hyundai-Kia.",
+        "source": "https://autopro.hu/en/news/hungarian-battery-industry-poised-for-a-new-wave-of-growth/1400500",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "sunwoda-nyiregyhaza",
@@ -1386,8 +1715,8 @@
       "region": null,
       "lat": 47.95,
       "lon": 21.72,
-      "year": null,
-      "year_label": "202X",
+      "year": 2026,
+      "year_label": "2026",
       "status": "Planned",
       "capacities": [
         {
@@ -1407,12 +1736,19 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "GWh capacity not publicly confirmed — ~$1.7B investment but no specific GWh figure in public sources"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Construction (pile foundation) started October 2024. Commissioning expected H2 2026. Sunwoda's first European and third overseas factory. Operates entirely on renewable energy. ~$1.7B investment.",
+      "stage": null,
+      "research": {
+        "summary": "Sunwoda Electronic broke ground on its Nyíregyháza factory in October 2024 (pile foundation ceremony), with commissioning expected in H2 2026. The facility is Sunwoda's first European plant and third overseas factory, with a total investment of ~$1.7B. It will produce NMC/LFP lithium-ion batteries and power battery systems for EVs. No GWh capacity figure has been confirmed publicly. The plant will operate on 100% renewable energy.",
+        "source": "https://www.evlithiumcharger.com/News/sunwoda-hungary-base-overseas-power-batt.html",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "faam-teverola",
@@ -1423,16 +1759,24 @@
       "region": "Campania",
       "lat": 40.99,
       "lon": 14.21,
-      "year": 2024,
-      "year_label": "2024",
+      "year": 2021,
+      "year_label": "2021",
       "status": "Operational",
       "capacities": [
+        {
+          "value": 0.3,
+          "unit": "GWh",
+          "known": true,
+          "label": "current annual cell production (Teverola 1)",
+          "type": "current"
+        },
         {
           "value": 8,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "current"
+          "label": "planned annual capacity (Teverola 2 Mediterranean Gigafactory)",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
       "products": [
@@ -1444,22 +1788,29 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Source image showed 8 GWh as current — this is the Teverola 2 planned capacity; Teverola 1 is 0.3 GWh operational; Teverola 2 equipment installation ongoing with production start in 2026"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Image shows 'Terevola' — likely typo for Teverola.",
-      "stage": null
+      "notes": "Teverola 1 (0.3 GWh, operational since 2021): first lithium cell production facility in Italy and Southern Europe. Teverola 2 (8 GWh Mediterranean Gigafactory): equipment installation underway; production start ~2026, full capacity by 2027.",
+      "stage": "commercial",
+      "research": {
+        "summary": "FAAM operates two sites in Teverola (Campania, Italy). Teverola 1 has been operational since 2021 with 0.3 GWh/year of LFP/NMC cell production — the first lithium cell factory in Italy and Southern Europe. Teverola 2 ('Mediterranean Gigafactory') targets 8 GWh/year; equipment installation (end-of-line systems from Lead Intelligent) was contracted in May 2025 with production expected to start in 2026 and full capacity by 2027. The 8 GWh figure in the source image referred to the planned Teverola 2, not current output.",
+        "source": "https://faam.com/en/teverola-1-and-teverola-2/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "inobat-serbia",
       "name": "InoBat",
       "sector": "cell_manufacturer",
       "country": "Serbia",
-      "city": "Serbia (location TBD)",
-      "region": null,
-      "lat": 44.02,
-      "lon": 20.91,
+      "city": "Ćuprija",
+      "region": "Šumadija and Western Serbia",
+      "lat": 43.93,
+      "lon": 21.37,
       "year": 2032,
       "year_label": "2032",
       "status": "Planned",
@@ -1468,8 +1819,9 @@
           "value": 32,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned total capacity",
+          "type": "planned",
+          "target_year": 2032
         }
       ],
       "products": [
@@ -1481,12 +1833,20 @@
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
-        "open_questions": []
+        "open_questions": [
+          "Initial phase (4 GWh) opening originally reported for 2025 — confirm status of first production phase",
+          "Location confirmed as Ćuprija (central Serbia)"
+        ]
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Specific city not stated in source image.",
-      "stage": null
+      "notes": "Site confirmed as Ćuprija, central Serbia (MoU signed with Ministry of Finance and Municipality of Ćuprija). Project codenamed 'Lion'. Phased build: initial 4 GWh, scaling to 32 GWh total. €2.3B+ investment, €419M government incentives.",
+      "stage": null,
+      "research": {
+        "summary": "InoBat confirmed Ćuprija (central Serbia) as the location for its second gigafactory. The project (codenamed 'Lion') will build capacity in phases: initial 4 GWh opening (originally targeted 2025, status unconfirmed), scaling to a total of 32 GWh. Each phase costs ~€350M per phase. Total planned investment exceeds €2.3B with a Serbian government incentive package of €419M. The factory will produce EV and ESS batteries and include recycling capabilities.",
+        "source": "https://balkangreenenergynews.com/rio-tinto-backed-firm-inobat-selects-location-for-battery-gigafactory-in-serbia/",
+        "date": "2026-05-16"
+      }
     },
     {
       "id": "elevenes-subotica",
@@ -1502,14 +1862,32 @@
       "status": "Operational",
       "capacities": [
         {
+          "value": 8,
+          "unit": "GWh",
+          "known": true,
+          "label": "planned capacity by 2026 (Giga-I target)",
+          "type": "planned",
+          "target_year": 2026
+        },
+        {
           "value": 48,
           "unit": "GWh",
           "known": true,
-          "label": "annual cell production",
-          "type": "planned"
+          "label": "planned combined capacity Giga-I + Giga-II by 2027",
+          "type": "planned",
+          "target_year": 2027
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
@@ -1519,7 +1897,7 @@
       },
       "source_image": "2026-02_Cell-Manufacturers_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Company logo not clearly legible. Possibly ElevenEs or another Serbian battery startup.",
+      "notes": "ElevenEs (Al Pack Group spin-out) opened Europe's first industrial LFP cell factory in Subotica in 2023. Giga-I operational; Giga-II (40 GWh) planned for end-2027.",
       "stage": "commercial",
       "research": {
         "summary": "ElevenEs (spin-out of Al Pack Group, Serbia) opened Europe's first industrial LFP battery cell factory in Subotica in 2023. Giga-I is operational with ~500 MWh/yr initial output, targeting 8 GWh by 2026. Giga-II planned for 40 GWh by end-2027, bringing combined capacity to 48 GWh with €700M total investment. Produces prismatic LFP cells for EV and stationary storage markets.",
