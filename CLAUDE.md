@@ -178,9 +178,48 @@ Categories: `Cell-Manufacturers` · `Module-Pack` · `Recycling` · `Components`
 
 ---
 
-## Running the app
+## Running the app (local)
 
 ```bash
 python3 server.py
 ```
 → Open http://localhost:8080/app/
+
+---
+
+## Publishing updates to GitHub Pages
+
+The app is publicly hosted at:
+**https://julianrenpenning.github.io/BTN_BVC-Company-Database-Dashboard/app/**
+
+### When to publish
+After any session that adds new records, corrects existing ones, or updates data files — push the changes to GitHub. GitHub Pages redeploys automatically within ~1 minute.
+
+### How to publish (Claude does this)
+
+After updating any `data/*.json` files, run:
+
+```bash
+cd "/Users/julianrenpenning/Library/CloudStorage/OneDrive-CreativeMarketing/_Claude Playground/Claude Code/BTN_BVC-Company-Database-Dashboard"
+git add data/
+git commit -m "Data update — <brief description of what changed>"
+GIT_SSH_COMMAND="ssh -i ~/.ssh/btn_bvc_deploy" git push
+```
+
+If app files were also changed (app.js, styles.css, index.html), stage those too:
+
+```bash
+git add data/ app/
+git commit -m "Update — <description>"
+GIT_SSH_COMMAND="ssh -i ~/.ssh/btn_bvc_deploy" git push
+```
+
+### SSH key
+Authentication uses the key at `~/.ssh/btn_bvc_deploy` (added to GitHub on 2026-05-16).
+The `GIT_SSH_COMMAND` prefix is required every time — it tells git to use this specific key.
+
+### After pushing
+Confirm the deploy by checking:
+https://github.com/JulianRenpenning/BTN_BVC-Company-Database-Dashboard/actions
+
+The deploy action should show a green checkmark within 1–2 minutes.

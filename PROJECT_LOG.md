@@ -1,6 +1,6 @@
 # BTN_BVC-Company-Database-Dashboard — Project Log
 
-**Last updated:** 2026-05-12 (Session 2 complete)  
+**Last updated:** 2026-05-16 (Session 3 — GitHub Pages deployed)  
 **Owner:** Julian Renpenning (Battery-Tech Network)
 
 ---
@@ -226,6 +226,19 @@ reference-data/
 - [x] All 3 source images moved from `reference-data/unprocessed/` → `reference-data/processed/`
 - [x] DATABASE COMPLETE: 396 total records across 7 sector files. All source images processed.
 - [x] PROJECT_LOG.md and CLAUDE.md updated to reflect all session 2 completions
+
+---
+
+### Session 3 — 2026-05-16
+
+- [x] Folder renamed from `Battery Industry Company Database` → `BTN_BVC-Company-Database-Dashboard`; all internal references updated
+- [x] Map minimum zoom fixed — `minZoom: 2` added to Leaflet init; grey borders no longer visible when zooming out
+- [x] `server.py` patched with `allow_reuse_address = True` — eliminates "Address already in use" error on restart
+- [x] GitHub repository created: `github.com/JulianRenpenning/BTN_BVC-Company-Database-Dashboard` (public)
+- [x] SSH key generated (`~/.ssh/btn_bvc_deploy`) and added to GitHub for passwordless push
+- [x] All project files pushed to GitHub (15 files, 396 records)
+- [x] GitHub Pages enabled — app live at: **https://julianrenpenning.github.io/BTN_BVC-Company-Database-Dashboard/app/**
+- [x] GitHub Pages publish workflow documented in `CLAUDE.md`
 
 ---
 
