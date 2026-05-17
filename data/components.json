@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-05-17",
     "record_count": 50,
     "schema_version": "1.3",
     "source_image": "2026-02_Components_Europe.jpg",
@@ -33,7 +33,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery materials portfolio distributed in Europe"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Inabata & Co. (Japanese trading company) — European operations distributing specialty battery materials. Shown in pan-European panel in source image."
+      "notes": "Inabata & Co. (Japanese trading company) — European operations distributing specialty battery materials. Shown in pan-European panel in source image.",
+      "research": {
+        "summary": "Inabata Europe GmbH is the European subsidiary of Japanese trading company Inabata & Co., distributing specialty materials including high-performance polymer films (e.g. Toyobo Teonex® PEN film) used in battery pack insulation, EV motor applications, and hydrogen technologies. The company exhibits at major European trade events such as the Hydrogen Technology Expo 2026 in Hamburg. No proprietary manufacturing — primarily a distribution and trading entity covering all major European markets.",
+        "source": "https://www.hydrogen-worldexpo.com/exhibitors/toyobo-rep-by-inabata-europe",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "krempel-pan-european",
@@ -56,7 +61,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "German company (Vaihingen an der Enz) making technical laminates, prepregs, and insulating materials including battery cell components. Shown in pan-European panel in source image."
+      "notes": "German company (Vaihingen an der Enz) making technical laminates, prepregs, and insulating materials including battery cell components. Shown in pan-European panel in source image.",
+      "research": {
+        "summary": "KREMPEL Group (Vaihingen an der Enz, Germany) is a leading manufacturer of electrical insulation materials, composites, and laminates for the electrical and electronics industries, with a growing focus on battery and e-mobility applications including battery cell insulation, busbar insulation, and energy storage systems. The company exhibited at The Battery Show Europe 2025 and offers flexible multi-layer insulation materials specifically designed for EV battery packs. KREMPEL operates multiple European production sites and has several hundred employees.",
+        "source": "https://krempel.com/en/news-events/battery-show-europe-2025",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ennovi-pan-european",
@@ -80,7 +90,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Global manufacturer of busbars, cell contact systems, and battery interconnects for EV battery packs. Rebranded 2023 from Metalsa's electrification components division. Shown in pan-European panel in source image."
+      "notes": "Global manufacturer of busbars, cell contact systems, and battery interconnects for EV battery packs. Rebranded 2023 from Metalsa's electrification components division. Shown in pan-European panel in source image.",
+      "research": {
+        "summary": "ENNOVI (rebranded from Interplex's e-mobility division in 2023) is a global manufacturer of battery interconnect systems, busbars, and cell contacting systems (CCS) for EV battery packs, with growing European operations. In 2025 ENNOVI signed an MOU with AKM Meadville to enhance CCS manufacturing competitiveness for European EV battery customers. The company will exhibit at The Battery Show Europe 2026 and is actively scaling its European supply chain for EV battery pack components.",
+        "source": "https://ennovi.com/news/ennovi-and-akm-meadville-partner-to-enhance-ccs-solutions-in-europe/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "elantas-pan-european",
@@ -103,7 +118,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Division of Altana AG (Hamburg). Specialty chemicals for electrical insulation including varnishes, resins, and impregnating materials used in battery cell manufacturing. Shown in pan-European panel in source image."
+      "notes": "Division of Altana AG (Hamburg). Specialty chemicals for electrical insulation including varnishes, resins, and impregnating materials used in battery cell manufacturing. Shown in pan-European panel in source image.",
+      "research": {
+        "summary": "ELANTAS (a division of ALTANA AG, Wesel, Germany) is a specialist in liquid insulation and protective materials for electrical and electronics industries, with seven manufacturing companies globally. For battery applications, ELANTAS provides sealants for battery cell and pack protection, conformal coatings for battery management system PCBs, and high-voltage busbar coatings — all validated to automotive standards. In 2025 ELANTAS employed approximately 1,784 people with sales of €861 million, and presented its EV battery coating portfolio at Productronica 2025; it is also investing in a new sustainable high-voltage insulation hub at Breitenbach, Switzerland.",
+        "source": "https://www.altana.com/divisions/elantas.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "g-tem-gloucester",
@@ -126,7 +146,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm battery cell casing product line details — G-TEM primarily known for automotive body pressings; battery case manufacture via Fuji Springs technology partnership"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "G-TEKT Europe Manufacturing (G-TEM), Japanese-owned, Gloucester Business Park since 1996. Automotive metal pressings and assemblies. Developed prismatic battery case manufacture via technology partnership with Fuji Springs (Japan)."
+      "notes": "G-TEKT Europe Manufacturing (G-TEM), Japanese-owned, Gloucester Business Park since 1996. Automotive metal pressings and assemblies. Developed prismatic battery case manufacture via technology partnership with Fuji Springs (Japan).",
+      "research": {
+        "summary": "G-TEKT Europe Manufacturing (G-TEM) is a Japanese-owned automotive metal pressings manufacturer headquartered in Gloucester, UK, operating since 1996 with five facilities across the UK and Slovakia. The company specialises in high-precision stamped body structural components and sub-assemblies for automotive OEMs; its battery cell casing capability is reported via a technology partnership with Fuji Springs (Japan) but is not prominently highlighted in current company communications. G-TEM won the UK metal industry 'Company of the Year' award at the CBM Awards in April 2025, primarily for its core automotive pressing business.",
+        "source": "https://g-tem.co.uk/about/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "avocet-battery-materials-holmes-chapel",
@@ -149,7 +174,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm copper foil manufacturing timeline — European copper foil JV with Yihao New Materials and Tex Technology announced 2023; verify progress"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Avocet Battery Materials (ABM), founded 2020 in Holmes Chapel, Cheshire. Makes battery tabs for lithium-ion cell manufacturers. European copper foil facility planned via JV with Yihao New Materials and Tex Technology."
+      "notes": "Avocet Battery Materials (ABM), founded 2020 in Holmes Chapel, Cheshire. Makes battery tabs for lithium-ion cell manufacturers. European copper foil facility planned via JV with Yihao New Materials and Tex Technology.",
+      "research": {
+        "summary": "Avocet Battery Materials (ABM), Holmes Chapel, is Europe's only independently owned manufacturer of lead tabs for lithium-ion pouch cells, operating out of the Avocet Precision Metals group's Innovation Centre. In 2023 ABM signed a strategic MOU with NexPO (a leading Korean tab maker) for OEM tab supply to EU and US automotive and ESS customers. A separate entity, Avocet Electrofoils (AEF), plans a European copper foil manufacturing facility via JV with Yihao New Materials and Tex Technology, targeting completion by 2030.",
+        "source": "https://www.avocetbattery.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "addionics-london",
@@ -171,7 +201,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm commercial production status and licensing agreements"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "London-based deep-tech company developing 3D structured current collectors (Smart 3D Electrode) to improve energy density and fast-charging in lithium-ion batteries. Technology-licensing model."
+      "notes": "London-based deep-tech company developing 3D structured current collectors (Smart 3D Electrode) to improve energy density and fast-charging in lithium-ion batteries. Technology-licensing model.",
+      "research": {
+        "summary": "Addionics (founded 2017, London) develops 3D porous copper and aluminium current collectors designed as drop-in replacements for conventional flat foils, enabling faster charging, lower weight, and higher energy density in lithium-ion batteries. In April 2025 Avery Dennison made a Series B investment in the company, bringing manufacturing expertise. Addionics announced plans to invest $400 million in its first gigafactory (targeting 2027 opening) with additional facilities by 2032; no European gigafactory location has yet been confirmed.",
+        "source": "https://addionics.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-waterford",
@@ -191,7 +226,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — triangular/geometric logo, Waterford Ireland, passive battery cell components sector"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Waterford, Ireland. Company identity not confirmed."
+      "notes": "Logo visible in source image for Waterford, Ireland. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Waterford, Ireland could be identified from available sources. Waterford is primarily an industrial and pharmaceutical region; no specific matching company was found in battery separator, foil, housing, or electrolyte categories for this location. Identity remains unresolved.",
+        "source": "https://www.europages.co.uk/companies/ireland/manufacturer%20producer/batteries.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "alt-utrecht",
@@ -211,7 +251,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'ALT', Utrecht Netherlands, passive battery cell components sector"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'ALT', Utrecht. Company identity and product type not confirmed."
+      "notes": "Logo reads 'ALT', Utrecht. Company identity and product type not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer named 'ALT' with a confirmed base in Utrecht, Netherlands could be identified from available public sources. Utrecht hosts several advanced materials and electronics companies but no specific match for this name in the battery separator, foil, or housing sectors was found. Identity remains unresolved.",
+        "source": "https://www.europages.co.uk/companies/netherlands/utrecht%20and%20region-%20the%20hague-%20south%20holland-%20middelburg%20and%20zeeland/electrical%20&%20electronic%20components.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "avery-dennison-oegstgeest",
@@ -233,7 +278,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery cell component product line — likely specialty films or adhesive materials for battery pack assembly"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Global specialty materials company. European R&D/operations in Oegstgeest, Netherlands."
+      "notes": "Global specialty materials company. European R&D/operations in Oegstgeest, Netherlands.",
+      "research": {
+        "summary": "Avery Dennison Materials Europe B.V. (Oegstgeest, Netherlands) is a global specialty materials company providing a comprehensive battery portfolio spanning bonding, insulating, protecting, and tracking solutions for EV cell-to-pack design. At The Battery Show Europe 2025 the company showcased a new composite current collector (PET film with metallised copper layer as an anode foil alternative), electrical insulation wrapping films made with up to 70% post-consumer recycled PET, and RFID-based battery traceability solutions. In April 2025 Avery Dennison also made a strategic Series B investment in battery current collector startup Addionics.",
+        "source": "https://electrified.averydennison.com/en/home/press-releases/avery-dennison-at-the-battery-show-2025--your-all-in-one-partner.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "solvay-brussels",
@@ -256,7 +306,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Major Belgian chemicals group. Solef® PVDF is a leading cathode/anode binder and separator coating material for lithium-ion batteries. Expanding PVDF capacity in France, US, and China."
+      "notes": "Major Belgian chemicals group. Solef® PVDF is a leading cathode/anode binder and separator coating material for lithium-ion batteries. Expanding PVDF capacity in France, US, and China.",
+      "research": {
+        "summary": "Following the 2023 split of Solvay into Solvay and Syensqo, the Solef® PVDF battery binder business is now held by Syensqo (Brussels). Syensqo is expanding European PVDF capacity to 35 kt/year at its Tavaux, France plant, with completion targeted by end of 2025 and commercial operations in 2026 — making it the largest PVDF production site in Europe. In Q1 2025 Syensqo signed multi-year Solef® PVDF supply contracts with automotive OEMs and battery makers worth more than €150 million in cumulative net sales.",
+        "source": "https://www.syensqo.com/en/press-release/syensqo-signs-new-multi-year-solef-pvdf-contracts-battery-materials",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-mozelos",
@@ -276,7 +331,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Mozelos (near Santa Maria da Feira), Portugal, passive battery cell components sector"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Mozelos, Portugal. Company identity not confirmed."
+      "notes": "Logo visible in source image for Mozelos, Portugal. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Mozelos (near Santa Maria da Feira), Portugal could be identified from available English-language sources. The Santa Maria da Feira area is known for cork, packaging, and light manufacturing; no specific match for the logo in battery separator, foil, housing, or electrolyte categories was found. Identity remains unresolved.",
+        "source": "https://en.wikipedia.org/wiki/Mozelos_(Santa_Maria_da_Feira)",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "arkema-colombes",
@@ -299,7 +359,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "French specialty chemicals group. Kynar® PVDF is a key battery binder for cathode and anode electrodes."
+      "notes": "French specialty chemicals group. Kynar® PVDF is a key battery binder for cathode and anode electrodes.",
+      "research": {
+        "summary": "Arkema (Colombes, France) produces Kynar® PVDF — a leading electrode binder for lithium-ion battery cathodes and anodes — at its Pierre-Bénite plant in France, with additional capacity in China and the US. Arkema has announced a 50% expansion of Kynar® PVDF capacity at Pierre-Bénite to serve European battery customers; a new US plant line is set to start up in Q2 2026. The company targets €1 billion+ in battery sales by 2030 and reported around 20% PVDF demand growth in 2024 continuing into 2025, with a European market rebound noted in Q1 2025.",
+        "source": "https://hpp.arkema.com/en/markets-and-applications/batteries/electrode-binders/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "alteo-gardanne",
@@ -321,7 +386,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm battery-grade alumina product applications — separator coating, cathode additive, or other"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Specialty alumina producer in Gardanne (Provence). Battery-grade alumina for separator coating and cathode applications."
+      "notes": "Specialty alumina producer in Gardanne (Provence). Battery-grade alumina for separator coating and cathode applications.",
+      "research": {
+        "summary": "Alteo (Gardanne, France) is a mid-size French specialty alumina producer supplying battery-grade alumina for separator coatings, cathode edge coatings, and NCA precursor applications. In a notable strategic development, Alteo and W-Scope (world leader in EV battery separator production) have signed an agreement to build the largest battery separator production site in Europe on or near Alteo's Gardanne site, targeting production start in 2026 and creating more than 1,000 direct jobs. Alteo has also recently invested in expanded grinding capacity at its French and Korean sites.",
+        "source": "https://franceforbatteries.fr/alteo/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cgr-sevran",
@@ -343,7 +413,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Confirm full company name and product line — logo reads 'CGR', Sevran, France; likely specialty carbon/graphite materials"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'CGR', Sevran (Seine-Saint-Denis, France). Likely specialty carbon or graphite materials manufacturer."
+      "notes": "Logo reads 'CGR', Sevran (Seine-Saint-Denis, France). Likely specialty carbon or graphite materials manufacturer.",
+      "research": {
+        "summary": "Web research identified CGR International as a global precision springs and mechanical components manufacturer headquartered in Sevran, France — a world leader in springs for aerospace and industrial applications — with no evident battery materials or carbon/graphite product line. It is possible the 'CGR' logo in the source image refers to a different company, or the acronym has been misread; the connection to passive battery cell components remains unconfirmed.",
+        "source": "https://www.cgr-international.com/company/about-us/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "armor-group-nantes",
@@ -366,7 +441,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "French industrial group, Nantes. ARMOR's battery current collector foil business produces aluminum and copper coated films for lithium-ion battery electrodes."
+      "notes": "French industrial group, Nantes. ARMOR's battery current collector foil business produces aluminum and copper coated films for lithium-ion battery electrodes.",
+      "research": {
+        "summary": "ARMOR GROUP (Nantes) operates Armor Battery Films, which manufactures En'Safe® primed aluminum and copper current collector foils for lithium-ion battery and ultracapacitor manufacturers. In September 2024 Armor Battery Films moved into a brand-new €37 million industrial site at La Chevrolière (near Nantes), with the first of three production lines operational by late 2024; the factory is designed to increase annual coating capacity fivefold to 150 million m² (equivalent to ~40 GWh). A third production line is already planned for 2026–2028.",
+        "source": "https://www.armor-group.com/en/actualites/armor-battery-films-starts-up-its-new-factory",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "senior-eskilstuna",
@@ -386,7 +466,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'SENIOR', Eskilstuna Sweden; possible Senior plc (UK-listed, thermal management tubes for automotive/EV) or a Swedish entity"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'SENIOR', Eskilstuna. Possible connection to Senior plc (precision tubes/thermal management). Company identity not fully confirmed."
+      "notes": "Logo reads 'SENIOR', Eskilstuna. Identity clarified by research: this is Shenzhen Senior Technology Material Co., Ltd. (Senior Europe), a leading Chinese battery separator film manufacturer that has invested SEK 2.5 billion (approximately €250 million) to build a major European production facility at Svista industrial estate, Eskilstuna, Sweden.",
+      "research": {
+        "summary": "Shenzhen Senior Technology Material Co. ('Senior Europe', Eskilstuna) is building one of Europe's largest battery separator film plants, with an investment of approximately €250 million and a target annual capacity of 600 million m² of separator film (enough for approximately 600,000 EVs). The first production lines for coating and slitting are already operational; the full 70,000 m² facility was targeted for completion by 2025 with a second factory under construction. The plant was originally intended to supply Northvolt's Skellefteå gigafactory.",
+        "source": "https://www.eba250.com/senior-technology-material-invests-e250-million-in-sweden/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "granges-finspang",
@@ -409,7 +494,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Swedish aluminum rolling company. Finspång plant produces aluminum rolled products including battery-grade aluminum foil for cathode current collectors."
+      "notes": "Swedish aluminum rolling company. Finspång plant produces aluminum rolled products including battery-grade aluminum foil for cathode current collectors.",
+      "research": {
+        "summary": "Gränges (Finspång, Sweden) is a leading European aluminum rolling company with a dedicated battery cathode foil product line at its Finspång plant. The company committed SEK 600 million (~$58 million) to double battery foil production capacity in Finspång, with the first new battery foil equipment operational in a cleanroom environment; full capacity was targeted to come online during 2025. Gränges' cathode foil features low carbon footprint, high strength, and superior elongation properties for lithium-ion battery cathode current collectors.",
+        "source": "https://www.granges.com/battery-cathode-foil/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "znl-energy-bergen",
@@ -432,7 +522,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm commercial readiness of ZNL-NPx separator — as of early 2026 described as preparing for large-scale production"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Norwegian battery technology startup founded 2021, Bergen/Kokstad. ZNL-NPx non-porous separator eliminates thermal runaway risk in Li-ion and Na-ion batteries. Also develops zinc-ion battery cells for stationary storage. Pilot manufacturing line in Norway."
+      "notes": "Norwegian battery technology startup founded 2021, Bergen/Kokstad. ZNL-NPx non-porous separator eliminates thermal runaway risk in Li-ion and Na-ion batteries. Also develops zinc-ion battery cells for stationary storage. Pilot manufacturing line in Norway.",
+      "research": {
+        "summary": "ZNL Energy (Bergen, Norway, founded 2021) develops the ZNL-NPx non-porous fire-retardant separator for lithium-ion and sodium-ion batteries, which eliminates thermal runaway risk without relying on scarce materials. In November 2024 ZNL signed an MOU with High Performance Battery Technology GmbH (HPB, Germany) to integrate ZNL-NPx into solid-state battery systems; early validation results (3,300+ cycles at 1C) were presented in January 2025. ZNL also has an intention agreement with Narada for customer offtake equivalent to 4 GWh/year from 2025, with pilot manufacturing ongoing in Norway.",
+        "source": "https://znlenergy.com/norwegian-german-partnership-advances-solid-state-battery-innovation/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sk-ie-technology-dabrowa-gornicza",
@@ -454,7 +549,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm separator production capacity at Dąbrowa Górnicza facility"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "SK Innovation subsidiary (SKIET). European battery separator production plant in Dąbrowa Górnicza, Poland. Key global separator supplier for EV battery makers."
+      "notes": "SK Innovation subsidiary (SKIET). European battery separator production plant in Dąbrowa Górnicza, Poland. Key global separator supplier for EV battery makers.",
+      "research": {
+        "summary": "SK IE Technology (SKIET), a subsidiary of SK Innovation, operates Europe's largest battery separator plant in Dąbrowa Górnicza, Poland — its first European production base. The facility is scaling from an initial 340 million m² capacity (Plant 1) toward a total of four plants with a combined capacity of approximately 1.54 billion m² per year, which is sufficient for around 2 million EVs and represents a targeted ~30% share of the European separator market by 2025. The Polish plant supplies major European battery cell customers.",
+        "source": "https://www.kedglobal.com/batteries/newsView/ked202306140008",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-grevenbroich",
@@ -474,7 +574,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Grevenbroich, Germany; possibly aluminum or copper processing company"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image. Grevenbroich is in the lower Rhine industrial region."
+      "notes": "Logo visible in source image. Grevenbroich is in the lower Rhine industrial region.",
+      "research": {
+        "summary": "Grevenbroich is home to major aluminum processing operations including Alunorf (a Novelis/Norsk Hydro joint venture and the world's largest aluminum rolling complex), which produces aluminum foil used in battery current collector applications. However, no specific company logo matching the source image entry could be confirmed for Grevenbroich in the passive battery cell components sector; the entry may refer to an Alunorf or Novelis activity but this is unconfirmed.",
+        "source": "https://novelis.com/next-generation-aluminium-ev-battery-enclosure-solutions/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "elring-klinger-dettingen",
@@ -498,7 +603,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "German automotive supplier. Makes gaskets, seals, battery housing components, and cell contact systems for EV batteries. Has expanded significantly into battery cell components and pack hardware."
+      "notes": "German automotive supplier. Makes gaskets, seals, battery housing components, and cell contact systems for EV batteries. Has expanded significantly into battery cell components and pack hardware.",
+      "research": {
+        "summary": "ElringKlinger (Dettingen unter Teck, Germany) is a major automotive supplier that has built a significant battery technology business, covering cell contact systems, battery housing components, and sealing solutions for EV battery packs. The company secured €33.8 million in IPCEI funding through 2026 for an innovative battery cell housing concept that reduces component count by up to 25% and cuts carbon footprint by ~40%. A large-scale series production order for cell contact systems ramped up from 2025, and its new US EV battery center also began operations in mid-2025.",
+        "source": "https://elringklinger.de/en/newsroom/announcements/announcements/elringklinger-secures-ipcei-funding-for-innovative-battery-cell-housing-design",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "schlenk-roth",
@@ -521,7 +631,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Schlenk Metallic Pigments GmbH, Roth (Bavaria). Copper foil for anode current collectors and metal powders. Key European copper foil supplier for battery manufacturers."
+      "notes": "Schlenk Metallic Pigments GmbH, Roth (Bavaria). Copper foil for anode current collectors and metal powders. Key European copper foil supplier for battery manufacturers.",
+      "research": {
+        "summary": "SCHLENK Metal Foils GmbH & Co. KG (Roth-Barnsdorf, Bavaria) is a key European manufacturer of rolled copper foil for lithium-ion battery anode current collectors, with proprietary high-tensile alloy (HTA-600®) foils achieving tensile strength of 500–600 MPa — approximately 50% higher than pure copper — while maintaining ~86% IACS conductivity. Foils are manufactured in thicknesses from 6 to 100 µm and widths up to 650 mm. The company also produces metallic pigments, battery tab ribbons, and specialty metal powders, and offers sample kits directly to battery cell developers.",
+        "source": "https://www.schlenk.com/markets-products/battery-industry/high-tensile-anode-foils",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-lochgau",
@@ -541,7 +656,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Löchgau, Baden-Württemberg, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Löchgau entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Löchgau entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Löchgau, Baden-Württemberg could be identified from available public sources. Löchgau is a small municipality in the Ludwigsburg district; no matching company in battery separators, foils, housing, or electrolytes was found for this location. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "schott-mainz",
@@ -564,7 +684,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Specialty glass group, Mainz. Products include glass-to-metal seals (cell terminals), glass fiber components, and specialty glass for prismatic and cylindrical battery cells."
+      "notes": "Specialty glass group, Mainz. Products include glass-to-metal seals (cell terminals), glass fiber components, and specialty glass for prismatic and cylindrical battery cells.",
+      "research": {
+        "summary": "SCHOTT AG (Mainz, Germany) develops proprietary glass-to-metal and glass-to-aluminium sealing technology for lithium-ion battery cell lids and terminals, with hermetically sealed lid systems for cylindrical and prismatic cells rated for up to 20-year service life. SCHOTT is notably the first company to achieve a permanently tight glass-aluminium bond, replacing the conventional plastic sealing material that ages rapidly under harsh cell conditions. The company supplies GTMS (glass-to-metal seal) lid systems in standard and customised geometries, including steel, stainless steel, and aluminium variants for automotive battery cell producers.",
+        "source": "https://www.schott.com/en-hr/products/battery-and-capacitor-lids-p1000270",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "nabaltec-schwandorf",
@@ -587,7 +712,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Nabaltec AG, Schwandorf (Bavaria). Specialty alumina and aluminium hydroxide for battery separator coating and cathode applications."
+      "notes": "Nabaltec AG, Schwandorf (Bavaria). Specialty alumina and aluminium hydroxide for battery separator coating and cathode applications.",
+      "research": {
+        "summary": "Nabaltec AG (Schwandorf, Bavaria) is one of the world's leading producers of boehmite-based ceramic coating material for lithium-ion battery separators, and also supplies specialty aluminas for cathode applications. The company announced a multi-million euro investment to more than double its boehmite production capacity at Schwandorf from 10,000 to 25,000 tonnes/year to meet growing Li-ion battery market demand. Additionally, Nabaltec is scaling aluminium hydroxide capacity for thermal management applications from 20,000 to 50,000 tonnes/year by mid-2025.",
+        "source": "https://www.process-worldwide.com/nabaltec-to-expand-production-capacity-of-boehmite-for-growing-lithium-ion-battery-market-a-1086982/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "pwo-oberkirch",
@@ -609,7 +739,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Progress-Werk Oberkirch AG (PWO). Precision metal components for electric vehicles including battery housing and structural parts."
+      "notes": "Progress-Werk Oberkirch AG (PWO). Precision metal components for electric vehicles including battery housing and structural parts.",
+      "research": {
+        "summary": "PWO AG (Oberkirch, Baden-Württemberg) is a listed automotive supplier producing precision lightweight metal components via deep-drawing and stamping, with electric vehicle applications including battery housing parts, e-motor housings, and structural EV components. The company operates across Germany, Czech Republic, Mexico, Canada, and China. In the first nine months of 2025 PWO reported 'encouraging figures' and is actively pursuing new EV platform orders; it positions itself around three megatrends of electrification, safety, and comfort in the automotive sector.",
+        "source": "https://www.pwo-group.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-dusseldorf-components",
@@ -629,11 +764,16 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — first Düsseldorf entry in source image (distinct from Nitto Düsseldorf entry)"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "First of two Düsseldorf entries in source image. Company identity not confirmed."
+      "notes": "First of two Düsseldorf entries in source image. Company identity not confirmed.",
+      "research": {
+        "summary": "No specific battery passive component manufacturer matching the first Düsseldorf entry (distinct from Nitto Denko) could be confirmed from available sources. Düsseldorf is home to a number of specialty chemicals and materials companies; without a legible logo or company name from the source image, the identity cannot be determined. Remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "wotude-group-wickede",
-      "name": "Wotude Group",
+      "name": "Wickeder Group",
       "sector": "component_manufacturer",
       "country": "Germany",
       "city": "Wickede",
@@ -641,15 +781,23 @@
       "lon": 7.86,
       "year": null,
       "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
+      "status": "Operational",
+      "stage": "commercial",
       "capacities": [],
-      "products": [],
+      "products": [
+        { "category": "component_type", "name": "clad metals and bimetals for battery tabs and housings" },
+        { "category": "component_type", "name": "ultrathin metal foils" }
+      ],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — name read from source image as 'Wotude Group', Wickede (Ruhr); web search returned no results — may be a misread of the logo"] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm logo reading — original source image name was read as 'Wotude Group'; research indicates Wickeder Group"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Name read from source image as 'Wotude Group', Wickede (Ruhr). No web match found — possible misread of logo text."
+      "notes": "Name read from source image as 'Wotude Group', Wickede (Ruhr). Research indicates this is almost certainly the Wickeder Group (Wickeder Westfalenstahl GmbH), a major specialty metals manufacturer headquartered in Wickede (Ruhr) whose name could be misread from a logo.",
+      "research": {
+        "summary": "The 'Wotude Group' name is almost certainly a misread of the Wickeder Group (Wickeder Westfalenstahl GmbH, Wickede an der Ruhr), a global manufacturer of clad metals, bimetals, nickel strips, and ultrathin metal foils with approximately 1,000 employees across 12 sites in Europe, America, and Asia. Battery-relevant products include Cu-Nickel clad for battery caps and cell tabs, FERAN (aluminium-steel clad) for battery and capacitor housings, and specialised metal foils. The company actively participates in e-mobility trade fairs and supplies component materials to the battery cell manufacturing industry.",
+        "source": "https://www.wickeder-group.de/en/home.html?l=1",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-stuttgart-components",
@@ -669,7 +817,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Stuttgart, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Stuttgart entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Stuttgart entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed identity matching the Stuttgart logo entry could be determined from available sources. Stuttgart is home to numerous automotive supplier headquarters and specialty chemicals companies, but without a legible logo the specific company cannot be identified. Remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-essen-components",
@@ -689,7 +842,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Essen, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Essen entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Essen entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed identity matching the Essen, Germany logo entry could be determined from available sources. Essen is a major industrial city in the Ruhr region with many specialty materials and chemical companies, but without a legible logo the specific company cannot be identified. Remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-kirchhardt",
@@ -709,7 +867,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Kirchhardt, Baden-Württemberg, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Kirchhardt entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Kirchhardt entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Kirchhardt, Baden-Württemberg could be identified from available public sources. Kirchhardt is a small municipality in the Heilbronn district; no matching company in battery separators, foils, housing, or electrolytes was found for this location. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-neuwied",
@@ -729,7 +892,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Neuwied, Rhineland-Palatinate, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Neuwied entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Neuwied entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No specific battery passive component manufacturer in Neuwied, Rhineland-Palatinate could be confirmed from available sources. Neuwied is an industrial town on the Rhine with manufacturing in metals, plastics, and chemicals; no company matching the logo in battery foil, separator, housing, or electrolyte categories was identified. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-kornthal-munchingen",
@@ -749,7 +917,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Kornthal-Münchingen, Baden-Württemberg, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Kornthal-Münchingen entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Kornthal-Münchingen entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Kornthal-Münchingen, Baden-Württemberg could be identified from available sources. Kornthal-Münchingen is a small town near Stuttgart in the Ludwigsburg district with general industrial activity; no specific company matching the source image logo in battery foils, separators, housing, or electrolytes was found. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "nitto-dusseldorf",
@@ -772,7 +945,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Nitto Denko Corporation (Japanese), European operations in Düsseldorf. Specialty tapes and films for lithium-ion battery cell assembly and insulation."
+      "notes": "Nitto Denko Corporation (Japanese), European operations in Düsseldorf. Specialty tapes and films for lithium-ion battery cell assembly and insulation.",
+      "research": {
+        "summary": "Nitto Denko (European HQ: Düsseldorf) is a Japanese specialty materials corporation supplying adhesive tapes and polymer films for lithium-ion battery cell manufacturing in Europe, including polyimide film P-221 AMB for cell tabbing/holding, polyester insulation tapes for electrode insulation (No.31 series), and heat-resistant films for high-voltage applications. Nitto Germany GmbH operates from Peter-Müller-Str. 26, 40468 Düsseldorf and supports European battery cell manufacturers directly from this office. No specific European manufacturing capacity figures for battery tapes are publicly disclosed.",
+        "source": "https://www.nitto.com/us/en/about_us/access/europe/nde/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-limburg",
@@ -792,7 +970,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads approximately 'pöttkes folen' or similar, Limburg an der Lahn; likely specialty film or foil manufacturer"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads approximately 'pöttkes folen', Limburg an der Lahn. Likely a specialty film or foil company."
+      "notes": "Logo reads approximately 'pöttkes folen', Limburg an der Lahn. Likely a specialty film or foil company.",
+      "research": {
+        "summary": "No company matching 'pöttkes folen' or similar name could be confirmed in Limburg an der Lahn from available sources. Limburg an der Lahn is an industrial town in Hesse, home to specialty chemicals and materials firms; if the logo reads 'Polifilm' or similar it may refer to POLIFILM, a German specialty protective films manufacturer, but this could not be confirmed for this specific location. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-nuremberg-components",
@@ -812,7 +995,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Nuremberg, Bavaria, Germany"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible in source image for Nuremberg entry. Company identity not confirmed."
+      "notes": "Logo visible in source image for Nuremberg entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No specific battery passive component manufacturer matching the Nuremberg logo entry could be confirmed from available sources. Nuremberg (Bavaria) hosts a broad industrial base including electronics and specialty materials companies; without a legible logo, the specific company cannot be identified. Remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "freudenberg-weinheim",
@@ -835,7 +1023,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Freudenberg Group, Weinheim. Nonwoven battery separators and sealing solutions for lithium-ion cells."
+      "notes": "Freudenberg Group, Weinheim. Nonwoven battery separators and sealing solutions for lithium-ion cells.",
+      "research": {
+        "summary": "Freudenberg Performance Materials (Weinheim, Germany) offers the broadest range of nonwoven battery separator technologies in the industry, covering wetlaid, drylaid, and spunbond processes for applications in lithium-ion, nickel-metal hydride, lead-acid, and stationary energy storage batteries. In February 2025 the company presented battery separator solutions for stationary energy storage at the International Battery Seminar in Orlando. Freudenberg generated sales exceeding €1.4 billion in 2024 and operates 35 production sites in 14 countries; no specific separator production capacity in tonnes or m² per year is publicly disclosed.",
+        "source": "https://www.freudenberg-pm.com/en/news-insights/press/2025-02-06_battery-separator-material",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-eschenbach",
@@ -855,7 +1048,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — may read 'GEIGER' or similar, Eschenbach in der Oberpfalz, Bavaria"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo may read 'GEIGER' or similar, Eschenbach in der Oberpfalz. Company identity not confirmed."
+      "notes": "Logo may read 'GEIGER' or similar, Eschenbach in der Oberpfalz. Company identity not confirmed.",
+      "research": {
+        "summary": "No specific battery passive component manufacturer matching 'GEIGER' or similar in Eschenbach in der Oberpfalz, Bavaria could be confirmed from available sources. Eschenbach is a small Bavarian town; no matching company in battery separators, foils, housing, or electrolyte categories was found. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/germany/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "zeller-gmelin-eislingen",
@@ -877,11 +1075,16 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery product portfolio — likely process lubricants for cell manufacturing"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Zeller+Gmelin GmbH, Eislingen (Baden-Württemberg). Specialty lubricants and process chemicals; battery-relevant products include electrolyte additives and process oils."
+      "notes": "Zeller+Gmelin GmbH, Eislingen (Baden-Württemberg). Specialty lubricants and process chemicals; battery-relevant products include electrolyte additives and process oils.",
+      "research": {
+        "summary": "Zeller+Gmelin GmbH & Co. KG (Eislingen, Baden-Württemberg) supplies specialty metalworking lubricants, process oils, and cleaning media specifically formulated for battery cell housing production — covering deep-drawing and cutting of cylindrical and prismatic cell cans from aluminium and steel, followed by cleaning and preservation. The company exhibited at The Battery Show Europe 2025 (June 3–5, Stuttgart) with presentations on thermal management fluids for battery systems and sustainable forming lubricants for e-mobility. Zeller+Gmelin is the first chemical company in southern Germany to produce climate-neutrally at its Eislingen/Fils site.",
+        "source": "https://zeller-gmelin.de/en/zellergmelin-at-the-battery-show-from-june-3-5-2025/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-marsberg",
-      "name": "Unknown",
+      "name": "H&T Recharge",
       "sector": "component_manufacturer",
       "country": "Germany",
       "city": "Marsberg",
@@ -889,15 +1092,22 @@
       "lon": 8.85,
       "year": null,
       "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
+      "status": "Operational",
+      "stage": "commercial",
       "capacities": [],
-      "products": [],
+      "products": [
+        { "category": "component_type", "name": "cylindrical battery can (2170, 4680, 4695, 46120)" }
+      ],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — logo initial appears to be 'Z', Marsberg, North Rhine-Westphalia, Germany"] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm Marsberg plant's own production capacity (separate from US facility)"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo appears to begin with 'Z', Marsberg. Company identity not confirmed."
+      "notes": "Research indicates this is H&T Recharge (part of the Heitkamp & Thumann Group), Marsberg — a leading manufacturer of deep-drawn cylindrical battery cans for lithium-ion cells, including the 2170, 4680, and 4695 formats. The 'Z' in the logo may be a misread.",
+      "research": {
+        "summary": "H&T Recharge (Marsberg, North Rhine-Westphalia), part of Heitkamp & Thumann Group, is one of the Western world's largest manufacturers of deep-drawn cylindrical battery cans for lithium-ion EV batteries, supplying Panasonic Energy with approximately 40 GWh of can capacity annually at its Nevada facility. H&T invested €13 million in a Center of Excellence in Marsberg for R&D and pilot production of new can sizes (2170, 4680, 4695, 46120). A new $110 million US plant in De Soto, Kansas is being built to supply Panasonic Energy's Kansas facility (targeting start in 2025) with ~30 GWh/year additional capacity.",
+        "source": "https://ht-recharge.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-loipersdorf",
@@ -917,7 +1127,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Loipersdorf (near Fürstenfeld), Styria, Austria"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible for Loipersdorf, Styria. Company identity not confirmed."
+      "notes": "Logo visible for Loipersdorf, Styria. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Loipersdorf (near Fürstenfeld), Styria, Austria could be identified from available sources. Loipersdorf is a small municipality primarily known for its spa resort; no matching company in battery separators, foils, housing, or electrolyte categories was found. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/austria/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-traun",
@@ -937,7 +1152,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Traun (near Linz), Upper Austria"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible for Traun entry. Company identity not confirmed."
+      "notes": "Logo visible for Traun entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Traun (near Linz), Upper Austria could be identified from available sources. Traun is an industrial town in the Linz metropolitan area hosting chemical and manufacturing companies, but no specific match in battery separators, foils, housing, or electrolyte categories was found. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/austria/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-attnang-puchheim",
@@ -957,7 +1177,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads approximately 'delfot' or similar, Attnang-Puchheim, Upper Austria"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads approximately 'delfot' or similar, Attnang-Puchheim. Company identity not confirmed."
+      "notes": "Logo reads approximately 'delfot' or similar, Attnang-Puchheim. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer matching 'delfot' or similar name in Attnang-Puchheim, Upper Austria could be confirmed from available sources. Attnang-Puchheim is a small railway junction town in the Vöcklabruck district; no company matching this name or location in battery separators, foils, housing, or electrolyte categories was found. Identity remains unresolved.",
+        "source": "https://www.chemeurope.com/en/companies/battery-technology/austria/order_tc/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "dupont-vienna",
@@ -980,27 +1205,39 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific DuPont battery component product line from Vienna operations"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "DuPont with operations in Vienna. Battery-relevant materials include Tyvek® separator materials, Nomex® thermal insulation, and specialty polymer films."
+      "notes": "DuPont with operations in Vienna. Battery-relevant materials include Tyvek® separator materials, Nomex® thermal insulation, and specialty polymer films.",
+      "research": {
+        "summary": "DuPont's battery materials portfolio relevant to passive cell components includes Tyvek® nonwoven polyethylene separator materials, Nomex® thermal insulation films, and specialty polymer films for cell assembly. DuPont launched its Energain™ nanofiber-based separator for high-performance lithium-ion batteries; it also offers comprehensive battery pack solutions covering structural, thermal, and electrical insulation materials. The Vienna listing likely refers to a sales or application engineering office rather than a manufacturing site; no battery-specific manufacturing capacity at a Vienna location is publicly documented.",
+        "source": "https://www.dupont.com/mobility/automotive/battery.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-tatabanya",
-      "name": "Unknown",
+      "name": "Lotte Infracell",
       "sector": "component_manufacturer",
       "country": "Hungary",
       "city": "Tatabánya",
       "lat": 47.59,
       "lon": 18.40,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
+      "year": 2021,
+      "year_label": "2021",
+      "status": "Operational",
+      "stage": "commercial",
       "capacities": [],
-      "products": [],
+      "products": [
+        { "category": "component_type", "name": "aluminium anode foil (current collector)" }
+      ],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Tatabánya, Hungary; logo may read 'Geka Advanced Materials' or similar"] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm current production capacity after planned doubling investment; confirm whether company logo in source image reads 'Lotte' or previous Lotte Aluminium branding"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible for Tatabánya entry. Company identity not confirmed."
+      "notes": "Research indicates this is likely Lotte Infracell (formerly Lotte Aluminium Hungary), Tatabánya — a manufacturer of aluminium anode foil for lithium-ion battery current collectors.",
+      "research": {
+        "summary": "The Tatabánya entry is almost certainly Lotte Aluminium Hungary (now operating as Lotte Infracell following a 2024 spin-off), which opened a €133 million aluminium anode foil plant in Tatabánya in 2021 producing ultra-thin aluminium foil (~12 µm) for lithium-ion battery current collectors. Lotte announced plans to invest an additional ~110 billion KRW to double production output at the Tatabánya site. In 2024 the battery materials business was spun off as 'Lotte Infracell' to become a standalone EV battery materials company with a global supply strategy for Europe and North America.",
+        "source": "https://dteurope.com/business/supplying-the-region/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "toray-nyiregyhaza",
@@ -1012,17 +1249,22 @@
       "lon": 21.72,
       "year": null,
       "year_label": null,
-      "status": "Operational",
+      "status": "Paused",
       "stage": "commercial",
       "capacities": [],
       "products": [
-        { "category": "component_type", "name": "PVDF films and specialty polymer films for battery" }
+        { "category": "component_type", "name": "battery separator film (WET process)" }
       ],
       "materials": [],
-      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery-relevant product at Nyíregyháza — likely specialty polymer films or separator materials"] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Location in source image is Nyíregyháza but Toray/LG Chem JV was actually in Nyergesújfalu — verify correct city; Toray divested its full stake to LG Chem in December 2025 — record may need to be updated to LG Chem ownership or removed"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Toray Industries (Japanese multinational), manufacturing plant in Nyíregyháza, Hungary. Specialty polymer films including PVDF-based materials for battery separators and electrodes."
+      "notes": "Toray Industries (Japanese multinational). The Nyíregyháza location may be incorrect — Toray's Hungarian battery separator film JV (with LG Chem) was located in Nyergesújfalu, not Nyíregyháza. Toray announced the sale of its remaining 30% stake in the Hungarian JV to LG Chem in October 2025, with closing in December 2025. The facility now operates as an LG Chem asset.",
+      "research": {
+        "summary": "Toray Industries operated a battery separator film joint venture in Hungary with LG Chem (LG Toray Hungary Battery Separator Kft, located in Nyergesújfalu — not Nyíregyháza as mapped). The JV had a target capacity of 800 million m²/year by 2028. In October 2025 Toray announced the sale of its remaining 30% stake to LG Chem for ¥30 billion (~$206 million), with the transaction closing in December 2025. As of 2026 the facility operates entirely under LG Chem ownership; the 'TORAY' entry in the February 2026 source image may be outdated.",
+        "source": "https://chemxplore.com/news/toray-to-divest-remaining-stake-in-hungarian-battery-separator-film-joint-venture",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-wollerau",
@@ -1042,7 +1284,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Wollerau, Canton Schwyz, Switzerland"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible for Wollerau entry. Company identity not confirmed."
+      "notes": "Logo visible for Wollerau entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Wollerau, Canton Schwyz, Switzerland could be identified from available sources. Wollerau is known as a low-tax municipality attracting holding companies and financial entities; no matching manufacturing company in battery separators, foils, housing, or electrolytes was found. The entry may refer to a European headquarters or holding entity for a non-Swiss manufacturer. Identity remains unresolved.",
+        "source": "https://ensun.io/search/battery-storage/switzerland",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-baar",
@@ -1062,7 +1309,12 @@
       "attributes": { "logo_research_needed": true, "open_questions": ["Identify company from logo — Baar, Canton Zug, Switzerland"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo visible for Baar entry. Company identity not confirmed."
+      "notes": "Logo visible for Baar entry. Company identity not confirmed.",
+      "research": {
+        "summary": "No battery passive component manufacturer with a confirmed presence in Baar, Canton Zug, Switzerland could be identified from available sources. Baar/Zug is a known hub for holding companies and the European headquarters of international corporations; the entry may refer to the registered European seat of an international materials or chemicals group rather than a manufacturing site. Identity remains unresolved.",
+        "source": "https://ensun.io/search/battery-storage/switzerland",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "gvs-zola-predosa",
@@ -1084,7 +1336,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery separator or membrane product from GVS battery portfolio"] },
       "source_image": "2026-02_Components_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "GVS Filter Technology, Zola Predosa (Bologna). Filtration and separation membranes including porous polymer membranes relevant to battery separator applications."
+      "notes": "GVS Filter Technology, Zola Predosa (Bologna). Filtration and separation membranes including porous polymer membranes relevant to battery separator applications.",
+      "research": {
+        "summary": "GVS S.p.A. (Zola Predosa, Bologna, Italy) is a global leader in filtration and separation membranes for healthcare, life sciences, and industrial applications, including porous polymer membranes suitable for battery cell separator use. GVS produces battery separators as porous polymeric membranes to prevent anode-cathode contact, with expertise in precision membrane manufacturing. As of 2025 GVS is investing in a new Zola Predosa facility for innovative diaphragms for alkaline water electrolysis (4 GW/year electrolyser capacity), demonstrating its broader membrane technology ambitions beyond batteries.",
+        "source": "https://www.gvs.com/en/catalog/battery-cell-separator-ev-and-ess",
+        "date": "2026-05-17"
+      }
     }
   ]
 }
