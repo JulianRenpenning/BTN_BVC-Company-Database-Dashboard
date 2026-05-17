@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-17",
     "record_count": 29,
     "schema_version": "1.2",
     "source_image": "2026-02_Active-Materials_Europe.jpg",
@@ -50,7 +50,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "Vianode is a Hydro spin-off producing synthetic graphite anode materials."
+      "notes": "Vianode is a Hydro spin-off producing synthetic graphite anode materials.",
+      "research": {
+        "summary": "Vianode (Hydro spin-off) inaugurated Via ONE at Herøya in 2024 — the world's first large-scale low-carbon synthetic graphite anode plant, with a rated capacity of 2,000 t/a when fully ramped up (enough for ~30,000 EVs/yr). Vianode has a phased multi-billion USD expansion plan targeting ~60,000 t/a at Herøya and is also developing a facility in Ontario, Canada, with a long-term ambition to supply materials for 3 million EVs/yr by 2030. Plant is operational and ramping.",
+        "source": "https://www.vianode.com/news/vianode-inaugurates-via-one-the-worlds-most-sustainable-anode-graphite-plant-for-batteries-2",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "morrow-mo-i-rana",
@@ -62,7 +67,7 @@
       "lon": 14.14,
       "year": 2026,
       "year_label": "2026",
-      "status": "Planned",
+      "status": "Cancelled",
       "stage": "pilot",
       "capacities": [
         {
@@ -96,7 +101,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": ""
+      "notes": "",
+      "research": {
+        "summary": "Morrow Batteries ASA filed for bankruptcy on 6 May 2026 and all 210 employees were laid off. The company had planned to produce CAM (LFP/LNMO) in Mo i Rana as an integrated facility tied to its cell gigafactory — not as a standalone separate entity. With the bankruptcy of the parent company, the CAM plant project is effectively cancelled. The collapse was driven by cost overruns, delays in industrialisation, low battery market prices, and inability to raise further capital.",
+        "source": "https://www.electrive.com/2026/05/11/norwegian-cell-manufacturer-morrow-batteries-files-for-insolvency/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "carbonx-delft",
@@ -183,7 +193,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "E-Magy is a Dutch startup producing nano-porous silicon anode materials."
+      "notes": "E-Magy is a Dutch startup producing nano-porous silicon anode materials.",
+      "research": {
+        "summary": "E-Magy (Broek op Langedijk, Netherlands) produces nano-porous silicon anode material at an industrial pilot facility running 24/7, with current capacity reported at ~25 t/a. Plans call for scaling to 50 t/a by 2028 as a first commercial step. The company raised €20.5M from Hydro, Invest-NL and others and is active in qualification programmes with battery manufacturers. Long-term target is 3,000 t/a at a full-scale site. Note: the source image figure of 300 t/a has not been confirmed by company sources — reported pilot capacity is 25 t/a.",
+        "source": "https://bits-chips.nl/artikel/dutch-e-magy-looking-to-ramp-up-nanosilicon-anode-production/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "altilium-teesside",
@@ -229,7 +244,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "Altilium focuses on recycled cathode materials (closed-loop from black mass)."
+      "notes": "Altilium focuses on recycled cathode materials (closed-loop from black mass).",
+      "research": {
+        "summary": "Altilium (UK) recovers critical minerals from end-of-life EV batteries and manufacturing scrap and converts them into pCAM and CAM using its proprietary EcoCathode™ process. The planned ACT4 facility in Teesside would be one of the largest EV battery recycling and CAM plants in Europe, targeting 30,000 t/a CAM capacity — enough to meet ~20% of UK demand by 2030. A first pilot plant commenced operations in Plymouth in 2025; Teesside commissioning is planned for late 2027. Altilium secured £18.5M in funding in April 2026. Company name confirmed (not 'allium').",
+        "source": "https://altilium.tech/2025/03/17/altilium-and-ukbic-announce-successful-production-of-uk-s-first-ev-battery-cells-made-from-recycled-materials/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "prayon-engis",
@@ -271,7 +291,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "Prayon is a Belgian phosphate chemistry specialist producing LFP cathode materials."
+      "notes": "Prayon is a Belgian phosphate chemistry specialist producing LFP cathode materials.",
+      "research": {
+        "summary": "Prayon (Engis, Belgium) is a fully integrated phosphate producer that manufactures LFP cathode material using its proprietary MGA phosphoric acid technology. Prayon operates a JV with Chinese cathode producer Pulead for LFP production, and supplies purified phosphoric acid (PPA) as feedstock for LFP. Specific production capacity at Engis in t/a is not publicly disclosed. Prayon is active as a licensor and technology partner for LFP supply chains in North America and Europe.",
+        "source": "https://www.greencarcongress.com/2015/11/20151103-prayon.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "orano-dunkirk",
@@ -281,8 +306,8 @@
       "city": "Dunkirk",
       "lat": 51.04,
       "lon": 2.38,
-      "year": 2027,
-      "year_label": "2027",
+      "year": 2028,
+      "year_label": "2028",
       "status": "Planned",
       "stage": "pilot",
       "capacities": [
@@ -317,7 +342,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": ""
+      "notes": "",
+      "research": {
+        "summary": "The Neomat CAM plant in Dunkirk is a JV between XTC New Energy (51%) and Orano (49%), operating under the name Neomat. Final investment decision was taken on 4 March 2026; plant operations are now targeted for 2028 (not 2027 as previously recorded). Planned capacity is 40,000 t/a NMC CAM, expandable to 80,000 t/a. Total investment ~€1.5 billion; ~1,300 direct jobs. A companion Neomat pCAM facility is also planned on the same Dunkirk site.",
+        "source": "https://www.orano.group/en/news/news-group/2026/march/xtc-new-energy-and-orano-announce-the-construction-of-their-first-battery-cathode-active-material-manufacturing-plant-in-northern-france",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "axens-saint-saulve",
@@ -327,17 +357,17 @@
       "city": "Saint-Saulve",
       "lat": 50.36,
       "lon": 3.55,
-      "year": null,
-      "year_label": null,
-      "status": "Operational",
-      "stage": "commercial",
+      "year": 2028,
+      "year_label": "2028",
+      "status": "Planned",
+      "stage": "pilot",
       "capacities": [
         {
-          "value": 25000,
+          "value": 28000,
           "unit": "t/a",
           "known": true,
           "label": "NMC cathode material",
-          "type": "current"
+          "type": "planned"
         }
       ],
       "products": [
@@ -357,7 +387,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "Axens is an IFP Energies nouvelles subsidiary producing cathode active materials."
+      "notes": "Axens is an IFP Energies nouvelles subsidiary producing cathode active materials.",
+      "research": {
+        "summary": "Axens (IFP Energies nouvelles subsidiary) is building a CAM plant in Saint-Saulve (MACARON project) via a JV called LICAMAX. Planned capacity is 28,000 t/a NMC cathode material across four independent production lines; operations targeted for 2028. Total investment ~€500M; recruitment starts 2026. The plant is not yet operational — the source image figure of 25,000 t/a current capacity is incorrect; this is a planned facility. Status corrected to Planned.",
+        "source": "https://www.axens.net/resources-events/news/axens-exclusive-negotiations-acquire-land-saint-saulve-59-construction-its?language=en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ferroglobe-sabon",
@@ -538,7 +573,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "Talga Group (Australian-listed) operates natural graphite deposits in northern Sweden and processes AAM in Luleå."
+      "notes": "Talga Group (Australian-listed) operates natural graphite deposits in northern Sweden and processes AAM in Luleå.",
+      "research": {
+        "summary": "Talga Group (ASX: TLG) is developing a fully integrated natural graphite anode project in northern Sweden: the Nunasvaara South mine and the Luleå Anode Refinery producing 19,500 t/a battery anode material (~250,000 EVs/yr). All permits are now legally final after Sweden dismissed all mine permit appeals in June 2025. Construction of the commercial refinery is expected to commence H2 2026, subject to final investment decision. The project has EU Innovation Fund grant (€70M) and EIB debt facility (€150M). An EVA pilot plant (50 t/a) has been producing since 2022. Planned target year 2026 in the database refers to initial small-scale supply from the EVA plant.",
+        "source": "https://www.miningweekly.com/article/talga-wins-permit-for-graphite-mine-as-sweden-dismisses-appeals-2025-06-12",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "basf-harjavalta",
@@ -550,8 +590,8 @@
       "lon": 22.14,
       "year": null,
       "year_label": null,
-      "status": "Operational",
-      "stage": "commercial",
+      "status": "Paused",
+      "stage": "pilot",
       "capacities": [
         {
           "value": null,
@@ -576,7 +616,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "BASF produces pCAM at Harjavalta using nickel and cobalt refined on-site."
+      "notes": "BASF produces pCAM at Harjavalta using nickel and cobalt refined on-site.",
+      "research": {
+        "summary": "BASF's pCAM plant in Harjavalta, Finland has faced a protracted permitting battle since 2020. In April 2024, BASF initiated change negotiations (potential layoffs) due to the lengthy and uncertain permit process. The environmental permit was upheld and became legally final in July 2024 (Vaasa Administrative Court ruling not appealed), but operations can only begin after a crystallizer is installed to handle sodium sulfate in wastewater. Capacity when operational: designed to supply ~400,000 EVs/yr with pCAM. Plant remains effectively paused as of mid-2026.",
+        "source": "https://www.borenius.com/references/the-environmental-permit-for-the-basf-harjavalta-pcam-plant-is-legally-final/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "grafintec-vaasa",
@@ -661,7 +706,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": ""
+      "notes": "",
+      "research": {
+        "summary": "No company named 'Greyv' could be identified in Finnish battery industry sources, company registries, or industry news as of May 2026. The name as read from the source image may be a misread — possible candidates in Vaasa with pCAM plans include Grafintec (NG AAM, separate record) or an unannounced project. The 34,000 t/a pCAM capacity figure and 2026 target year cannot be verified. Company identity and project status remain unconfirmed.",
+        "source": "https://www.mineralsgroup.fi/business/hamina-pcam-project.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "umicore-kokkola",
@@ -833,7 +883,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": ""
+      "notes": "",
+      "research": {
+        "summary": "The most likely match for this record is UP Catalyst (Tallinn, Estonia), a startup producing synthetic graphite from CO2 via molten salt electrotransformation (MSCC-ET). UP Catalyst has secured seed funding totalling ~€6.4M and is building an industrial pilot in Maardu (near Tallinn). Their industrial-scale unit targets ~27 t/a carbon materials (graphite + CNTs) from ~100 t CO2/yr by 2027 — consistent with the 1,000 t/a planned figure being aspirational/longer-term. Company identity not fully confirmed from source image logo.",
+        "source": "https://investinestonia.com/estonian-up-catalyst-lands-new-funding-to-craft-clean-carbon-for-batteries/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "topsoe-frederikshavn",
@@ -873,7 +928,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "Topsoe (Haldor Topsoe) is a Danish catalysis company expanding into LNMO battery cathode materials."
+      "notes": "Topsoe (Haldor Topsoe) is a Danish catalysis company expanding into LNMO battery cathode materials.",
+      "research": {
+        "summary": "Topsoe inaugurated a 200 t/a LNMO industrialisation pilot in February 2024. Note: Topsoe's production site is in Frederikssund, Denmark — the source image may read 'Frederikshavn' in error; please verify the city. LNMO is a cobalt-free high-voltage (5V) spinel cathode; 200 t/a enables ~125 MWh/yr of battery cell qualification and small-series supply. Topsoe had a supply agreement with Morrow Batteries, which is now bankrupt; commercial scale-up timing is therefore under review.",
+        "source": "https://www.innovationnewsnetwork.com/lnmo-on-the-charge-as-topsoe-powers-up-industrialisation-pilot-for-large-scale-process-validation/43062/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ibu-tec-weimar",
@@ -913,7 +973,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "IBU-tec Advanced Materials AG is a German specialty chemicals company producing LFP via flash calcination."
+      "notes": "IBU-tec Advanced Materials AG is a German specialty chemicals company producing LFP via flash calcination.",
+      "research": {
+        "summary": "IBU-tec's Weimar plant is producing LFP cathode material for automotive applications, with current capacity of ~3,000 t/a (slightly below the 4,000 t/a figure in the source image). IBU-tec signed a major supply contract with PowerCo (Volkswagen) for LFP material from 2026 onwards. A second, larger plant in Bitterfeld-Wolfen (15,000 t/a) is under construction, with the spray tower commissioning targeted Q4 2026 — this will be Europe's first large-scale LFP plant without Chinese technology. Weimar facility remains operational and in use during the Bitterfeld ramp-up.",
+        "source": "https://www.electrive.com/2026/04/16/ibu-tec-reports-progress-on-plant-construction-for-lfp-battery-material-in-germany/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "altech-spremberg",
@@ -995,7 +1060,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "BASF CAM plant in Schwarzheide, Brandenburg — phase 1 capacity 10,000 t/a, producing NCA and NMC."
+      "notes": "BASF CAM plant in Schwarzheide, Brandenburg — phase 1 capacity 10,000 t/a, producing NCA and NMC.",
+      "research": {
+        "summary": "BASF's Schwarzheide plant is the only fully automated large-scale CAM production facility in Europe, producing high-nickel NCA and NMC materials. Pre-commercial production began in 2023; capacity is targeting ~100,000 t/a (long-term), with a reported 20 GWh cell supply equivalent per year already sold out for coming years. BASF renewed a long-term CAM supply agreement for the Schwarzheide plant in September 2025 and signed a framework agreement with CATL in July 2025. The 10,000 t/a figure in the source image reflects early phase capacity.",
+        "source": "https://www.basf.com/global/en/media/news-releases/2025/09/p-25-159",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "elyte-kaiserslautern",
@@ -1121,7 +1191,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": ""
+      "notes": "",
+      "research": {
+        "summary": "Ionway is a JV between Umicore and Volkswagen Group's PowerCo, building a CAM (NMC) plant in Nysa, Poland, adjacent to Umicore's existing Nysa facility. Production start was targeted for 2026 with an initial annual supply capacity of ~40 GWh (equivalent to ~60,000 t/a NMC as per the source image). Long-term ambition is 160 GWh/yr by 2030, serving ~2.2M EVs. The Polish government committed €350M in grants on a total €1.7B investment. As of mid-2026, no confirmed announcement of delay or cancellation has been found, but PowerCo's Salzgitter gigafactory demand was already being met from Umicore's existing Nysa capacity.",
+        "source": "https://ionway.com/news/ionway-to-locate-its-first-production-plant-in-nysa-poland/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ecopro-debrecen",
@@ -1161,7 +1236,12 @@
       },
       "source_image": "2026-02_Active-Materials_Europe.jpg",
       "date_added": "2026-05-11",
-      "notes": "EcoPro BM — South Korean cathode material company with European plant in Debrecen."
+      "notes": "EcoPro BM — South Korean cathode material company with European plant in Debrecen.",
+      "research": {
+        "summary": "EcoPro BM started commercial CAM production at its Debrecen plant in late 2025 (construction completed, plant inaugurated December 2025). Current capacity is 54,000 t/a high-nickel ternary cathode materials (NCA and NMC) — consistent with the 54,500 t/a in the source image. EcoPro plans to expand to 108,000 t/a in 2026. Total investment was €728M; ~600 jobs created. The plant supplies Samsung SDI, with a reported $34B long-term supply agreement.",
+        "source": "https://www.electrive.com/2025/12/01/ecopro-bm-starts-cathode-material-production-in-hungary/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "huayou-cobalt-acs",
