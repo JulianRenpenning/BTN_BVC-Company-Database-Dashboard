@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-05-17",
     "record_count": 17,
     "schema_version": "1.3",
     "source_image": "2026-02_Solid-State_Europe.jpg",
@@ -39,7 +39,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Publicly listed UK solid-state battery company. Develops Stereax microbatteries and Goliath large-format cells. Oxide ceramic electrolyte."
+      "notes": "Publicly listed UK solid-state battery company. Develops Stereax microbatteries and Goliath large-format cells. Oxide ceramic electrolyte.",
+      "research": {
+        "summary": "Ilika operates two parallel solid-state programs: Stereax (oxide-based microbatteries for medical implants, now in commercial production via Cirtec Medical in the US) and Goliath (large-format cells for EVs and defence). An automated Goliath pilot line was completed in October 2025, achieving a 93% manufacturing success rate on 2Ah and 10Ah cells. Larger 50Ah P2 prototype cells are in development for customer sampling in 2026.",
+        "source": "https://www.directorstalkinterviews.com/ilika-ships-new-10ah-solid-state-battery-prototypes-as-automation-boosts-output/4121229996",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "lina-energy-warrington",
@@ -68,7 +73,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Developing sodium-metal chloride solid-state batteries using NASICON-type ceramic electrolyte. Inherently non-flammable chemistry."
+      "notes": "Developing sodium-metal chloride solid-state batteries using NASICON-type ceramic electrolyte. Inherently non-flammable chemistry.",
+      "research": {
+        "summary": "LiNa Energy (Lancaster University spin-out, 2017) develops planar solid-state sodium-metal-chloride cells using an ultra-thin NASICON-type ceramic electrolyte, targeting stationary energy storage. The company secured €4M including a €952K Innovate UK grant to build an automated ceramic electrolyte pilot line. A 10 kWh sodium BESS was deployed on the Indian grid; pilot projects are underway in Europe and the Middle East. No confirmed 2025-2026 production-scale milestones have been publicly announced.",
+        "source": "https://www.lina.energy/technology/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "taisan-cambridge",
@@ -97,7 +107,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Founded Jan 2022 by Sanzhar Taizhan (Forbes 30 Under 30). Quasi-solid-state sodium batteries for automotive. Raised £1.3M pre-seed (EIT InnoEnergy) + £3.2M Series A. Excludes lithium, nickel, cobalt, copper. Compatible with existing Li-ion manufacturing lines."
+      "notes": "Founded Jan 2022 by Sanzhar Taizhan (Forbes 30 Under 30). Quasi-solid-state sodium batteries for automotive. Raised £1.3M pre-seed (EIT InnoEnergy) + £3.2M Series A. Excludes lithium, nickel, cobalt, copper. Compatible with existing Li-ion manufacturing lines.",
+      "research": {
+        "summary": "TaiSan (formerly Taisan Motors) develops quasi-solid-state sodium batteries using a proprietary polymer electrolyte with metal anode, targeting automotive applications. The company closed a £3.2M Series A in February 2026, bringing its post-money valuation to ~£12.5M, and has signed MoUs with automotive OEMs in seven countries. The technology claims ~20% cost reduction versus lithium-ion and compatibility with existing Li-ion production lines. Still at R&D/early validation stage with no pilot-line capacity reported.",
+        "source": "https://www.fundingspotter.com/news/taisan-motors-series-a-round",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hyet-lithium-arnhem",
@@ -126,7 +141,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Spin-off in the HyET Group ecosystem. Electrolyte type listed as Unknown in source image."
+      "notes": "Spin-off in the HyET Group ecosystem. Electrolyte type listed as Unknown in source image.",
+      "research": {
+        "summary": "HyET Lithium (Arnhem, NL; founded 2022) is a spin-off of the HyET Group developing high-energy-density solid-state lithium-ion batteries via roll-to-roll manufacturing with silicon anodes. The electrolyte chemistry is not publicly disclosed. The company is at early R&D/startup stage with no confirmed pilot-line capacity or external funding announcements as of May 2026. Their website claims advantages in safety, energy density, and low-temperature performance.",
+        "source": "https://hyetlithium.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "avesta-ninove",
@@ -156,7 +176,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Avesta Battery & Energy Engineering (ABEE), part of AVESTA Holding. Ninove R&D facility opened Nov 2023 (€27M, largest SSB upscaling centre in Benelux). Oxide and sulfide solid electrolyte pilot lines. Also announced gigafactory in Seneffe (3 GWh) and battery recycling plant in Dour."
+      "notes": "Avesta Battery & Energy Engineering (ABEE), part of AVESTA Holding. Ninove R&D facility opened Nov 2023 (€27M, largest SSB upscaling centre in Benelux). Oxide and sulfide solid electrolyte pilot lines. Also announced gigafactory in Seneffe (3 GWh) and battery recycling plant in Dour.",
+      "research": {
+        "summary": "AVESTA (formerly ABEE) operates a 9,000 m² R&D and upscaling centre in Ninove (opened Nov 2023) with oxide and sulfide solid electrolyte pilot lines. Generation 0 prototype pouch cells achieved 500 cycles at 82% capacity retention; Generation 1 cells showed only 3% capacity loss in the first 100 cycles. As of January 2025 the company planned independent cell validation and a transition to prismatic cell production by end-2025. A recycling facility capable of processing 20,000 t/year of LFP batteries is scheduled to begin construction mid-2026.",
+        "source": "https://www.avestaholding.com/news/avesta-battery-and-energy-engineering-achieves-significant-milestones-with-its-solid-state-battery-cells",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "solithor-sint-truiden",
@@ -184,7 +209,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Spin-out from imec (Belgium). Proprietary sol-gel-derived Solid Composite Electrolyte (SCE) with nanoporous silica matrix. Achieved 1,000+ cycles on 3Ah lithium-metal cell. Targets automotive and maritime applications. Headquarters in Sint-Truiden, 65 km from Brussels."
+      "notes": "Spin-out from imec (Belgium). Proprietary sol-gel-derived Solid Composite Electrolyte (SCE) with nanoporous silica matrix. Achieved 1,000+ cycles on 3Ah lithium-metal cell. Targets automotive and maritime applications. Headquarters in Sint-Truiden, 65 km from Brussels.",
+      "research": {
+        "summary": "SOLiTHOR (imec spin-out, founded Sept 2021) develops solid-state lithium-metal cells using a proprietary sol-gel-derived Solid Composite Electrolyte (SCE) with a nanoporous silica matrix, offering higher energy density and improved manufacturability versus competing oxide and sulfide approaches. The company raised €10M seed funding led by imec.xpand and has demonstrated over 1,000 cycles on a 3Ah lithium-metal cell — a key milestone for aviation and maritime markets. Current stage is R&D with no announced production capacity.",
+        "source": "https://www.imec-int.com/en/press/imec-spin-solithor-closes-eu10m-seed-investment-round-develop-new-disruptive-solid-state",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "basquevolt-vitoria-gasteiz",
@@ -246,7 +276,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Formerly Thin Film Electronics ASA. Corporate HQ Oslo; R&D and manufacturing in San Jose (US). Solid-state lithium microbatteries via roll-to-roll printing on stainless steel. Delivering commercial shipments to medical device and consumer electronics customers. Source image footnote ²: focus on microbatteries."
+      "notes": "Formerly Thin Film Electronics ASA. Corporate HQ Oslo; R&D and manufacturing in San Jose (US). Solid-state lithium microbatteries via roll-to-roll printing on stainless steel. Delivering commercial shipments to medical device and consumer electronics customers. Source image footnote ²: focus on microbatteries.",
+      "research": {
+        "summary": "Ensurge Micropower (Oslo-listed, formerly Thin Film Electronics) produces solid-state lithium microbatteries (1–100 mAh range) via its proprietary roll-to-roll Micro Power Platform, targeting medical devices and portable electronics. In November 2025 the company signed joint development and investment agreements with Corning Incorporated to advance ultra-high-performance solid-state microbattery technology. The company achieved 90% stacking yield in early 2025 and is targeting commercial scale-up in 2026.",
+        "source": "https://www.globenewswire.com/news-release/2025/11/03/3178833/0/en/Ensurge-Micropower-ASA-Joint-development-and-investment-agreements-with-Corning-Incorporated-to-advance-solid-state-microbattery-technology.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "qkera-garching",
@@ -274,7 +309,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "TUM spin-off (Prof. Jennifer Rupp, Dr. Andreas Weis), founded Nov 2023. Ceramic oxide solid electrolyte (1–20 µm) with proprietary bilayer approach. 30–50% higher energy density claimed. Compatible with roll-to-roll manufacturing. Won 2024 Falling Walls competition."
+      "notes": "TUM spin-off (Prof. Jennifer Rupp, Dr. Andreas Weis), founded Nov 2023. Ceramic oxide solid electrolyte (1–20 µm) with proprietary bilayer approach. 30–50% higher energy density claimed. Compatible with roll-to-roll manufacturing. Won 2024 Falling Walls competition.",
+      "research": {
+        "summary": "Qkera (TUM/MIT spin-off, Garching; founded late 2023) develops a proprietary ceramic-oxide solid electrolyte membrane (1–20 µm) that claims 30–50% higher energy density versus conventional lithium-ion, with a roll-to-roll-compatible manufacturing process. The company secured a seven-figure pre-seed round led by EIT InnoEnergy in late 2025 and is targeting a pilot line by 2026. Qkera is currently in talks with major European OEMs and battery manufacturers, and holds a growing patent family.",
+        "source": "https://innoenergy.com/news-resources/innoenergy-leads-pre-seed-investment-in-qkera-to-accelerate-next-generation-battery-commercialisation/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "theion-berlin",
@@ -302,7 +342,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Berlin-based solid-state startup. Polymer electrolyte integrated within the cathode. Source image footnote ³: within cathode."
+      "notes": "Berlin-based solid-state startup. Polymer electrolyte integrated within the cathode. Source image footnote ³: within cathode.",
+      "research": {
+        "summary": "theion (Berlin, founded 2020) develops lithium-sulfur crystal batteries using its proprietary Direct Crystal Imprinting (DCi) process, which grows a crystalline sulfur cathode directly from molten sulfur without solvents. The cell architecture uses a solid-state polymer electrolyte and a lithium metal anode, targeting energy densities of ≥1,000 Wh/kg primarily for eVTOL and aerospace markets. The company opened a Technology Centre at Berlin-Adlershof with 1 MWh/year of semi-automatic cell assembly capacity for customer samples, and claims third-party validated 2,000-cycle performance for its lithium metal anode chemistry.",
+        "source": "https://www.theion.de/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "blue-solutions-ergue-gaberic",
@@ -367,7 +412,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "French solid-state thin-film microbattery maker near Lyon. Commercial production for IoT, medical, and industrial applications. Source image footnote ⁴: thin-film battery. One of the two 'Launched' phase companies per source image."
+      "notes": "French solid-state thin-film microbattery maker near Lyon. Commercial production for IoT, medical, and industrial applications. Source image footnote ⁴: thin-film battery. One of the two 'Launched' phase companies per source image.",
+      "research": {
+        "summary": "ITEN (Dardilly, near Lyon; founded 2011) commercially produces all-solid-state thin-film microbatteries using an oxide electrolyte, with over 100 customers sampling products for IoT, medical, and industrial connected devices. In April 2025 the company announced a breakthrough 200C discharge rate — 100× higher than conventional Li-ion — for its new Powency product family, qualified for full-scale production in H2 2025. ITEN's Dardilly pilot line produces more than 30 million batteries per year, with a high-volume manufacturing facility planned by 2028.",
+        "source": "https://www.businesswire.com/news/home/20250409903719/en/ITEN-Announces-Major-Breakthrough-in-Solid-State-Li-ion-Battery-with-200C-Discharge-C-Rate-Setting-a-New-Industry-Standard",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "solvionic-toulouse",
@@ -395,7 +445,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Founded 2003 by François Malbosc. Toulouse-based ionic liquid and solid electrolyte developer. 20 t/year pilot line (2021). €1.4M EPSILON project for solid electrolyte formulations. SOLiDIFY EU consortium partner. Primarily a materials/electrolyte supplier rather than full cell manufacturer."
+      "notes": "Founded 2003 by François Malbosc. Toulouse-based ionic liquid and solid electrolyte developer. 20 t/year pilot line (2021). €1.4M EPSILON project for solid electrolyte formulations. SOLiDIFY EU consortium partner. Primarily a materials/electrolyte supplier rather than full cell manufacturer.",
+      "research": {
+        "summary": "Solvionic (Toulouse, founded 2003) is a specialist ionic liquid and solid/polymer electrolyte materials supplier rather than a full cell manufacturer. The company operates a pilot production line with output increased to 180 kg/month of solid polymer electrolyte as of 2024-2025, and participates in EU battery innovation consortia including SOLiDIFY and the FULL-MAP materials acceleration platform. Solvionic's inclusion on solid-state manufacturer maps reflects its role as an electrolyte partner in EU-funded SSB programs, not direct cell production.",
+        "source": "https://solvionic.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "prologium-dunkirk",
@@ -463,7 +518,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Swiss Clean Battery AG, founded Feb 2022 in Frauenfeld (Canton Thurgau). Exclusive license from High Performance Battery Technology AG (HPB AG, Teufen). Plans: 1.2–7.6 GWh scaling, 246M CHF investment, production start originally announced 2024."
+      "notes": "Swiss Clean Battery AG, founded Feb 2022 in Frauenfeld (Canton Thurgau). Exclusive license from High Performance Battery Technology AG (HPB AG, Teufen). Plans: 1.2–7.6 GWh scaling, 246M CHF investment, production start originally announced 2024.",
+      "research": {
+        "summary": "Swiss Clean Battery (Frauenfeld, founded 2022) holds an exclusive license from HPB AG (Teufen) for a solid electrolyte technology that is reportedly manufactured within the cell using existing liquid-electrolyte production processes. Despite announcing production start in 2024 and a CHF 246M investment for a 1.2 GWh phase-1 facility, the company's website as of May 2026 indicates it is still seeking investors and external capital, suggesting the production ramp has not been achieved. The expansion to a full 7.6 GWh gigafactory in Domat-Ems remains contingent on financing.",
+        "source": "https://www.swisscleanbattery.com/en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "faam-monterubbiano",
@@ -493,7 +553,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Italian battery manufacturer founded 1974 in Monterubbiano (FM). Primarily LFP cell production; Teverola 2 gigafactory (8 GWh, LFP) under construction. Inclusion in solid-state manufacturers map is unverified — may reflect a new research program or be a misclassification."
+      "notes": "Italian battery manufacturer founded 1974 in Monterubbiano (FM). Primarily LFP cell production; Teverola 2 gigafactory (8 GWh, LFP) under construction. Inclusion in solid-state manufacturers map is unverified — may reflect a new research program or be a misclassification.",
+      "research": {
+        "summary": "Research confirms that FAAM's core business is LFP lithium-ion cell manufacturing, not solid-state batteries. The Monterubbiano site produces lead-acid batteries, while the Teverola facility has a 0.35 GWh LFP cell line with an 8 GWh Teverola 2 gigafactory under construction (>€417M Italian government funding, production starting 2026). No solid-state battery program could be identified in any public source. Inclusion on the solid-state Europe map appears to be a misclassification; stage set to unknown pending any clarifying announcement.",
+        "source": "https://faam.com/en/about-us/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "gq-energy-villa-minozzo",
@@ -521,7 +586,12 @@
       },
       "source_image": "2026-02_Solid-State_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "GQenergy Srl, founded April 2017 in Villa Minozzo (Reggio Emilia). Develops solid-state cells with a proprietary special membrane for stationary and EV energy storage."
+      "notes": "GQenergy Srl, founded April 2017 in Villa Minozzo (Reggio Emilia). Develops solid-state cells with a proprietary special membrane for stationary and EV energy storage.",
+      "research": {
+        "summary": "GQenergy Srl (Villa Minozzo, Reggio Emilia; founded April 2017) is a small Italian startup that patented a solid-state cell design in January 2018 based on a proprietary polymer membrane, claimed to offer small dimensions, high flexibility, and low production costs for applications ranging from small electronics to electric vehicles. The company received a €67K regional innovation grant in 2021. No pilot-scale production, external investment rounds, or 2025-2026 milestones have been publicly announced; the company appears to remain at very early R&D stage.",
+        "source": "https://www.gqenergy.it/en/",
+        "date": "2026-05-17"
+      }
     }
   ]
 }
