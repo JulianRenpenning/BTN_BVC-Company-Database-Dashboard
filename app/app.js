@@ -157,7 +157,7 @@ function plannedCapacity(c) {
 
 function capValueLabel(cap) {
   if (!cap) return "—";
-  if (!cap.known || cap.value === null) return "undisclosed";
+  if (!cap.known || cap.value === null) return "—";
   return `${cap.value} ${cap.unit}`;
 }
 
@@ -319,12 +319,12 @@ function renderTable() {
 
     const curCell = cur?.known && cur.value !== null
       ? `<span class="cell-capacity">${cur.value} ${cur.unit}</span>`
-      : `<span class="capacity-unknown">${cur ? "undisclosed" : "—"}</span>`;
+      : `<span class="capacity-unknown">—</span>`;
 
     const plnCell = pln
       ? (pln.known && pln.value !== null
           ? `<span class="cell-capacity">${pln.value} ${pln.unit}${pln.target_year || c.year ? ` <span class="cap-year">by ${pln.target_year || c.year}</span>` : ""}</span>`
-          : `<span class="capacity-unknown">undisclosed${pln.target_year || c.year ? ` by ${pln.target_year || c.year}` : ""}</span>`)
+          : `<span class="capacity-unknown">—</span>`)
       : `<span class="capacity-unknown">—</span>`;
 
     const logoDot     = c.attributes?.logo_research_needed
