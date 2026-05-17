@@ -45,11 +45,23 @@ async function init() {
     DATA_FILES.map(url =>
       fetch(url)
         .then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); })
-        .then(json => json.companies || [])
     )
   );
 
-  allCompanies = results.flatMap(r => r.status === "fulfilled" ? r.value : []);
+  allCompanies = results.flatMap(r =>
+    r.status === "fulfilled" ? (r.value.companies || []) : []
+  );
+
+  // Show the most recent last_updated date across all loaded files
+  const dates = results
+    .filter(r => r.status === "fulfilled" && r.value.meta?.last_updated)
+    .map(r => r.value.meta.last_updated);
+  if (dates.length) {
+    const latest = dates.sort().at(-1);           // ISO strings sort lexicographically
+    const formatted = new Date(latest + "T00:00:00")
+      .toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+    document.getElementById("last-updated").textContent = `Updated ${formatted}`;
+  }
 
   populateCountryFilter();
   populateSectorFilter();
