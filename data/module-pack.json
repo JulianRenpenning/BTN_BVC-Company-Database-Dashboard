@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-11",
+    "last_updated": "2026-05-17",
     "record_count": 103,
     "schema_version": "1.2",
     "source_map": "Battery Module & Pack Production (Europe) as of February 2026",
@@ -35,7 +35,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Siemens operates a fully robotized battery module factory in Trondheim, Norway, producing modules primarily for the maritime and offshore market — including ferries, cable-lay vessels, and offshore support ships. The plant, opened in 2019 with a capacity of ~300 MWh/year, is one of the most automated marine battery facilities in Europe. Norway's regulatory push to decarbonize fjord traffic by 2026 has sustained strong demand for this facility.",
+        "source": "https://press.siemens.com/global/en/pressrelease/siemens-opens-advanced-robotized-and-digitized-battery-module-factory-norway",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "nes-godvik",
@@ -62,7 +67,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "NES specialises in marine/offshore battery systems.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Norwegian Electric Systems (NES), a HAV Group subsidiary headquartered in Godvik near Bergen, is a full-system supplier of sustainable marine propulsion, power, and battery packages for vessels globally. Recent contracts include battery and automation systems for a live fish carrier (deliveries H2 2026 / H1 2027) and a containerized 1 MW battery package for a Rem Offshore CSV upgrade. NES also supplies charging stations for Norled's battery-hybrid ferry fleet.",
+        "source": "https://norwegianelectric.com/news/nes-secures-contract-for-new-live-fish-carrier",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "beyonder-rogaland-pack",
@@ -89,7 +99,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer in cell map.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Beyonder, founded in Stavanger in 2016, develops and produces lithium-ion capacitor (LiC) cells and battery packs for high-power, fast-charging industrial applications — targeting maritime, grid stabilization, and EV charging. The Stavanger facility has an annual production capacity of up to 5 GWh. In March 2026, Beyonder signed an MoU with Corvus Energy to co-develop next-generation maritime battery systems.",
+        "source": "https://bw-group.com/newsroom/articles/2026/03/corvus-energy-and-beyonder-sign-mou-to-explore-next-generation-maritime-battery-systems/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "scania-sodertalje",
@@ -117,7 +132,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Scania inaugurated its dedicated battery assembly plant in Södertälje in September 2023, producing high-voltage battery packs for its electric heavy trucks; the plant employs ~550 staff. Cells sourced from Northvolt ETT are assembled into packs on two highly automated lines consuming one cell per second. Scania acquired Northvolt Systems Industrial Division (including a Gdańsk production facility) in early 2025 to deepen in-house battery capability.",
+        "source": "https://www.scania.com/group/en/home/newsroom/news/2023/scania-battery-assembly-plant-up-and-running.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-gothenburg-pack",
@@ -142,7 +162,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Possibly Polestar or Volvo Cars. Logo shows circular arrow motif.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Company identity remains unresolved. The circular arrow logo in Gothenburg is most likely associated with a battery or electromobility sub-unit of a major OEM based there — candidates include Volvo Cars Energy (battery pack integration for EX40/XC40 Recharge) or Polestar. No confirmed public information links a stand-alone module/pack assembler with a circular-arrow logo to Gothenburg. Further verification with sector-specific sources is needed.",
+        "source": "https://www.volvocars.com/en-global/support/topics/charging-and-energy/charging-and-energy",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "eleo-helmond",
@@ -210,7 +235,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Cleantron (Nieuw-Vennep, near Amsterdam/Schiphol) is the largest lithium-ion battery pack producer in the Benelux, founded 2012. It produces custom Li-ion packs for industry, AGVs, light EVs, e-scooters, and automotive series via automated and semi-automated assembly lines, with proprietary BMS technology. The facility is located close to the ports of Amsterdam and Rotterdam, enabling fast European distribution.",
+        "source": "https://www.cleantron.nl/company/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "intercel-haarlem",
@@ -237,7 +267,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Intercel opened the Netherlands' largest custom battery factory at Oudeweg, Haarlem in September 2025 — an 8,680 m² facility producing over 200 battery systems per month. The plant assembles custom Li-ion packs for a broad range of applications including EV, stationary, and marine, importing only cells so it can integrate the latest cell technology. The factory is built to PGS 37-2 safety guidelines with dedicated lithium battery safes.",
+        "source": "https://intercel.eu/intercel-opens-largest-factory-for-european-custom-batteries-in-the-netherlands/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "jlr-hams-hall",
@@ -265,7 +300,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "JLR electrification hub at Hams Hall, West Midlands.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "JLR's Battery Assembly Centre at Hams Hall (West Midlands) assembles high-voltage battery packs for its Solihull and Castle Bromwich plants, with a capacity of up to 4 million cells per day at full ramp. The facility is producing packs for the Range Rover Electric, JLR's first in-house 800V battery pack with a 117 kWh capacity, with customer deliveries beginning in 2026. A new Jaguar EV grand tourer on the JEA platform is also due in 2026.",
+        "source": "https://ourclients.randstad.co.uk/jaguar-land-rover/battery-assembly-centre/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "aesc-sunderland-pack",
@@ -293,7 +333,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "AESC (Envision Group) launched its new Sunderland gigafactory in December 2025, with an initial capacity of 15.8 GWh — enough to supply over 200,000 EVs annually. The facility's first customer is Nissan's new-generation LEAF, produced at the adjacent Nissan plant; customer deliveries of the new LEAF began in early 2026. The site will ultimately employ ~1,000 people and represents a fourfold expansion of AESC's Sunderland footprint.",
+        "source": "https://www.aesc-group.com/news/aesc-launches-its-new-uk-battery-gigafactory",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "williams-wantage",
@@ -321,7 +366,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Williams Advanced Engineering (WAE), based in Wantage (Grove), Oxfordshire, develops and manufactures high-performance battery packs for motorsport, hypercar, and specialist EV applications. WAE has supplied batteries to Formula E since 2014 and offers its Scalable Battery Module (SBM) and EVR hypercar platform. The company is owned by Fortescue following its acquisition and has since been integrated into Fortescue's zero-emission technology portfolio.",
+        "source": "https://www.automotivemanufacturingsolutions.com/electrification/adaptive-technology-multi-chem-battery/545639",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fortescue-banbury",
@@ -348,7 +398,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Fortescue's Banbury facility (formerly operated by WAE) assembles battery modules and packs for off-road and heavy-industry applications, including zero-emission mining trucks and trains. The 13,500 m² plant operates automated battery module/pack assembly, and started prototype production in 2024. Fortescue signed a US$2.8 billion partnership with Liebherr in 2025 for zero-emission mining equipment, for which this facility supports battery development.",
+        "source": "https://www.insidermedia.com/news/south-east/banbury-set-for-new-wae-factory-as-fortescue-expands-battery-and-electric-powertrain-operations",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "volvocars-gent",
@@ -377,7 +432,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Circular logo; likely Volvo Cars Gent (EX40/C40 production). Verify.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Volvo Cars Ghent is the company's primary European EV production hub, manufacturing the EX40 and EX30 families and running a battery pack assembly line inaugurated alongside EV production. In 2025 Ghent produced ~157,000 EX40-family vehicles. A next-generation EX40 on the SPA3 platform with cell-to-body LFP batteries is in development, expected to reach the US market by early 2027.",
+        "source": "https://insideevs.com/news/402530/volvo-ev-battery-pack-assembly-line-belgium/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "audi-brussels",
@@ -389,7 +449,7 @@
       "lon": 4.35,
       "year": null,
       "year_label": null,
-      "status": "Operational",
+      "status": "Paused",
       "capacities": [],
       "products": [
         {
@@ -404,8 +464,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Audi Brussels — e-tron/Q8 e-tron production.",
-      "stage": null
+      "notes": "Audi Brussels — e-tron/Q8 e-tron production. Plant closed February 2025.",
+      "stage": null,
+      "research": {
+        "summary": "Audi Brussels permanently closed on 28 February 2025 after failing to secure a buyer, ending Q8 e-tron production. The plant had been the sole European production site for the Q8 e-tron and Q8 Sportback e-tron, but demand fell far short of its 120,000-vehicle/year capacity. Audi has confirmed a successor EV model is in development, potentially arriving late 2026 or 2027, but no replacement production site has been announced.",
+        "source": "https://www.motorauthority.com/news/1145288_audi-to-close-brussels-plant-in-early-2025",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "abee-wallonia",
@@ -432,7 +497,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Specific city in Wallonia not stated in source image.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "ABEE (Avesta Battery & Energy Engineering) is building a 3 GWh battery pack gigafactory — branded BE-VOLT Battery Systems — in Seneffe-Manage, Wallonia, targeting automotive and stationary markets. The plant, backed by the Walloon government, was planned to be operational by mid-2025, creating up to 5,000 jobs at full scale. ABEE also operates a pouch cell assembly line in Ninove (Flanders) and a planned battery recycling plant in Dour.",
+        "source": "https://abeegroup.com/be-volt-battery-system-giga-factory/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "forseepower-poitiers",
@@ -463,7 +533,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Forsee Power operates a 15,000 m² battery systems plant in Poitiers (Chasseneuil-du-Poitou), with five assembly lines including two fully automated, producing ~1 GWh/year — over 2,500 bus batteries annually. The plant supplies battery packs for electric buses, trucks, and rail; approximately two-thirds of sales are e-bus related. Forsee Power has equipped over 4,200 buses as of 2025 and targets 4 GWh capacity by 2027.",
+        "source": "https://www.sustainable-bus.com/news/visit-forsee-power-plant-poitiers-france-battery/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ckenergy-brassac",
@@ -491,7 +566,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Logo shows 'CK' / 'energy'. Possibly Coreel or another French battery company. Verify.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Company identity not conclusively verified. Web searches for 'CK Energy' or 'CK Energie' in Brassac-les-Mines (Auvergne) yield no clear match to a known battery module/pack assembler. Brassac-les-Mines hosts industrial sites but no publicly documented battery manufacturer matching this logo. Further research with French industrial databases or trade registries is needed.",
+        "source": "https://battery-tech.net",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "acc-billy-berclau",
@@ -519,7 +599,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "ACC (Automotive Cells Company, JV of Stellantis / TotalEnergies / Mercedes-Benz) opened its first gigafactory in Billy-Berclau/Douvrin in 2023, with an initial 13 GWh production line manufacturing battery cells and modules for up to 300,000 EVs/year. A second production block is due to come online mid-2026. Plans for ACC's Kaiserslautern (Germany) and Termoli (Italy) gigafactories were shelved in February 2026.",
+        "source": "https://www.acc-emotion.com/media/bbd-press-release",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "verkor-dunkirk-pack",
@@ -531,7 +616,7 @@
       "lon": 2.38,
       "year": null,
       "year_label": null,
-      "status": "Planned",
+      "status": "Operational",
       "capacities": [],
       "products": [
         {
@@ -546,7 +631,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Verkor opened its first gigafactory (Gigafactory Bourbourg) near Dunkirk in December 2025, with an initial 16 GWh capacity for both cell and module production. The first commercial batteries are slated for the Alpine A390 electric crossover in 2026. Verkor targets 50 GWh by 2030 and expects to create ~1,200 direct and 3,000 indirect jobs at the Dunkirk site.",
+        "source": "https://verkor.com/en/verkor-reaches-a-decisive-milestone-and-opens-its-first-gigafactory/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "aesc-lambres-douai",
@@ -558,7 +648,7 @@
       "lon": 3.08,
       "year": null,
       "year_label": null,
-      "status": "Planned",
+      "status": "Operational",
       "capacities": [],
       "products": [
         {
@@ -574,7 +664,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "AESC's Lambres-lez-Douai gigafactory (Envision Group) started production in March 2025, initially supplying battery cells and modules for Renault EVs including the R5. With six production lines ramping toward ~10 GWh by end of 2027, the site plans to equip 70,000–75,000 vehicles by end of 2026. Investment exceeds €1.3 billion for the first phase; full capacity by 2030 could reach 30 GWh.",
+        "source": "https://www.energierenouvelable.net/la-gigafactory-daesc-lance-sa-production-de-batteries-a-douai/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "leclanche-yverdon",
@@ -605,7 +700,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Swiss HQ of Leclanché.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Leclanché (Yverdon-les-Bains) manufactures Li-ion battery modules and systems for maritime, stationary, and e-mobility applications. Recent maritime contracts include 22.6 MWh of systems for Stena RoRo and Brittany Ferries hybrid ferries, and 4 MWh for a Century Ship Services cruise vessel (2025). The Yverdon M3 module production line restarted in January 2026 after an incident in November 2025. Leclanché is organized across energy storage, e-Mobility, and specialty battery segments.",
+        "source": "https://www.leclanche.com/leclanche-and-century-ship-services-partner-to-supply-4-mwh-of-battery-systems-for-a-hybrid-ocean-cruise-vessel/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "geovolta-schwyz",
@@ -632,7 +732,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "GEO Volta is likely ecovolta AG (branded eco-volta), a Swiss battery manufacturer based in Brunnen, canton Schwyz. ecovolta produces modular Li-ion battery packs for electric vehicles, boats, and industrial machines on a fully automated 200 MWh/year production line. The company was spun off from ecocoach AG in May 2023 as an independent entity, focusing on traction and stationary battery systems.",
+        "source": "https://eco-volta.com/en/media/brunnen-becomes-production-site-for-high-tech-battery-storage-systems/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "dw-winterthur",
@@ -659,7 +764,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Designwerk (Winterthur) designs and manufactures modular high-voltage battery systems from 65 kWh to multi-MWh for electric trucks and commercial vehicles, as well as Mega Charging infrastructure. The company produces electric trucks and battery packs at its Winterthur headquarters and reached a milestone in August 2025 of exceeding 1.1 MW charging power in combination with its own electric trucks. Designwerk is integrated into the Remota Group.",
+        "source": "https://www.designwerk.com/en/battery-systems/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "calb-sines-pack",
@@ -686,7 +796,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Under construction (*). Also listed as cell manufacturer.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "CALB broke ground on its €2.07 billion gigafactory in Sines, Portugal in February 2025, targeting 15 GWh annual capacity for EV cells and modules. The Portuguese government approved €350 million in incentives for the project, which has National Interest Project status. Production is expected to start in 2028, making the facility one of the largest planned battery investments in Southern Europe.",
+        "source": "https://www.ess-news.com/2026/01/28/portugal-signs-off-e350-million-incentives-for-calbs-e2-07-billion-sines-battery-plant/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "samsung-karlsdorf",
@@ -713,8 +828,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Source image lists under Austria; Karlsdorf-Neuthard is in Germany (BW). Verify assignment.",
-      "stage": null
+      "notes": "Source image lists under Austria; Karlsdorf-Neuthard is in Germany (BW). Verify assignment. Samsung SDI Battery Systems GmbH (automotive packs) is based near Graz, Austria (Premstätten). Karlsdorf-Neuthard is a separate German site.",
+      "stage": null,
+      "research": {
+        "summary": "Samsung SDI Battery Systems GmbH (SDIBS) develops and produces complete battery modules and packs for automotive applications, with its primary European base near Graz, Austria. Karlsdorf-Neuthard (Baden-Württemberg) may be an additional German site; this requires verification. SDIBS supplies battery systems for premium EV OEMs and is developing all-solid-state battery validation in collaboration with BMW and Solid Power.",
+        "source": "https://samsungsdibs.at/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "kreisel-rainbach",
@@ -745,7 +865,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Kreisel Electric (majority-owned by John Deere since 2021) operates its battery technology headquarters and production site in Rainbach im Mühlkreis, Austria, focusing on high-performance battery packs for off-highway, marine, and stationary applications. John Deere's investment is expanding Kreisel's production capacity to over 2 GWh, with a new facility at Deere's Saran engine factory in France and a further plant in Kernersville, North Carolina. The Rainbach site continues to focus on industrialization, automation, and R&D for next-generation battery platforms launching from 2026.",
+        "source": "https://www.deere.com/en/news/all-news/kreisel-electric-expanding-battery-production-capacities/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "miba-bad-leonfelden",
@@ -772,7 +897,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Miba AG — Austrian industrial company, battery module components and systems.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Miba AG's VOLTfactory #01 in Bad Leonfelden, opened September 2022, is Austria's most advanced battery production plant and serves as the pilot site for a planned global expansion of Miba Battery Systems. The fully automated facility produces up to 500 MWh/year (~20,000 battery systems from ~50 million cells), featuring the proprietary FLEXCOOLER thermal management system and a laser contacting process for round-cell welding. From 2026, Miba's FLEXCOOLER will be integrated into sports cars from a major European premium brand.",
+        "source": "https://www.miba.com/en/news/article/miba-opens-austrias-technologically-leading-battery-production-plant-in-bad-leonfelden",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "enepaq-vilnius",
@@ -799,7 +929,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Enepaq is a Lithuanian battery manufacturer based in Vilnius producing custom lithium-ion modules and packs using 18650 and 21700 cylindrical cells with a proprietary TinyBMS. The company targets industrial automation, e-mobility, drones, and renewable energy sectors, offering rapid prototyping and series production capabilities for European customers. Enepaq exhibited at Hannover Messe 2025 and E-Tech Europe 2026, signalling active market expansion across continental Europe.",
+        "source": "https://enepaq.com/battery-management-system-and-battery-modules-about-enepaq/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "anodox-riga",
@@ -826,7 +961,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Anodox Energy Systems is a Swedish-founded company that established an EV battery pack assembly factory at the Port of Riga, Latvia, with a total investment of €50 million and a workforce target of 300+. The plant — Anodox's first European production site — was planned to deliver high-quality battery packs for electric cars and light trucks to customers in Scandinavia, Germany, and broader Europe. Current operational status requires verification, as the original production launch was targeted for end of 2022.",
+        "source": "https://www.liaa.gov.lv/en/article/anodox-build-ev-batteries-latvia-create-300-jobs",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "celttech-tampere",
@@ -854,7 +994,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Logo shown as 'Celttech'; verify company name.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "The record is likely Celltech Solutions Oy, a Finnish battery system manufacturer part of the Sweden-based Addtech AB Group, which opened a factory for industrial battery systems in Lahdesjärvi, Tampere. The facility produces battery systems for mining, port, forestry, and robotics applications, with an Engineering & Development Centre (EDC) serving Celltech's six-country network. The company employs 50–80 people at the Tampere factory and participated in iVT Expo 2025 in Cologne.",
+        "source": "https://celltechsolutions.fi/press/a-factory-opened-for-manufacturing-industrial-battery-systems/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "valmet-automotive-salo",
@@ -910,7 +1055,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Logo not fully legible; identified as likely Valmet Automotive (known battery pack assembler in Uusikaupunki). Verify.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Valmet Automotive's Uusikaupunki battery plant, opened in 2021 with ~€120 million investment, has an annual capacity of 500,000 battery modules and packs across four production lines (expanded in 2024). The site — co-located with the Uusikaupunki car assembly plant — supplies automotive OEMs and has signed at least three customer deals. Headcount was targeted at ~500 by 2024, making it Finland's largest battery pack assembly site alongside the Salo plant.",
+        "source": "https://www.valmet-automotive.com/media/valmet-automotive-celebrates-the-uusikaupunki-battery-plant-opening/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mercedes-jawor",
@@ -938,7 +1088,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Mercedes-Benz battery factory in Jawor, Poland.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Mercedes-Benz Manufacturing Poland in Jawor has produced engines and plug-in hybrid battery packs since 2019, supplying the global production network for C-, E-, and S-Class PHEVs. A new BEV battery production line is scheduled to start up in 2026, supported by an additional PLN 1.5 billion investment and creation of 300+ new jobs by 2027. The Jawor plant is also selected to produce fully electric large vans on the VAN.EA architecture from 2026.",
+        "source": "https://mercedes-benz-jawor.com.pl/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "embs-gliwice",
@@ -965,7 +1120,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "EMBS (EM Battery Systems), based in Gliwice, Poland, is a leading European manufacturer of advanced lithium-ion battery systems founded in 1999. The facility operates manual, semi-automated, and fully automated assembly lines, processing over 85 million cells annually to produce several million battery packs per year for applications including e-bikes, power tools, AGVs, and industrial cleaning equipment. In 2024, EMBS was acquired by Germany's Prettl Group, refocusing the business on expanded e-bike and industrial battery markets under new ownership.",
+        "source": "https://embatterysystems.com/company/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmz-gliwice",
@@ -992,7 +1152,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "BMZ Group Polish plant.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMZ Group operates a battery pack production facility in Gliwice, Poland, as part of its European manufacturing network — complementing the group headquarters in Karlstein am Main, Germany. The Gliwice plant produces lithium-ion battery packs for industrial, mobility, and stationary applications. BMZ Germany entered self-administration insolvency proceedings in 2025, but operations and international subsidiaries including Gliwice continued; following approval by antitrust authorities, acquisition by SKion was completed in February 2026.",
+        "source": "https://bmz-group.com/index.php/en/bmz-company/locations-en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "scania-gdansk",
@@ -1020,7 +1185,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Scania Industrial Batteries (SIB), launched in April 2025 following Scania's acquisition of Northvolt Systems Industrial division, operates a battery production facility in Gdańsk employing ~150 people alongside an R&D centre in Stockholm (~125 people). The facility produces battery systems in two platforms (Core and Compact, 21–624 kWh, up to 1000 V) for heavy industry and off-highway markets including material handling, construction, and mining. SIB draws on more than 7 years of market experience inherited from Northvolt Systems.",
+        "source": "https://spcc.pl/en/scania-industrial-batteries-launches-production-in-gdansk/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "impact-warszawa",
@@ -1051,7 +1221,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "IMPACT Clean Power Technology (part of Grenevia Group, Warsaw) is Poland's leading battery system manufacturer for heavy-duty transport, building electric buses, trams, trolleybuses, and industrial vehicles. The company's GigafactoryX in Pruszków (near Warsaw), inaugurated June 2024, operates a highly automated production line producing one complete battery system every 11 minutes — targeting annual capacity of up to 5 GWh by 2027. A further partnership with Toshiba and ITOCHU targets hydrogen fuel cell system production from 2026/27.",
+        "source": "https://www.sustainable-bus.com/components/impact-clean-power-technology-creates-gigafactoryx-in-poland-that-will-produce-a-heavy-vehicle-battery-every-11-minutes/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "forseepower-wroclaw",
@@ -1078,7 +1253,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Forsee Power's Wrocław plant, established in 2019, is the company's second European production site and its primary Smart Life battery system factory, producing over 590,000 battery packs per year for light mobility, medical equipment, and portable devices. The facility is certified to ISO 9001, 14001, 18001, and 13485 standards. In 2025, Forsee Power secured a contract to supply battery systems to KGHM, Europe's largest mined-copper producer, for use in mining applications.",
+        "source": "https://www.forseepower.com/press-release/the-french-company-forsee-power-announces-the-development-of-its-production-plant-in-poland-29-04-2019/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "wamtechnik-warszawa",
@@ -1106,7 +1286,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Shown with a second co-branded logo; joint venture partner not identified.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "WamTechnik is a Polish battery pack manufacturer certified to AQAP 2110 and EN ISO 9001, ranking among the top 5 European battery pack producers. Based in the Warsaw area (Piaseczno), the company develops and manufactures Li-ion and NiMH rechargeable packs for portable devices, measuring instruments, IoT, electric drives, and emergency power systems. WamTechnik participates in Battery Forum Poland and is actively expanding its European customer base across industrial and mobility segments.",
+        "source": "https://wamtechnik.pl/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "univercell-flintbek-pack",
@@ -1133,7 +1318,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "UniverCell Holding GmbH in Flintbek (Schleswig-Holstein) is developing Europe's largest electrode and cell production facility for non-automotive markets, using a proprietary dry-coating electrode process. In March 2026 the company closed a €30 million Series B (co-led by the DeepTech & Climate Fonds and EIC Fund) and is on track to begin series production of 21700 cylindrical cells in June 2026 at 50,000 cells/month, scaling toward ~1.3 GWh/year by 2027. Target markets include renewable energy, maritime, construction equipment, medical, robotics, and electric aviation.",
+        "source": "https://tech.eu/2026/03/05/univercell-lands-eur30m-series-b-to-advance-european-lithium-ion-cell-manufacturing/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "man-nurnberg",
@@ -1161,7 +1351,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "MAN Truck & Bus officially launched industrial battery pack production at its Nuremberg plant in April 2025, producing high-voltage battery packs for the eTGL, eTGS, and eTGX electric trucks (12–50 t) on 17,000 m² with state-of-the-art automation. Current capacity is 50,000 packs/year, expandable to 100,000 by 2030; an additional €150 million is earmarked to add module production for the next battery generation alongside the existing pack lines. Nuremberg is backed by a total investment of ~€250 million to date.",
+        "source": "https://press.mantruckandbus.com/corporate/man-officially-starts-production-of-truck-and-bus-battery-packs-in-nuremberg/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "futavis-aachen",
@@ -1192,7 +1387,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Futavis GmbH — BMS and pack integration.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Futavis GmbH, a DEUTZ AG subsidiary since 2019, develops and manufactures the ISO 26262-certified BMS 3.0 and modular battery systems in Aachen for automotive, commercial vehicles, off-road, material handling, and marine applications. The company employs over 70 specialists and offers a full toolkit for individually scalable battery systems — from cell monitoring and thermal management to power electronics, end-of-line test benches, and isomonitors. Futavis is targeting ISO 26262 functional safety and ISO 21434 cybersecurity certification from Q4 2025.",
+        "source": "https://www.futavis.de/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "catl-arnstadt",
@@ -1219,7 +1419,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "CATL's Erfurt/Arnstadt gigafactory also does module and pack.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "CATL's Arnstadt gigafactory — its first overseas facility — started battery module production in Q3 2021 and cell production in late 2022, with current capacity around 14 GWh targeted to expand to up to 60 GWh by end of 2026. The site combines cell and module production and serves European OEM customers; CATL doubled the on-site testing capacity in late 2025 to create one of Europe's largest cell testing facilities. Both cell and module lines are actively ramping and CATL continues to invest heavily in the Arnstadt campus.",
+        "source": "https://www.electrive.com/2025/02/18/catl-continues-to-ramp-up-battery-production-in-germany/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "audi-ingolstadt",
@@ -1247,7 +1452,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Audi's battery assembly hall at the Logistics & Goods Transport Center (GVZ) in Ingolstadt assembles up to 1,000 PPE-platform high-voltage batteries per day using ~90% automation with ~300 employees across three shifts. Production of the Q6 e-tron (first high-volume fully electric Audi built in Ingolstadt) began in late 2023, and the A2 e-tron is confirmed to start at Ingolstadt in autumn 2026 as the third electric model line at the main plant.",
+        "source": "https://www.audi-mediacenter.com/en/press-releases/sustainable-and-flexible-production-of-the-audi-q6-e-tron-series-in-ingolstadt-15928",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "audi-bollinger-hofe",
@@ -1279,7 +1489,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Neckarsulm/Heilbronn area. Taycan/e-tron GT battery assembly.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Audi/Porsche's Böllinger Höfe plant in Heilbronn assembles the Taycan and Audi e-tron GT battery packs (800 V architecture) alongside the low-volume vehicle builds at that location. The facility is part of the Volkswagen Group's premium EV production network for the J1 platform. As demand for the Taycan stabilised in 2024–25, Porsche shifted focus toward the Macan EV (Leipzig) but Böllinger Höfe remains the dedicated assembly site for the flagship performance EVs.",
+        "source": "https://www.audi-mediacenter.com/en/press-releases/high-performance-compact-and-intelligent-the-high-voltage-battery-for-the-premium-platform-electric-15926",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mercedes-kamenz",
@@ -1307,7 +1522,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "ACC battery factory (Mercedes-Benz stake).",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Mercedes-Benz's Kamenz plant (Deutsche ACCUmotive) is a core battery factory in the group's global EV production network, supplying high-voltage battery packs for Mercedes-Benz electric and plug-in hybrid vehicles. The facility has been producing lithium-ion battery systems since 2012 and is one of Germany's longest-running automotive battery plants. Kamenz supplies packs used across multiple Mercedes EQ and PHEV model lines and continues to operate as a key node in the European battery supply chain.",
+        "source": "https://group.mercedes-benz.com/company/locations/production-network-kamenz.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mercedes-unterturkheim",
@@ -1335,7 +1555,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Mercedes-Benz's Untertürkheim plant — the group's oldest and largest German location — integrates battery pack assembly for Mercedes EQ models as part of a broader electrification of the site. Untertürkheim supplies battery systems and high-voltage components across Mercedes-Benz's global production network. The plant is undergoing a multi-year transformation toward electromobility, including significant investment in new EV-related production infrastructure through 2025 and beyond.",
+        "source": "https://group.mercedes-benz.com/company/locations/production-network-untertuerkheim.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mercedes-bruhl",
@@ -1363,7 +1588,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Mercedes-Benz's Brühl plant (near Mannheim) is part of the group's German manufacturing network and contributes battery pack assembly for electrified Mercedes-Benz models. The Brühl location historically produces axles and components; its role in high-voltage battery production is part of the broader group strategy to integrate battery assembly across existing German sites. Specific capacity and model assignment details for the Brühl plant are not publicly disclosed.",
+        "source": "https://group.mercedes-benz.com/company/locations/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mercedes-sindelfingen",
@@ -1391,7 +1621,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Mercedes-Benz's Sindelfingen factory (Factory 56) assembles the EQS and EQE large electric sedans alongside their ICE and PHEV counterparts, integrating battery pack installation directly into the mixed production line. As Mercedes-Benz's flagship assembly plant, Sindelfingen produces high-end EV models and handles the corresponding battery systems. The EQS is built here with battery packs supplied from Kamenz and the broader Mercedes global battery network.",
+        "source": "https://group.mercedes-benz.com/company/locations/production-network-sindelfingen.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "elringklinger-thale",
@@ -1403,7 +1638,7 @@
       "lon": 11.05,
       "year": null,
       "year_label": null,
-      "status": "Operational",
+      "status": "Paused",
       "capacities": [],
       "products": [
         {
@@ -1417,8 +1652,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Plant discontinued February 2025 — status updated to Paused.",
+      "stage": null,
+      "research": {
+        "summary": "ElringKlinger announced the discontinuation of its Thale plant (33 employees) in late November 2024, citing market conditions and the challenging European automotive environment. Operations ceased in February 2025 as part of the company's SHAPE30 restructuring strategy. Thale had produced battery module housings; no restart plans have been announced as of May 2026.",
+        "source": "https://elringklinger.de/en/newsroom/announcements/announcements/elringklinger-plans-discontinuation-of-plant-in-thale",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "eas-nordhausen-pack",
@@ -1445,7 +1685,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "EAS Batteries GmbH in Nordhausen has been developing cell and battery solutions at its Thuringia production site for 25 years, offering custom developments from electrode foil to complete battery systems with BMS. In February 2025, EAS launched a research project for a novel ultra-high power LFP cell with acetonitrile-containing electrolyte technology licensed from Asahi Kasei, with product release scheduled by March 2026. Applications include marine (EASy Marine® system at 1000 V) and high-power industrial uses.",
+        "source": "https://eas-batteries.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmw-leipzig",
@@ -1473,7 +1718,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMW Group Plant Leipzig produces battery modules and complete high-voltage battery packs for a range of fully electric models (iX1, iX2, i4, i5, iX, MINI Countryman Electric), running all three stages of 5th-generation battery production since 2024: cell coating, module production, and pack assembly. The two Leipzig battery facilities together produce up to 300,000 high-voltage batteries per year, with more than €900 million invested in e-component production at the site. Leipzig supplies one in three battery modules for all BMW Group EVs.",
+        "source": "https://www.bmwgroup.com/en/news/general/2025/20-years-bmw-group-plant-leipzig.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmw-regensburg",
@@ -1501,7 +1751,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMW Group Plant Regensburg assembles high-voltage battery packs for current-generation electric BMW models, receiving battery components from the Leipzig battery hub as part of the group's multi-site production strategy. Over 25% of all vehicles produced at Regensburg in 2025 were fully electric. Regensburg is also scheduled to receive 6th-generation Gen6 batteries from the new Irlbach-Straßkirchen battery plant from end of 2026, supporting Neue Klasse vehicle production.",
+        "source": "https://www.bmwgroup-werke.com/regensburg/en.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmw-dingolfing",
@@ -1529,7 +1784,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "BMW's largest German plant; battery center for Neue Klasse.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMW Group Plant Dingolfing — the group's largest German plant — assembles high-voltage battery packs for multiple BMW EV models and is a cornerstone of the Neue Klasse strategy, with over 25% of 2025 output being fully electric. The plant will be supplied by the new dedicated Irlbach-Straßkirchen battery factory (Gen6 batteries) from end of 2026. BMW reached the 2 million EV production milestone in May 2026 with Dingolfing contributing a major share.",
+        "source": "https://electriccarsreport.com/2026/05/bmw-reaches-2-million-ev-milestone-as-dingolfing-plant-takes-center-stage/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmw-irlbach",
@@ -1557,7 +1817,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Under construction (*).",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMW Group Plant Irlbach-Straßkirchen in Lower Bavaria is a purpose-built 6th-generation (Gen6) high-voltage battery assembly factory for the Neue Klasse platform, covering ~150,000 m². Construction began in April 2024 with building permit obtained in record time; equipment installation started mid-2025 with test battery production targeted for late 2025 and series production launching end of 2026. At peak, the plant will produce up to 1,000 Gen6 batteries per day, supplying the Munich, Dingolfing, and Regensburg vehicle plants.",
+        "source": "https://www.bmwgroup-werke.com/irlbach-strasskirchen/en.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "intilion-thale",
@@ -1585,7 +1850,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "INTILION is the stationary energy storage subsidiary of Hoppecke.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "INTILION GmbH, a Hoppecke Group company headquartered in Thale (Saxony-Anhalt), develops and installs lithium-ion BESS solutions from 70 kWh to 100 MWh for renewable energy, data centres, and transport applications. In May 2025, INTILION was contracted to supply an 81 MWh BESS for a project in North Rhine-Westphalia (scheduled for Q3 2026 commissioning). The company continues to expand its project pipeline and has withdrawn earlier IPO plans due to capital market conditions.",
+        "source": "https://intilion.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "gotion-gottingen",
@@ -1612,7 +1882,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Gotion High-Tech's Göttingen plant (a converted former Bosch facility) launched EU-certified battery production in September 2023, becoming the first Chinese battery manufacturer to achieve 'Made in Germany' status. The facility produces battery packs for commercial vehicles, passenger EVs, and energy storage systems with ~70% automation overall and ~80% in module assembly; planned capacity is 20 GWh across four development phases. In July 2025, Gotion started mass production of a liquid-cooled 5 MWh battery storage system at the Göttingen plant.",
+        "source": "https://rhomotion.com/news/gotion-officially-launches-battery-pack-production-in-germany/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fischer-achern",
@@ -1639,7 +1914,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Fischer Power Solutions GmbH, part of the globally operating Fischer Group (headquartered in Achern-Fautenbach since 1971), develops and manufactures high-performance lithium-ion battery systems for industry, vehicle charging infrastructure, and off-grid power supply. The company combines Fischer Group's precision laser welding expertise with advanced battery technology, including a proprietary liquid cooling system for optimised thermal management. Fischer Group operates 18 locations across 8 countries.",
+        "source": "https://www.fischer-power-solutions.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ap-akkupower-schorndorf",
@@ -1666,7 +1946,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Akku Power GmbH, founded in 1991 in Schorndorf (Baden-Württemberg), is a specialist OEM battery pack manufacturer with 200 employees and two Czech Republic production facilities. The company produces intelligent custom Li-ion and NiMH battery packs for e-mobility, industrial, medical, and consumer applications, using cells from Panasonic, Samsung, LG, and Molicel. Akku Power supplies battery packs for 500 V high-power mobility applications and integrates proprietary IoT-enabled BMS and CAN bus communications.",
+        "source": "https://www.akku-power.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ford-cologne",
@@ -1694,7 +1979,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Ford Cologne — Explorer/Capri EV production.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Ford began battery pack assembly at its Cologne Electric Vehicle Center in June 2025, producing packs in three configurations (52, 77, and 79 kWh) for the Ford Explorer and Ford Capri EVs using 180 new robots in a €2 billion facility investment. A 2026 model year update adds LFP battery packs for standard-range variants. However, Ford reduced output to a single shift from January 2026, cutting up to 1,000 jobs in Cologne due to weaker-than-expected BEV demand.",
+        "source": "https://media.ford.com/content/fordmedia/feu/en/news/2025/06/12/ford-begins-capri-and-explorer-battery-pack-assembly-in-cologne-.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "vw-braunschweig",
@@ -1722,7 +2012,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "VW Braunschweig — major battery pack assembly plant for MEB vehicles.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Volkswagen Group Components' Braunschweig plant is the group's flagship battery pack assembly facility, producing up to 500,000 MEB battery systems per year (two expansion stages at 250,000 each) for the ID.3, ID.4, ID.5, ID. Buzz, ŠKODA Enyaq, and selected PHEV models. A further expansion targeting 800,000 annual units is planned as MEB+ is confirmed for 2026. Braunschweig also began assembly of ID. Buzz MEB battery systems in 2024.",
+        "source": "https://www.volkswagen-group.com/en/press-releases/powerful-battery-systems-from-braunschweig-volkswagen-group-components-fires-up-the-next-production-stage-17138",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "tesvolt-wittenberg",
@@ -1749,7 +2044,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Tesvolt — commercial stationary storage systems.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Tesvolt AG, based in Lutherstadt Wittenberg, develops and manufactures stationary battery storage systems for commercial and industrial customers from its Gigafactory with a planned annual capacity of 4 GWh. In May 2025 Tesvolt launched TESVOLT TAYTAN (stackable residential/commercial storage); in November 2025, the TESVOLT FORTON commercial energy trading system began generating monthly four-to-five-figure revenues for customers. The PowerCore G2 (500 kWh commercial/utility-scale system) began deliveries in May 2026.",
+        "source": "https://www.tesvolt.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mdcpower-kolleda",
@@ -1776,7 +2076,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "MDC Power GmbH in Kölleda (Thuringia) is a Mercedes-Benz powertrain plant currently undergoing a phased transition from combustion engine production to battery assembly for fully electric EQ models. First battery production equipment is planned to start up from 2026/2027, backed by state investment through end of 2026. The site employs ~1,300 people and will initially run parallel ICE and battery production before transitioning to an EV-only configuration.",
+        "source": "https://group.mercedes-benz.com/company/locations/production-network-koelleda.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "microvast-ludwigsfelde",
@@ -1807,7 +2112,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Microvast's Ludwigsfelde plant (near Berlin) has an installed capacity of 1.5 GWh targeting up to 6 GWh, producing lithium-ion battery modules and packs for electric buses, commercial vehicles, and industrial applications. In April 2026, Microvast and Iveco Group expanded their long-running partnership to develop next-generation battery technology covering light commercial vans through heavy-duty trucks; the MV-I Gen 2 pack (assembled in Europe) is now deployed across the full Iveco Bus range and the S-eWay Rigid heavy truck.",
+        "source": "https://ir.microvast.com/news-releases/news-release-details/turn-key-solutions-tailored-commercial-vehicles-microvast",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "akkuvision-aschaffenburg",
@@ -1834,7 +2144,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Akku Vision GmbH, headquartered in Haibach near Aschaffenburg, develops and manufactures 100% Made-in-Germany lithium-ion battery packs for e-bikes, intralogistics, hobbies, and leisure applications using Li-ion and LFP round cells. The company integrates custom battery management systems with cell monitoring, temperature control, and state-of-charge calculation, and holds ISO 14001:2015 certification. AkkuVision won the iF Design Award 2025 for one of its battery system designs.",
+        "source": "https://www.akkuvision.de/start/en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "triathlon-glauchau",
@@ -1865,7 +2180,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Triathlon Batterien GmbH, founded 2014 in Glauchau, is a specialist industrial battery manufacturer producing lead-acid and lithium-ion battery systems for electric forklifts, pallet jacks, mobile lifting platforms, and industrial trucks. Operating 55,000 m² with ~150 employees across four production areas, Triathlon was acquired by Sunlight Group (Greece) in 2023, becoming part of a larger industrial battery ecosystem. The Glauchau site handles the full production chain from trough manufacturing to final Li-ion pack assembly.",
+        "source": "https://www.triathlon-batterien.de/en/company",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "scio-aschaffenburg",
@@ -1892,7 +2212,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "SCIO Technology GmbH, founded 2017 in Aschaffenburg, develops and manufactures modular and customer-specific battery systems in series for e-bikes and light electric mobility, including battery modules with among the highest energy density on the market. The company occupies a development centre in Aschaffenburg and has ambitious growth plans targeting a five-fold increase in headcount. SCIO focuses on design-to-production services from specification through BMS development, prototyping, and series production in Germany.",
+        "source": "https://www.scio-technology.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sonnen-wildpoldsried",
@@ -1924,7 +2249,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Sonnen GmbH in Wildpoldsried (Shell subsidiary since 2019, reported for sale in 2025/26 as Shell exits retail energy) is Germany's residential battery storage market leader, with 25,000+ sonnenBatteries aggregated into a 250 MWh virtual power plant. The company uses lithium iron phosphate cells and integrates the FEMS energy management system. Shell put sonnen up for sale at a valuation of €1.35–1.8 billion as part of its withdrawal from retail customer markets.",
+        "source": "https://sonnengroup.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "tesla-grunheide-pack",
@@ -1951,7 +2281,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Tesla's Grünheide Gigafactory assembles battery packs for Model Y and will expand into cell production from 2027, with a €1 billion+ investment targeting 18 GWh/year of 4680 cells (up from 8 GWh announced in late 2025). Battery pack assembly resumed at Grünheide in December 2025 using modernised lines with cells supplied from Tesla's Austin, Texas facility; as of early 2026 the plant operates at ~40% capacity amid weaker European demand. From 2027, the site targets fully integrated production from cells to finished vehicles.",
+        "source": "https://www.electrive.com/2025/12/16/tesla-resumes-battery-pack-assembly-in-berlin/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "draxlmaier-sachsenheim",
@@ -1978,7 +2313,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "DRÄXLMAIER's Sachsenheim plant (near Stuttgart) opened in 2019 as the company's first dedicated battery factory, housing highly automated assembly lines for 800 V battery systems — initially for the Porsche Taycan — across a 100,000 sq ft facility. The site acts as a system integrator combining battery modules into full high-voltage packs, with co-located R&D for future battery system development. DRÄXLMAIER has received the BMW Group Supplier Innovation Award, indicating active BMW supply relationships.",
+        "source": "https://www.draexlmaier.com/en/news/detail/draexlmaier-opens-first-battery-plant",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "draxlmaier-leipzig",
@@ -2005,7 +2345,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Second Dräxlmaier site shown separately in source image.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "DRÄXLMAIER's Leipzig facility is the company's second German battery pack assembly site, producing automotive high-voltage battery systems for premium OEM customers. Leipzig complements the Sachsenheim plant (Porsche-focused) and extends DRÄXLMAIER's geographic reach within Germany for battery production. Specific model assignments and production volumes for the Leipzig site are not publicly disclosed.",
+        "source": "https://www.draexlmaier.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fenecon-kunzig",
@@ -2032,7 +2377,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Source image shows 'Künzig'; FENECON is based in Deggendorf district.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "FENECON, founded 2011 and headquartered in the Deggendorf district (Bavaria), has grown into one of Europe's leading manufacturers of stationary battery storage systems, integrating cells and inverters with its proprietary FEMS energy management platform. In 2025, FENECON secured a €40 million syndicated loan (UniCredit, Commerzbank, DZ Bank, Sparkasse Deggendorf) for capacity expansion, and launched a 48 MWh stationary energy storage project together with TMH. The company operates multiple Bavarian sites including Künzig/Deggendorf, Iggensbach, and Vilshofen/Albersdorf.",
+        "source": "https://fenecon.de/en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fenecon-iggensbach",
@@ -2059,7 +2409,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Second FENECON site.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "FENECON's Iggensbach site is the company's second Bavarian production location, operating alongside the main Deggendorf facilities. As FENECON expands its stationary storage manufacturing footprint with new sites in Vilshofen/Albersdorf and Deggendorf, Iggensbach forms part of a multi-site production network for commercial and industrial battery storage systems. Updated product features include the FEMS 'Energy Roadmap' with improved winter weather forecasting accuracy (reported 55% improvement).",
+        "source": "https://fenecon.de/en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmz-karlstein",
@@ -2090,7 +2445,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "BMZ Group headquarters.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMZ Group's Karlstein am Main headquarters — spanning 194,000 m² with over 300 million round cells assembled annually — has been undergoing restructuring following insolvency proceedings initiated in 2025 in the stationary storage segment. Following antitrust approval, SKion completed acquisition of significant BMZ Group parts in February 2026, enabling a fresh start under new ownership. BMZ is also launching NaTE SERIES sodium-ion batteries in 2025 and continues to operate its global network including plants in Gliwice (Poland) and Skopje (North Macedonia).",
+        "source": "https://bmz-group.com/index.php/en/bmz-company/locations-en",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "estream-monchengladbach",
@@ -2117,7 +2477,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "E-Stream GmbH & Co. KGaA in Mönchengladbach develops high-energy-density lithium-ion battery modules and packs for stationary and mobile applications, using a patented packaging system for cylindrical cells achieving particularly high energy density. The company's e.quikk technology enables charging from 20% to 80% in 15 minutes and a fully non-destructive cell-level disassembly for second-life and recycling. E-Stream operates production at both Mönchengladbach and Kassel, progressing products from R&D through prototype to series production.",
+        "source": "https://www.e-stream.at/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sbs-kleinostheim",
@@ -2144,7 +2509,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Smart Battery Solutions GmbH (SBS), founded 2010 in Kleinostheim near Frankfurt, employs ~85–100 specialists offering 360° battery services from custom development through series production, after-sales, and refurbishing. The company celebrated 15 years of innovation in December 2025 and received investment from private equity firm Gimv. SBS targets warehouse robotics, agricultural robotics, industrial drones, rehabilitation technology, micro-mobility (e-bikes, e-scooters), and e-cargo vehicles with its UniPower and Smart Cluster battery platforms.",
+        "source": "https://smart-battery-solutions.de/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "webasto-stockdorf",
@@ -2171,7 +2541,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Webasto SE — battery pack assembly and thermal management.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Webasto SE (headquartered in Stockdorf near Munich) is a global automotive supplier offering modular battery systems (Standard Battery Pro 40: 40 kWh, scalable to 350 kWh) and integrated thermal management solutions (eBTM) for commercial vehicles and mobile machinery. In 2024, Webasto commissioned a second-life battery storage system at its Schierling plant and continues to develop battery assembly capabilities for commercial EVs. At the 2026 North American Trucking Show, Webasto unveiled new modular battery, thermal management, and charging solutions for next-generation commercial fleets.",
+        "source": "https://www.webasto.com/en-int/battery/standardized-battery-and-thermo-management.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "voltabox-paderborn",
@@ -2198,8 +2573,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Now part of Paragon Group.",
-      "stage": null
+      "notes": "Now part of Paragon Group; rebranded as Voltatron AG.",
+      "stage": null,
+      "research": {
+        "summary": "Voltabox AG (now rebranded as Voltatron AG) in Paderborn specialises in high-performance lithium-ion battery systems for public transportation, commercial vehicles, and intralogistics. Originally a subsidiary of automotive supplier Paragon AG, the company operates in Paderborn and developed battery packs for trolleybuses and electric buses including a US subsidiary with a Texas manufacturing plant. As of 2025/2026, Voltatron reported trailing 12-month revenue of $26.5 million with a market cap of ~$119 million.",
+        "source": "https://voltatron.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "valmetautomotive-kirchardt",
@@ -2226,7 +2606,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Valmet Automotive's German battery pack assembly plant.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Valmet Automotive's Kirchardt plant (Baden-Württemberg), opened February 2023, is the company's first German battery factory and its third European battery site (after Salo and Uusikaupunki in Finland). The ~60,000 m² site hosts ~11,500 m² of automated production for modules, packs, and BMS for a PHEV sports car program, employing ~160 people across two production lines. The plant operates CO2-neutrally from day one and is positioned for future program ramp-ups.",
+        "source": "https://www.valmet-automotive.com/media/valmet-automotive-started-series-production-at-the-kirchardt-battery-plant/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cenntro-herne",
@@ -2253,7 +2638,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Cenntro Electric Group's Herne facility (North Rhine-Westphalia), based at the former Tropos Motors Europe site, began assembling LFP battery packs in February 2023 for Cenntro's Metro Series commercial EVs. The Herne plant produces battery packs using Cenntro's proprietary BMS technology and also assembles the Metro and TeeMak light commercial vehicles, with further models (Logistar line, Antric One cargo bicycle) planned. Cenntro anticipates integrating cells from its subsidiary Cennatic Power in future production cycles.",
+        "source": "https://www.businesswire.com/news/home/20230206005221/en/Cenntro-Begins-Production-of-Battery-Packs-in-United-States-and-Germany-Facilities",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "acc-kaiserslautern",
@@ -2332,7 +2722,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BorgWarner's Darmstadt Gigafactory 1 produces high-voltage NMC battery packs (currently 98 kWh / 665 V 3rd generation) for electric buses and commercial vehicles, with annual capacity expanding to 5.4 GWh in 2025. The facility supplies ~20% of e-buses in Europe and the US, and BorgWarner announced a new BMS series-production program with a global OEM in February 2026. LFP battery product development is in progress to expand the portfolio beyond buses to trucks and special vehicles.",
+        "source": "https://www.sustainabletruckvan.com/borgwarner-gigafactory-darmstadt-report/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "alzner-itzehoe",
@@ -2359,7 +2754,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Alzner Battery (a division of Alzner Automotive GmbH) develops and manufactures battery systems at its Itzehoe site, targeting stationary and portable energy storage applications. Key product lines include ALLWATT (modular high-performance stationary storage for industrial use) and RESBATT (portable, scalable battery system for mobile or stationary applications). Alzner Battery won the iF Design Award 2025 for its innovative battery system concept, highlighting its design and engineering capabilities.",
+        "source": "https://www.alzner-battery.de/en/home-2/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "varta-ellwangen",
@@ -2386,7 +2786,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "VARTA AG's Ellwangen headquarters (Jagst, Baden-Württemberg) serves as the company's principal production site for microbatteries and lithium-ion small cells, alongside the Varta Storage subsidiary's energy storage systems for households and industry. VARTA completed a StaRUG balance-sheet restructuring in March 2025 and continues to operate its core battery business including consumer batteries and specialty cells. The Ellwangen site produces a broad range of batteries catalogued in the VARTA 2025/26 General Catalogue.",
+        "source": "https://www.varta-ag.com/en/consumer",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "lionsmart-hildburghausen",
@@ -2413,7 +2818,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Lion Smart GmbH relocated its battery pack production from Dingolfing to its own facility in Hildburghausen (Thuringia), with an installed capacity of ~2 GWh/year (up to 50,000 packs/day in three shifts, ~4.8 million cells/year). In April 2025, Lion Smart began delivery of samples of its new NMC+ battery platform — targeting mobility, stationary storage, and industrial applications — with multiple products ramping to series production by end of 2025. The Hildburghausen site serves as the company's central production hub.",
+        "source": "https://lionsmart.com/lion-smart-production-gmbh-ready-to-start-making-packs-at-its-own-facility-in-hildburghausen/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "inobat-bratislava",
@@ -2440,7 +2850,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "InoBat (Voderady, Slovakia) launched its first battery cell production line in December 2022 with ~50,000 cells/year capacity and operates battery pack and module production in Bratislava. InoBat's Gotion InoBat Batteries (GIB) JV with Gotion (80%/20% split) is constructing a 20 GWh gigafactory in Šurany with trial production scheduled for 2026 and full commercial production from 2027. In May 2025, InoBat unveiled the E10 battery for military drones, demonstrating expansion into defence applications.",
+        "source": "https://www.inobat.eu/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "stellantis-trnava",
@@ -2468,7 +2883,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Stellantis Trnava (Slovakia) is transitioning to a BEV-dedicated plant on the STLA Small platform, with BEV variants reaching 18% of output in 2024 (up from 12% in 2023) and full electric-only production targeted for 2026. An additional €200 million capex allocation for 2025/2026 is directed at battery assembly line integration and sustainability upgrades; battery packs are currently sourced from Poland and Hungary with localisation under evaluation. The plant currently produces Citroën C3, C3 Aircross (including ë-C3 EV), and Opel Frontera.",
+        "source": "https://grokipedia.com/page/Stellantis_Trnava_Plant",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "seat-martorell",
@@ -2495,8 +2915,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "S logo = SEAT/CUPRA. Future Volkswagen Group Martorell EV hub.",
-      "stage": null
+      "notes": "S logo = SEAT/CUPRA. Battery assembly plant opened December 2025.",
+      "stage": null,
+      "research": {
+        "summary": "SEAT & CUPRA opened a new battery system assembly plant at Martorell on 12 December 2025, covering 64,000 m² with €300 million investment and capacity for 300,000 battery systems/year (one every 45 seconds). From 2026, the plant exclusively supplies CUPRA Raval and VW ID. Polo production lines via an automated 600-metre battery bridge. The facility features 11,000 rooftop solar panels providing 70% of the plant's electricity needs.",
+        "source": "https://www.seat-cupra-mediacenter.com/SEAT-sa/seat-sa-news/company/2025/seat-cupra-celebrates-the-opening-of-the-battery-assembly-plant-a-key-milestone-in-the-final-stretch-of-its-transformation-to-electrification",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "catl-figueruelas",
@@ -2506,9 +2931,9 @@
       "city": "Figueruelas",
       "lat": 41.75,
       "lon": -1.13,
-      "year": null,
-      "year_label": null,
-      "status": "Operational",
+      "year": 2026,
+      "year_label": "2026 (planned start)",
+      "status": "Planned",
       "capacities": [],
       "products": [
         {
@@ -2522,8 +2947,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Stellantis Zaragoza/Figueruelas plant.",
-      "stage": null
+      "notes": "Greenfield construction started November 2025. CATL/Stellantis 50:50 JV. Status updated to Planned.",
+      "stage": null,
+      "research": {
+        "summary": "CATL and Stellantis broke ground on a €4.1 billion 50:50 JV gigafactory (Contemporary Star Energy) in Figueruelas near Zaragoza in November 2025, targeting 50 GWh/year of LFP batteries for Stellantis EVs. The project secured over €300 million in EU funding; construction involves ~2,000 Chinese workers plus 3,000 Spanish employees to be hired and trained. Production start is expected by end of 2026 with full capacity reached by 2028.",
+        "source": "https://www.euronews.com/business/2025/11/27/catl-and-stellantis-break-ground-on-spains-largest-ev-battery-plant",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ford-valencia",
@@ -2550,20 +2980,25 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Ford Almussafes plant (EV transition).",
-      "stage": null
+      "notes": "Ford Almussafes plant. Geely acquisition of Body 3 line underway.",
+      "stage": null,
+      "research": {
+        "summary": "Ford's Valencia (Almussafes) plant invested €42 million in a battery pack assembly facility targeting new GE2 electric models from 2025, but broader EV transition plans have since shifted. As of May 2026, Geely is reported to be acquiring the Body 3 assembly line at the Almussafes plant to produce a Geely NEV model based on the GEA platform — a significant strategic pivot from Ford's original all-electric production plans. The plant currently produces the Kuga SUV as its primary model.",
+        "source": "https://cnevpost.com/2026/05/07/geely-to-acquire-ford-spain-facility/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hyundai-navarra",
-      "name": "Hyundai",
+      "name": "Hyundai Mobis",
       "sector": "module_pack_manufacturer",
       "country": "Spain",
       "city": "Navarra",
       "lat": 42.82,
       "lon": -1.65,
-      "year": null,
-      "year_label": null,
-      "status": "Operational",
+      "year": 2026,
+      "year_label": "2026 (mass production start)",
+      "status": "Planned",
       "capacities": [],
       "products": [
         {
@@ -2578,8 +3013,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Volkswagen Navarra plant or Hyundai. Verify.",
-      "stage": null
+      "notes": "Hyundai Mobis battery pack plant under construction at VGP Park Pamplona/Noáin; supplies VW small EVs. Status updated to Planned.",
+      "stage": null,
+      "research": {
+        "summary": "Hyundai Mobis broke ground on a new €120 million EV battery system plant at VGP Park Pamplona/Noáin (Navarra) in April 2024 — its first dedicated EV battery system plant in Western Europe. The 150,000 m² site will supply up to 360,000 battery systems/year to Volkswagen Group's Pamplona factory (14 km away) for future STLA Small-platform small EVs, with mass production targeted for 2026. Construction was reported on schedule as of late 2024.",
+        "source": "https://www.electrive.com/2024/04/24/hyundai-mobis-starts-building-battery-plant-for-vw-in-spain/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "rimac-sveta-nedelja",
@@ -2606,7 +3046,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Rimac Automobili — hypercar and OEM battery pack supplier.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Rimac Technology (the B2B arm of Rimac Group, headquartered in Sveta Nedelja) develops and manufactures battery systems, e-axles, and ECUs for premium OEM partners from its 100,000+ m² Rimac Campus. Key deliveries include the battery system for the Bugatti Tourbillon hybrid hypercar (25 kWh, 800 V, T-shaped, oil-cooled). In 2025, Rimac announced a next-generation solid-state battery platform in partnership with ProLogium Technology and Mitsubishi Chemical Group, targeting vehicle commercialisation by 2027.",
+        "source": "https://www.rimac-group.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sunlight-xanthi",
@@ -2633,7 +3078,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Sunlight Group's Xanthi Industrial Complex — the world's largest motive power battery plant — spans 90,000 m² with 8 fully automated production lines and annual capacity of 9 GWh, producing lead-acid and lithium-ion industrial battery packs for forklift and material handling markets. A €130+ million LFP pilot cell production line is being installed at Xanthi as part of an IPCEI project (€49.9 million EU-funded), with LFP cell capacity of up to 20 GWh targeted from 2026. The company operates Sunlight Academy in Xanthi and Komotini, training 1,000 students in 2025.",
+        "source": "https://www.sunlight-group.com/en/global/ecosystem/facilities/xanthi/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmz-skopje",
@@ -2659,8 +3109,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "BMZ Group North Macedonia plant.",
-      "stage": null
+      "notes": "BMZ Group North Macedonia plant. New facility opened May 2025.",
+      "stage": null,
+      "research": {
+        "summary": "BMZ Group's new €65 million, 6,800 m² lithium-ion battery pack factory in Skopje's TIDZ (Technological-Industrial Development Zone) opened in May 2025, having relocated production lines from BMZ's previous central Skopje facility. The plant targets 700 jobs and at least €60 million in exports in its first three years, primarily supplying Germany and Poland. BMZ Skopje operates as part of BMZ Group's international production network, now under new ownership (SKion, since February 2026 acquisition).",
+        "source": "https://www.pveurope.eu/solar-storage/southern-europe-battery-manufacturer-bmz-establishes-production-north-macedonia",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "bmw-debrecen",
@@ -2688,7 +3143,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BMW Group Plant Debrecen officially opened in October 2025 as the group's first fully renewable-energy-powered plant, launching Gen6 (6th generation) battery production on-site simultaneously with the BMW iX3 (first Neue Klasse vehicle). The Debrecen plant is the first BMW production site to manufacture Gen6 high-voltage batteries directly integrated with vehicle assembly, improving logistics efficiency; BMW switched to two-shift iX3 production in early 2026 due to high demand.",
+        "source": "https://www.press.bmwgroup.com/global/article/detail/T0453043EN/bmw-group%E2%80%99s-newest-most-innovative-production-site-officially-opens-in-debrecen",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "catl-debrecen-pack",
@@ -2700,8 +3160,10 @@
       "lon": 21.63,
       "year": null,
       "year_label": null,
-      "status": "Planned",
-      "capacities": [],
+      "status": "Operational",
+      "capacities": [
+        { "value": 40, "unit": "GWh", "known": true, "type": "planned", "target_year": null, "label": "planned capacity (fully contracted)" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -2710,12 +3172,19 @@
       ],
       "materials": [],
       "attributes": {
-        "open_questions": []
+        "open_questions": [
+          "Cell production ramp-up timeline — delayed from early 2026 target; confirm current cell production status"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Under construction (*).",
-      "stage": null
+      "notes": "Module assembly operational since autumn 2024 in rented hall; cell production in ramp-up phase as of 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "CATL's Debrecen gigafactory (€7.3 billion investment, 40 GWh planned) has been running module assembly since autumn 2024 in a temporary rented hall, producing 240,000 modules powering ~60,000 European EVs. Cell production was originally targeted for March/April 2026 but has been delayed; a new module assembly line was launched in May 2026. The 40 GWh total planned capacity is reported as fully contracted by OEM customers.",
+        "source": "https://insideevs.hu/news/753474/catl-debrecen-battery-factory-module-production-2024/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "samsung-god-pack",
@@ -2728,7 +3197,9 @@
       "year": null,
       "year_label": null,
       "status": "Operational",
-      "capacities": [],
+      "capacities": [
+        { "value": 40, "unit": "GWh", "known": true, "type": "planned", "target_year": null, "label": "combined planned capacity (Göd + Debrecen)" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -2742,7 +3213,12 @@
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "stage": "commercial",
+      "research": {
+        "summary": "Samsung SDI's Göd plant is one of its core European battery manufacturing sites, producing prismatic NCA cells and modules. The site is being expanded to supply Hyundai-Kia P6 prismatic cells; Samsung SDI announced a combined 40 GWh expansion across its Hungarian sites (Göd and planned Debrecen facility) to serve multiple OEM customers. Göd has been operational for several years and remains Samsung SDI's primary European cell manufacturing base.",
+        "source": "https://www.samsungsdi.com/column/technology/detail/57807.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "byd-fot",
@@ -2764,12 +3240,19 @@
       ],
       "materials": [],
       "attributes": {
-        "open_questions": []
+        "open_questions": [
+          "Clarify role of Fót vs. Komárom vs. Szeged — which site handles battery module/pack assembly vs. vehicle assembly"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "BYD Hungarian production facility.",
-      "stage": null
+      "notes": "BYD Hungarian production facility. Trial car production began Feb 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "BYD's Fót facility in Hungary serves as a battery pack assembly and vehicle production site; trial car production reportedly began in February 2026. BYD has multiple Hungarian sites including Fót, Komárom, and Szeged, with Szeged being the main EV plant. Fót is understood to handle module and pack integration for vehicles produced in Hungary.",
+        "source": "https://www.autopro.hu/gyartas/byd-fot-gyar-kiserleti-gyartas/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "byd-komarom",
@@ -2791,12 +3274,19 @@
       ],
       "materials": [],
       "attributes": {
-        "open_questions": []
+        "open_questions": [
+          "Confirm specific role of Komárom site — battery module/pack assembly vs. logistics hub"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": "commercial",
+      "research": {
+        "summary": "BYD operates a facility in Komárom, Hungary, as part of its multi-site Hungarian manufacturing footprint that also includes Fót and Szeged. Komárom has been referenced in connection with BYD's battery and vehicle operations in Hungary; the precise scope of battery module/pack activities at this site versus logistics or other functions is not fully confirmed from public sources.",
+        "source": "https://www.bydeuropress.com/en/news/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "byd-szeged",
@@ -2822,8 +3312,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "BYD's primary Hungarian EV plant.",
+      "stage": "commercial",
+      "research": {
+        "summary": "BYD's Szeged plant is the company's primary European EV manufacturing site, producing battery electric vehicles and integrating battery packs on-site. The plant has been scaling up production since its opening; BYD confirmed trial vehicle production began in early 2026 with plans to ramp to full commercial volumes. Szeged also serves as a key site for BYD's European battery pack integration aligned with locally assembled vehicles.",
+        "source": "https://www.bydeuropress.com/en/news/byd-european-manufacturing/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hyundai-nosovice",
@@ -2836,7 +3331,9 @@
       "year": null,
       "year_label": null,
       "status": "Operational",
-      "capacities": [],
+      "capacities": [
+        { "value": 450000, "unit": "units/year", "known": true, "type": "planned", "target_year": null, "label": "annual vehicle capacity after 2025 expansion" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -2850,8 +3347,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Hyundai Motor Manufacturing Czech (HMMC) — includes battery hall expanded in 2025.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Hyundai's Nošovice plant (HMMC) is the group's primary European vehicle manufacturing facility, producing the IONIQ 5 and IONIQ 6 with integrated battery pack assembly on-site. The plant expanded its battery production hall in 2025, increasing capacity from ~360,000 to ~450,000 vehicles per year. HMMC is one of the few European auto plants running its own battery pack integration alongside high-volume BEV production.",
+        "source": "https://www.hyundai.com/worldwide/en/company/newsroom/hyundai-motor-manufacturing-czech-0000017078",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "skoda-mlada-boleslav",
@@ -2864,7 +3366,9 @@
       "year": null,
       "year_label": null,
       "status": "Operational",
-      "capacities": [],
+      "capacities": [
+        { "value": 335000, "unit": "units/year", "known": true, "type": "current", "label": "battery pack annual capacity" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -2878,12 +3382,17 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Cell-to-pack plant opened Feb 2026 — VW Group's largest BEV battery producer.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Škoda opened a €205 million cell-to-pack battery assembly plant at Mladá Boleslav in February 2026, with an annual capacity of 335,000 battery packs. The facility makes Škoda the largest BEV battery pack producer within the Volkswagen Group, supplying packs for the Enyaq, Elroq, and other Group BEV models. The plant employs around 400 people and sources cells from partner suppliers for local CTP (cell-to-pack) integration.",
+        "source": "https://www.skoda-storyboard.com/en/press-releases/skoda-auto-opens-new-battery-assembly-plant-in-mlada-boleslav/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "prime-bucharest",
-      "name": "Prime",
+      "name": "Prime Batteries Technology",
       "sector": "module_pack_manufacturer",
       "country": "Romania",
       "city": "Bucharest",
@@ -2892,7 +3401,10 @@
       "year": null,
       "year_label": null,
       "status": "Operational",
-      "capacities": [],
+      "capacities": [
+        { "value": 2.3, "unit": "GWh", "known": true, "type": "current", "label": "current production capacity" },
+        { "value": 6, "unit": "GWh", "known": true, "type": "planned", "target_year": null, "label": "planned second factory" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -2901,13 +3413,20 @@
       ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
-        "open_questions": []
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm timeline for 6 GWh second factory — no official target year confirmed"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Logo reads 'Prime'. Verify company name.",
-      "stage": null
+      "notes": "Prime Batteries Technology — Romanian battery pack manufacturer.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Prime Batteries Technology is a Romanian battery pack manufacturer based in Bucharest, operating with a reported capacity of 2.3 GWh. The company has announced plans for a second factory targeting 6 GWh of additional capacity, though no firm timeline has been publicly confirmed. Prime focuses on lithium battery pack assembly for industrial and energy storage applications in the European market.",
+        "source": "https://www.primebatteries.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "draxlmaier-timisoara",
@@ -2929,12 +3448,19 @@
       ],
       "materials": [],
       "attributes": {
-        "open_questions": []
+        "open_questions": [
+          "Confirm production start date for Timișoara battery assembly plant — still under construction as of early 2026?"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Under construction (*).",
-      "stage": null
+      "notes": "Under construction (*). €200M investment for premium OEM battery pack assembly.",
+      "stage": "commercial",
+      "research": {
+        "summary": "DRÄXLMAIER Group is investing approximately €200 million in a new battery assembly plant in Timișoara, Romania, targeting production of high-voltage battery packs for premium automotive OEM customers. The facility is part of DRÄXLMAIER's broader electrification strategy and leverages Romania's lower manufacturing costs alongside established automotive supply chain infrastructure in the region. Production start has not been officially confirmed as of mid-2026.",
+        "source": "https://www.draexlmaier.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "solarmd-rousse",
@@ -2952,16 +3478,27 @@
         {
           "category": "product_type",
           "name": "battery pack"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
         }
       ],
       "materials": [],
       "attributes": {
-        "open_questions": []
+        "open_questions": [
+          "Confirm current production capacity and product range at Rousse — limited public data available"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "South African company operating LFP battery pack final assembly in Bulgaria.",
+      "stage": "commercial",
+      "research": {
+        "summary": "SolarMD is a South African battery technology company that operates LFP battery pack final assembly in Rousse, Bulgaria, using the facility to access the European market. The company specialises in lithium iron phosphate (LFP) battery systems for solar, storage, and mobility applications. Detailed European production capacity figures are not publicly disclosed.",
+        "source": "https://solarmd.co.za/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "stellantis-turin",
@@ -2988,8 +3525,13 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Stellantis Mirafiori plant — Fiat 500e.",
-      "stage": null
+      "notes": "Stellantis Mirafiori plant — Fiat 500e and hybrid 500 (from Nov 2025).",
+      "stage": "commercial",
+      "research": {
+        "summary": "Stellantis' Mirafiori plant in Turin produces the Fiat 500e with integrated battery pack assembly on-site; the facility received a €100 million upgrade to add production of a mild-hybrid Fiat 500 variant that launched in November 2025. Mirafiori is central to Stellantis' Italian industrial strategy, and battery pack integration for the 500e has been running since the model's launch. Production volumes remain below the plant's potential, reflecting broader market softness in the small BEV segment.",
+        "source": "https://www.stellantis.com/en/news/press-releases/2025/november/mirafiori-launches-hybrid-fiat-500",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "faam-teverola-pack",
@@ -3001,8 +3543,10 @@
       "lon": 14.21,
       "year": null,
       "year_label": null,
-      "status": "Operational",
-      "capacities": [],
+      "status": "Planned",
+      "capacities": [
+        { "value": 8, "unit": "GWh", "known": true, "type": "planned", "target_year": 2026, "label": "Teverola 2 gigafactory planned capacity" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -3011,12 +3555,19 @@
       ],
       "materials": [],
       "attributes": {
-        "open_questions": []
+        "open_questions": [
+          "Confirm production start at Teverola 2 — equipment installed 2025, production reportedly targeting 2026"
+        ]
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Also listed as cell manufacturer.",
-      "stage": null
+      "notes": "Teverola 2 gigafactory (8 GWh). Also listed as cell manufacturer.",
+      "stage": "pilot",
+      "research": {
+        "summary": "FAAM is building the Teverola 2 gigafactory in Campania, targeting 8 GWh of battery module and pack production capacity. Equipment installation was reported in 2025 with commercial production planned for 2026; the project is part of Italy's broader battery manufacturing ambitions and benefits from government support. FAAM is also listed as a cell manufacturer at the same location, indicating a vertically integrated model from cell to pack.",
+        "source": "https://www.faam.com/en/gigafactory-teverola-2/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "voltmec-modena",
@@ -3034,16 +3585,26 @@
         {
           "category": "product_type",
           "name": "battery pack"
+        },
+        {
+          "category": "application",
+          "name": "industrial / AGV / motorsport"
         }
       ],
       "materials": [],
       "attributes": {
+        "parent_company": "P&C System Group",
         "open_questions": []
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Acquired by P&C System Group in 2023.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Voltmec is an Italian battery pack specialist based in Modena, acquired by P&C System Group in 2023. The company designs and manufactures custom lithium battery packs for AGV (automated guided vehicles), industrial machinery, and motorsport applications. Operating from the Motor Valley region, Voltmec leverages Modena's engineering ecosystem for high-performance and specialist pack development.",
+        "source": "https://www.voltmec.it/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "flashbattery-santilario",
@@ -3056,7 +3617,9 @@
       "year": null,
       "year_label": null,
       "status": "Operational",
-      "capacities": [],
+      "capacities": [
+        { "value": 90000, "unit": "modules/year", "known": true, "type": "current", "label": "automated module line capacity" }
+      ],
       "products": [
         {
           "category": "product_type",
@@ -3073,12 +3636,17 @@
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "€6M automated module line — 90,000 modules/year capacity.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Flash Battery is an Italian industrial battery pack specialist based in Sant'Ilario d'Enza, focused on custom lithium battery solutions for AGVs, industrial machinery, and automation. The company invested €6 million in a new automated module assembly line capable of producing 90,000 modules per year. Flash Battery targets industrial OEMs and integrators across Europe with tailored high-voltage battery packs.",
+        "source": "https://www.flashbattery.tech/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "podium-pont-saint-martin",
-      "name": "Podium",
+      "name": "Podium Advanced Technologies",
       "sector": "module_pack_manufacturer",
       "country": "Italy",
       "city": "Pont-Saint-Martin",
@@ -3092,17 +3660,26 @@
         {
           "category": "product_type",
           "name": "battery pack"
+        },
+        {
+          "category": "application",
+          "name": "motorsport / Formula E"
         }
       ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
+        "logo_research_needed": false,
         "open_questions": []
       },
       "source_image": "2026-02_Module-Pack_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Logo reads 'Podium'. Verify full company name and activity.",
-      "stage": null
+      "notes": "Podium Advanced Technologies — Formula E Gen4 battery supplier (Season 13).",
+      "stage": "commercial",
+      "research": {
+        "summary": "Podium Advanced Technologies is an Italian high-performance battery pack specialist headquartered in Pont-Saint-Martin (Aosta Valley). The company is the official battery supplier for Formula E Gen4 vehicles from Season 13, replacing Williams Advanced Engineering in that role. Podium focuses on extreme-performance motorsport and advanced mobility applications, leveraging Italy's motorsport engineering expertise.",
+        "source": "https://www.podium-at.com/",
+        "date": "2026-05-17"
+      }
     }
   ]
 }
