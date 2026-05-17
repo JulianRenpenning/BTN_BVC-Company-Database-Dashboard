@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-05-17",
-    "record_count": 80,
+    "record_count": 64,
     "schema_version": "1.3",
     "source_image": "2026-02_Equipment_Europe.jpg",
     "notes": "Battery Production Equipment Providers, Europe, as of February 2026. Authors: Sebastian Wolf, Heiner Heimes (PEM RWTH Aachen University). Image legend — equipment categories: Electrode manufacturing (blue) · Cell assembly (teal) · Cell finishing (light teal) · Module & pack production (green) · Atmosphere conditioning (light green). Map circles show aggregate company counts per country/category; individual company logos listed by country around the map perimeter. Equipment providers typically have no specific battery project site — most records have city:null and lat/lon:null. 34 records carry logo_research_needed:true. Some very small logos in the Germany column were not legible; those companies are omitted and noted below. Omitted unreadable logos from Germany column: approximately 5–8 very small entries not identifiable even at maximum zoom.",
@@ -668,37 +668,6 @@
       }
     },
     {
-      "id": "unknown-switzerland-equipment-1",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Switzerland",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo may read 'T-T ROLLER' or similar, Switzerland, battery production equipment sector",
-          "No web research could identify this company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo may read 'T-T ROLLER' or similar, Switzerland. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo may read 'T-T ROLLER' or similar and is listed as a Switzerland battery production equipment provider, but no matching company was found in public sources.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "werner-mader-switzerland",
       "name": "Werner Mäder AG",
       "sector": "equipment_provider",
@@ -765,37 +734,6 @@
       }
     },
     {
-      "id": "unknown-austria-equipment-1",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Austria",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'BM' or similar, Austria, battery production equipment sector",
-          "No web research could identify this company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'BM' or similar, Austria. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo reads 'BM' or similar and is listed as an Austria battery production equipment provider, but no matching company was found in public sources.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "buss-austria",
       "name": "BUSS",
       "sector": "equipment_provider",
@@ -831,37 +769,6 @@
       }
     },
     {
-      "id": "unknown-italy-equipment-1",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Italy",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo may read 'BROFTECH' or similar, Italy, battery production equipment sector",
-          "No web research could identify this company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo may read 'BROFTECH' or similar, Italy. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo may read 'BROFTECH' or similar and is listed as an Italy battery production equipment provider, but no matching company was found in public sources.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "masmec-italy",
       "name": "MASMEC",
       "sector": "equipment_provider",
@@ -891,37 +798,6 @@
       "research": {
         "summary": "MASMEC S.p.A. (Modugno, Bari, Italy) is an industrial automation company specialising in robotic assembly and testing systems for the automotive and battery sector. Their battery production scope includes module and pack assembly with full automation of cell feeding, AGV integration, module connection, and end-of-line testing for inverters, battery modules, and packs. The company also works on second-life battery technologies through the Automat project targeting circular economy for battery components.",
         "source": "https://www.masmec.com/en/automated-systems-for-automotive-industry/",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-italy-equipment-2",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Italy",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify additional Italy entries from source image — multiple logos visible, not fully legible",
-          "No web research possible without confirmed company name"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Additional Italian equipment provider visible in source image. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. This is an additional Italian battery production equipment provider visible in the source image whose logo was not fully legible. No identification attempt was possible without a confirmed company name.",
-        "source": "",
         "date": "2026-05-17"
       }
     },
@@ -983,37 +859,6 @@
       "research": {
         "summary": "Company identity is ambiguous. Rimsa Plus Sp. z o.o. (Piekary Slaskie, Poland) operates in industrial machinery maintenance and has 250+ employees, but no battery equipment connection confirmed. RIMSA (Italy) is a lighting manufacturer. Neither is a clear match for a battery production equipment provider in Poland.",
         "source": "https://www.emis.com/php/company-profile/PL/_Rimsa_Plus__Sp_z_oo_en_2359485.html",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-poland-equipment-1",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Poland",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify additional Poland entry from source image — second logo visible but not legible",
-          "No web research possible without confirmed company name"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Additional Polish equipment provider in source image. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. This is an additional Polish battery production equipment provider visible in the source image whose logo was not legible. No identification was possible without a confirmed company name.",
-        "source": "",
         "date": "2026-05-17"
       }
     },
@@ -1183,37 +1028,6 @@
       }
     },
     {
-      "id": "unknown-finland-equipment-1",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Finland",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify third Finland entry from source image — logo not clearly legible",
-          "No web research possible without confirmed company name"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Third Finnish equipment provider visible in source image. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. This is a third Finnish battery production equipment provider visible in the source image whose logo was not clearly legible. No identification was possible without a confirmed company name.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "pfeiffer-vacuum-germany",
       "name": "PFEIFFER VACUUM",
       "sector": "equipment_provider",
@@ -1313,37 +1127,6 @@
       }
     },
     {
-      "id": "unknown-germany-equipment-1",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads approximately 'Sxcollums' or similar, Germany; possibly SCHULER (press manufacturer) or SINGULUS Technologies",
-          "No web research could confirm identity from partial logo text"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads approximately 'Sxcollums' or similar, Germany. Possibly Schuler AG (presses) or Singulus Technologies (vacuum coating). Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo reads approximately 'Sxcollums' or similar in the Germany column. Possibly Schuler AG (press technology for battery casings) or Singulus Technologies (vacuum coating equipment for battery electrodes), both of which are active German battery equipment suppliers. Further logo examination required.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "hahn-automation-germany",
       "name": "HAHN Automation",
       "sector": "equipment_provider",
@@ -1377,34 +1160,6 @@
       }
     },
     {
-      "id": "unknown-germany-equipment-2",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": false,
-        "open_questions": []
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'DÜRR', Germany. Dürr Systems AG / teamtechnik, a major automated production line supplier for battery gigafactories.",
-      "research": {
-        "summary": "Dürr Systems AG (Bietigheim-Bissingen, Germany) is a major supplier of automated production lines for battery gigafactories, covering electrode manufacturing through module and pack assembly. Dürr owns teamtechnik and collaborates with GROB-WERKE on dry electrode coating technology. The company supplies complete turnkey battery production lines and has exhibited at Battery Show North America 2024 and Battery Show Europe 2025. Dürr's battery assembly lines are referenced in multiple gigafactory supply chain announcements across Europe.",
-        "source": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/01_NA_Battery_Show_2024_Digital_Press_Kit/duerr-teamtechnik-new-energy-datasheet-battery-production-assembly-and-test_Lines__1_.pdf",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "coperion-germany",
       "name": "coperion",
       "sector": "equipment_provider",
@@ -1434,37 +1189,6 @@
       "research": {
         "summary": "Coperion GmbH (Stuttgart, Germany) supplies ZSK twin-screw extruders and K-Tron feeders for battery electrode manufacturing, covering both wet slurry compounding and dry electrode coating processes. In October 2025 (Battery Show North America, Detroit) Coperion highlighted a new K-Tron Loss-in-Weight Roller Feeder specifically for dry electrode coating, enabling uniform powder application. The company also presented at Battery Show Europe in Stuttgart (June 2025). Coperion's dry electrode process eliminates the energy-intensive solvent drying step, reducing manufacturing costs by an estimated 11%.",
         "source": "https://coperion.com/en/news-media/newsroom/2025/coperion-at-battery-show-north-america",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-3",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'NNPM' or similar, Germany, battery production equipment sector",
-          "No web research could identify this company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'NNPM' or similar, Germany. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo reads 'NNPM' or similar and is listed as a Germany battery production equipment provider, but no matching company was found in public sources.",
-        "source": "",
         "date": "2026-05-17"
       }
     },
@@ -2388,160 +2112,6 @@
       }
     },
     {
-      "id": "unknown-germany-equipment-4",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'CMWTEC' or similar, Germany",
-          "No web research could identify this company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'CMWTEC' or similar, Germany. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo reads 'CMWTEC' or similar and is listed as a Germany battery production equipment provider, but no matching company was found in public sources.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-5",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'narling' or 'Wesse' or similar, Germany",
-          "No web research could identify this company from partial logo text"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Multiple unclear logos in Germany column. Company identities not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo reads 'narling', 'Wesse', or similar in the Germany column but no matching company in the battery equipment sector was found in public sources.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-6",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'THERMPROCESS' or similar, Germany; THERMPROCESS is a leading international trade fair for thermal processing technology (held in Düsseldorf) — this may be a logo misidentification rather than a company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'THERMPROCESS' or similar, Germany. May be a brand name or specific company in industrial thermal processing.",
-      "research": {
-        "summary": "THERMPROCESS is the name of a major international trade fair for industrial thermal processing technology held in Düsseldorf, Germany. It is likely this is not a company logo but a trade show affiliation mark on a German thermal equipment supplier's logo. Further examination of the source image is required to determine which specific company is intended.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-7",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logos reading 'meister', 'h-kon', 'ARADA', 'ATN', or similar — several small German entries in source image not clearly identified",
-          "No web research could identify these companies from partial logo text"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Several small logos in Germany column including what appear to be 'meister', 'h-kon', 'ATN', 'ARADA'. Companies not confirmed.",
-      "research": {
-        "summary": "Multiple small logos in the Germany column of the source image could not be confirmed via web research. Partial readings include 'meister', 'h-kon', 'ATN', and 'ARADA' — none of these could be matched to a confirmed battery production equipment company in public sources. High-resolution image re-examination is recommended.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-8",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logos reading 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', 'ROBUST' — small Germany entries not fully confirmed",
-          "ROHM is a known Japanese semiconductor company with German operations — may be a misread or a different company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Multiple small logos in Germany column: 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', 'ROBUST' — identities not confirmed.",
-      "research": {
-        "summary": "Multiple small logos in the Germany column could not be confirmed via web research. Partial readings include 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', and 'ROBUST'. Note: ROHM is a Japanese semiconductor manufacturer with German operations, which could be a battery-relevant company (power semiconductors for BMS), but battery production equipment role is unconfirmed for these logos.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
       "id": "zeppelin-systems-germany",
       "name": "Zeppelin Systems",
       "sector": "equipment_provider",
@@ -2571,68 +2141,6 @@
       "research": {
         "summary": "Zeppelin Systems GmbH (Germany) provides safe and scalable bulk material handling and processing solutions for battery mass production, covering raw material intake, conveying, storage, and precise dosing into calender machines. Their FM intensive mixers support dry and semi-dry electrode compound mixing, including dispersion of nanoparticulate conductive additives for LFP, NCA, NCM, and graphite. Test series have been conducted with customers and research institutions, and the company presented battery solutions at the Batteries Event in Lyon.",
         "source": "https://www.zeppelin-systems.com/us/en/industries/chemistry/batteries/",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-9",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'BRHMÜLLER' or similar, Germany; possibly Baumüller (drive technology) or another company",
-          "No definitive match found via web research"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'BRHMÜLLER' or similar, Germany. Possibly Baumüller Nürnberg GmbH (drive and automation technology for battery manufacturing). Identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be definitively confirmed via web research. The logo reads 'BRHMÜLLER' or similar in the Germany column. Baumüller Nürnberg GmbH is a plausible match — they supply drive and automation technology for battery manufacturing equipment — but this could not be verified from the partial logo reading alone.",
-        "source": "",
-        "date": "2026-05-17"
-      }
-    },
-    {
-      "id": "unknown-germany-equipment-10",
-      "name": "Unknown",
-      "sector": "equipment_provider",
-      "country": "Germany",
-      "city": null,
-      "lat": null,
-      "lon": null,
-      "year": null,
-      "year_label": null,
-      "status": "Unknown",
-      "stage": "unknown",
-      "capacities": [],
-      "products": [],
-      "materials": [],
-      "attributes": {
-        "logo_research_needed": true,
-        "open_questions": [
-          "Identify company — logo reads 'AKE' or similar, Germany, battery production equipment sector",
-          "No web research could identify this company"
-        ]
-      },
-      "source_image": "2026-02_Equipment_Europe.jpg",
-      "date_added": "2026-05-12",
-      "notes": "Logo reads 'AKE', Germany. Company identity not confirmed.",
-      "research": {
-        "summary": "Company identity could not be confirmed via web research. The logo reads 'AKE' and is listed as a Germany battery production equipment provider, but no matching company in the battery equipment sector was found in public sources.",
-        "source": "",
         "date": "2026-05-17"
       }
     }
