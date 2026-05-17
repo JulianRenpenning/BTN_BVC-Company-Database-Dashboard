@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-05-17",
     "record_count": 87,
     "schema_version": "1.3",
     "source_image": "2026-02_Equipment_Europe.jpg",
@@ -31,7 +31,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Danish manufacturer of industrial dehumidification systems for battery dry room applications. Key supplier for electrode and cell manufacturing environments."
+      "notes": "Danish manufacturer of industrial dehumidification systems for battery dry room applications. Key supplier for electrode and cell manufacturing environments.",
+      "research": {
+        "summary": "COTES is a Danish manufacturer of industrial dehumidification systems specialising in battery dry room atmosphere conditioning. Their Ultradry and Exergic Technology® systems achieve ultra-low dew points (-40 to -80°C) required for electrode and cell manufacturing, with claimed energy savings of up to 92% versus conventional units. Recent installations at European gigafactories report up to 85% dry-room energy reduction, and Beyonder in Norway has adopted Cotes Ultradry for its battery production line.",
+        "source": "https://www.cotes.com/lithium-ion-battery-manufacturing",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fom-technologies-denmark",
@@ -51,7 +56,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Danish manufacturer of slot-die coating equipment for battery electrode research and production. R&D and pilot-scale coating systems."
+      "notes": "Danish manufacturer of slot-die coating equipment for battery electrode research and production. R&D and pilot-scale coating systems.",
+      "research": {
+        "summary": "FOM Technologies is a Danish DTU spin-off producing slot-die coating equipment for battery electrode manufacturing at lab and pilot scale. Their systems offer microliter-level slurry dosage control for uniform electrode layers, used primarily in R&D and scale-up applications. In 2025–2026 the company partnered with Honeywell to integrate its slot-die technology into an AI-powered battery manufacturing platform at the University of Alabama's AMP Center (scheduled Q2 2026).",
+        "source": "https://www.fomtechnologies.com/news/fom-technologies-in-collaboration-with-us-based-honeywell",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "er-group-uk",
@@ -68,10 +78,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'ER GROUP', United Kingdom, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'ER GROUP', United Kingdom, battery production equipment sector", "No web research could identify this company — no results for 'ER Group' battery equipment UK"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'ER GROUP', UK. Company identity not confirmed."
+      "notes": "Logo reads 'ER GROUP', UK. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'ER GROUP' and the company is listed as a UK battery production equipment provider in the source image, but no matching company was found in public sources. Further identification required.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "mycon-uk",
@@ -88,10 +103,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'MYCON', United Kingdom, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'MYCON', United Kingdom, battery production equipment sector", "No web research could identify this company — no results for 'MYCON' battery equipment UK"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'MYCON', UK. Company identity not confirmed."
+      "notes": "Logo reads 'MYCON', UK. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'MYCON' and the company is listed as a UK battery production equipment provider in the source image, but no matching company was found in public sources. Further identification required.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "smit-netherlands",
@@ -111,7 +131,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery equipment product line — SMIT Thermal Solutions provides furnaces and ovens for electrode drying"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "SMIT Thermal Solutions, Netherlands. Industrial thermal processing systems including electrode drying ovens for battery manufacturing."
+      "notes": "SMIT Thermal Solutions, Netherlands. Industrial thermal processing systems including electrode drying ovens for battery manufacturing.",
+      "research": {
+        "summary": "Smit Thermal Solutions B.V. (Eindhoven, Netherlands) is a specialist in customised thermal equipment including drying ovens, annealing furnaces, and vacuum dryers used in battery electrode manufacturing. Founded in 1936 with over 3,000 installations worldwide, the company supplies temperature-controlled ovens for the electrode and cell manufacturing steps where moisture removal is critical. Over 150 installations serve the solar and battery industry.",
+        "source": "https://www.smitthermalsolutions.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "said-netherlands",
@@ -128,10 +153,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'SAI' or 'SAID', Netherlands, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'SAI' or 'SAID', Netherlands, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'SAI' or 'SAID', Netherlands. Company identity not confirmed."
+      "notes": "Logo reads 'SAI' or 'SAID', Netherlands. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'SAI' or 'SAID' and is listed as a Netherlands battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "kalpana-netherlands",
@@ -148,10 +178,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'KALPANA', Netherlands, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'KALPANA', Netherlands, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'KALPANA', Netherlands. Company identity not confirmed."
+      "notes": "Logo reads 'KALPANA', Netherlands. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'KALPANA' and is listed as a Netherlands battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "awl-netherlands",
@@ -174,7 +209,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "AWL-Techniek, Netherlands. Welding automation systems for battery cell, module, and pack assembly."
+      "notes": "AWL-Techniek, Netherlands. Welding automation systems for battery cell, module, and pack assembly.",
+      "research": {
+        "summary": "AWL-Techniek (Netherlands) is a system integrator specialising in welding automation for battery cell, module, and pack assembly. Their solutions use laser welding and thermally conductive adhesive bonding for battery module production, with full automation of module handling, sorting, fixing, and connection. The company has branches in the Netherlands, Czech Republic, China, Mexico, USA, and UK, serving major EV battery manufacturers globally.",
+        "source": "https://awl.nl/product/battery-cells-and-battery-modules/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sparknano-netherlands",
@@ -194,7 +234,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Spin-off from TU/e (Eindhoven). Atomic layer deposition (ALD) systems for battery electrode coating, enabling uniform nano-scale coatings for improved cell performance."
+      "notes": "Spin-off from TU/e (Eindhoven). Atomic layer deposition (ALD) systems for battery electrode coating, enabling uniform nano-scale coatings for improved cell performance.",
+      "research": {
+        "summary": "SparkNano (TU/e spin-off, Netherlands) develops spatial atomic layer deposition (ALD) equipment for battery electrode coating at industrial scale. In 2025 the company unveiled the SparkNano Omega™, the world's first high-speed roll-to-roll spatial ALD system capable of web speeds up to 100 m/min and widths up to 1.5 m, enabling nanoscale LiF and other protective coatings on anode and cathode foils with claimed 10% improvement in capacity retention. The system operates at atmospheric pressure, targeting high-volume Li-ion battery production.",
+        "source": "https://www.spark-nano.com/news/igniting-clean-energy-manufacturing-today/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "pec-belgium",
@@ -214,7 +259,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "PEC (Precision Equipment Company), Belgian manufacturer of battery formation, aging, and testing equipment. Key supplier for cell finishing in battery gigafactories."
+      "notes": "PEC (Precision Equipment Company), Belgian manufacturer of battery formation, aging, and testing equipment. Key supplier for cell finishing in battery gigafactories.",
+      "research": {
+        "summary": "PEC N.V. (Belgium) is a world-leading supplier of cell finishing equipment — formation, aging, DCIR/OCV measurement, degassing, grading, and sorting systems — for cylindrical, pouch, and prismatic battery cells. The company has installed turnkey automated cell finishing lines at gigafactories and pilot lines running with leading German OEMs, competing with Chroma ATE and Digatron in the fast-formation equipment segment. PEC's formation towers are a critical step in transitioning cells from assembly to usable product.",
+        "source": "https://www.peccorp.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "agc-belgium",
@@ -231,10 +281,15 @@
       "capacities": [],
       "products": [{ "category": "equipment_type", "name": "electrode manufacturing (specialty glass and ceramics)" }],
       "materials": [],
-      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery equipment or materials role — AGC makes specialty glass/ceramics that may be used in battery manufacturing processes or as components"] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm whether AGC is listed here primarily as a sulfide solid electrolyte supplier or in another battery equipment/materials role"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "AGC Inc. (formerly Asahi Glass), European HQ in Belgium. Specialty glass and ceramics; battery-relevant role as substrate or coating material supplier in electrode manufacturing."
+      "notes": "AGC Inc. (formerly Asahi Glass), European HQ in Belgium. Specialty glass and ceramics; battery-relevant role as substrate or coating material supplier in electrode manufacturing.",
+      "research": {
+        "summary": "AGC Inc. (European HQ: Louvain-la-Neuve, Belgium) is a world-leading glass, chemicals, and advanced materials manufacturer with a significant role in solid-state battery development. AGC has developed proprietary sulfide solid electrolyte production technology by combining its glass and chemicals expertise, targeting mass production for all-solid-state batteries. The company is positioned as a key materials supplier for next-generation battery production rather than a production equipment maker in the conventional sense.",
+        "source": "https://www.agc.com/en/news/detail/1204610_2814.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "abn-belgium",
@@ -251,10 +306,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'ABN', Belgium, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'ABN', Belgium, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'ABN', Belgium. Company identity not confirmed."
+      "notes": "Logo reads 'ABN', Belgium. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'ABN' and is listed as a Belgium battery production equipment provider, but no matching company in the battery equipment sector was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hasler-france",
@@ -271,10 +331,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'HASLER', France, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'HASLER', France, battery production equipment sector", "No web research could identify this company in battery equipment context"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'HASLER', France. Company identity not confirmed."
+      "notes": "Logo reads 'HASLER', France. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'HASLER' and is listed as a France battery production equipment provider, but no matching company in the battery equipment sector was found in public sources. HASLER is a known brand in railway technology (Hasler Rail), but no battery equipment connection confirmed.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "biologic-france",
@@ -291,10 +356,15 @@
       "capacities": [],
       "products": [{ "category": "equipment_type", "name": "cell finishing (electrochemical test and measurement)" }],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Confirm logo identification — visible logo in France section reads approximately 'BioCigma' or 'BioLogic'; BioLogic Science Instruments is a leading French battery test equipment maker based near Grenoble"] },
+      "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Likely BioLogic Science Instruments, France. Electrochemical workstations and battery testing instruments widely used in R&D and production. Logo text not fully legible in source image."
+      "notes": "Likely BioLogic Science Instruments, France. Electrochemical workstations and battery testing instruments widely used in R&D and production. Logo text not fully legible in source image.",
+      "research": {
+        "summary": "BioLogic Science Instruments (Seyssinet-Pariset, near Grenoble, France) is a leading manufacturer of electrochemical workstations, battery cyclers, and impedance analyzers for R&D and production quality control. Their product lines (BCS-900 Series, MPG-200 Series, BCS-1012 Series) are used across battery cell finishing workflows for formation characterisation, EIS, and long-term cycling studies. The company actively exhibits at the Battery Power Conference 2026, confirming ongoing presence in the European battery equipment market.",
+        "source": "https://www.biologic.net/discover-battery-cyclers/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "equans-france",
@@ -314,7 +384,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "EQUANS (Bouygues subsidiary), France. Multi-technical engineering services provider including electrical, HVAC, and automation services for battery gigafactory construction and operations."
+      "notes": "EQUANS (Bouygues subsidiary), France. Multi-technical engineering services provider including electrical, HVAC, and automation services for battery gigafactory construction and operations.",
+      "research": {
+        "summary": "EQUANS (Bouygues subsidiary, France) is a major multi-technical engineering services provider for battery gigafactories, covering electrical systems, HVAC, anhydrous cleanrooms, electrolyte storage and distribution, and fire safety. The company has active gigafactory projects in France, Sweden, Norway, Italy, and Germany. A notable recent development: in March 2025, ACC extended its partnership with EQUANS France to double production capacity at the Billy-Berclau gigafactory by 2026.",
+        "source": "https://www.equans.fr/en/reindustrialization-and-gigafactories/equans-integrator-solutions-gigafactories",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "tecosy-spain",
@@ -331,10 +406,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'TECOSY', Spain, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'TECOSY', Spain, battery production equipment sector", "No web research could confirm identity — no matching company found"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'TECOSY', Spain. Company identity not confirmed."
+      "notes": "Logo reads 'TECOSY', Spain. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'TECOSY' and is listed as a Spain battery production equipment provider in the source image, but no matching company was found in public sources. Possible misread of logo text.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fisair-spain",
@@ -354,7 +434,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "FISAIR, Spain. Industrial air treatment systems including dehumidification and dry room solutions for battery electrode and cell manufacturing."
+      "notes": "FISAIR, Spain. Industrial air treatment systems including dehumidification and dry room solutions for battery electrode and cell manufacturing.",
+      "research": {
+        "summary": "FISAIR (Spain) manufactures desiccant dehumidifiers for lithium-ion battery production, supplying atmosphere conditioning equipment for dry rooms where electrode and cell manufacturing require dew points from -40 to -80°C. Their DFLOW range features a dual heat recovery system that reduces energy consumption while maintaining fresh air pressurisation. The company continuously tracks evolving battery chemistries and material changes to adapt their humidity control solutions.",
+        "source": "https://fisair.com/applications/lithium-ion-battery-production/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "lazpiur-spain",
@@ -374,7 +459,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Talleres Lazpiur, Bergara (Basque Country), Spain. CNC machining centers used in battery manufacturing tooling and precision component production."
+      "notes": "Talleres Lazpiur, Bergara (Basque Country), Spain. CNC machining centers used in battery manufacturing tooling and precision component production.",
+      "research": {
+        "summary": "Lazpiur (Bergara, Basque Country, Spain) manufactures high-precision machining centres and tooling for hot, warm, and cold forming processes, with battery cell components listed among their application areas. The company operates nine CNC lathes and seven 5-axis high-speed palletising machining centres. As a Basque precision engineering firm they serve the automotive and battery tooling supply chain rather than supplying complete battery production lines.",
+        "source": "https://www.lazpiur.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "comexi-spain",
@@ -394,7 +484,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "COMEXI Group, Girona, Spain. Flexible packaging and coating/converting machinery applicable to battery separator and electrode film production."
+      "notes": "COMEXI Group, Girona, Spain. Flexible packaging and coating/converting machinery applicable to battery separator and electrode film production.",
+      "research": {
+        "summary": "COMEXI (Girona, Spain) has expanded into battery manufacturing with a dedicated range of high-precision slitters for copper and aluminium electrode foils and battery separator films — the S2 Energy and S4 Energy series. These systems integrate advanced quality assurance with closed-loop control and traceability features. COMEXI differentiates from Asian competitors by offering European-manufactured precision slitting solutions tailored to the electrode converting step.",
+        "source": "https://comexi.com/battery-solutions/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "telsonic-switzerland",
@@ -414,7 +509,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "TELSONIC AG, Bronschhofen, Switzerland. Ultrasonic welding systems for battery tab and busbar welding in cell assembly."
+      "notes": "TELSONIC AG, Bronschhofen, Switzerland. Ultrasonic welding systems for battery tab and busbar welding in cell assembly.",
+      "research": {
+        "summary": "TELSONIC AG (Bronschhofen, Switzerland) supplies ultrasonic welding systems for battery cell assembly, primarily used for tab-to-busbar interconnection in EV battery packs. Their SONIQTWIST® torsional and PowerWheel® technologies enable welding of aluminium cell connectors to copper busbars with minimised intermetallic formation and high electrical conductivity. The company's MPX system operates at 20 kHz / 6.5 kW and is widely adopted in European battery module production lines.",
+        "source": "https://www.telsonic.com/en/application-finder/ultrasonic-welding-of-battery-cells/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-switzerland-equipment-1",
@@ -431,10 +531,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo may read 'T-T ROLLER' or similar, Switzerland, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo may read 'T-T ROLLER' or similar, Switzerland, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo may read 'T-T ROLLER' or similar, Switzerland. Company identity not confirmed."
+      "notes": "Logo may read 'T-T ROLLER' or similar, Switzerland. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo may read 'T-T ROLLER' or similar and is listed as a Switzerland battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "werner-mader-switzerland",
@@ -454,7 +559,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Werner Mäder AG, Switzerland. Precision roller and calendering equipment for battery electrode manufacturing."
+      "notes": "Werner Mäder AG, Switzerland. Precision roller and calendering equipment for battery electrode manufacturing.",
+      "research": {
+        "summary": "Werner Mäder AG (Switzerland) manufactures precision rollers and calendering systems used in battery electrode densification, a critical step in electrode manufacturing that compresses the coated electrode to the target porosity and thickness. Specific recent contract announcements or European gigafactory deliveries could not be confirmed in public sources, but the company is listed as a recognised European supplier of electrode calendering equipment. The calendering step directly affects electrode energy density and cell performance.",
+        "source": "https://www.wernermader.de/en/machines/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "buhler-switzerland",
@@ -474,7 +584,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Bühler Group, Uzwil, Switzerland. Mixing and processing equipment including wet grinding and dispersing systems for battery electrode slurry preparation."
+      "notes": "Bühler Group, Uzwil, Switzerland. Mixing and processing equipment including wet grinding and dispersing systems for battery electrode slurry preparation.",
+      "research": {
+        "summary": "Bühler Group (Uzwil, Switzerland) is one of the most established European suppliers of continuous electrode slurry mixing systems for lithium-ion battery manufacturing, having delivered over 113 complete systems worldwide as of February 2026. Their continuous mixing process — integrating dosing, pre-mixing, kneading, dispersing, and degassing — reduces slurry energy consumption to 56 kWh/t versus ~200 kWh/t for batch processes. A notable 2025 contract involves delivering four continuous mixing lines to FIB S.p.A. (Italy, 8 GWh capacity) with production starting in 2026.",
+        "source": "https://www.buhlergroup.com/global/en/media/media-releases/buehler-reaches-milestone-in-battery-manufacturing-with-over-100.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-austria-equipment-1",
@@ -491,10 +606,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'BM' or similar, Austria, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'BM' or similar, Austria, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'BM' or similar, Austria. Company identity not confirmed."
+      "notes": "Logo reads 'BM' or similar, Austria. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'BM' or similar and is listed as an Austria battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "buss-austria",
@@ -514,7 +634,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": ["Note: Buss AG is headquartered in Pratteln, Switzerland — shown under Austria in source image; verify if Austrian subsidiary or image placement"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Buss AG (HQ Pratteln, Switzerland). Co-kneader and mixing systems for battery electrode slurry preparation. Shown under Austria section in source image — may reflect Austrian operations or image placement."
+      "notes": "Buss AG (HQ Pratteln, Switzerland). Co-kneader and mixing systems for battery electrode slurry preparation. Shown under Austria section in source image — may reflect Austrian operations or image placement.",
+      "research": {
+        "summary": "Buss AG (Pratteln, Switzerland) manufactures co-kneader compounding systems widely used for battery electrode slurry production, including anode paste compounding for dry electrode processes. Their COMPEO co-kneader uses simultaneous rotation and axial oscillation for intensive distributive mixing with gentle processing, suitable for high-viscosity electrode compounds. In 2025, Buss AG was acquired by Jakob Müller Holding AG (JMH), strengthening JMH's process solutions division in high-viscosity process engineering.",
+        "source": "https://busscorp.com/en/news/compounding-of-battery-electrodes/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-italy-equipment-1",
@@ -531,10 +656,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo may read 'BROFTECH' or similar, Italy, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo may read 'BROFTECH' or similar, Italy, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo may read 'BROFTECH' or similar, Italy. Company identity not confirmed."
+      "notes": "Logo may read 'BROFTECH' or similar, Italy. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo may read 'BROFTECH' or similar and is listed as an Italy battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "masmec-italy",
@@ -554,7 +684,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "MASMEC S.p.A., Modugno (Bari), Italy. Automation and assembly lines for battery cell manufacturing."
+      "notes": "MASMEC S.p.A., Modugno (Bari), Italy. Automation and assembly lines for battery cell manufacturing.",
+      "research": {
+        "summary": "MASMEC S.p.A. (Modugno, Bari, Italy) is an industrial automation company specialising in robotic assembly and testing systems for the automotive and battery sector. Their battery production scope includes module and pack assembly with full automation of cell feeding, AGV integration, module connection, and end-of-line testing for inverters, battery modules, and packs. The company also works on second-life battery technologies through the Automat project targeting circular economy for battery components.",
+        "source": "https://www.masmec.com/en/automated-systems-for-automotive-industry/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-italy-equipment-2",
@@ -571,10 +706,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify additional Italy entries from source image — multiple logos visible, not fully legible"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify additional Italy entries from source image — multiple logos visible, not fully legible", "No web research possible without confirmed company name"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Additional Italian equipment provider visible in source image. Company identity not confirmed."
+      "notes": "Additional Italian equipment provider visible in source image. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. This is an additional Italian battery production equipment provider visible in the source image whose logo was not fully legible. No identification attempt was possible without a confirmed company name.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "videotron-hungary",
@@ -591,10 +731,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'VIDEOTRON', Hungary; role in battery production equipment unclear"] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Confirm specific battery equipment role for Videoton — company is a contract electronics manufacturer, not a traditional battery production equipment maker"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'VIDEOTRON', Hungary. Company identity and battery equipment role not confirmed."
+      "notes": "Likely Videoton, Székesfehérvár, Hungary. Large contract electronics and automotive manufacturing group. Battery-related activities confirmed.",
+      "research": {
+        "summary": "Videoton (Székesfehérvár, Hungary) is a privately owned Hungarian contract manufacturing group (~21 member companies, estimated €640M value) primarily known for electronics manufacturing services (EMS). Battery-related activities include assembly of battery-powered portable power sources, battery pack assembly (previously in partnership with Sanyo), and production of electric vehicle charging equipment. Videoton operates in Hungary's growing battery manufacturing ecosystem but is positioned as a contract manufacturer rather than a dedicated battery production equipment specialist.",
+        "source": "https://en.wikipedia.org/wiki/Videoton_(company)",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "rimsa-poland",
@@ -611,10 +756,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'RIMSA', Poland, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'RIMSA', Poland, battery production equipment sector", "Web search found Rimsa Plus Sp. z o.o. (Poland) in industrial machinery maintenance, and RIMSA (Italy) in lighting — neither clearly identified as battery production equipment"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'RIMSA', Poland. Company identity not confirmed."
+      "notes": "Logo reads 'RIMSA', Poland. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity is ambiguous. Rimsa Plus Sp. z o.o. (Piekary Slaskie, Poland) operates in industrial machinery maintenance and has 250+ employees, but no battery equipment connection confirmed. RIMSA (Italy) is a lighting manufacturer. Neither is a clear match for a battery production equipment provider in Poland.",
+        "source": "https://www.emis.com/php/company-profile/PL/_Rimsa_Plus__Sp_z_oo_en_2359485.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-poland-equipment-1",
@@ -631,10 +781,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify additional Poland entry from source image — second logo visible but not legible"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify additional Poland entry from source image — second logo visible but not legible", "No web research possible without confirmed company name"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Additional Polish equipment provider in source image. Company identity not confirmed."
+      "notes": "Additional Polish equipment provider in source image. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. This is an additional Polish battery production equipment provider visible in the source image whose logo was not legible. No identification was possible without a confirmed company name.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "camfil-sweden",
@@ -654,7 +809,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "CAMFIL, Sweden. Industrial air filtration (HEPA, molecular filtration) for battery dry rooms and cleanrooms."
+      "notes": "CAMFIL, Sweden. Industrial air filtration (HEPA, molecular filtration) for battery dry rooms and cleanrooms.",
+      "research": {
+        "summary": "Camfil (Sweden) is a leading manufacturer of HEPA and ULPA air filters for battery dry rooms and cleanrooms, providing Megalam panels and molecular filtration systems that meet the ultra-low particulate requirements of lithium-ion battery electrode and cell manufacturing. Their filtration solutions are used throughout battery gigafactory environments to prevent contamination. The cleanroom technology market — of which Camfil is a major part — is valued at $10B+ in 2025 with battery gigafactories as a key growth driver.",
+        "source": "https://cleanair.camfil.us/2024/04/18/the-crucial-role-of-air-quality-control-in-ev-battery-production-plants/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "quintus-technologies-sweden",
@@ -674,7 +834,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Quintus Technologies, Västerås, Sweden. Isostatic pressing equipment used in solid-state battery manufacturing and electrode densification."
+      "notes": "Quintus Technologies, Västerås, Sweden. Isostatic pressing equipment used in solid-state battery manufacturing and electrode densification.",
+      "research": {
+        "summary": "Quintus Technologies (Västerås, Sweden) specialises in isostatic pressing equipment for battery manufacturing, with a growing focus on all-solid-state battery production. In November 2025 the company unveiled the QIB 300 and QIB 600 Warm Isostatic Press series — pilot-scale systems achieving up to 600 MPa / 145°C for ASSB cell densification and bonding. In March 2025 Quintus opened a dedicated Battery Application Center to support developers from testing to scale-up. The company is presenting at Interbattery 2026 on scaling ASSB production with warm isostatic pressing.",
+        "source": "https://www.prweb.com/releases/quintus-technologies-unveils-pilot-scale-warm-isostatic-presses-for-all-solid-state-battery-production-302609905.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "munters-sweden",
@@ -694,7 +859,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Munters, Sweden. Industrial humidity control and dry room solutions critical for lithium-ion electrode and cell manufacturing."
+      "notes": "Munters, Sweden. Industrial humidity control and dry room solutions critical for lithium-ion electrode and cell manufacturing.",
+      "research": {
+        "summary": "Munters (Sweden) is a global leader in industrial humidity control and dry room dehumidification for lithium-ion battery manufacturing. Their Low Dew Point (LDP) dehumidifiers are engineered specifically for battery dry rooms requiring ultra-dry air at low temperatures. In 2025, Munters secured a $30M order from a US heavy/medium-duty vehicle battery cell manufacturer for LDP systems, with delivery scheduled for Q2-Q3 2026. Previous contracts include a dry room system for Morrow Batteries' Arendal gigafactory in Norway.",
+        "source": "https://www.munters.com/en-us/news-media/press-releases/2025/munters-wins-order-with-a-value-of-musd-30-from-battery-manufacturer/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "jot-automation-finland",
@@ -714,7 +884,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "JOT Automation, Tampere, Finland. Automated assembly and end-of-line testing systems for battery cells and modules."
+      "notes": "JOT Automation, Tampere, Finland. Automated assembly and end-of-line testing systems for battery cells and modules.",
+      "research": {
+        "summary": "JOT Automation (Oulu, Finland; part of Victory Precision Group) is a world-leading provider of custom test and assembly automation for electronics and EV batteries, present in 11 countries. Their battery solutions include turnkey assembly lines for EV battery systems (unpacking, testing, welding, final-product testing) and a dedicated Battery Test solution for cylindrical, pouch, and prismatic cells. No specific 2025–2026 gigafactory contract announcements were found in public sources.",
+        "source": "https://www.jotautomation.com/solutions/ev-battery-assembly-solution",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "lahti-precision-finland",
@@ -734,7 +909,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Lahti Precision, Lahti, Finland. Industrial conveyor and handling systems for battery manufacturing lines."
+      "notes": "Lahti Precision, Lahti, Finland. Industrial conveyor and handling systems for battery manufacturing lines.",
+      "research": {
+        "summary": "Lahti Precision (Lahti, Finland) is a weighing technology and material handling specialist with over 100 years of expertise, serving customers including battery material manufacturers. In March 2023 the company was acquired by Tamtron Group and now operates as Tamtron Precision Oy. Their products cover industrial conveyor belt scales, big bag stations, dispensing systems, and the mScales SaaS material flow management system — relevant for raw material handling in battery active material production.",
+        "source": "https://tamtrongroup.com/en/tamtron-aquires-finnish-lahti-precision/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-finland-equipment-1",
@@ -751,10 +931,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify third Finland entry from source image — logo not clearly legible"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify third Finland entry from source image — logo not clearly legible", "No web research possible without confirmed company name"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Third Finnish equipment provider visible in source image. Company identity not confirmed."
+      "notes": "Third Finnish equipment provider visible in source image. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. This is a third Finnish battery production equipment provider visible in the source image whose logo was not clearly legible. No identification was possible without a confirmed company name.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "pfeiffer-vacuum-germany",
@@ -774,7 +959,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Pfeiffer Vacuum Technology, Asslar, Germany. Vacuum pumps and systems for battery cell manufacturing including electrolyte filling and degassing."
+      "notes": "Pfeiffer Vacuum Technology, Asslar, Germany. Vacuum pumps and systems for battery cell manufacturing including electrolyte filling and degassing.",
+      "research": {
+        "summary": "Pfeiffer Vacuum Technology (Asslar, Germany; part of Busch Group) supplies vacuum pumps and leak detection systems for battery cell manufacturing, specifically electrolyte filling (vacuum-assisted wetting at ~0.01 mbar), formation degassing, and cell housing leak testing. At Battery Show Europe 2025 (Stuttgart), Pfeiffer presented the HiScroll 46 scroll pump paired with the ASI 35 tracer gas leak detector, enabling fast high-throughput leak testing of battery cell housings in production lines.",
+        "source": "https://www.pfeiffer-vacuum.com/en/solutions/applications/battery-production/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "azo-germany",
@@ -794,7 +984,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "AZO GmbH, Osterburken, Germany. Powder handling, dosing, and conveying systems for battery active material processing in electrode manufacturing."
+      "notes": "AZO GmbH, Osterburken, Germany. Powder handling, dosing, and conveying systems for battery active material processing in electrode manufacturing.",
+      "research": {
+        "summary": "AZO GmbH (Osterburken, Germany) supplies bulk powder handling, dosing, and conveying systems for battery manufacturing, covering both electrode production (handling active materials such as lithium, cobalt, graphite) and battery recycling (sorting recovered powders for re-entry into the supply chain). Their AMIXON mixer dryer reactors and precision sifters handle the specific challenges of battery-grade powders. AZO is also active in supporting dry electrode production trends where precise powder-to-film process control is critical.",
+        "source": "https://www.azo-inc.com/blog/battery-powder-handling",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "horiba-germany",
@@ -814,7 +1009,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "HORIBA (Japanese), European operations in Germany. Analytical and measurement instruments including particle size analyzers, electrochemical measurement, and emission monitoring used in battery R&D and quality control."
+      "notes": "HORIBA (Japanese), European operations in Germany. Analytical and measurement instruments including particle size analyzers, electrochemical measurement, and emission monitoring used in battery R&D and quality control.",
+      "research": {
+        "summary": "HORIBA (Japanese company with major European operations in Germany) provides a comprehensive suite of analytical instruments for battery manufacturing quality control and R&D: particle size analysers (LA-960V2), Raman spectrometers, GD-OES, ICP-OES, and electrochemical measurement systems for cell, module, and pack testing. Their 2025 positioning paper 'Mastering the Battery Journey' covers the full battery value chain from materials characterisation to end-of-life. HORIBA instruments are widely used in electrode manufacturing (particle size of active materials) and cell finishing (EIS, capacity cycling).",
+        "source": "https://www.horiba.com/usa/company/news/detail/news/9/2025/mastering-the-battery-journey-full-solution-for-the-entire-value-chain/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-1",
@@ -831,10 +1031,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads approximately 'Sxcollums' or similar, Germany; possibly SCHULER (press manufacturer) or SINGULUS Technologies"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads approximately 'Sxcollums' or similar, Germany; possibly SCHULER (press manufacturer) or SINGULUS Technologies", "No web research could confirm identity from partial logo text"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads approximately 'Sxcollums' or similar, Germany. Possibly Schuler AG (presses) or Singulus Technologies (vacuum coating). Company identity not confirmed."
+      "notes": "Logo reads approximately 'Sxcollums' or similar, Germany. Possibly Schuler AG (presses) or Singulus Technologies (vacuum coating). Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads approximately 'Sxcollums' or similar in the Germany column. Possibly Schuler AG (press technology for battery casings) or Singulus Technologies (vacuum coating equipment for battery electrodes), both of which are active German battery equipment suppliers. Further logo examination required.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hahn-automation-germany",
@@ -854,7 +1059,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "HAHN Automation Group, Rheinböllen, Germany. Industrial automation systems for battery cell assembly and module production lines."
+      "notes": "HAHN Automation Group, Rheinböllen, Germany. Industrial automation systems for battery cell assembly and module production lines.",
+      "research": {
+        "summary": "HAHN Automation Group (Rheinböllen, Germany) is a global industrial automation provider with battery-specific solutions including a Battery Pack End-of-Line Testing (EOLT) turnkey system covering low-voltage, high-voltage, communication, insulation resistance, and safety tests. At automatica 2025 the company presented new modular standard cells and digital automation solutions. HAHN also has full US capabilities and serves automotive and medtech customers worldwide with scalable assembly and test systems.",
+        "source": "https://www.hahnautomation.group/news/newsroom/hahn-automation-group-auf-der-automatica-2025-zukunftsweisende-loesungen-fuer-intelligente-automation-und-robotik/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-2",
@@ -871,10 +1081,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'DURA' or 'DÜRR', Germany; possibly DÜRR Systems AG (automated production lines) — a key battery equipment supplier"] },
+      "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'DURA' or 'DÜRR', Germany. Possibly DÜRR Systems AG, a major automated production line supplier for battery gigafactories."
+      "notes": "Logo reads 'DÜRR', Germany. Dürr Systems AG / teamtechnik, a major automated production line supplier for battery gigafactories.",
+      "research": {
+        "summary": "Dürr Systems AG (Bietigheim-Bissingen, Germany) is a major supplier of automated production lines for battery gigafactories, covering electrode manufacturing through module and pack assembly. Dürr owns teamtechnik and collaborates with GROB-WERKE on dry electrode coating technology. The company supplies complete turnkey battery production lines and has exhibited at Battery Show North America 2024 and Battery Show Europe 2025. Dürr's battery assembly lines are referenced in multiple gigafactory supply chain announcements across Europe.",
+        "source": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/01_NA_Battery_Show_2024_Digital_Press_Kit/duerr-teamtechnik-new-energy-datasheet-battery-production-assembly-and-test_Lines__1_.pdf",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "coperion-germany",
@@ -894,7 +1109,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Coperion GmbH, Stuttgart, Germany. Twin-screw extruders and compounding systems for dry electrode processing and battery active material mixing."
+      "notes": "Coperion GmbH, Stuttgart, Germany. Twin-screw extruders and compounding systems for dry electrode processing and battery active material mixing.",
+      "research": {
+        "summary": "Coperion GmbH (Stuttgart, Germany) supplies ZSK twin-screw extruders and K-Tron feeders for battery electrode manufacturing, covering both wet slurry compounding and dry electrode coating processes. In October 2025 (Battery Show North America, Detroit) Coperion highlighted a new K-Tron Loss-in-Weight Roller Feeder specifically for dry electrode coating, enabling uniform powder application. The company also presented at Battery Show Europe in Stuttgart (June 2025). Coperion's dry electrode process eliminates the energy-intensive solvent drying step, reducing manufacturing costs by an estimated 11%.",
+        "source": "https://coperion.com/en/news-media/newsroom/2025/coperion-at-battery-show-north-america",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-3",
@@ -911,10 +1131,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'NNPM' or similar, Germany, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'NNPM' or similar, Germany, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'NNPM' or similar, Germany. Company identity not confirmed."
+      "notes": "Logo reads 'NNPM' or similar, Germany. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'NNPM' or similar and is listed as a Germany battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "schaeffler-germany",
@@ -934,7 +1159,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Schaeffler AG, Herzogenaurach, Germany. Precision bearings, linear guidance, and drive components used in battery manufacturing equipment. Also supplies fuel cell and battery system components."
+      "notes": "Schaeffler AG, Herzogenaurach, Germany. Precision bearings, linear guidance, and drive components used in battery manufacturing equipment. Also supplies fuel cell and battery system components.",
+      "research": {
+        "summary": "Schaeffler AG (Herzogenaurach, Germany) has a dedicated battery manufacturing division — Schaeffler Special Machinery — supplying cell assembly lines (laser welding with OCT quality control), module assembly, and battery pack turnkey production systems. The company is also advancing solid-state battery (ASSB) component technology and demonstrated its ASSB portfolio at CES 2025. Schaeffler's dual role as both a production equipment supplier and battery component manufacturer makes it an unusually broad player in the battery equipment space.",
+        "source": "https://www.schaeffler-special-machinery.de/en/news-media/blogs/battery-production/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "koenig-bauer-germany",
@@ -954,7 +1184,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Koenig & Bauer AG, Würzburg, Germany. Printing and coating machinery adapted for battery electrode coating (slot-die, gravure coating). Active in battery manufacturing equipment market."
+      "notes": "Koenig & Bauer AG, Würzburg, Germany. Printing and coating machinery adapted for battery electrode coating (slot-die, gravure coating). Active in battery manufacturing equipment market.",
+      "research": {
+        "summary": "Koenig & Bauer AG (Würzburg, Germany) is developing dry electrode coating technology in a strategic partnership with Volkswagen subsidiary PowerCo SE. The system eliminates solvent drying by applying powder directly to foil, reducing energy consumption by ~30%. The proof-of-concept was successfully achieved in mid-2025 following factory acceptance testing by PowerCo. The next phase involves moving to a pilot line at PowerCo for industrial scaling, with completion of scaling work targeted for 2026.",
+        "source": "https://www.koenig-bauer.com/en/newsroom/press-releases/article/koenig-bauer-and-powerco-se-successful-proof-of-concept",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "liebherr-germany",
@@ -974,7 +1209,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Liebherr Group, Biberach, Germany. Material handling, intralogistics, and automation solutions for battery gigafactory operations."
+      "notes": "Liebherr Group, Biberach, Germany. Material handling, intralogistics, and automation solutions for battery gigafactory operations.",
+      "research": {
+        "summary": "Liebherr (Biberach, Germany) supplies modular battery pack assembly and intralogistics systems for EV battery production, offering heavy-duty linear gantries, industrial robots, automated storage, and AGV integration under a flexible 'product kit' model. They provide turnkey high-voltage battery pack assembly lines and demonstrated battery-related automation at EMO 2025. In 2026, Liebherr is also offering a free dismantling cell for battery packs to support circular economy development.",
+        "source": "https://www.liebherr.com/en-us/gear-technology-and-automation-systems/battery_pack_assembly-en-gb-4389053",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "teamtechnik-germany",
@@ -997,7 +1237,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "teamtechnik Maschinen und Anlagen GmbH, Freiberg am Neckar, Germany. Assembly and testing systems for battery cells, modules, and packs."
+      "notes": "teamtechnik Maschinen und Anlagen GmbH, Freiberg am Neckar, Germany. Assembly and testing systems for battery cells, modules, and packs.",
+      "research": {
+        "summary": "Teamtechnik (Freiberg am Neckar, Germany; Dürr Group) supplies standardised assembly and test systems for battery cells, modules, and packs, including BOL/MOL/EOL testing and full robotic automation. A notable recent project: teamtechnik Poland is responsible for supply and installation of a complete battery module production line for Impact Clean Power Technology's GigafactoryX in Pruszków, Poland — the largest teamtechnik Poland implementation, using Bosch Rexroth TS7 conveyor technology for the first time globally.",
+        "source": "https://www.sustainable-bus.com/components/teamtechnik-impact-gigafactory-battery-poland/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "grob-germany",
@@ -1020,7 +1265,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "GROB-WERKE GmbH, Mindelheim, Germany. Machine tools and manufacturing systems for automotive and battery production. Has developed specific battery module assembly lines."
+      "notes": "GROB-WERKE GmbH, Mindelheim, Germany. Machine tools and manufacturing systems for automotive and battery production. Has developed specific battery module assembly lines.",
+      "research": {
+        "summary": "GROB-WERKE (Mindelheim, Germany) is a comprehensive battery manufacturing equipment provider covering cell assembly (lamination, Z-folder stacking, electrolyte filling up to 30 bar), module assembly, and dry electrode coating (co-developed with Dürr). In 2025 GROB opened a technology centre in Lyon, France, and exhibited at Battery Show Europe. A major in-house exhibition marking the company's 100th anniversary is planned for March 2026 in Mindelheim, showcasing the latest battery production innovations.",
+        "source": "https://www.grobgroup.com/en/products/product-range/electromobility/batteries/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "kms-automation-germany",
@@ -1037,10 +1287,15 @@
       "capacities": [],
       "products": [{ "category": "equipment_type", "name": "cell assembly (automation)" }],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Confirm company identity — logo reads 'KMS', Germany; likely KMS Automation GmbH, Schönau im Schwarzwald"] },
+      "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'KMS', Germany. Likely KMS Automation, Schönau im Schwarzwald — assembly automation for battery manufacturing. Confirm identity."
+      "notes": "KMS Automation GmbH, Schramberg-Waldmössingen (Baden-Württemberg), Germany. Assembly automation including battery and energy storage production equipment.",
+      "research": {
+        "summary": "KMS Automation GmbH (Schramberg-Waldmössingen, Germany; 115 employees) provides special machine construction and automation for automotive, white goods, new energy, and medical technology sectors, with battery technology firmly in their portfolio. Together with the Technology Centre Dresden, KMS has developed coating systems for battery and energy storage production. The company's headquarters is in Waldmössingen, not Schönau im Schwarzwald as previously noted.",
+        "source": "https://www.kms-automation.de/willkommen",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "manz-germany",
@@ -1061,10 +1316,15 @@
         { "category": "equipment_type", "name": "cell finishing" }
       ],
       "materials": [],
-      "attributes": { "logo_research_needed": false, "open_questions": [] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Manz AG filed for insolvency in early 2025 and Tesla Automation GmbH agreed to purchase the site — confirm current operational status and whether battery equipment business continues under new ownership"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Manz AG, Reutlingen, Germany. Full-line battery manufacturing equipment: electrode coating, cell stacking/winding, formation and testing. One of the most complete battery equipment providers in Europe."
+      "notes": "Manz AG, Reutlingen, Germany. Full-line battery manufacturing equipment: electrode coating, cell stacking/winding, formation and testing. One of the most complete battery equipment providers in Europe. Filed for insolvency Feb 2025; Tesla Automation GmbH agreed to purchase the site.",
+      "research": {
+        "summary": "Manz AG (Reutlingen, Germany) was one of Europe's most complete battery production equipment providers, covering electrode manufacturing, cell stacking/winding, and cell finishing. In February 2025 the company opened insolvency proceedings following a weakened European battery cell equipment market, and Tesla Automation GmbH agreed to acquire the site. Manz had previously divested its battery cell production equipment business and was refocusing on battery module assembly and industrial automation before the insolvency. The battery equipment brand and assets are now in transition.",
+        "source": "https://www.ess-news.com/2025/02/28/tesla-to-buy-site-of-insolvent-battery-production-equipment-maker-manz/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "coherent-germany",
@@ -1084,7 +1344,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Coherent Corp. (US), significant European/German operations. Laser systems for battery tab notching, welding, and electrode cutting."
+      "notes": "Coherent Corp. (US), significant European/German operations. Laser systems for battery tab notching, welding, and electrode cutting.",
+      "research": {
+        "summary": "Coherent Corp. (US, with major European operations) supplies high-power laser systems for battery cell assembly: electrode foil cutting and notching, tab-to-foil welding, cell housing sealing, and safety valve welding. Their edge welding technology connects aluminium/copper electrode foil stacks to battery tabs with precise laser control. Coherent's laser systems are used in the cell assembly step across pouch, prismatic, and cylindrical battery production lines.",
+        "source": "https://www.coherent.com/news/blog/edge-welding",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ika-germany",
@@ -1104,7 +1369,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "IKA-Werke GmbH, Staufen im Breisgau, Germany. Laboratory and industrial mixing, stirring, and heating equipment for battery electrode slurry preparation and R&D."
+      "notes": "IKA-Werke GmbH, Staufen im Breisgau, Germany. Laboratory and industrial mixing, stirring, and heating equipment for battery electrode slurry preparation and R&D.",
+      "research": {
+        "summary": "IKA-Werke GmbH (Staufen im Breisgau, Germany) supplies mixing, dispersing, and heating equipment for battery electrode slurry preparation at both lab and industrial scale, with claimed productivity improvements of up to 15% versus conventional mixers. In 2025 IKA expanded its partnership with Dec Group to offer integrated powder handling and mixing solutions for battery production. The company also launched enhanced dry electrode processing solutions in 2025, positioning for the solvent-free electrode manufacturing trend.",
+        "source": "https://www.ikaprocess.com/en/Industry/Batteries-fuel-cells-cip-8.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "von-ardenne-germany",
@@ -1124,7 +1394,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "VON ARDENNE GmbH, Dresden, Germany. Vacuum coating and plasma processing systems for battery electrode coating and solid-state electrolyte deposition."
+      "notes": "VON ARDENNE GmbH, Dresden, Germany. Vacuum coating and plasma processing systems for battery electrode coating and solid-state electrolyte deposition.",
+      "research": {
+        "summary": "VON ARDENNE GmbH (Dresden, Germany) is a technology leader in vacuum coating systems for next-generation battery cell components, supplying equipment for solid-state electrolyte deposition, corrosion protection layers, and lithophilic coatings for anode-free battery concepts. The company recently commissioned the OPTA X300 deposition tool in a new cleanroom. At H2 & FC EXPO 2026 (Tokyo), VON ARDENNE presented the X-CONDUCT carbon coating and the VICA900 coating system for fuel cell and battery applications.",
+        "source": "https://vonardenne.com/industries-applications/battery/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "schmid-germany",
@@ -1141,10 +1416,15 @@
       "capacities": [],
       "products": [{ "category": "equipment_type", "name": "electrode manufacturing (surface treatment and processing)" }],
       "materials": [],
-      "attributes": { "logo_research_needed": false, "open_questions": [] },
+      "attributes": { "logo_research_needed": false, "open_questions": ["Clarify whether SCHMID's role in this map is specifically for Li-ion electrode surface treatment or for redox flow battery production — SCHMID Pekintaş is building a vanadium redox flow battery gigafactory in Turkey"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "SCHMID Group, Freudenstadt, Germany. Surface treatment and wet processing equipment for battery electrode and cell manufacturing."
+      "notes": "SCHMID Group, Freudenstadt, Germany. Surface treatment and wet processing equipment for battery electrode and cell manufacturing.",
+      "research": {
+        "summary": "SCHMID Group (Freudenstadt, Germany) is known for precision wet processing and surface treatment equipment, with a strong base in PCB and advanced packaging manufacturing. In the battery sector SCHMID is active primarily through flow battery systems — SCHMID Pekintaş is targeting redox flow battery cost reduction with a planned Turkish gigafactory. In March 2026 SCHMID also secured a major order for wet-process production equipment for AI/HPC infrastructure. The company's role as a Li-ion battery equipment supplier specifically requires further confirmation.",
+        "source": "https://www.ess-news.com/2024/12/20/schmid-pekintas-targets-redox-flow-battery-cost-reduction-with-new-turkish-gigafactory/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "eirich-germany",
@@ -1164,7 +1444,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Maschinenfabrik Gustav Eirich GmbH, Hardheim, Germany. Intensive mixers and granulation systems for battery active material and electrode slurry preparation."
+      "notes": "Maschinenfabrik Gustav Eirich GmbH, Hardheim, Germany. Intensive mixers and granulation systems for battery active material and electrode slurry preparation.",
+      "research": {
+        "summary": "Maschinenfabrik Gustav Eirich (Hardheim, Germany) supplies intensive mixers (including the MixSolver® variant) for battery electrode slurry and dry electrode compound preparation, supporting wet, semi-dry, and dry processes. At Battery Show Europe (May 2025, Stuttgart) Eirich presented a 500-litre mixer RLV12W Vac, laboratory mixers C5, and the new El1nano for solid-state battery development (up to 100 ml). Eirich mixers offer significantly lower energy consumption and higher homogenisation than conventional planetary mixers.",
+        "source": "https://www.eirich.com/en/meta/news/news-detail/future-proof-mixing-technology-for-battery-production",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "brabender-germany",
@@ -1184,7 +1469,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Brabender GmbH, Duisburg, Germany. Process measurement instruments and laboratory mixing/extrusion equipment for battery material characterization."
+      "notes": "Brabender GmbH, Duisburg, Germany. Process measurement instruments and laboratory mixing/extrusion equipment for battery material characterization.",
+      "research": {
+        "summary": "Brabender GmbH (Duisburg, Germany; now part of Anton Paar as Anton Paar TorqueTec GmbH) supplies torque rheometers, measuring kneaders, and twin-screw extruders used for battery electrode material characterisation and process development, including testing extrudability and rheology of anode and cathode compounds. The company has 25 years of collaboration with IKTS Dresden and Hermsdorf using their equipment for battery electrode compound development. Brabender exhibits at Battery Power Conference 2025 and 2026.",
+        "source": "https://www.anton-paar.com/corp-en/about-us/news/news/detail/anton-paar-acquires-brabender-gmbh-co-kg/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "jonas-redmann-germany",
@@ -1207,7 +1497,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Jonas & Redmann Group, Berlin, Germany. Specialized battery manufacturing systems: stacking, winding, tab welding, and complete cell assembly lines. One of Germany's primary battery equipment specialists."
+      "notes": "Jonas & Redmann Group, Berlin, Germany. Specialized battery manufacturing systems: stacking, winding, tab welding, and complete cell assembly lines. One of Germany's primary battery equipment specialists.",
+      "research": {
+        "summary": "Jonas & Redmann (Berlin, Germany) is one of Germany's primary specialists in battery cell and module assembly equipment, supplying systems for electrode stacking, winding, laser processing, tab welding, and complete cell assembly lines from R&D to mass production scale. The company has a strategic cooperation agreement with Liebherr-Verzahntechnik for combined automation system offerings. Jonas & Redmann exhibits at RE+ 2025 (North American solar and energy storage trade show) and participates in German research initiatives on battery cell stacking innovation.",
+        "source": "https://www.jonas-redmann.com/en/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "collin-germany",
@@ -1227,7 +1522,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Dr. Collin GmbH, Ebersberg, Germany. Film and foil extrusion systems for battery separator and electrode film production."
+      "notes": "Dr. Collin GmbH, Ebersberg, Germany (now COLLIN Lab & Pilot Solutions GmbH, Maitenbeth). Film and foil extrusion systems for battery separator and electrode film production.",
+      "research": {
+        "summary": "COLLIN Lab & Pilot Solutions GmbH (Maitenbeth, Germany; formerly Dr. Collin) manufactures film and foil extrusion lines, roll mills, and slot-die coating heads for battery separator and electrode film production. Their machines handle electrode coating onto foil (including solvent-free NMP-free processes), separator film extrusion, and calendering of thin electrode films. The company exhibited at K 2025 (Düsseldorf) and has been active in battery manufacturing equipment since a milestone pilot line installation in 1999.",
+        "source": "https://www.collin-solutions.com/en/blog/2021/11/15/machinery-for-batteries-and-fuel-cells/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "abb-pan-european",
@@ -1247,7 +1547,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "ABB Ltd (Swiss-Swedish multinational). Industrial robots, drives, and automation systems widely used in battery module and pack assembly lines. Listed in Germany column but pan-European presence."
+      "notes": "ABB Ltd (Swiss-Swedish multinational). Industrial robots, drives, and automation systems widely used in battery module and pack assembly lines. Listed in Germany column but pan-European presence.",
+      "research": {
+        "summary": "ABB Robotics (Swiss-Swedish, global operations) supplies industrial robots, cobots, drives, and turnkey automation solutions for battery cell, module, and pack assembly. ABB delivered robots to Scania's new battery assembly plant in Sweden and partnered with Gotion High-Tech for gigafactory automation in Europe and the US. ABB released new large robot models in 2025 specifically targeting EV battery material handling, increasing speed and flexibility for gigafactory floor operations.",
+        "source": "https://new.abb.com/products/robotics/industries/automotive/battery",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fft-germany",
@@ -1264,10 +1569,15 @@
       "capacities": [],
       "products": [{ "category": "equipment_type", "name": "module & pack production" }],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Confirm company identity — logo reads 'FFT', Germany; likely FFT Production Systems (formerly Flensburger Fahrzeugbau Technik or a rebranded entity) providing battery assembly lines"] },
+      "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'FFT', Germany. Likely FFT Production Systems — flexible factory systems for EV and battery pack assembly. Identity to be confirmed."
+      "notes": "FFT Produktionssysteme GmbH & Co. KG (Fulda, Germany). Flexible factory systems for EV and battery pack/cell assembly, electrolyte filling, and mini-environment integration.",
+      "research": {
+        "summary": "FFT Produktionssysteme (Fulda, Germany; partner of Siemens) designs and builds turnkey automated production systems for battery manufacturing including electrolyte filling, cell housing sealing, BOL/EOL battery testing, and flexible (dis)assembly lines for battery recycling. FFT announced the first battery cell from the FFB PreFab facility on December 15, 2025, marking a milestone in German battery manufacturing. The company also develops mini-environment systems that isolate critical battery processes to reduce dry-room energy costs by 25–40%.",
+        "source": "https://www.fft.de/en/news/single-view/baer-the-first-battery-cell-from-the-ffb-prefab-marks-a-milestone-for-batteries-made-in-germany",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "leybold-germany",
@@ -1287,7 +1597,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Leybold GmbH, Cologne, Germany (Atlas Copco subsidiary). Vacuum pumps and systems for battery manufacturing including electrolyte filling and cell degassing."
+      "notes": "Leybold GmbH, Cologne, Germany (Atlas Copco subsidiary). Vacuum pumps and systems for battery manufacturing including electrolyte filling and cell degassing.",
+      "research": {
+        "summary": "Leybold GmbH (Cologne, Germany; Atlas Copco subsidiary) supplies dry-compressing oil-free vacuum pumps (DRYVAC-LIB, CLAWVAC, VARODRY-LIB) for battery cell manufacturing, covering electrode drying, electrolyte vacuum filling at ≤0.01 mbar, and formation degassing. Their pumps are specifically engineered to handle NMP solvent traces and toxic formation gases safely. Leybold cooperates with battery manufacturers to co-develop tailored vacuum solutions for evolving cell chemistries and formats.",
+        "source": "https://www.leybold.com/en/applications-and-industries/energy-generation-and-storage/vacuum-lithium-ion-batteries",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "jagenberg-germany",
@@ -1307,7 +1622,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Jagenberg Group, Neuss, Germany. Slitting, winding, and roll handling equipment for battery electrode foil and separator processing."
+      "notes": "Jagenberg Group, Neuss, Germany. Slitting, winding, and roll handling equipment for battery electrode foil and separator processing.",
+      "research": {
+        "summary": "Jagenberg Group (Neuss, Germany) supplies precision slitting and winding equipment for battery electrode foil and separator processing through its Jagenberg Converting Solutions (JCS) brand and Kampf portfolio. At Battery Show Europe 2025 (Stuttgart, May 2025) Jagenberg presented the EvoSlitter, TechSlitter CHRO, and MicroSlitter for sensitive electrode and separator foils. The company is also contributing to the European GIGABAT project, developing roll-to-roll infrared drying systems for anode foils targeting commercial deployment by 2027.",
+        "source": "https://www.jagenberg-converting.com/news-detail/news/press-release-jagenberg-group-at-the-battery-show-europe-2025",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "laserline-germany",
@@ -1327,7 +1647,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Laserline GmbH, Mülheim an der Ruhr, Germany. High-power diode laser systems for battery tab cutting and welding applications."
+      "notes": "Laserline GmbH, Mülheim an der Ruhr, Germany. High-power diode laser systems for battery tab cutting and welding applications.",
+      "research": {
+        "summary": "Laserline GmbH (Mülheim an der Ruhr, Germany) manufactures high-power diode laser systems for battery manufacturing, including electrode foil welding, tab cutting, and infrared drying of battery foils in roll-to-roll processes. At Laser World of Photonics 2025 (Munich) the company presented its complete industrial diode laser portfolio including the LDFblue 6000-60 (6 kW, blue wavelength) specifically for copper welding. Laserline's LDM technology enables rapid power adjustment within microseconds for multi-layer electrode tab welding without damaging adjacent separator films.",
+        "source": "https://laserline.pressroom-rbt.com/en/laser-world-of-photonics-2025-laserline-presents-complete-portfolio-of-industrial-diode-lasers/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "aumann-germany",
@@ -1350,7 +1675,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Aumann AG, Beelen, Germany. Winding technology and assembly automation for battery cells (cylindrical and prismatic) and modules."
+      "notes": "Aumann AG, Beelen, Germany. Winding technology and assembly automation for battery cells (cylindrical and prismatic) and modules.",
+      "research": {
+        "summary": "Aumann AG (Beelen, Germany) is a global leader in coil winding technology and e-mobility assembly automation, supplying winding machines for battery cells and assembly systems for battery modules and packs. In its Q1 2026 earnings, the company confirmed full-year 2026 revenue guidance of ~€160M and EBITDA margin 6–8%. E-mobility segment revenue fell ~45% in 2024–2025 due to reduced OEM order intake, prompting Aumann to diversify into aerospace, defence, clean tech, and life sciences via its Next Automation division.",
+        "source": "https://www.aumann.com/en/services/industry-solutions/e-mobility-automotive/energy-storage-systems/battery-modules",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "kuka-germany",
@@ -1370,7 +1700,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "KUKA AG, Augsburg, Germany (Midea Group). Industrial robots and automation systems widely used in battery cell, module, and pack manufacturing lines."
+      "notes": "KUKA AG, Augsburg, Germany (Midea Group). Industrial robots and automation systems widely used in battery cell, module, and pack manufacturing lines.",
+      "research": {
+        "summary": "KUKA AG (Augsburg, Germany; Midea Group) provides certified cleanroom and dry-room robots for battery cell, module, and pack production including pouch, prismatic, and cylindrical cell formats. A notable 2025 development involves KUKA robots being trialled in 'mini-environment' battery cell production at KIT (Karlsruhe Institute of Technology), where process containment significantly reduces the energy needed to create dry-room conditions. KUKA also supplies complete battery module assembly lines integrating tab welding, module measuring, and housing integration.",
+        "source": "https://www.kuka.com/en-us/industries/battery-production/battery-cell-production",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "pink-germany",
@@ -1390,7 +1725,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "PINK GmbH Thermosysteme, Wertheim, Germany. Vacuum lamination and heat press systems used in solid-state battery and pouch cell manufacturing."
+      "notes": "PINK GmbH Thermosysteme, Wertheim, Germany. Vacuum lamination and heat press systems used in solid-state battery and pouch cell manufacturing.",
+      "research": {
+        "summary": "PINK GmbH Thermosysteme (Wertheim/Main, Germany; 180+ employees) manufactures vacuum drying, sintering, and soldering systems used in battery cell manufacturing. Notable battery contracts include delivery of 30 vacuum furnaces to Britishvolt and a long-term partnership with Cellforce Group / Porsche AG for high-performance solid-state battery manufacturing. PINK exhibited at SEMICON West 2025, confirming ongoing presence in advanced semiconductor and battery manufacturing equipment markets.",
+        "source": "https://www.pink.de/en/company/profile.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "olbrich-germany",
@@ -1410,7 +1750,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Olbrich GmbH, Bocholt, Germany. Coating, laminating, and converting machines for battery electrode and separator production."
+      "notes": "Olbrich GmbH, Bocholt, Germany (now part of Matthews Engineering). Coating, laminating, and converting machines for battery electrode and separator production.",
+      "research": {
+        "summary": "OLBRICH GmbH (Bocholt, Germany; now operating as Matthews Engineering together with Saueressig and Polytype Converting) specialises in advanced coating and laminating machinery for battery electrode and separator production, including calender systems and roll-to-roll primer coating lines. Since joining Matthews Engineering, their battery energy division has expanded through synergies across the combined portfolio. Olbrich also joined UPCELL, the European Battery Manufacturing Alliance, as a member through Saueressig.",
+        "source": "https://www.olbrich.com/en/news/news-detail/innovative-and-efficient-production-lines-for-electrodes-and-further-battery-components-tailor-made-solutions-from-a-single-source.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "zimmer-group-germany",
@@ -1430,7 +1775,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "ZIMMER Group, Germany. Gripper and clamping technology for battery cell handling in automated assembly lines."
+      "notes": "ZIMMER Group, Germany. Gripper and clamping technology for battery cell handling in automated assembly lines.",
+      "research": {
+        "summary": "ZIMMER Group (Germany) is a specialist in battery cell handling grippers and clamping technology, with over 100,000 development hours in e-mobility solutions since 2014. Their HPM2000 series magnetic grippers for cylindrical cells (65 N holding force) and custom grippers for pouch cells, modules, and high-voltage battery packs are used in automated battery assembly lines. At Automate 2025, ZIMMER debuted the ZiMo flexible robotic cell and new magnetic grippers for cylindrical battery cells.",
+        "source": "https://www.zimmer-group.com/en-us/technologies-components/system-technology/mobility/e-mobility",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "netzsch-germany",
@@ -1450,7 +1800,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "NETZSCH Group, Selb, Germany. Wet grinding and dispersing equipment for battery active material processing and electrode slurry preparation."
+      "notes": "NETZSCH Group, Selb, Germany. Wet grinding and dispersing equipment for battery active material processing and electrode slurry preparation.",
+      "research": {
+        "summary": "NETZSCH Group (Selb, Germany) supplies wet grinding and dispersing equipment for battery active material processing including the PMH planetary mixer and intensive mixers for electrode slurry preparation, reducing mixing time from ~4 hours to 1–2 hours versus conventional planetary mixers. NETZSCH also offers wet grinding systems for silicon-based anode materials (high-capacity next-generation anodes). The company's Application Seminar on Wet Grinding is scheduled for November 2026 in Selb.",
+        "source": "https://grinding.netzsch.com/en/energy-solutions",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "kroenert-germany",
@@ -1470,7 +1825,12 @@
       "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Kroenert GmbH, Hamburg, Germany. Precision coating and laminating machinery for battery electrode and separator film production."
+      "notes": "Kroenert GmbH, Hamburg, Germany. Precision coating and laminating machinery for battery electrode and separator film production.",
+      "research": {
+        "summary": "Kroenert GmbH (Hamburg, Germany; founded 1903) manufactures customised coating and laminating machines for web-like materials, with battery electrode and separator membrane production as a major growth application. Their LabCo modular lab machine supports electrode coating and separator coating development. Kroenert exhibited at ICE Europe 2025 showcasing innovations for energy savings and lower emissions in coating processes. Battery electrode coating and separator membrane machinery is cited as a planned major future business area for the company.",
+        "source": "https://www.kroenert.de/en/your-sector/renewable-energies",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-4",
@@ -1487,10 +1847,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'CMWTEC' or similar, Germany"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'CMWTEC' or similar, Germany", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'CMWTEC' or similar, Germany. Company identity not confirmed."
+      "notes": "Logo reads 'CMWTEC' or similar, Germany. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'CMWTEC' or similar and is listed as a Germany battery production equipment provider, but no matching company was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-5",
@@ -1507,10 +1872,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'narling' or 'Wesse' or similar, Germany"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'narling' or 'Wesse' or similar, Germany", "No web research could identify this company from partial logo text"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Multiple unclear logos in Germany column. Company identities not confirmed."
+      "notes": "Multiple unclear logos in Germany column. Company identities not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'narling', 'Wesse', or similar in the Germany column but no matching company in the battery equipment sector was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-6",
@@ -1527,10 +1897,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'THERMPROCESS' or similar, Germany; may be a trade show name rather than a company"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'THERMPROCESS' or similar, Germany; THERMPROCESS is a leading international trade fair for thermal processing technology (held in Düsseldorf) — this may be a logo misidentification rather than a company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'THERMPROCESS' or similar, Germany. May be a brand name or specific company in industrial thermal processing."
+      "notes": "Logo reads 'THERMPROCESS' or similar, Germany. May be a brand name or specific company in industrial thermal processing.",
+      "research": {
+        "summary": "THERMPROCESS is the name of a major international trade fair for industrial thermal processing technology held in Düsseldorf, Germany. It is likely this is not a company logo but a trade show affiliation mark on a German thermal equipment supplier's logo. Further examination of the source image is required to determine which specific company is intended.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-7",
@@ -1547,10 +1922,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logos reading 'meister', 'h-kon', 'ARADA', 'ATN', or similar — several small German entries in source image not clearly identified"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logos reading 'meister', 'h-kon', 'ARADA', 'ATN', or similar — several small German entries in source image not clearly identified", "No web research could identify these companies from partial logo text"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Several small logos in Germany column including what appear to be 'meister', 'h-kon', 'ATN', 'ARADA'. Companies not confirmed."
+      "notes": "Several small logos in Germany column including what appear to be 'meister', 'h-kon', 'ATN', 'ARADA'. Companies not confirmed.",
+      "research": {
+        "summary": "Multiple small logos in the Germany column of the source image could not be confirmed via web research. Partial readings include 'meister', 'h-kon', 'ATN', and 'ARADA' — none of these could be matched to a confirmed battery production equipment company in public sources. High-resolution image re-examination is recommended.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-8",
@@ -1567,10 +1947,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logos reading 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', 'ROBUST' — small Germany entries not fully confirmed"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logos reading 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', 'ROBUST' — small Germany entries not fully confirmed", "ROHM is a known Japanese semiconductor company with German operations — may be a misread or a different company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Multiple small logos in Germany column: 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', 'ROBUST' — identities not confirmed."
+      "notes": "Multiple small logos in Germany column: 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', 'ROBUST' — identities not confirmed.",
+      "research": {
+        "summary": "Multiple small logos in the Germany column could not be confirmed via web research. Partial readings include 'tdtronic', 'Sonplasa', 'ROHM', 'PST', 'MIKADO', 'woll', 'BRAUN', and 'ROBUST'. Note: ROHM is a Japanese semiconductor manufacturer with German operations, which could be a battery-relevant company (power semiconductors for BMS), but battery production equipment role is unconfirmed for these logos.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "zeppelin-systems-germany",
@@ -1587,10 +1972,15 @@
       "capacities": [],
       "products": [{ "category": "equipment_type", "name": "electrode manufacturing (bulk material handling)" }],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Confirm company identity — logo reads 'eky ZEPPELIN' or 'Zeppelin Systems', Germany; Zeppelin Systems GmbH provides bulk material handling and processing"] },
+      "attributes": { "logo_research_needed": false, "open_questions": [] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'ZEPPELIN' or 'eky ZEPPELIN', Germany. Likely Zeppelin Systems GmbH — bulk material handling and industrial process technology for battery material processing."
+      "notes": "Zeppelin Systems GmbH, Germany. Bulk material handling, conveying, and intensive mixing systems for battery active material processing.",
+      "research": {
+        "summary": "Zeppelin Systems GmbH (Germany) provides safe and scalable bulk material handling and processing solutions for battery mass production, covering raw material intake, conveying, storage, and precise dosing into calender machines. Their FM intensive mixers support dry and semi-dry electrode compound mixing, including dispersion of nanoparticulate conductive additives for LFP, NCA, NCM, and graphite. Test series have been conducted with customers and research institutions, and the company presented battery solutions at the Batteries Event in Lyon.",
+        "source": "https://www.zeppelin-systems.com/us/en/industries/chemistry/batteries/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-9",
@@ -1607,10 +1997,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'BRHMÜLLER' or similar, Germany; possibly Baumüller (drive technology) or another company"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'BRHMÜLLER' or similar, Germany; possibly Baumüller (drive technology) or another company", "No definitive match found via web research"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'BRHMÜLLER' or similar, Germany. Possibly Baumüller Nürnberg GmbH (drive and automation technology for battery manufacturing). Identity not confirmed."
+      "notes": "Logo reads 'BRHMÜLLER' or similar, Germany. Possibly Baumüller Nürnberg GmbH (drive and automation technology for battery manufacturing). Identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be definitively confirmed via web research. The logo reads 'BRHMÜLLER' or similar in the Germany column. Baumüller Nürnberg GmbH is a plausible match — they supply drive and automation technology for battery manufacturing equipment — but this could not be verified from the partial logo reading alone.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "unknown-germany-equipment-10",
@@ -1627,10 +2022,15 @@
       "capacities": [],
       "products": [],
       "materials": [],
-      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'AKE' or similar, Germany, battery production equipment sector"] },
+      "attributes": { "logo_research_needed": true, "open_questions": ["Identify company — logo reads 'AKE' or similar, Germany, battery production equipment sector", "No web research could identify this company"] },
       "source_image": "2026-02_Equipment_Europe.jpg",
       "date_added": "2026-05-12",
-      "notes": "Logo reads 'AKE', Germany. Company identity not confirmed."
+      "notes": "Logo reads 'AKE', Germany. Company identity not confirmed.",
+      "research": {
+        "summary": "Company identity could not be confirmed via web research. The logo reads 'AKE' and is listed as a Germany battery production equipment provider, but no matching company in the battery equipment sector was found in public sources.",
+        "source": "",
+        "date": "2026-05-17"
+      }
     }
   ]
 }
