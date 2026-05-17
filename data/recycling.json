@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-05-11",
-    "record_count": 57,
+    "last_updated": "2026-05-17",
+    "record_count": 65,
     "schema_version": "1.2",
     "source_map": "Battery Recycling Projects (Europe) as of February 2026",
     "notes": "Capacity in tonnes per year (t/y). Recycling methods in products[]: Mechanical (M), Hydrometallurgy (H), Pyrometallurgy (P), Direct recycling (D). Dual capacities = current + target. target_year in capacity object when shown.",
@@ -45,7 +45,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Hydrovolt is a joint venture between Hydro (Norwegian aluminium) and Volkswagen Group, operating Europe's largest EV battery recycling plant in Fredrikstad since 2022. Current mechanical pre-treatment capacity is 12,000 t/y of battery packs (approx. 25,000 EVs). Long-term targets are 70,000 t/y by 2025 across its European network and 300,000 t/y by 2030. In 2024 Hydrovolt made a final investment decision to open a second site in Hordain, France.",
+        "source": "https://www.hydrovolt.com/plant",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "glencore-morrow-moss",
@@ -81,7 +86,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Partnership between Glencore and Morrow Batteries for battery recycling.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Glencore and Morrow Batteries operate a mechanical pre-treatment (spoke) facility in Moss, Norway with a capacity of approximately 10,000 t/y. The facility shreds end-of-life lithium-ion batteries to produce black mass, which is then processed downstream at Glencore's Nikkelverk smelter in Kristiansand. Glencore acquired the Li-Cycle assets in August 2025 and is expanding its European recycling network centred on its planned Portovesme hydromet hub in Sardinia.",
+        "source": "https://www.glencore.com/what-we-do/recycling",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "nikkelverk-kristiansand",
@@ -110,7 +120,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Nikkelverk is Glencore's Norwegian smelter; capacity not stated in source image.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Glencore Nikkelverk in Kristiansand is one of Europe's largest secondary nickel and cobalt refiners, processing battery scrap and other secondary feeds via pyrometallurgy. Reported capacity for battery-related recycling is approximately 30,000 t/y of secondary feeds, with nickel and cobalt recovery rates of 72–74%. Lithium recovery remains low (2–4%) due to process limitations. The site has over 30 years of experience processing nickel- and cobalt-bearing scrap, including battery materials.",
+        "source": "https://www.nikkelverk.no/en/who-we-are/at-a-glance",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "stena-halmstad",
@@ -155,7 +170,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Stena Recycling opened its lithium-ion battery recycling plant at its Nordic Recycling Center in Halmstad in March 2023 with a current capacity of 10,000 t/y. The facility uses mechanical pre-treatment (shredding and separation) to produce black mass. Capacity can reportedly be scaled to 20,000 t/y as market volumes increase; a target of 20,000 t/y by 2029 has been cited. Note: Stena acquired Fortum's battery recycling business assets (Harjavalta, Ikaalinen, Kirchardt) in a separate transaction — those sites are listed separately.",
+        "source": "https://www.stenarecycling.com/news-insights/newsroom/2023/stena-recycling-opens-industry-scale-battery-recycling-plant-in-europe/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "akkuser-nivala",
@@ -199,7 +219,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Logo shown as green circle; identified as likely Akkuser Oy (Finnish battery recycler in Nivala). Verify.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "AkkuSer Oy (Akkuser) is a Finnish battery recycler founded in 2005 in Nivala, specialising in mechanical dry-technology processing for portable and industrial lithium-ion batteries. The company uses its proprietary Dry-Technology process without water or chemicals, recovering over 50% of materials as reusable fractions. Current stated capacity is approximately 800 t/y with a target of 3,000 t/y, though no recent public announcement of an expansion timeline was found. AkkuSer serves Finland and other European markets.",
+        "source": "https://www.akkuser.fi/en/company/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fortum-harjavalta",
@@ -242,8 +267,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Fortum's battery recycling hydromet plant.",
-      "stage": null
+      "notes": "Fortum's battery recycling hydromet plant. Note: Fortum sold its general waste/recycling business to Summa Equity in 2024, but retained Fortum Battery Recycling as a separate unit. The Harjavalta site continues to operate under Fortum Battery Recycling.",
+      "stage": null,
+      "research": {
+        "summary": "Fortum Battery Recycling opened Europe's largest closed-loop hydrometallurgical battery recycling facility in Harjavalta, Finland in April 2023. Current black mass processing capacity is approximately 3,000 t/y (black mass input), with a potential expansion to 28,000 t/y. The plant recovers battery-grade nickel, cobalt, and lithium. Fortum sold its general recycling/waste business to Summa Equity in 2024 but retained the battery recycling division. In December 2025 Fortum Battery Recycling completed restructuring negotiations. DHL Supply Chain signed a battery recycling services contract with Fortum in June 2025.",
+        "source": "https://www.fortum.com/en/media/2023/04/fortum-battery-recycling-opens-europes-largest-closed-loop-hydrometallurgical-battery-recycling-facility-finland",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fortum-ikaalinen",
@@ -278,8 +308,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Mechanical pre-treatment facility operated by Fortum Battery Recycling; black mass shipped to Harjavalta for hydromet processing.",
+      "stage": null,
+      "research": {
+        "summary": "Fortum Battery Recycling's Ikaalinen plant in Finland is a mechanical pre-treatment site producing black mass, which is shipped to the hydrometallurgical facility in Harjavalta. Current mechanical capacity is reported at 5,000 t/y of battery input. In September 2023 Fortum received a €4.5 million Business Finland grant to expand mechanical processing capacity at Ikaalinen. The site continues to operate under Fortum Battery Recycling following Fortum's 2024 partial divestiture of its general recycling business.",
+        "source": "https://www.fortum.com/media/2023/09/fortum-battery-recycling-awarded-grant-45-million-euros-expand-its-mechanical-processing-capacity",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "r3robotics-mondercange",
@@ -302,7 +337,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Capacity not stated in source image.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "R3 Robotics is a Luxembourg-based startup specialising in AI-powered robotic disassembly of electric vehicle batteries. It operates certified disassembly facilities in Mondercange (Luxembourg) and Karlsruhe (Germany); the Luxembourg site serves as its R&D and pilot facility. In February 2026, R3 Robotics secured €20 million in funding to scale its automated EV battery disassembly systems across both locations, with plans to increase throughput capacity at both sites. No specific t/y capacity for the Mondercange facility was publicly disclosed.",
+        "source": "https://www.siliconrepublic.com/start-ups/luxemburgs-r3-robotics-raises-e20m-to-recycle-critical-raw-materials-from-evs",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sktes-rotterdam",
@@ -338,7 +378,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "SK tes (formerly TES) opened its battery recycling facility at the Port of Rotterdam in September 2024, with a current capacity of 10,000 t/y of lithium-ion battery material. The 10,000 m² facility uses mechanical pre-treatment and has potential to expand to 40,000 m² and double its capacity. The Rotterdam plant is part of SK tes's global battery recycling network targeting more than 40,000 t/y combined capacity across sites in the Netherlands, South Korea, China, Australia, Hungary, and the US.",
+        "source": "https://www.sktes.com/press-release/sk-tes-opens-cutting-edge-battery-recycling-facility-in-netherlands-to-meet-surging-demand-in-electric-vehicle-market",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "allilium-teesside",
@@ -378,8 +423,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Note: Company name is 'Altilium' (not 'allilium'). The Teesside plant (ACT4) is the planned large-scale facility.",
+      "stage": null,
+      "research": {
+        "summary": "Altilium's planned ACT4 facility at Teesside is designed to process batteries from 150,000 EVs per year, producing 30,000 t/y of cathode active materials (CAM) — enough to meet nearly 20% of projected UK demand by 2030. In April 2026 Altilium secured £18.5 million in UK government funding toward the project. Construction is expected to commence in summer 2026, with commissioning targeted for end of 2027. The 50,000 t/y battery input capacity stated in the source image aligns with the scale of this project.",
+        "source": "https://www.renewableenergymagazine.com/electric_hybrid_vehicles/altilium-secures-a-18-5-million-to-20260410",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "allilium-devon",
@@ -417,8 +467,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Pilot plant currently at 100 t/y, scaling to 8,000 t/y.",
-      "stage": null
+      "notes": "Pilot plant in Devon (Tavistock ACT1 R&D centre + ACT2 Plymouth pilot); ACT3 commercial plant under construction in Plymouth.",
+      "stage": null,
+      "research": {
+        "summary": "Altilium operates a small R&D technology centre (ACT1) in Tavistock, Devon and a pilot plant (ACT2) in Plymouth, Devon processing approximately 1 EV battery per day. Construction of the commercial-scale ACT3 plant in Plymouth commenced in April 2025, with a capacity to recover critical minerals (lithium, nickel, graphite) from 24,000 EVs per year; commissioning is targeted for end of 2026 to 2027. In March 2025, Altilium produced the UK's first EV battery cells from recycled materials in partnership with the UK Battery Industrialisation Centre (UKBIC).",
+        "source": "https://altilium.tech/2025/04/17/altilium-commences-construction-of-uks-first-at-scale-ev-battery-recycling-and-refining-plant-in-plymouth/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cellcycle-manchester",
@@ -458,7 +513,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Cellcycle (stylised CELLCYCLE) operates two facilities in the North West of England with a combined permitted capacity to process up to 80,000 t/y of lithium-ion battery material; current monthly throughput is up to 1,200 t across both sites (approx. 14,400 t/y), scalable to 2,400 t/month. The company uses its proprietary LithiumCycle™ mechanical pre-treatment process, with commercial-scale hydrometallurgical deployment targeted for 2026. Cellcycle was shortlisted at the Energy Awards 2026 in the Circular Energy and Collaboration of the Year categories.",
+        "source": "https://www.cellcycle.co.uk/cellcycle-advances-scale-up-of-its-lithiumcycle-process-with-new-facility/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ecobat-darlaston",
@@ -494,7 +554,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Ecobat commissioned its Darlaston, UK plant in November 2024 as one of three new lithium-ion battery recycling facilities opened within 12 months (alongside Hettstedt, Germany and Casa Grande, Arizona). The combined capacity across the three plants is up to 10,000 t/y, with plans to scale to 25,000 t/y. Darlaston's individual capacity is not disclosed separately but it serves as Ecobat's UK and European collection hub, processing diverse battery chemistries including EV packs, e-bikes, and portable electronics to produce black mass.",
+        "source": "https://ecobat.com/2025/04/ecobat-accelerates-battery-recycling-with-three-fully-operational-lithium-recycling-plants-in-12-months/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "recover-newport",
@@ -517,7 +582,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Capacity not stated in source image.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Recover UK is a small lithium-ion recycling operator based in Newport, Wales, described as the only UK company that recycles 100% of the lithium-ion batteries it collects locally, in partnership with the UK's only lithium-ion recycling plant. The company has 2–10 employees and no specific annual capacity figure was found in public sources. It appears to operate primarily as a collection and logistics provider rather than a full-scale industrial recycler.",
+        "source": "https://eco-recycle.co.uk/we-are-recover-recycling-uk/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "recyclus-wolverhampton",
@@ -548,7 +618,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Recyclus Group operates the LiBatt facility in Wolverhampton, which completed commissioning in October 2023 and is the first UK industrial-scale lithium-ion battery recycling facility. The facility is fully licensed for 22,000 t/y — equivalent to more than 48,000 EV batteries. In 2025 Recyclus secured a 12-month contract worth up to £2 million with a global industrial group and processed EV battery packs from automotive recalls. By 2027, the company aims to operate four additional plants with a combined capacity of 41,500 t/y.",
+        "source": "https://recyclusgroup.com",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "veolia-minworth",
@@ -588,7 +663,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Veolia's Minworth facility (West Midlands, UK) is one of the company's main UK battery recycling hubs. The plant discharges and dismantles batteries before mechanical and chemical separation processes, with a current capacity of approximately 5,000 t/y. Veolia has stated ambitions to build a full circular economy solution for battery recycling in Europe, including precursor production, within five years. The UK facility complements Veolia's French recycling hubs in Dieuze and Amnéville.",
+        "source": "https://www.veolia.co.uk/press-releases/veolia-announces-its-first-electric-vehicle-battery-recycling-plant-uk",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "abee-dour",
@@ -624,7 +704,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "ABEE (Avesta Battery & Energy Engineering), a Belgian company, has selected Dour, Belgium as the location for its BE-VOLT Battery Recycling facility, which will specialise in recycling LFP (lithium iron phosphate) batteries at a capacity of 20,000 t/y. Construction is scheduled to begin mid-2026. The Dour plant is part of ABEE's broader €1.1 billion BulgaPower investment program, which also includes a 50,000 t/y recycling facility in Burgas, Bulgaria and a solid-state gigafactory (10 GWh) in Stara Zagora, Bulgaria.",
+        "source": "https://www.benchmarkminerals.com/recycling/abee-to-construct-recycling-facility-in-belgium-benchmark-black-mass",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "aurubis-olen",
@@ -660,8 +745,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Planned large-scale hydromet refinery at Aurubis Olen (Belgium copper plant).",
-      "stage": null
+      "notes": "Planned large-scale hydromet refinery at Aurubis Olen (Belgium copper plant). Note: A separate BOB hydromet bleed-treatment plant was inaugurated at Olen in December 2024 for non-battery industrial process streams.",
+      "stage": null,
+      "research": {
+        "summary": "Aurubis is developing a hydrometallurgical battery recycling plant at its Olen, Belgium copper campus using a patented process to recover lithium, nickel, cobalt, manganese, and graphite from black mass at ~95% recovery rates. An industrial-scale plant is planned for commissioning in fiscal year 2026/27, targeting 100,000 t/y capacity. In December 2024 Aurubis inaugurated a separate BOB (Bleed treatment Olen Beerse) plant for nickel and copper recovery from electrolyte streams, at ~€85 million investment — this is a related but distinct facility from the battery recycling plant.",
+        "source": "https://www.aurubis.com/en/olen/media/news/aurubis-inaugurates-new-recycling-plant-in-olen-to-recover-more-valuable-metals",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "umicore-hoboken",
@@ -697,7 +787,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Umicore Hoboken is one of Europe's longest-running battery recycling operations.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Umicore's Hoboken, Belgium facility uses a proprietary pyro-hydro (pyrometallurgy + hydrometallurgy) process for lithium-ion battery recycling, with a current input capacity of more than 7,000 t/y of batteries and production scrap. The Hoboken smelter is one of the world's most advanced precious metals recyclers and has been processing battery materials for decades. Umicore's 2028 roadmap includes expansion of hydro- and pyrometallurgical lines to industrialise additional capacity by 2026–2027. Overall metals recycling throughput at Hoboken is expanding from 350,000 to 500,000 t/y.",
+        "source": "https://www.umicore.com/en/media/newsroom/hoboken-expansion/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "battri-saint-laurent-blangy",
@@ -733,7 +828,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Battri opened France's first large-scale lithium-ion battery pre-treatment factory in Saint-Laurent-Blangy (near Arras, Hauts-de-France) on 20 June 2025. The inaugural production line has a capacity of 15,000 t/y; the facility is permitted for up to 35,000 t/y (France's largest), with a second line targeting 35,000 t/y by end of 2026. Battri processes EV and industrial batteries using mechanical pre-treatment to produce black mass, which is then sold to downstream hydromet refining partners.",
+        "source": "https://www.nordfranceinvest.com/news/battery-recycling-hauts-de-france-battri-opens-its-first-factory-in-saint-laurent-blangy/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hydrovolt-hordain",
@@ -760,8 +860,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Capacity not stated in source image.",
-      "stage": null
+      "notes": "Capacity not stated in source image. First operations targeted for 2025.",
+      "stage": null,
+      "research": {
+        "summary": "Hydrovolt made a final investment decision in July 2024 to open a battery collection and mechanical pre-treatment site in Hordain, northern France, at a ~3,000 m² facility near the Renault and Toyota gigafactory cluster. Operations were targeted to begin in 2025. No specific annual capacity (t/y) for the Hordain site was publicly disclosed; it is positioned as a collection and dismantling hub feeding black mass upstream, similar to Hydrovolt's Fredrikstad model. Hydrovolt's overall European network targets 70,000 t/y by 2025 and 300,000 t/y by 2030.",
+        "source": "https://www.hydrovolt.com/article/hydrovolt-invests-in-battery-recycling-capacity-in-france",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "glencore-harnes",
@@ -797,7 +902,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Glencore's Harnes facility (operated under the former Li-Cycle spoke model) was originally announced with a planned capacity of 10,000 t/y of lithium-ion battery material in northern France, targeting 2024 commissioning. Li-Cycle filed for bankruptcy in late 2024; Glencore completed its acquisition of Li-Cycle's assets in August 2025. The current operational status of the Harnes spoke post-acquisition is not fully confirmed in public sources, though the Magdeburg, Germany spoke was reported to be running. Glencore's European network strategy focuses on feeding processed black mass to the planned Portovesme hydromet hub in Sardinia.",
+        "source": "https://www.glencore.com/what-we-do/recycling/li-cycle",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cosnam-saintquentin",
@@ -845,7 +955,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "CoSNAM (Compagnie de Services et de Négoce pour les Accumulateurs et Matières) operates a battery recycling facility in Saint-Quentin, northern France, using a combined hydrometallurgy and pyrometallurgy process. Current capacity is approximately 1,000 t/y with a stated target of 5,000 t/y. CoSNAM is a relatively niche industrial recycler; public information is limited and no recent capacity announcement or funding news was found in searches conducted May 2026.",
+        "source": "https://www.snam.com/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "recupyl-grenoble",
@@ -919,7 +1034,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Veolia operates a mechanical battery pre-treatment facility in Dieuze (Moselle, France) as part of its French battery recycling network. Capacity is approximately 4,000 t/y. The Dieuze plant handles battery dismantling and mechanical separation; materials are then sent for further hydrometallurgical processing. Euro Dieuze Industrie (EDI), a Veolia subsidiary, has historically processed over 6,000 t of batteries annually, though the current operational capacity at this specific site is stated as 4,000 t/y in industry mapping sources.",
+        "source": "https://www.hazardouswasteeurope.veolia.com/en/our-expertise-and-know-how/recycling-ev-batteries",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "veolia-amneville",
@@ -955,7 +1075,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Veolia's CEDILOR site in Amnéville (Moselle, France) houses a hydrometallurgical battery recycling unit planned for 7,000 t/y of black mass (equivalent to approx. 60,000 batteries). The unit was planned for commissioning by end of 2023 and is part of Veolia's strategy to build a full circular battery economy in Europe, including downstream precursor production. The Amnéville site also processes other secondary streams such as nickel and zinc from industrial waste.",
+        "source": "https://recyclinginternational.com/business/interview/veolia-expands-battery-recycling-hubs-this-is-only-the-beginning/50784/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cnli-alicante",
@@ -996,7 +1121,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "CNLi (also reported as eCoNiLi / EcoNiLi Battery Inc.) is planning a 45,000 t/y battery recycling facility in Alicante, Spain, covering mechanical pre-treatment (Phase 1: Battery to Black Mass) and downstream hydrometallurgical refining (Phase 2). Phase 1 was targeting full capacity by Q4 2025. The facility spans 66,000 m² and includes R&D laboratories and 1,600 solar panels for on-site power. Limited public reporting on the company was found; no major funding announcements were identified in searches.",
+        "source": "https://batteriesnews.com/econili-battery-inc-battery-recycling-facility-annual-capacity-spain/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "endesa-cubillos",
@@ -1028,7 +1158,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Endesa partnered with waste management company Urbaser to develop the Novolitio battery recycling project in Cubillos del Sil, León — Spain's first EV battery recycling plant. The facility targets 8,000 t/y capacity in its initial phase, with plans cited by some sources for expansion to 25,000 t/y. Original commissioning was planned for end of 2023, but the mid-2025 operational timeline was later reported. The plant will collect batteries from Spain and Portugal and is part of Endesa's circular economy initiative under the Novolitio joint venture brand.",
+        "source": "https://www.endesa.com/en/press/press-room/news/energy-transition/leon-first-plant-recycling-batteries-vehicles-electric-peninsula-iberica",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "befesa-erandio",
@@ -1099,7 +1234,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "SungEel HiTech (South Korean battery recycler) is part of the Beecycle project in Caparroso, Navarra, Spain — a joint venture with BeePlanet Factory, Medenasa, Truck&Wheel Grupo, and Sodena (Navarre regional public investor). The facility targets 10,000 t/y of black mass production (equivalent to 25,000 EVs per year) using mechanical pre-treatment and hydrometallurgy, with operations targeted for 2025–2026. Initial investment is approximately €18.5 million; the plant will employ 60–70 people.",
+        "source": "https://www.investinspain.org/en/news/2023/sungeel-hitech",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "botaas-valladolid",
@@ -1130,8 +1270,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Two logos shown in image (Botaas + efi). Joint venture or co-located facilities.",
-      "stage": null
+      "notes": "Two logos shown in image (Botaas + efi). Joint venture or co-located facilities. Also identified as 'Botree/efi' in some sources.",
+      "stage": null,
+      "research": {
+        "summary": "Botaas/Botree and EFI-Systems are partners in a planned LFP battery recycling factory in Valladolid, Spain, with a target capacity of 6,000 t/y when it opens in 2027. The plant will occupy ~30,000 m² and is structured as a Special Employment Centre, with over 70% of the workforce comprising people with disabilities. The facility will serve approximately 15% of projected Spanish LFP recycling demand. ILUNION (Spanish social enterprise) is also cited as a partner in some sources.",
+        "source": "https://icm.ch/spain-steps-up-as-europes-battery-sector-faces-a-crossroads",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "accurec-krefeld",
@@ -1179,7 +1324,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "ACCUREC-Recycling GmbH in Krefeld opened a new hydrometallurgical lithium recovery line (CLIMA process) in December 2025, complementing its existing mechanical and thermal pre-treatment operations. Current total input capacity is approximately 4,000–4,500 t/y. ACCUREC plans to expand to 20,000 t/y by mid-2028 via a new processing hall and additional thermal and hydromet lines. The CLIMA process achieves lithium recovery purity exceeding 99%. ACCUREC is one of Germany's longest-running lithium battery recyclers.",
+        "source": "https://www.electrive.com/2025/12/02/accurec-opens-new-lithium-recycling-plant-in-krefeld/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "aurubis-hamburg",
@@ -1210,8 +1360,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Capacity not stated in source image.",
-      "stage": null
+      "notes": "Capacity not stated in source image. Hamburg site is a pilot/demo plant; industrial-scale battery recycling facility is planned at Olen, Belgium.",
+      "stage": null,
+      "research": {
+        "summary": "Aurubis started pilot plant operations for battery recycling (hydrometallurgical black mass processing) in Hamburg in March 2022, recovering lithium, nickel, cobalt, manganese, and graphite. The Hamburg pilot is a modular R&D/demo facility; no specific annual capacity (t/y) was publicly disclosed. Aurubis is investing ~€330 million at Hamburg in precious metals processing (CRH project, commissioned end of 2025), which adds 32,000 t/y of complex recycling capacity — but this is for industrial scrap, not batteries. The industrial-scale battery recycling plant is planned for Olen, Belgium (commissioning FY 2026/27).",
+        "source": "https://www.aurubis.com/en/media/press-releases/press-releases-2022/growth-area-of-battery-recycling-aurubis-starts-test-operation-in-new-pilot-plant-in-hamburg",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "basf-schwarzheide",
@@ -1222,8 +1377,8 @@
       "lat": 51.49,
       "lon": 13.86,
       "year": null,
-      "year_label": "20XX",
-      "status": "Planned",
+      "year_label": null,
+      "status": "Operational",
       "capacities": [
         {
           "value": 15000,
@@ -1247,8 +1402,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "BASF's planned battery recycling plant at their Schwarzheide chemicals campus.",
-      "stage": null
+      "notes": "BASF's black mass plant at Schwarzheide went commercial in June 2025; now operational.",
+      "stage": null,
+      "research": {
+        "summary": "BASF started commercial operation of its black mass (mechanical pre-treatment) plant in Schwarzheide, Germany in June 2025, with a capacity of up to 15,000 t/y of end-of-life lithium-ion batteries and production scrap (~40,000 EV batteries/year). The plant is integrated into BASF's broader Schwarzheide battery materials campus, which also includes Europe's first fully automated CAM production and a prototype hydrometallurgical metal refinery. BASF uses a hydrometallurgical process to recover lithium, nickel, cobalt, and manganese for new cathode material production.",
+        "source": "https://www.basf.com/global/en/media/news-releases/2025/06/p-25-112",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cellco-randersacker",
@@ -1284,8 +1444,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Logo partially legible; appears to read 'CelCo' or 'CellCo'. Verify company name.",
-      "stage": null
+      "notes": "Logo partially legible; appears to read 'CelCo' or 'CellCo'. Verify company name. No public company matching 'CellCo Randersacker' with direct recycling was found — may be CellCircle or another operator.",
+      "stage": null,
+      "research": {
+        "summary": "No public record of a company specifically named 'CellCo' in Randersacker, Germany with a direct recycling process was found in searches. CellCircle GmbH (Würzburg area) offers direct recycling services and operates in the same region; the source image identification may require verification. Randersacker is a small municipality near Würzburg, Bavaria. Until the company identity is confirmed, capacity and status data from the source image (25,000 t/y planned, direct recycling) cannot be independently verified.",
+        "source": "https://cellcircle.de/en/services.html",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cylib-aachen",
@@ -1332,8 +1497,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "cylib GmbH, RWTH Aachen spin-off focused on direct and hydromet recycling.",
-      "stage": null
+      "notes": "cylib GmbH, RWTH Aachen spin-off focused on hydromet recycling. Pilot line in Aachen; commercial plant planned in Dormagen.",
+      "stage": null,
+      "research": {
+        "summary": "cylib GmbH (Aachen, Germany) operates a pilot recycling line in Aachen with a capacity of approximately 120 t/y. The Aachen facility validates cylib's hydrometallurgical process before scale-up. The commercial-scale plant is planned in Dormagen (see separate entry). In December 2025, cylib secured €63.4 million in EU grant funding to build Europe's first dedicated LFP battery recycling line at Dormagen, bringing planned total Dormagen capacity to 60,000 t/y. In 2025 cylib signed an MOU with Pure Battery Technologies to convert cylib's black mass concentrate into precursor CAM.",
+        "source": "https://www.cylib.de/post/cylib-secures-eu63-4m-grant-funding-to-build-lfp-battery-recycling-facility",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "cylib-dormagen",
@@ -1364,8 +1534,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Second cylib site; capacity not stated separately.",
-      "stage": null
+      "notes": "Second cylib site; commercial-scale facility. Total planned Dormagen capacity is 60,000 t/y (30,000 t NMC + 30,000 t LFP); production start targeted 2027.",
+      "stage": null,
+      "research": {
+        "summary": "cylib's Dormagen facility is the planned commercial-scale plant targeting 60,000 t/y total input capacity (30,000 t/y NMC line + 30,000 t/y dedicated LFP line). Production start is targeted for 2027, with ramp-up in subsequent phases. In December 2025, cylib received €63.4 million in EU grant funding to finance the LFP line (stage 2), adding to a previously confirmed €26.1 million grant for the NMC capacity. cylib has raised over €140 million in grants and Series A equity in total. The Dormagen site was chosen for its Chempark infrastructure and logistics.",
+        "source": "https://www.cylib.de/post/cylib-confirms-eur-26-1-million-grant-for-battery-recycling-facility",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "duesenfeld-wendeburg",
@@ -1413,7 +1588,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Duesenfeld GmbH — mechanical + direct recycling process, near Braunschweig.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Duesenfeld GmbH in Wendeburg (near Braunschweig) operates a commercial lithium-ion battery recycling plant using a proprietary process that combines mechanical shredding under inert atmosphere with direct re-use of active materials, achieving a 91% recycling rate at the cell level. Current capacity is approximately 3,000 t/y with expansion toward 5,000 t/y. In February 2025, Duesenfeld signed a cooperation agreement with ANDRITZ to upgrade and scale its Wendeburg pilot plant using ANDRITZ equipment. The company focuses on high lithium recovery without high-energy thermal steps.",
+        "source": "https://www.andritz.com/newsroom-en/recycling/2025-02-10-duesenfeld-group",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "ecobat-hettstedt",
@@ -1449,7 +1629,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Ecobat's Hettstedt, Germany plant was commissioned in Q4 2023 and is one of three lithium-ion battery recycling facilities Ecobat opened within 12 months (alongside Darlaston, UK and Casa Grande, Arizona). The Hettstedt facility processes diverse battery chemistries including EV packs, e-bikes, and portable electronics to produce black mass. The combined capacity of all three Ecobat plants is up to 10,000 t/y, with plans to scale to 25,000 t/y total; individual site capacities are not disclosed, but Hettstedt (with 20,000 t/y licensed capacity per source image) appears to be the largest site.",
+        "source": "https://ecobat.com/2025/04/ecobat-accelerates-battery-recycling-with-three-fully-operational-lithium-recycling-plants-in-12-months/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "elos-zwickau",
@@ -1484,8 +1669,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Identified as Erlos (ERLOS) in some sources — a WP Holding subsidiary in Zwickau.",
+      "stage": null,
+      "research": {
+        "summary": "ELOS (likely Erlos Produktion und Montagen GmbH, a WP Holding subsidiary) operates a lithium-ion battery recycling plant in Zwickau using thermomechanical processing with a recovery rate exceeding 98% for cobalt, nickel, and lithium from black mass. Rated throughput is 1 t/hour, yielding approximately 3,500 t/y in two-shift operation. In 2024 Erlos launched its industrial LIB recycling plant in collaboration with URT Umwelt- und Recyclingtechnik GmbH. The Zwickau location is strategic given proximity to Volkswagen's EV production.",
+        "source": "https://battery-tech.net/company/erlos-produktion-und-montagen-gmbh/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "fortum-kirchardt",
@@ -1520,8 +1710,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Operated by Fortum Battery Recycling (not sold to Stena). Fortum sold its general waste business to Summa Equity in 2024 but retained the battery recycling division.",
+      "stage": null,
+      "research": {
+        "summary": "Fortum Battery Recycling's Kirchardt, Germany plant started commercial operations in March 2023 as the company's first mechanical pre-treatment hub in Germany, with a capacity of approximately 3,000 t/y of battery input. Black mass produced at Kirchardt is shipped to the hydrometallurgical facility in Harjavalta, Finland. Fortum plans to expand its German mechanical pre-treatment network to seven sites and open additional hydromet plants in Europe by 2030, targeting 200,000+ t/y total capacity. The Kirchardt site continues to operate under Fortum Battery Recycling following the 2024 partial divestiture.",
+        "source": "https://www.fortum.com/media/2023/07/fortum-battery-recycling-announces-plans-new-hub-development-germany",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "hcstarck-goslar",
@@ -1558,7 +1753,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "H.C. Starck Tungsten in Goslar, Germany is developing a hydrometallurgical black mass recycling facility with planned capacity of 20,000 t/y of black mass. In April 2025 the German federal government and the state of Lower Saxony committed over €60 million in funding; total project investment is approximately €340 million. Construction is scheduled to begin in 2027, suggesting commissioning circa 2029. H.C. Starck's process is based on six registered patents and is designed to be more efficient than existing hydromet approaches.",
+        "source": "https://www.hcstarck.com/en/h-c-starck-tungsten-receives-funding-for-battery-recycling/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "londrive-aachen",
@@ -1595,7 +1795,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "londrive is a German battery recycling startup based in Aachen using a patented closed-loop hydrometallurgical process with organic solvents to recover lithium, nickel, cobalt, and manganese without high temperatures or corrosive acids. The company has been acquired by or merged with Iondrive. Planned capacity of 3,000 t/y with a 2029 timeline was referenced in source data; however, no substantial recent public coverage confirming operational status or confirmed project milestones was found as of May 2026.",
+        "source": "https://www.knowesg.com/tech/iondrive-secures-usd2m-for-sustainable-battery-recycling-03062024",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "glencore-magdeburg",
@@ -1638,8 +1843,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Glencore acquired Li-Cycle in August 2025; the Magdeburg spoke (formerly Li-Cycle) operates under Glencore.",
+      "stage": null,
+      "research": {
+        "summary": "Glencore's Magdeburg facility is the former Li-Cycle European spoke, inaugurated in September 2023 with a current capacity of 10,000 t/y of battery material. It was the only Li-Cycle European spoke confirmed operational when Li-Cycle filed for bankruptcy in late 2024; Glencore completed the acquisition in August 2025. The Magdeburg site has 66 employees and continues to operate. Black mass from Magdeburg is intended to feed the planned Glencore/ex-Li-Cycle Portovesme hydromet hub in Sardinia. Expansion to 30,000 t/y is a stated target.",
+        "source": "https://www.wastedive.com/news/glencore-completes-takeover-of-li-cycle-battery-recycling-assets/757199/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "nickelhutte-aue",
@@ -1683,7 +1893,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Multi-process recycler using M+H+P.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "NickelHütte Aue GmbH (NHA) in Aue, Saxony is a holistic battery recycler using a combination of mechanical, hydrometallurgical, and pyrometallurgical processes. Reported capacity is approximately 10,000 t/y of battery input, making it one of the higher-capacity all-in-one European recyclers. NHA recovers nickel, cobalt, manganese, copper, and is expanding lithium recovery capabilities. The facility builds on decades of non-ferrous metals smelting experience and serves the European battery supply chain as a full-service recycler.",
+        "source": "https://nha-aue.de/en/services/battery-recycling",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "northvolt-heide-recycling",
@@ -1758,7 +1973,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "PURE Battery Technologies (PBT) operates a commercial hydrometallurgical refinery in Hagen, Germany, using proprietary Selective Acid Leaching (SAL) and Combined Leach (CL) processes to convert black mass and Mixed Hydroxide Precipitate (MHP) into precursor cathode active material (pCAM). Current permitted production capacity is 2,500 t/y of pCAM (nickel equivalent), with expansion underway toward 15,000 t/y. In 2025 PBT signed an MOU with cylib to process cylib's black mass concentrate into pCAM for the European battery supply chain.",
+        "source": "https://purebatterytech.com/ke-germany/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "redux-bremerhaven",
@@ -1793,8 +2013,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "REDUX was acquired by Redwood Materials in September 2023. The Bremerhaven facility continues to operate under Redwood Materials.",
+      "stage": null,
+      "research": {
+        "summary": "REDUX Recycling (now Redwood Materials Europe) in Bremerhaven operates a mechanical pre-treatment facility with a capacity of 10,000 t/y of lithium-ion battery material. Saubermacher sold its stake in REDUX to Redwood Materials (founded by Tesla co-founder JB Straubel) in September 2023. Redwood has stated that Bremerhaven capacity could more than double or increase by a factor of ten by 2030. The facility processes diverse battery formats to produce black mass for downstream refining.",
+        "source": "https://www.redwoodmaterials.com/news/redwood-europe/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "prezero-relionbat-meppen",
@@ -1829,8 +2054,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Joint operation of PreZero (Schwarz Group) and RE.LION.BAT.",
-      "stage": null
+      "notes": "PreZero acquired RE.LION.BAT. Circular in September 2025; the Meppen facility is now operated by PreZero.",
+      "stage": null,
+      "research": {
+        "summary": "RE.LION.BAT. Circular operates Europe's largest mechanical lithium-ion battery recycling facility in Meppen, Germany, with current capacity of 30,000 t/y and an approved capacity of 60,000 t/y. The thermomechanical process achieves over 98% recovery of black mass and is CO2-neutral. PreZero (Schwarz Group) signed a purchase agreement on 14 August 2025 to acquire RE.LION.BAT. Circular, formally completing the takeover in September 2025. The combined PreZero/RE.LION.BAT operation gives PreZero a major foothold in strategic battery recycling.",
+        "source": "https://battery-news.de/en/2025/09/16/prezero-acquires-german-battery-recycler/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "lozero-munich",
@@ -1873,8 +2103,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Company also referred to as 'tozero' (lowercase) in recent branding. Munich is headquarters; industrial plant location may differ.",
+      "stage": null,
+      "research": {
+        "summary": "tozero (formerly lozero) GmbH, Munich, launched Europe's first claimed industrial-scale acid-free hydrometallurgical battery recycling plant in June 2025 with a capacity of over 1,500 t/y of battery waste, producing approximately 100 t/y of high-purity lithium carbonate. The process recovers lithium, cobalt, nickel, and graphite without corrosive acids. tozero's long-term commercial facility target is 45,000 t/y with ~8,000 t/y lithium carbonate. The company completed pilot projects with BMW, MAN, and other OEMs and was the first company in Europe to supply recycled lithium to commercial clients (April 2024).",
+        "source": "https://www.eu-startups.com/2026/03/female-founded-tozero-launches-industrial-battery-recycling-plant-to-build-europes-domestic-supply-of-critical-raw-materials/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "walch-baudenbach",
@@ -1904,8 +2139,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Method not stated in source image.",
-      "stage": null
+      "notes": "Method not stated in source image. WHW Recycling (joint venture of L. Walch Recycling GmbH and Fecupral) operates the lines.",
+      "stage": null,
+      "research": {
+        "summary": "WALCH Recycling (Baudenbach, Bavaria) operates two lithium-ion battery production waste recycling lines through its WHW Recycling joint venture (with Slovak partner Fecupral), processing scrap from battery cell manufacturing (anode and cathode material, electrode foils). As of March 2025, both lines are in regular operation with a combined capacity of up to 7,000 t/y of production waste in single-shift operation (throughput: 2 t/hour per line). WALCH partnered with BASF on recycling cathode and anode film waste from battery cell production in June 2024.",
+        "source": "https://walch-recycling.com/recycling-von-produktionsabfaellen-aus-der-li-ion-batterieherstellung/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "encory-salching",
@@ -1933,8 +2173,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Encory is a BMW Group subsidiary focused on circular battery economy.",
-      "stage": null
+      "notes": "Encory is a 50/50 JV between BMW Group and Interzero Group. Cell Recycling Competence Center (CRCC) in Salching commissioned December 2025.",
+      "stage": null,
+      "research": {
+        "summary": "Encory GmbH (50% BMW Group, 50% Interzero Group) officially opened its Cell Recycling Competence Center (CRCC) in Salching, Lower Bavaria in December 2025, marking BMW Group's launch of direct battery recycling at commercial scale. The CRCC uses a BMW-developed direct recycling process: mechanical dismantling of battery cells under inert conditions allows active materials to be fed directly back into cell production, bypassing energy-intensive hydromet or pyromet steps. Current capacity is in the 'mid-double-digit tonne range per year' (tens of tonnes); the CRCC employs ~20 people and is designed for staged scale-up.",
+        "source": "https://www.press.bmwgroup.com/global/article/detail/T0454438EN/up-and-running:-bmw-group-and-encory-launch-innovative-direct-recycling-to-recover-battery-raw-materials",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "elemental-zawiercie",
@@ -1944,9 +2189,9 @@
       "city": "Zawiercie",
       "lat": 50.5,
       "lon": 19.42,
-      "year": 2026,
-      "year_label": "2026",
-      "status": "Planned",
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
       "capacities": [
         {
           "value": 12000,
@@ -1965,8 +2210,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Now operated as AE Elemental — a JV between Elemental Strategic Metals and Ascend Elements (US). Plant opened September 2024.",
+      "stage": null,
+      "research": {
+        "summary": "AE Elemental (a joint venture of Elemental Strategic Metals and Ascend Elements) opened one of Europe's largest EV battery recycling plants in Zawiercie, Poland in September 2024, with a capacity of 12,000 t/y (~28,000 EV battery packs annually). Commercial-scale lithium extraction was added in Fall 2024, with a target of 20,000 t/y lithium output by 2026. A second construction phase is planned for 2025–2026, with full operational capacity by 2030. Total committed investment across the Zawiercie complex exceeds €715 million (Polvolt project). The facility is now operational — status should be updated from Planned to Operational.",
+        "source": "https://ascendelements.com/ae-elemental-opens-advanced-lithium-ion-battery-recycling-facility-in-poland/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "royalbees-legnica",
@@ -2002,7 +2252,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Royal Bees Recycling is a Polish battery recycler based in Legnica, Lower Silesia, operating a mechanical pre-treatment facility with a reported capacity of 3,600 t/y. The company focuses on processing production waste from lithium-ion battery manufacturing into black mass and black mass intermediate cells (BI cells), serving nearby battery cell manufacturers including LG Energy Solution. Royal Bees has developed a modular pilot plant for dry processing of EV battery production waste. Limited public reporting was found; no major capacity announcements were identified in May 2026 searches.",
+        "source": "https://rbrecycling.pl/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "sungeelhitech-bukowice",
@@ -2042,7 +2297,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "SungEel HiTech (South Korean battery recycler) operates the Bukowice, Poland facility — a 6,000 m² plant built by POSCO and operated by SungEel, processing lithium-ion batteries and modules to produce black mass using mechanical pre-treatment and hydrometallurgy. Capacity is approximately 7,000 t/y. The plant primarily processes production scrap from nearby LG Energy Solution's Wrocław gigafactory. SungEel also has plants in Hungary and is planning a facility in Germany (approx. 20,000 t/y).",
+        "source": "https://www.circularenergystorage-online.com/post/posco-opens-7-000-tpa-battery-recycling-plant-in-poland-will-be-operated-by-sungeel-hitech",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "eneris-zarki",
@@ -2055,7 +2315,15 @@
       "year": null,
       "year_label": null,
       "status": "Operational",
-      "capacities": [],
+      "capacities": [
+        {
+          "value": 27000,
+          "unit": "t/y",
+          "known": true,
+          "label": "current capacity",
+          "type": "current"
+        }
+      ],
       "products": [],
       "materials": [],
       "attributes": {
@@ -2064,8 +2332,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Capacity not stated in source image.",
-      "stage": null
+      "notes": "Plant inaugurated 2024; one of Europe's largest lithium battery recycling facilities.",
+      "stage": null,
+      "research": {
+        "summary": "Eneris B&R (Batteries & Recycling) operates one of Europe's largest lithium battery treatment facilities in Żarki, Silesia, Poland, inaugurated in 2024. The plant processes up to 27,370 t/y of lithium batteries with up to 95% material recovery (lithium, cobalt, nickel, copper, aluminium, steel). Eneris provides collection, dismantling, and recycling services and is designed for modular expansion. The facility addresses the growing demand from Poland's large EV battery manufacturing sector.",
+        "source": "https://eneris.com/inauguration-of-one-of-europes-largest-lithium-battery-treatment-facilities-eneris-br-batteries-recycling/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "glencore-portovesme",
@@ -2101,8 +2374,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Glencore's Italian hydromet recycling plant, Sardinia.",
-      "stage": null
+      "notes": "Glencore's Italian hydromet recycling hub (Portovesme), planned in partnership with former Li-Cycle. Final investment decision pending.",
+      "stage": null,
+      "research": {
+        "summary": "Glencore and Li-Cycle (now fully acquired by Glencore in August 2025) plan a hydrometallurgical battery recycling hub at the historic Portovesme metallurgical complex in Sardinia, Italy. Phase 1 targets processing 11,000 t/y of black mass; Phase 2 full capacity would reach 50,000–70,000 t/y (up to 36 GWh equivalent). Subject to a final investment decision, commissioning is expected to commence in late 2026 to early 2027. Black mass would be sourced from the Glencore/Li-Cycle Magdeburg spoke (Germany) and Glencore's commercial network.",
+        "source": "https://www.glencore.com/media-and-insights/news/glencore-and-li-cycle-announce-joint-study-to-develop-a-european-recycling-hub",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "riplastic-seval",
@@ -2137,8 +2415,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "City name 'Seval' as shown in source image; may require verification.",
-      "stage": null
+      "notes": "City name 'Seval' as shown in source image — this appears to refer to the SEVal S.r.l. group (located in Lomagna/Lombardy), not a city. Riplastic is the battery recycling subsidiary.",
+      "stage": null,
+      "research": {
+        "summary": "Riplastic S.p.A. and its sister company SEVal S.r.l. (part of the same Italian industrial group) are developing two battery recycling facilities in Italy — one in Lombardy and one in Basilicata — with a combined treatment capacity of approximately 30,000 t/y of lithium-ion batteries (representing a total investment of ~€30 million). The Riplastic-associated facility listed here at 15,000 t/y uses mechanical pre-treatment. Initial operations were targeted for spring 2025, with full capacity by end of 2025 to early 2026. This project positions Italy as a domestic Li-ion battery recycler for the first time.",
+        "source": "https://www.recoverweb.it/seval-e-riplastic-saranno-i-primi-operatori-industriali-in-italia-per-il-riciclaggio-delle-batterie-a-ioni-di-litio/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "batrec-wimmis",
@@ -2174,7 +2457,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "BATREC Industrie AG in Wimmis, Switzerland is a long-established recycler of hazardous waste including batteries and mercury-containing materials. The company commissioned a new lithium-ion battery recycling plant in late 2023 to handle growing volumes of returned batteries sustainably. Historical capacity for dry-cell battery recycling was 3,000 t/y; the new Li-ion line capacity was not publicly disclosed. BATREC processes a wide range of battery types and positions itself as a specialist in hazardous battery waste streams across Europe.",
+        "source": "https://batrec.ch/battery-recycling/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "kyburz-freienstein",
@@ -2210,7 +2498,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "KYBURZ Switzerland AG put Switzerland's first in-house lithium-ion battery direct recycling plant into operation in Freienstein in September 2020. The process directly reuses LFP cathode and anode active materials without full chemical breakdown, targeting up to 91% metal recovery. Rated capacity is approximately 200 t/y (processing up to 24,000 cells/year in the expanded stage). In 2024, KYBURZ concluded a cooperation agreement with Vitesco Technologies to jointly industrialise the recycling process for LFP batteries at scale in Limbach-Oberfrohna, Germany.",
+        "source": "https://kyburz-switzerland.ch/en/battery-recycling",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "librec-biberist",
@@ -2225,10 +2518,10 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": 9000,
+          "value": 12000,
           "unit": "t/y",
           "known": true,
-          "label": "current capacity",
+          "label": "maximum capacity (3-shift)",
           "type": "current"
         }
       ],
@@ -2245,8 +2538,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "",
-      "stage": null
+      "notes": "Librec capacity updated: research found 12,000 t/y maximum in 3-shift operation (not 9,000 t/y as in source).",
+      "stage": null,
+      "research": {
+        "summary": "Librec AG inaugurated Switzerland's largest EV battery recycling plant in Biberist (on the site of a former paper factory) in May 2025, with a capacity of up to 12,000 t/y in three-shift operation. The facility recovers over 97% of starting materials including cobalt, lithium, manganese, nickel, copper, and aluminium — claimed to be among the highest recovery rates globally. Librec uses mechanical pre-treatment; the plant started with ~15 employees and will scale staffing and machine capacity as battery volumes increase.",
+        "source": "https://librec.ch/en/news/article/media-reports-about-librec/high-tech-factory-for-e-car-batteries-opened-in-biberist-switzerland-becomes-recycling-pioneer/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "exitcom-kocaeli",
@@ -2277,7 +2575,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "Method not stated in source image.",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "EXITCOM Recycling in Kocaeli, Turkey is one of Turkey's leading e-waste and lithium-ion battery recyclers, operating across sites in Turkey (Kocaeli/Kartepe) and Germany (Hannover). Turkey's first primary battery recovery facility (dedicated to waste batteries from industrial/electronic sources) was opened at the Kartepe site. Total annual processing capacity across all waste streams is reported at 15,000 t; specific Li-ion battery capacity is approximately 10,000 t/y based on source image. EXITCOM holds partnerships with TÜBİTAK MAM (Turkish scientific research institute) on battery recovery technology.",
+        "source": "https://iaec.ist/uploads/files/Exitcom%20Recycling%20-%20Murat%20%C4%B0lgar(1).pdf",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "allilium-medet",
@@ -2308,7 +2611,12 @@
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
       "notes": "",
-      "stage": null
+      "stage": null,
+      "research": {
+        "summary": "Altilium's Medet project in Bulgaria is planned as a retrofit hydrometallurgical facility at the 2,200-hectare Medet copper tailings site in central-west Bulgaria, designed to recycle end-of-life EV batteries and production scrap from Eastern Europe. Planned capacity is sufficient to process batteries from approximately 24,000 EVs per year (approx. 8,000 t/y battery input). The project also aims to recover copper from old mine tailings. In May 2024 Altilium met with Bulgarian officials at the UK Ambassador's residence in Sofia to update progress. The project is still in development; no commissioning date was confirmed.",
+        "source": "https://altilium.tech/2024/05/29/altilium-meets-with-bulgarian-officials-at-the-uk-ambassadors-residence-in-sofia-to-update-our-medet-integrated-critical-minerals-recycling-project-giving-eu-industrial-resilience/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "abee-stara-zagora",
@@ -2344,8 +2652,13 @@
       },
       "source_image": "2026-02_Recycling_Europe.png",
       "date_added": "2026-05-11",
-      "notes": "Large direct recycling plant planned.",
-      "stage": null
+      "notes": "Large direct recycling plant planned as part of ABEE's BulgaPower initiative. R&D hub in Plovdiv planned first (groundbreaking September 2024).",
+      "stage": null,
+      "research": {
+        "summary": "ABEE (Avesta Battery & Energy Engineering, Belgian) plans a 50,000 t/y battery recycling facility in Stara Zagora, Bulgaria as part of its €1.1 billion BulgaPower investment programme, which also includes a 10 GWh solid-state gigafactory and an R&D hub in Plovdiv. The recycling plant targets direct recycling of automotive lithium-ion batteries with a planned 2028 operational timeline. As a first step, ABEE intended to break ground on the R&D centre in Plovdiv in September 2024 before construction of the recycling plant. Project is in early development; no confirmed permits or construction start were found as of May 2026.",
+        "source": "https://recyclinginternational.com/business/europes-biggest-battery-hub-for-bulgaria/55738/",
+        "date": "2026-05-17"
+      }
     },
     {
       "id": "abee-burgas",
