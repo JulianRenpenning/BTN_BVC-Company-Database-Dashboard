@@ -1684,7 +1684,7 @@
       "lon": null,
       "year": null,
       "year_label": null,
-      "status": "Operational",
+      "status": "Paused",
       "stage": "commercial",
       "capacities": [],
       "products": [

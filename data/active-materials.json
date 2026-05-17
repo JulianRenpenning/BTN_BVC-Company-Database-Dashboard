@@ -845,7 +845,7 @@
     },
     {
       "id": "unknown-tallinn",
-      "name": "Unknown",
+      "name": "UP Catalyst",
       "sector": "active_material_producer",
       "country": "Estonia",
       "city": "Tallinn",
@@ -876,7 +876,7 @@
       ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
+        "logo_research_needed": false,
         "open_questions": [
           "Identify company — logo not readable. 1,000 t/a SG AAM in Tallinn, Estonia, target 2027. Small scale suggests R&D or early pilot."
         ]
