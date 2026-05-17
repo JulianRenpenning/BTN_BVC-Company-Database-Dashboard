@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-05-17",
-    "record_count": 103,
+    "record_count": 110,
     "schema_version": "1.2",
     "source_map": "Battery Module & Pack Production (Europe) as of February 2026",
     "notes": "No capacity figures shown in source image. Status 'Planned' applied to sites marked with * (under construction). Default status: Operational.",
@@ -3162,7 +3162,14 @@
       "year_label": null,
       "status": "Operational",
       "capacities": [
-        { "value": 40, "unit": "GWh", "known": true, "type": "planned", "target_year": null, "label": "planned capacity (fully contracted)" }
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": null,
+          "label": "planned capacity (fully contracted)"
+        }
       ],
       "products": [
         {
@@ -3198,7 +3205,14 @@
       "year_label": null,
       "status": "Operational",
       "capacities": [
-        { "value": 40, "unit": "GWh", "known": true, "type": "planned", "target_year": null, "label": "combined planned capacity (Göd + Debrecen)" }
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": null,
+          "label": "combined planned capacity (Göd + Debrecen)"
+        }
       ],
       "products": [
         {
@@ -3332,7 +3346,14 @@
       "year_label": null,
       "status": "Operational",
       "capacities": [
-        { "value": 450000, "unit": "units/year", "known": true, "type": "planned", "target_year": null, "label": "annual vehicle capacity after 2025 expansion" }
+        {
+          "value": 450000,
+          "unit": "units/year",
+          "known": true,
+          "type": "planned",
+          "target_year": null,
+          "label": "annual vehicle capacity after 2025 expansion"
+        }
       ],
       "products": [
         {
@@ -3367,7 +3388,13 @@
       "year_label": null,
       "status": "Operational",
       "capacities": [
-        { "value": 335000, "unit": "units/year", "known": true, "type": "current", "label": "battery pack annual capacity" }
+        {
+          "value": 335000,
+          "unit": "units/year",
+          "known": true,
+          "type": "current",
+          "label": "battery pack annual capacity"
+        }
       ],
       "products": [
         {
@@ -3402,8 +3429,21 @@
       "year_label": null,
       "status": "Operational",
       "capacities": [
-        { "value": 2.3, "unit": "GWh", "known": true, "type": "current", "label": "current production capacity" },
-        { "value": 6, "unit": "GWh", "known": true, "type": "planned", "target_year": null, "label": "planned second factory" }
+        {
+          "value": 2.3,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current production capacity"
+        },
+        {
+          "value": 6,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": null,
+          "label": "planned second factory"
+        }
       ],
       "products": [
         {
@@ -3545,7 +3585,14 @@
       "year_label": null,
       "status": "Planned",
       "capacities": [
-        { "value": 8, "unit": "GWh", "known": true, "type": "planned", "target_year": 2026, "label": "Teverola 2 gigafactory planned capacity" }
+        {
+          "value": 8,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "Teverola 2 gigafactory planned capacity"
+        }
       ],
       "products": [
         {
@@ -3618,7 +3665,13 @@
       "year_label": null,
       "status": "Operational",
       "capacities": [
-        { "value": 90000, "unit": "modules/year", "known": true, "type": "current", "label": "automated module line capacity" }
+        {
+          "value": 90000,
+          "unit": "modules/year",
+          "known": true,
+          "type": "current",
+          "label": "automated module line capacity"
+        }
       ],
       "products": [
         {
