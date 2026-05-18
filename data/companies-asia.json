@@ -6,7 +6,7 @@
     "region": "Asia",
     "source_image": "230804_Asia_battery manufacturers.png",
     "source_date": "2023-08-04",
-    "notes": "Extracted from August 2023 source image. City-level capacity data for most Chinese, Korean, and Japanese companies not legible at source image resolution — research pass needed. China total shown as ~2,245 GWh; South Korea 52 GWh; Japan 25.6 GWh."
+    "notes": "Extracted from August 2023 source image. Research pass completed 2026-05-18. Two unknowns identified: Turkey = ASPILSAN Enerji (Kayseri); Thailand = Amita Technology / Energy Absolute (Chachoengsao). HLI Green Power confirmed operational at 20 GWh. Ola Electric cell production active at ~1.4 GWh."
   },
   "companies": [
     {
@@ -23,17 +23,32 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 1,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Cheonan plant — 46-series cylindrical (4680) pilot/mass production line"
+        },
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Ulsan plant — prismatic NMC cells (Korea's second major SDI site)"
         }
       ],
       "products": [
         {
           "category": "chemistry",
           "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
         },
         {
           "category": "cell_type",
@@ -44,14 +59,19 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Exact capacity at Cheonan plant not legible from source image — research to find current GWh figure.",
-          "South Korea total shown as 52 GWh across all SK SDI facilities — confirm Cheonan's share."
+          "Cheonan plant hosts the 46-series cylindrical 'mother line' — confirm full ramp-up GWh by end 2025/2026.",
+          "Ulsan (10 GWh prismatic) is a separate site; this record is indexed to Cheonan. Consider creating a separate Ulsan record."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Samsung SDI's primary South Korean prismatic cell manufacturing site in Cheonan. Produces NMC prismatic cells for automotive customers.",
-      "stage": "commercial"
+      "notes": "Samsung SDI's Cheonan plant produces 46-series cylindrical batteries (4680 format) with ~1 GWh initial capacity as of 2025. Ulsan plant (~10 GWh) produces prismatic NMC cells. Total South Korea SDI capacity ~11 GWh as of 2025. Company also supplies ESS LFP cells under a new KRW 2 trillion US deal.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Samsung SDI's Cheonan plant launched mass production of 46-series cylindrical batteries in 2025 with an initial capacity of approximately 1 GWh, serving as the global 'mother line' for this format. The separate Ulsan facility handles prismatic NMC production at around 10 GWh/year, bringing total Korean capacity to roughly 11 GWh. Samsung SDI is not expanding domestic Korea capacity significantly in the near term; major capacity additions are planned for the US (Stellantis JV in Indiana, ~27 GWh by 2027) and Europe.",
+        "source": "https://www.koreaherald.com/article/10454372",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "lg-energy-solution-ochang",
@@ -71,7 +91,7 @@
           "unit": "GWh",
           "known": false,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Ochang campus total capacity not publicly broken out — part of LGES ~540 GWh global target"
         }
       ],
       "products": [
@@ -80,22 +100,35 @@
           "name": "NMC"
         },
         {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
           "category": "cell_type",
           "name": "pouch"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Exact capacity at Cheongju/Ochang campus not legible from source image — research to confirm.",
-          "South Korea total 52 GWh across all LG/Samsung SDI/SK On sites — confirm LGES share."
+          "Ochang campus annual capacity not disclosed in GWh — LGES does not publish site-level figures.",
+          "LFP ESS production line at Ochang planned for 2027 start at 1 GWh initial capacity."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "LG Energy Solution headquarters and major manufacturing campus in Cheongju (Ochang area), South Korea. Produces pouch NMC cells for automotive OEMs.",
-      "stage": "commercial"
+      "notes": "LG Energy Solution's headquarters and major manufacturing campus in Cheongju (Ochang area). Transitioned to 46-series cylindrical cell production in 2025. A new LFP ESS battery line with 1 GWh initial capacity is planned for 2027 at this site. LGES does not publicly disclose site-level GWh figures.",
+      "stage": "commercial",
+      "research": {
+        "summary": "LG Energy Solution's Ochang campus started mass production of 46-series cylindrical batteries (4680–46120 formats) in 2025 and secured an order backlog exceeding 300 GWh by year-end. A new LFP energy storage battery line with 1 GWh initial capacity is planned for commercial production at Ochang by 2027. LGES does not disclose site-level capacity figures publicly; total global capacity target was ~540 GWh by 2025. Full-year 2025 revenues showed demand recovery driven partly by cylindrical cell ramp-up.",
+        "source": "https://inside.lgensol.com/en/2026/01/lg-energy-solution-releases-2025-financial-results/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "sk-on-seosan",
@@ -111,17 +144,37 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 5,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Seosan — two existing plants (P1 + P2), operational since 2018"
+        },
+        {
+          "value": 14,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2028,
+          "label": "Seosan P3 — third plant, came online 2025, ramping to 14 GWh by 2028"
+        },
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2028,
+          "label": "Total Seosan target — all three plants combined by 2028"
         }
       ],
       "products": [
         {
           "category": "chemistry",
           "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
         },
         {
           "category": "cell_type",
@@ -132,14 +185,19 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Exact capacity at Seosan/Boryeong plant not legible from source image.",
-          "SK On has multiple Korea sites — confirm primary facility location and capacity split."
+          "SK On reported Q1 2026 installed capacity of only 5.2 GWh — confirm P3 ramp-up status.",
+          "LFP mass production reported to start 2026 — confirm chemistry mix at Seosan vs. other sites."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "SK On primary South Korean manufacturing site near Seosan. Produces pouch NMC cells for Hyundai, Ford, and other OEM customers.",
-      "stage": "commercial"
+      "notes": "SK On's primary South Korean facility in Seosan has two legacy plants producing 5 GWh/year of NMC pouch cells since 2018. A KRW 1.5 trillion expansion (third plant, P3) commenced in 2023 and came online in 2025, with a capacity ramp to 14 GWh by 2028 and a total Seosan target of 20 GWh. LFP mass production expected from 2026. Early 2026 data shows installed output at 5.2 GWh, suggesting P3 is still in ramp-up.",
+      "stage": "commercial",
+      "research": {
+        "summary": "SK On's Seosan site has two legacy NMC pouch plants producing 5 GWh/year since 2018. A KRW 1.5 trillion third-plant expansion (P3) began construction in 2023 and came online in 2025, targeting 14 GWh and eventually 20 GWh across all three Seosan plants by 2028. Early 2026 data shows installed capacity was 5.2 GWh, indicating P3 is still ramping. SK On also plans LFP cell mass production starting 2026, and is developing Korea's first EREV batteries for a new growth segment.",
+        "source": "https://www.electrive.com/2023/08/21/sk-on-to-significantly-expand-battery-plant-in-seosan/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "panasonic-energy-kasai",
@@ -155,11 +213,19 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 12,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Japan total domestic capacity across all sites (~12 GWh as of 2025)"
+        },
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "Japan domestic target — Subaru supply partnership (Suminoe + Oizumi)"
         }
       ],
       "products": [
@@ -176,14 +242,20 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Japan total shown as 25.6 GWh in source — confirm Kasai plant's share and whether other Japan sites exist.",
-          "Verify current capacity and any expansion plans as of 2026."
+          "Kasai plant's share of the 12 GWh Japan total not disclosed separately.",
+          "Next-gen 2170 cells in pilot production at Kasai as of 2024 — confirm ramp timeline.",
+          "New Oizumi (Gunma) plant with Subaru planned for FY2028 — this is a separate site from Kasai."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Panasonic Energy primary cylindrical cell manufacturing site in Kasai, Hyogo, Japan. Produces NCA cylindrical cells, mainly for Tesla. Japan total shown as 25.6 GWh in August 2023 source.",
-      "stage": "commercial"
+      "notes": "Panasonic Energy's Kasai (Hyogo) facility is a primary Japan cylindrical cell plant. Total domestic Japan capacity is approximately 12 GWh across all sites. Next-gen cell pilot production (2170 format for Tesla) was started at Kasai in 2024. Expansion plans focus on Suminoe (Osaka) and a new Oizumi (Gunma) plant for Subaru supply from 2027/2028, targeting 20 GWh domestic by 2030.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Panasonic Energy's Japan domestic battery capacity stands at approximately 12 GWh across its facilities including Kasai (Hyogo). Kasai started next-generation cylindrical cell pilot production in September 2024. A Suminoe (Osaka) factory will supply Subaru from FY2027 and a new jointly-built Oizumi (Gunma) facility from FY2028, targeting a combined 20 GWh domestic capacity by 2030. Panasonic's largest new investment is a 32 GWh plant in Kansas (US), which began mass production in 2025.",
+        "source": "https://www.energyconnects.com/news/renewables/2024/september/panasonic-ready-to-start-making-next-gen-ev-cells-at-japan-plant/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "catl-ningde",
@@ -199,11 +271,18 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 772,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity at Ningde base (total CATL China much larger)"
+          "label": "Global installed capacity — all CATL plants worldwide (2025 year-end)"
+        },
+        {
+          "value": 661,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Global battery sales volume 2025 (shipped, not all capacity)"
         }
       ],
       "products": [
@@ -216,22 +295,35 @@
           "name": "LFP"
         },
         {
+          "category": "chemistry",
+          "name": "sodium-ion"
+        },
+        {
           "category": "cell_type",
           "name": "prismatic"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "CATL's China capacity is distributed across many sites (Ningde, Liyang, Yibin, Zhaoqing, Xiamen, etc.) — total China capacity per 2023 source is ~2,245 GWh across all CATL+others. Research to confirm CATL's individual capacity at Ningde.",
-          "Source image resolution does not allow reading city-level capacity breakdown for CATL."
+          "Ningde base capacity not separately disclosed — CATL reports global totals only.",
+          "321 GWh additional capacity under construction at end of 2025 — track commissioning milestones."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "CATL headquarters and primary manufacturing base in Ningde, Fujian. CATL is the world's largest cell manufacturer with multiple China facilities. China total shown as ~2,245 GWh across all manufacturers in August 2023 source image.",
-      "stage": "commercial"
+      "notes": "CATL headquarters and primary manufacturing base in Ningde, Fujian. World's largest cell maker: 772 GWh global installed capacity at end-2025, with 321 GWh under construction. 2025 battery sales reached 661 GWh (+39% YoY), global market share 39.2%. International expansion includes Hungary (40–100 GWh), Spain (50 GWh JV with Stellantis), and Indonesia (6.9 GWh by late 2026). Sodium-ion cells entering wider commercial production from 2026.",
+      "stage": "commercial",
+      "research": {
+        "summary": "CATL achieved global installed capacity of 772 GWh by end-2025, with 321 GWh additional capacity under construction. Battery sales reached 661 GWh in 2025, up 39% year-on-year, with a 39.2% global market share for the ninth consecutive year. The Ningde headquarters campus remains the primary production base, though CATL does not disclose site-level capacity figures. International expansion is accelerating, with a Hungarian plant preparing 40–100 GWh, a Stellantis JV targeting 50 GWh in Spain, and a new Indonesian plant expected online late 2026.",
+        "source": "https://www.ess-news.com/2026/03/09/catl-sold-661-gwh-of-lithium-ion-batteries-in-2025-reports-profit-growth/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "byd-shenzhen",
@@ -247,11 +339,18 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 113,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity at Shenzhen (BYD has many China sites)"
+          "label": "China domestic traction battery production Jan–Sep 2025 (all BYD sites)"
+        },
+        {
+          "value": 158,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Global installed capacity Jan–Oct 2025 (rank 2, 16.9% share)"
         }
       ],
       "products": [
@@ -272,14 +371,19 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "BYD has multiple major China manufacturing bases — capacity per site not readable from source image.",
-          "Verify current Shenzhen capacity and any expansion as of 2026."
+          "Shenzhen site capacity not separately disclosed — BYD reports group-level figures only.",
+          "BYD's Blade LFP cell is the dominant product — NMC share is primarily for premium/export models."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "BYD's headquarters and major battery manufacturing base in Shenzhen, Guangdong. BYD is both a major EV OEM and one of the world's largest cell manufacturers (Blade LFP cells).",
-      "stage": "commercial"
+      "notes": "BYD headquarters and major battery manufacturing base in Shenzhen, Guangdong. BYD is both the world's second-largest cell maker (by installed capacity) and the leading EV OEM. Domestic traction battery production reached 113 GWh in the first three quarters of 2025; ~21% was supplied to external customers. Global installed capacity Jan–Oct 2025 was 157.9 GWh (16.9% market share). Produces primarily LFP Blade cells in prismatic format across multiple China gigafactories.",
+      "stage": "commercial",
+      "research": {
+        "summary": "BYD produced 113 GWh of traction batteries in China in the first three quarters of 2025, of which approximately 21% was supplied externally. Global installed capacity from January to October 2025 reached 157.9 GWh (16.9% market share, ranked second after CATL). BYD does not disclose site-level capacity; the Shenzhen base is the headquarters but significant production also occurs at Changsha, Xi'an, Zhengzhou, and other megafactories. BYD's Blade LFP prismatic cell remains the core product.",
+        "source": "https://carnewschina.com/2025/12/04/byd-launches-zero-defects-initiative-as-battery-production-reaches-113-gwh-in-first-three-quarters-of-2025-report-says",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "eve-energy-huizhou",
@@ -295,11 +399,19 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 121,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Total projected shipments 2025 (all EVE sites, ~71 GWh ESS + ~50 GWh EV)"
+        },
+        {
+          "value": 60,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2029,
+          "label": "New Huizhou 60 GWh energy storage battery project (announced April 2026, operational 2029)"
         }
       ],
       "products": [
@@ -324,13 +436,19 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "EVE Energy capacity at Huizhou not readable from source image. Research current capacity and planned expansions."
+          "Huizhou existing capacity not separated from EVE's group total — Huizhou is the primary base.",
+          "EVE also building a sodium-ion battery campus — location and capacity TBD."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "EVE Energy primary manufacturing base in Huizhou, Guangdong, China. Produces LFP and NMC cells in cylindrical and prismatic formats.",
-      "stage": "commercial"
+      "notes": "EVE Energy primary manufacturing base in Huizhou, Guangdong. Total 2025 shipments projected at ~121 GWh (~71 GWh ESS, ~50 GWh EV). In April 2026, EVE announced a new 60 GWh energy storage battery project in Huizhou Zhongkai High-tech Zone (investment: ~6 billion yuan, operational by April 2029). EVE is also expanding in Jingmen, Qidong, and Shanghang. Total planned new capacity from the April 2026 announcements: 230 GWh across four sites.",
+      "stage": "commercial",
+      "research": {
+        "summary": "EVE Energy's total battery shipments were projected at approximately 121 GWh in 2025 (around 71 GWh ESS, 50 GWh EV), with Q1 2026 profit up sharply year-on-year. In April 2026 EVE announced a 60 GWh energy storage battery project in Huizhou (its primary base) along with three other sites, totalling 230 GWh of new planned capacity. The Huizhou expansion requires ~6 billion yuan and is targeted for completion by April 2029. EVE is also breaking ground on a sodium-ion battery campus.",
+        "source": "https://www.ess-news.com/2026/04/23/eve-energy-outlines-230-gwh-manufacturing-capacity-expansion-within-weeks/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "svolt-baoding",
@@ -350,7 +468,15 @@
           "unit": "GWh",
           "known": false,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Baoding plant capacity not disclosed separately"
+        },
+        {
+          "value": 61,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "Company-wide shipment target 2026 (+50% vs 2025)"
         }
       ],
       "products": [
@@ -371,14 +497,20 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "SVOLT (Great Wall Motor spin-off) capacity at Baoding not readable from source. Research to confirm.",
-          "SVOLT also has European plants (Saarlouis) — this record is China only."
+          "Baoding plant capacity not disclosed; SVOLT does not report site-level figures.",
+          "Earlier target of 600 GWh by 2025 was never approached — actual scale is much smaller.",
+          "SVOLT achieved first quarterly profit in Q4 2025 — confirm profitability trajectory."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "SVOLT (spin-off of Great Wall Motor) primary manufacturing site in Baoding, Hebei, China. Produces NMC and LFP prismatic cells. Also operates European facilities.",
-      "stage": "commercial"
+      "notes": "SVOLT (spin-off from Great Wall Motor, 2018) primary manufacturing site in Baoding, Hebei. Company achieved its first quarterly profit in Q4 2025 and targets 61 GWh in shipments for 2026 (+50% YoY). Earlier 600 GWh capacity target for 2025 was never realized — actual scale remains much smaller. Also building solid-state battery capabilities. European Saarlouis plant is a separate site.",
+      "stage": "commercial",
+      "research": {
+        "summary": "SVOLT (Great Wall Motor spin-off) achieved its first quarterly profit in Q4 2025 and targets 61 GWh in battery shipments for 2026, a roughly 50% increase from 2025 levels. Earlier announcements of 600 GWh capacity by 2025 were not realized; actual scale is substantially smaller. A new 60 GWh plant in Chengdu was announced but timeline unclear. SVOLT is also accelerating solid-state battery development, targeting commercial viability in the near term.",
+        "source": "https://www.electrive.com/2021/12/09/svolt-to-increase-battery-production-capacity-t0-600-gwh-by-2025/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "lishen-tianjin",
@@ -394,11 +526,19 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 31,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Total company capacity across all Lishen sites (Tianjin HQ is primary)"
+        },
+        {
+          "value": 36,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "Chuzhou power and energy storage project (new site, under construction)"
         }
       ],
       "products": [
@@ -409,19 +549,33 @@
         {
           "category": "chemistry",
           "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Lishen capacity at Tianjin not readable from source image. Research to confirm."
+          "Tianjin base share of 31 GWh total not broken out.",
+          "Semi-solid battery mass production targeted for 2025 — confirm status."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Lishen (天津力神) primary manufacturing base in Tianjin, China. One of China's older cell manufacturers, producing NMC and LFP cells.",
-      "stage": "commercial"
+      "notes": "Lishen (天津力神) headquartered in Tianjin with approximately 31 GWh annual capacity across all sites. One of China's oldest cell manufacturers. A new 36 GWh power and energy storage project is under construction in Chuzhou. Targets mass production of third-generation semi-solid batteries. Plans to expand into European markets.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Lishen (Tianjin Lishen Battery) has approximately 31 GWh of annual production capacity across its sites, with the Tianjin headquarters as the primary facility. A new 36 GWh power and energy storage battery project started construction in Chuzhou. Earlier projections of 125 GWh by 2025 were not realized. Lishen is targeting mass production of third-generation semi-solid batteries and is exploring European market entry.",
+        "source": "https://battery-tech.net/company/lishen/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "sunwoda-shenzhen",
@@ -437,11 +591,18 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 18.8,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Installed EV battery capacity 2024 (global rank 10, 2.1% share)"
+        },
+        {
+          "value": 16.08,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Power battery shipments H1 2025 (+93% YoY)"
         }
       ],
       "products": [
@@ -450,21 +611,35 @@
           "name": "NMC"
         },
         {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
           "category": "cell_type",
           "name": "pouch"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Sunwoda capacity at Shenzhen not readable from source image. Research to confirm."
+          "Thailand investment ($1B) approved in early 2025 — confirm EV battery cell plant timeline and capacity.",
+          "Tesla added Sunwoda as fifth global EV battery supplier (April 2026) — production ramp timeline?"
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Sunwoda (新旺达) primary manufacturing base in Shenzhen, Guangdong, China. Produces NMC pouch cells for consumer electronics and automotive.",
-      "stage": "commercial"
+      "notes": "Sunwoda (新旺达) based in Shenzhen, Guangdong. Installed EV battery capacity was 18.8 GWh in 2024 (rank 10 globally, 2.1% share). H1 2025 power battery shipments reached 16.08 GWh (+93% YoY). Tesla confirmed Sunwoda as its fifth global battery supplier in April 2026. Thailand approved a $1 billion Sunwoda EV battery cell plant investment in March 2025. Also developing next-gen polymer solid-state batteries (400 Wh/kg, unveiled October 2025).",
+      "stage": "commercial",
+      "research": {
+        "summary": "Sunwoda installed 18.8 GWh of EV batteries in 2024 (global rank 10, 2.1% market share), and H1 2025 power battery shipments surged 93% year-on-year to 16.08 GWh. Tesla named Sunwoda its fifth global battery supplier in April 2026, a significant endorsement. Thailand approved a $1 billion Sunwoda investment for EV battery cell plants in March 2025. Sunwoda is also developing a 400 Wh/kg polymer all-solid-state battery (Xin·Bixiao) unveiled in October 2025, targeting 1 GWh production capacity by 2026.",
+        "source": "https://electrek.co/2026/04/10/tesla-adds-sunwoda-fifth-global-battery-supplier-cost-pressure/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "gotion-hefei",
@@ -480,17 +655,35 @@
       "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 400,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "current",
-          "label": "current capacity (figure not legible in source)"
+          "label": "Global energy storage capacity across all 20 manufacturing bases (2025 year-end)"
+        },
+        {
+          "value": 53.5,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Power battery installed capacity 2025 (global rank 5, 4.5% market share)"
+        },
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Hefei unified-cell plant delivering to Volkswagen since November 2025"
         }
       ],
       "products": [
         {
           "category": "chemistry",
           "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "sodium-ion"
         },
         {
           "category": "cell_type",
@@ -501,13 +694,19 @@
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Gotion capacity at Hefei not readable from source image. Research to confirm. Gotion is also expanding into Europe (Göttingen, Germany)."
+          "Gotion's Göttingen (Germany) plant timeline — confirm start date.",
+          "2 GWh solid-state production line confirmed for 2026 launch — chemistry is sulfide-based."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Gotion High-Tech (国轩高科) primary manufacturing base in Hefei, Anhui, China. LFP prismatic cell specialist. Majority-owned by Volkswagen Group. Also building European plants.",
-      "stage": "commercial"
+      "notes": "Gotion High-Tech (国轩高科) headquarters in Hefei, Anhui. Majority-owned by Volkswagen Group. Global energy storage capacity reached 400 GWh across 20 manufacturing bases in 2025. Power battery installations were 53.5 GWh (rank 5, 4.5% share). A 20 GWh Hefei plant began delivering VW Unified Cell (LFP) in November 2025 under a supply contract through 2032. Sodium-ion battery 'Gnascent' launched May 2026 (up to 261 Wh/kg, mass production ready). Solid-state battery 2 GWh production line targeting 2026 launch.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Gotion High-Tech (VW-majority-owned) achieved 53.5 GWh of global power battery installations in 2025 (rank 5, 4.5% share) and 400 GWh of total energy storage capacity across 20 manufacturing bases. The Hefei Unified Cell plant began delivering LFP cells to Volkswagen in November 2025 under a contract through 2032. Gotion launched its sodium-ion battery 'Gnascent' in May 2026 (up to 261 Wh/kg, mass-production ready) and is commissioning a 2 GWh solid-state battery line in 2026.",
+        "source": "https://www.electrive.com/2025/11/21/gotion-high-tech-is-now-mass-producing-vw-standard-cells/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "ola-electric-hosur",
@@ -520,14 +719,30 @@
       "lon": 77.8253,
       "year": 2023,
       "year_label": "2023",
-      "status": "Planned",
+      "status": "Operational",
       "capacities": [
         {
-          "value": null,
+          "value": 1.4,
           "unit": "GWh",
-          "known": false,
+          "known": true,
+          "type": "current",
+          "label": "Current active cell production capacity (as of early 2026)"
+        },
+        {
+          "value": 5,
+          "unit": "GWh",
+          "known": true,
           "type": "planned",
-          "label": "planned capacity (figure not legible in source)"
+          "target_year": 2026,
+          "label": "Phase 1 target — full 5 GWh installation by end FY2025-26"
+        },
+        {
+          "value": 100,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "Long-term capacity ambition (110-acre site)"
         }
       ],
       "products": [
@@ -536,43 +751,56 @@
           "name": "NMC"
         },
         {
-          "category": "chemistry",
-          "name": "LFP"
+          "category": "cell_type",
+          "name": "cylindrical"
         }
       ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
+        "logo_research_needed": false,
         "open_questions": [
-          "Ola Electric's India cell plant details not fully legible from source image — confirm capacity, timeline, and current status.",
-          "India total shown as 190 GWh in 2023 source — this represents planned capacity across multiple companies. Confirm Ola Electric's planned share.",
-          "Verify whether cell production has actually started as of 2026."
+          "Gigafactory is reported in Pochampalli/Krishnagiri area — confirm exact city vs. Hosur label.",
+          "Bharat Cell (4680 format) — confirm whether NMC or LFP chemistry."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Ola Electric's 'Gigafactory' in Hosur, Tamil Nadu, India — one of several Indian companies planning large-scale battery cell production. India's 190 GWh shown in source is largely planned capacity for 2023 horizon.",
-      "stage": "pilot"
+      "notes": "Ola Electric's Gigafactory in Hosur/Krishnagiri, Tamil Nadu — India's first commercial battery cell gigafactory. Current active capacity is approximately 1.4 GWh (producing 4680-format 'Bharat Cell' cylindrical cells). Full 5 GWh installation targeted by end FY2025-26 (March 2026). Long-term ambition is 100 GWh on the 110-acre site. Status updated from Planned to Operational — cell production has started.",
+      "stage": "pilot",
+      "research": {
+        "summary": "Ola Electric's Gigafactory in Hosur, Tamil Nadu began producing 4680-format 'Bharat Cell' cylindrical NMC cells and has approximately 1.4 GWh of active capacity as of early 2026. The company targets full 5 GWh installation by end of FY2025-26 (March 2026). The 110-acre site has a long-term ambition of 100 GWh. At 1.4 GWh, the factory can supply batteries for approximately 300,000 two-wheelers annually. This makes Ola the first Indian company to achieve commercial-scale in-house cell production.",
+        "source": "https://www.pv-magazine-india.com/2025/07/14/ola-electric-targets-full-5-gwh-battery-cell-capacity-by-the-end-of-fy2026/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "amara-raja-tirupati",
       "name": "Amara Raja Advanced Cell Technologies",
       "sector": "cell_manufacturer",
       "country": "India",
-      "region": "Andhra Pradesh",
-      "city": "Tirupati",
-      "lat": 13.6288,
-      "lon": 79.4192,
+      "region": "Telangana",
+      "city": "Hyderabad",
+      "lat": 17.4065,
+      "lon": 78.5141,
       "year": 2023,
       "year_label": "2023",
       "status": "Planned",
       "capacities": [
         {
-          "value": null,
+          "value": 1,
           "unit": "GWh",
-          "known": false,
+          "known": true,
           "type": "planned",
-          "label": "planned capacity (figure not legible in source)"
+          "target_year": 2027,
+          "label": "Initial commercial cell production — NMC, Phase 1"
+        },
+        {
+          "value": 16,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "Full planned gigafactory capacity (265-acre site, Divitipally, Hyderabad)"
         }
       ],
       "products": [
@@ -589,14 +817,20 @@
       "attributes": {
         "logo_research_needed": true,
         "open_questions": [
-          "Amara Raja cell plant details not fully legible from source image — confirm capacity, location, and status as of 2026.",
-          "Company is working with technology partners — identify chemistry and format."
+          "Pilot plant commissioning targeted by FY2026-end (March 2026) — confirm if achieved.",
+          "Full commercial NMC production expected FY2027 at 1 GWh — confirm partners and technology source.",
+          "Technology collaboration with Gotion-InoBat-Batteries (GIB) confirmed — confirm chemistry scope."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Amara Raja Advanced Cell Technologies (subsidiary of the Amara Raja Group) planning a gigafactory in Andhra Pradesh. One of India's most established battery companies expanding into cell manufacturing.",
-      "stage": "pilot"
+      "notes": "Amara Raja Advanced Cell Technologies (subsidiary of Amara Raja Energy & Mobility) is building a 16 GWh gigafactory in Divitipally, Hyderabad, Telangana — NOT in Tirupati, Andhra Pradesh as originally assumed. Total project cost ~INR 9,500 crore. Pilot plant commissioning targeted by end of FY2025-26 (March 2026). Commercial NMC cell production at 1 GWh expected by FY2027. Technology collaboration with Gotion-InoBat-Batteries (GIB). Location and city corrected from original record (Tirupati, Andhra Pradesh → Hyderabad, Telangana).",
+      "stage": "pilot",
+      "research": {
+        "summary": "Amara Raja Advanced Cell Technologies is constructing a 16 GWh cell gigafactory in Divitipally, Hyderabad, Telangana (total cost ~INR 9,500 crore), not in Tirupati as previously assumed. A lithium-ion cell pilot plant was in advanced construction stages as of mid-2025, targeting commissioning by end of FY2025-26 (March 2026). Commercial NMC cell production at 1 GWh capacity is expected by FY2027 end. The company announced a technology collaboration with Gotion-InoBat-Batteries (GIB). Full 16 GWh target is by 2030 in phases.",
+        "source": "https://www.pv-magazine-india.com/2025/07/21/amara-raja-to-commission-lithium-cell-pilot-facility-by-fy-2026-end/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "hli-green-power-karawang",
@@ -609,15 +843,21 @@
       "lon": 107.3336,
       "year": 2023,
       "year_label": "2023",
-      "status": "Planned",
+      "status": "Operational",
       "capacities": [
         {
           "value": 10,
           "unit": "GWh",
           "known": true,
-          "type": "planned",
-          "target_year": 2025,
-          "label": "planned capacity"
+          "type": "current",
+          "label": "Phase 1 — operational since April 2024"
+        },
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Phase 2 — commercial production began March 2025"
         }
       ],
       "products": [
@@ -632,16 +872,21 @@
       ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
+        "logo_research_needed": false,
         "open_questions": [
-          "Confirm company name — Indonesia 10 GWh entry. HLI Green Power is a Hyundai/LG/Indonesian government JV. Verify from source image.",
-          "Verify commissioning status as of 2026 — plant was planned for 2024-2025."
+          "LG Energy Solution cancelled its broader Indonesia $7.7B battery supply chain megaproject (April 2025) but retained the HLI JV — confirm ongoing supply commitments.",
+          "Phase 2 commercial production confirmed for March 2025 — confirm ramp-up to full 20 GWh."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Indonesia 10 GWh entry — believed to be HLI Green Power, a joint venture between Hyundai, LG Energy Solution, and Indonesian state entities in Karawang, West Java. Indonesia total shown as 10 GWh in August 2023 source.",
-      "stage": "commercial"
+      "notes": "HLI Green Power is a joint venture between Hyundai Motor Group, LG Energy Solution, and PT Indonesia Battery Corporation (IBC) in Karawang, West Java. Phase 1 (10 GWh) opened April 2024; Phase 2 (additional 10 GWh, total 20 GWh) reached commercial production in March 2025. LG cancelled its broader $7.7B Indonesia megaproject in April 2025 due to EV market slowdown, but retained participation in the HLI JV specifically. Status updated from Planned to Operational.",
+      "stage": "commercial",
+      "research": {
+        "summary": "HLI Green Power (Hyundai/LG/IBC JV) in Karawang, West Java reached full 20 GWh capacity in March 2025, following Phase 1's April 2024 commissioning at 10 GWh. The plant is Southeast Asia's largest EV battery cell factory. LG Energy Solution cancelled its broader $7.7 billion Indonesia battery supply chain megaproject in April 2025 citing EV market conditions, but explicitly retained participation in the HLI Green Power JV. The plant produces NMC pouch cells sufficient for over 300,000 EVs per year.",
+        "source": "https://inside.lgensol.com/en/2025/04/world-battery-tour-with-lg-energy-solution-karawang-indonesia/",
+        "date": "2026-05-18"
+      }
     },
     {
       "id": "samsung-sdi-seremban",
@@ -661,7 +906,15 @@
           "unit": "GWh",
           "known": true,
           "type": "current",
-          "label": "current capacity (per source image)"
+          "label": "Existing plant capacity (per source image; market estimate ~15-16 GWh)"
+        },
+        {
+          "value": 12,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "Second plant (4680 cylindrical) — completed 2025, ramp to 8-12 GWh"
         }
       ],
       "products": [
@@ -672,64 +925,88 @@
         {
           "category": "cell_type",
           "name": "prismatic"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
         }
       ],
       "materials": [],
       "attributes": {
         "logo_research_needed": false,
         "open_questions": [
-          "Verify current output levels at Seremban as of 2026 — capacity may have expanded since 2023 source."
+          "Second Seremban plant (RM 5.8B investment) completed 2025 — confirm production start and 4680 vs. 21700 format.",
+          "Market estimates of 15-16 GWh for the first plant are not officially confirmed by Samsung SDI."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Samsung SDI manufacturing facility in Seremban, Negeri Sembilan, Malaysia. Source image shows 16 GWh as Malaysia total; Samsung SDI Malaysia is the primary contributor.",
-      "stage": "commercial"
+      "notes": "Samsung SDI operates an NMC prismatic manufacturing plant in Seremban, Malaysia, with an estimated capacity of ~16 GWh (source image figure). A second plant (KRW 1.7 trillion / RM 5.8B investment) targeting cylindrical batteries (21700 format, with potential for 4680) was completed in 2025, adding an estimated 8-12 GWh. Total Seremban capacity post-expansion is estimated at approximately 24-28 GWh.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Samsung SDI's Seremban, Malaysia facility produces prismatic NMC cells with an estimated ~16 GWh capacity as confirmed by the 2023 source image and industry estimates. A second plant — a KRW 1.7 trillion (RM 5.8 billion) investment — was completed in 2025 to produce cylindrical batteries (initially 21700 format, with 4680 potential), adding an estimated 8-12 GWh. Samsung SDI does not officially disclose site-level capacity figures. Total Seremban capacity is estimated at approximately 24-28 GWh.",
+        "source": "https://www.electrive.com/2022/07/21/samsung-sdi-is-building-a-second-battery-plant-in-malaysia/",
+        "date": "2026-05-18"
+      }
     },
     {
-      "id": "unknown-turkey",
-      "name": "Unknown",
+      "id": "aspilsan-kayseri",
+      "name": "ASPILSAN Enerji",
       "sector": "cell_manufacturer",
       "country": "Turkey",
-      "region": "Kocaeli",
-      "city": "Gebze",
-      "lat": 40.7981,
-      "lon": 29.4371,
+      "region": "Kayseri",
+      "city": "Kayseri",
+      "lat": 38.7312,
+      "lon": 35.4787,
       "year": 2023,
       "year_label": "2023",
       "status": "Operational",
       "capacities": [
         {
-          "value": 0.5,
+          "value": 0.22,
           "unit": "GWh",
           "known": true,
           "type": "current",
-          "label": "current capacity (Turkey total per source)"
+          "label": "Annual capacity — 220 MWh / ~22 million 18650-type NMC cells"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
+        "logo_research_needed": false,
         "open_questions": [
-          "Identify company — Turkey 0.5 GWh entry in source image. Likely ASPILSAN Energia (Turkish defence/energy company) or Türk Telekom/Aselsan subsidiary. Logo not legible.",
-          "Confirm actual location — Gebze assumed based on known Turkish battery industry cluster."
+          "ASPILSAN focuses on defence and aviation applications — confirm any civilian/EV supply expansion.",
+          "Source image showed 0.5 GWh for Turkey total — the 0.22 GWh ASPILSAN figure is lower; a second Turkish producer may also exist (e.g. Siro/TOGG JV in Gemlik, Bursa, at 3 GWh module/pack from 2023, cells planned for 2026)."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Small 0.5 GWh battery cell producer shown in Turkey (August 2023 source). Location assumed Gebze, Kocaeli based on Turkey's battery industry presence. Company identity not legible from source image.",
-      "stage": "unknown"
+      "notes": "ASPILSAN Enerji — subsidiary of the Turkish Armed Forces Foundation (TAFF) — is Turkey's primary battery cell manufacturer, headquartered in Kayseri Mimarsinan OIZ. Produces 18650-type NMC cylindrical cells at 220 MWh (0.22 GWh) annual capacity, primarily for defence, aviation, and naval applications. Note: the 0.5 GWh Turkey total in the 2023 source image may aggregate ASPILSAN with Siro (Togg–Farasis JV in Gemlik, Bursa), which produces battery modules/packs from 2023 with cell production planned for 2026. Location corrected from Gebze (assumed) to Kayseri (confirmed). Record ID updated from 'unknown-turkey' to reflect identified company.",
+      "stage": "commercial",
+      "research": {
+        "summary": "ASPILSAN Enerji (Turkish Armed Forces Foundation subsidiary) is confirmed as Turkey's primary battery cell manufacturer, operating a 220 MWh (0.22 GWh) cylindrical NMC cell facility in Kayseri Mimarsinan OIZ — not in Gebze as originally assumed. The plant produces 18650-type cells (2800 mAh, 3.65V) for defence, aviation, and naval applications. A second Turkish battery venture, Siro (Togg–Farasis JV, Gemlik/Bursa), produces battery modules/packs from 2023 with cell production planned for 2026 at 3 GWh initial capacity — this may account for the 0.5 GWh Turkey aggregate in the source image.",
+        "source": "https://www.invest.gov.tr/en/news/news-from-turkey/pages/aspilsan-commences-mass-production-lithium-ion-battery-cell.aspx",
+        "date": "2026-05-18"
+      }
     },
     {
-      "id": "unknown-thailand",
-      "name": "Unknown",
+      "id": "amita-technology-chachoengsao",
+      "name": "Amita Technology (Thailand)",
       "sector": "cell_manufacturer",
       "country": "Thailand",
-      "region": "Eastern Economic Corridor",
-      "city": "Rayong",
-      "lat": 12.6842,
-      "lon": 101.2816,
+      "region": "Chachoengsao",
+      "city": "Chachoengsao",
+      "lat": 13.6904,
+      "lon": 101.0779,
       "year": 2023,
       "year_label": "2023",
       "status": "Operational",
@@ -739,22 +1016,52 @@
           "unit": "GWh",
           "known": true,
           "type": "current",
-          "label": "current capacity (Thailand total per source)"
+          "label": "Phase 1 — operational, 1 GWh pouch cell (confirmed as Thailand source total)"
+        },
+        {
+          "value": 4,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "Phase 2 expansion target (expandable to 4 GWh)"
+        },
+        {
+          "value": 50,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "Long-term expansion ambition"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
       "materials": [],
       "attributes": {
-        "logo_research_needed": true,
+        "logo_research_needed": false,
         "open_questions": [
-          "Identify company — Thailand 1 GWh entry. Could be DELTA Electronics, Amita Technologies (Taiwan), or another manufacturer. Logo not readable from source.",
-          "Confirm actual location within Thailand."
+          "Confirm Phase 2 (4 GWh) commissioning status as of 2026.",
+          "Energy Absolute (EA) studied partnerships with Chinese battery manufacturers for +6 GWh — outcome unclear."
         ]
       },
       "source_image": "230804_Asia_battery manufacturers.png",
       "date_added": "2026-05-18",
-      "notes": "Small 1 GWh battery cell producer shown in Thailand (August 2023 source). Exact company and city not identifiable from source image. Location assumed in Eastern Economic Corridor area.",
-      "stage": "unknown"
+      "notes": "Amita Technology (Thailand) Co., Ltd. — subsidiary of Energy Absolute (EA) and Amita Technologies Inc. (Taiwan) — operates ASEAN's first battery gigafactory in Bang Pakong, Chachoengsao, Eastern Economic Corridor (EEC). Phase 1: 1 GWh pouch LFP cells (operational since 2022/2023). Phase 2 targets 4 GWh. Long-term expansion ambition of 50 GWh. Location corrected from Rayong to Chachoengsao. Record name and ID updated from 'unknown-thailand'. Supported by a 2 billion baht BOI grant.",
+      "stage": "commercial",
+      "research": {
+        "summary": "Amita Technology (Thailand) — a subsidiary of Energy Absolute (EA) and Taiwan's Amita Technologies — operates ASEAN's first battery gigafactory in Chachoengsao's Eastern Economic Corridor, with 1 GWh of Phase 1 pouch cell capacity (primarily LFP). Phase 2 expansion to 4 GWh was targeted for late 2025. Long-term plans call for up to 50 GWh. EA is also exploring partnerships with Chinese manufacturers to add a further 6 GWh. The 2023 source image's 1 GWh Thailand total is confirmed to represent this facility.",
+        "source": "https://www.nationthailand.com/pr-news/business/40009916",
+        "date": "2026-05-18"
+      }
     }
   ]
 }
