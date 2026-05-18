@@ -320,6 +320,33 @@ reference-data/
 
 ## Pending Tasks
 
+### High priority — Airtable enrichment (planned 2026-05-18, not yet executed)
+
+**Goal:** Enrich the dashboard JSON records with data from the BTN Account Database in Airtable.
+
+**Sources:**
+- `WP Company Directory` table (1,044 records) — BVC Stage/Category taxonomy, WordPress profile URL, Technology Categories, company descriptions
+- `BTN Accounts` table — website domain (match key), LinkedIn URL, overview, key technologies, facilities, recent developments
+
+**Match key:** `domain` field in BTN Accounts (e.g. `catl.com`) matched against company name or website in dashboard records. Domain is the most reliable cross-system identifier.
+
+**Enrichment fields to add to dashboard records:**
+- `website` / `domain` — from BTN Accounts
+- `linkedin` — from BTN Accounts
+- `btn_profile_url` — the battery-tech.net company page URL (from WP Company Directory `URL` field)
+- `bvc_category` — detailed BVC Category from WP Company Directory (e.g. "Cell Manufacturing", "Material Recycling")
+- `overview` — short company description from BTN Accounts
+
+**Airtable connection:** MCP is live and connected. Base ID: `appOF0MlHF4imAtG5`. WP Company Directory table ID: `tblcBP5HbtaLkuxqi`. BTN Accounts table ID: `tblfZg9UAZQtaSZKV`.
+
+**Next steps when resuming:**
+1. Decide which enrichment fields to add to the dashboard schema
+2. Build a matching script: for each dashboard record, look up by company name (fuzzy) or domain in Airtable
+3. Write matched data into the JSON files
+4. Consider adding a `btn_profile_url` link in the map popup and table
+
+---
+
 ### High priority — data quality
 
 - [ ] **Move Lyten (ex-Northvolt Drei)** from `recycling.json` to `cell-manufacturers.json` — misclassified; it is a cell manufacturer gigafactory site, not a recycler

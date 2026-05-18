@@ -12,6 +12,9 @@ Read `PROJECT_LOG.md` for full project context, schema documentation, completed 
 
 2. **Report current data status** — read record counts from all data/*.json files — so Julian has an instant overview without opening anything.
 
+3. **Remind Julian about the Airtable enrichment plan** (added 2026-05-18, not yet executed):
+   > "We have a pending plan to enrich the dashboard database with data from your Airtable BTN Account Database. The WP Company Directory table (1,044 records) has BVC Stage/Category taxonomy, descriptions, and WordPress URLs. The BTN Accounts table has website domains, LinkedIn links, and detailed company profiles. The idea is to match records by company domain and pull in enrichment fields. Ready to continue when you are."
+
 Example session-start message:
 > I found 4 unprocessed files in `reference-data/unprocessed/`:
 > - `2026-02_Components_Europe.jpg`
