@@ -1,15 +1,12 @@
 /* Battery Industry Company Database — app.js */
 
 const DATA_FILES = [
-  "../data/companies.json",
-  "../data/companies-north-america.json",
-  "../data/companies-asia.json",
+  "../data/cell-manufacturers.json",
   "../data/recycling.json",
   "../data/module-pack.json",
   "../data/components.json",
   "../data/equipment.json",
   "../data/active-materials.json",
-  "../data/solid-state.json",
 ];
 
 const STATUS_COLORS = {

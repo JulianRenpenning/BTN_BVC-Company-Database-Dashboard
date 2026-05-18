@@ -102,7 +102,10 @@ During any research pass, prioritize records with grey dots. When research is co
 
 ---
 
-## Key schema fields (v1.3)
+## Key schema fields (v1.4)
+
+**`continent`** — geographic continent (present in `cell-manufacturers.json`; to be backfilled in other sector files when they expand globally):
+- `"Europe"` · `"North America"` · `"Asia"` · `"South America"` · `"Africa"` · `"Oceania"`
 
 **`status`** — current project status:
 - `Operational` — capacity is live and producing
@@ -166,15 +169,16 @@ Categories: `Cell-Manufacturers` · `Module-Pack` · `Recycling` · `Components`
 
 | File | Sector | Records |
 |---|---|---|
-| `data/companies.json` | cell_manufacturer | 38 |
+| `data/cell-manufacturers.json` | cell_manufacturer | 170 |
 | `data/module-pack.json` | module_pack_manufacturer | 110 |
 | `data/recycling.json` | recycler | 65 |
 | `data/active-materials.json` | active_material_producer | 29 |
-| `data/solid-state.json` | cell_manufacturer (solid-state) | 17 |
 | `data/components.json` | component_manufacturer | 50 |
-| `data/equipment.json` | equipment_provider | 87 |
+| `data/equipment.json` | equipment_provider | 64 |
 
-**Total: 396 records. All source images processed. `reference-data/unprocessed/` is empty.**
+**Total: 488 records. All source images processed. `reference-data/unprocessed/` is empty.**
+
+**`cell-manufacturers.json` covers Europe (52), North America (39), and Asia (79).** Each record = one physical manufacturing facility. Solid-state specialists are included here (sector remains `cell_manufacturer`).
 
 ---
 

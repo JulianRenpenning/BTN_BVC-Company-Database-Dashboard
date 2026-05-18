@@ -1,6 +1,6 @@
 # BTN_BVC-Company-Database-Dashboard — Project Log
 
-**Last updated:** 2026-05-18 (Session 6 — North America + Asia extraction; UI fixes)  
+**Last updated:** 2026-05-18 (Session 7 — Cell manufacturer file consolidation; continent field added)  
 **Owner:** Julian Renpenning (Battery-Tech Network)
 
 ---
@@ -22,13 +22,10 @@ A tool to extract structured company data from images (maps, slides, reports) �
 ```
 Claude Code/BTN_BVC-Company-Database-Dashboard/
 ├── data/
-│   ├── companies.json               ← Cell manufacturers — Europe (35 records)
-│   ├── companies-north-america.json ← Cell manufacturers — North America (39 records)
-│   ├── companies-asia.json          ← Cell manufacturers — Asia (17 records)
+│   ├── cell-manufacturers.json      ← Cell manufacturers — global (170 records: 52 EU, 39 NA, 79 Asia)
 │   ├── recycling.json               ← Battery recyclers (65 records)
 │   ├── module-pack.json             ← Module & pack producers (110 records)
 │   ├── active-materials.json        ← Active material producers (29 records)
-│   ├── solid-state.json             ← Solid-state battery companies (17 records)
 │   ├── components.json              ← Passive cell components (50 records)
 │   └── equipment.json               ← Production equipment providers (64 records)
 ├── app/
@@ -44,7 +41,7 @@ Claude Code/BTN_BVC-Company-Database-Dashboard/
 
 ---
 
-## Data Schema (v1.2)
+## Data Schema (v1.4)
 
 One JSON file per sector. Each file has a `meta` block and a `companies` array.
 
@@ -53,6 +50,7 @@ One JSON file per sector. Each file has a `meta` block and a `companies` array.
 - `v1.1` — Added `sector` field
 - `v1.2` — Added `stage` field; added `open_questions` list inside `attributes{}`
 - `v1.3` — Formalized deduplication rules (3-case: skip / flag potential update / new site); added research freshness logic (365-day threshold); three-state research dot in table (teal = fresh, grey = stale, light grey = never researched)
+- `v1.4` — Added `continent` field (`"Europe"` · `"North America"` · `"Asia"`) to `cell-manufacturers.json`; consolidated 4 cell manufacturer files into one global file (170 records, one per physical facility)
 
 **Core record fields:**
 
@@ -61,6 +59,7 @@ One JSON file per sector. Each file has a `meta` block and a `companies` array.
 | `id` | string | kebab-case unique ID, e.g. `powerco-salzgitter` |
 | `name` | string | Company name |
 | `sector` | string | See sector values below |
+| `continent` | string or null | `"Europe"` · `"North America"` · `"Asia"` — present in `cell-manufacturers.json`; null in other sector files |
 | `country` | string | Country name; `"Pan-European"` for pan-EU entities |
 | `city` | string or null | null for equipment providers without a specific site |
 | `lat` / `lon` | number or null | null = no map pin (still shown in table) |
@@ -146,15 +145,17 @@ reference-data/
 
 | File | Folder | JSON target | Records |
 |---|---|---|---|
-| `2026-02_Cell-Manufacturers_Europe.jpg` | processed | companies.json | 38 |
+| `2026-02_Cell-Manufacturers_Europe.jpg` | processed | cell-manufacturers.json | 35 (EU records) |
 | `2026-02_Module-Pack_Europe.jpg` | processed | module-pack.json | 110 |
 | `2026-02_Recycling_Europe.jpg` | processed | recycling.json | 65 |
 | `2026-02_Active-Materials_Europe.jpg` | processed | active-materials.json | 29 |
 | `2026-02_Components_Europe.jpg` | processed | components.json | 50 |
-| `2026-02_Equipment_Europe.jpg` | processed | equipment.json | 87 |
-| `2026-02_Solid-State_Europe.jpg` | processed | solid-state.json | 17 |
+| `2026-02_Equipment_Europe.jpg` | processed | equipment.json | 64 |
+| `2026-02_Solid-State_Europe.jpg` | processed | cell-manufacturers.json | 17 (EU solid-state) |
+| `240716_Battery-Cell-Production_North-America.jpg` | processed | cell-manufacturers.json | 39 (NA records) |
+| `230804_Asia_battery manufacturers.png` | processed | cell-manufacturers.json | 79 (Asia facility records) |
 
-**Total: 396 records across 7 files. All source images processed.**
+**Total: 488 records across 6 files. All source images processed.**
 
 ---
 
@@ -277,19 +278,60 @@ reference-data/
   - Schema version updated: 1.2 → 1.3 in meta
   - Committed and pushed to GitHub; teal research dots now visible on all 38 company pins
 
+### Session 5 — 2026-05-18
+
+- [x] **Fixed "undisclosed" → "—" in capacity display** — `capValueLabel()`, current capacity cell, and planned capacity cell all updated to return `"—"` for unknown/null capacity values
+- [x] **Extracted and wrote `data/companies-north-america.json`** — 39 North American cell manufacturer records (facility-level) from `240716_Battery-Cell-Production_North-America.jpg`
+  - Full research pass: 14 unknown companies identified, 15 status corrections
+  - Key identifications: Manteno IL = Gotion, Liberty NC = Toyota (operational Nov 2025), Bartow County GA = HSAGP Energy (Hyundai+SK On), Bryan County GA = HL-GA Battery (Hyundai+LG)
+  - Status corrections: Northvolt Montreal/Quebec → Cancelled, FREYR Georgia → Cancelled, KORE Power Buckeye → Cancelled, Panasonic De Soto → Operational (Jul 2025)
+  - Correction: AESC "Smyrna GA" → Smyrna, TN (sold to Fixx Energy Apr 2026)
+  - BlueOval SK dissolved — Ford and SK On took individual ownership of respective plants
+- [x] **Extracted and wrote `data/companies-asia.json`** — initial 17 company-level records from `230804_Asia_battery manufacturers.png`
+  - Full research pass on all 17 companies; 2 unknown logos resolved (ASPILSAN Turkey, Amita Technology Thailand)
+  - Turkey: added Siro Gemlik (TOGG/Farasis JV — new company not previously in DB)
+
+### Session 6 — 2026-05-18
+
+- [x] **Expanded `companies-asia.json` from 17 company-level → 79 facility-level records** — one record per physical manufacturing site per company
+  - CATL: 13 facilities across China + Indonesia (planned)
+  - BYD: 15 facilities across China (Shenzhen, Chongqing, Changsha, Nanning 70 GWh, Xi'an, Jinan, Xuzhou, Zhengzhou, Guiyang, Xining, Bengbu, Changchun, Wenzhou, Wuhan, Yichun)
+  - EVE Energy: 7 facilities; SVOLT: 10 facilities; Gotion: 7 China sites; Lishen: 4 sites
+  - Sunwoda: 5 sites; Samsung SDI Asia: 4 sites; LG Energy Solution Ochang; SK On Seosan
+  - Panasonic: 5 Japan sites incl. Oizumi/Gunma (16 GWh by 2030 joint with Subaru)
+  - India: Ola Electric Hosur (2.5 GWh, operational) + Amara Raja Divitipally (planned)
+  - Indonesia: HLI Green Power (20 GWh) + CATL Karawang (planned)
+  - Turkey: ASPILSAN Kayseri + Siro Gemlik; Thailand: Amita Technology Chachoengsao
+  - Status and capacity data research-verified for all 79 records
+
+### Session 7 — 2026-05-18
+
+- [x] **Consolidated 4 cell manufacturer files into `data/cell-manufacturers.json`** — schema v1.4
+  - Merged: `companies.json` (35) + `companies-north-america.json` (39) + `companies-asia.json` (79) + `solid-state.json` (17) = **170 facility-level records**
+  - Added `continent` field to all records: Europe (52) · North America (39) · Asia (79)
+  - Sorted: continent → country → status → city
+  - Zero duplicate IDs; zero records lost or modified
+  - Deleted 4 source files from repo (`git rm`)
+  - Updated `app/app.js` DATA_FILES from 9 → 6 entries
+  - Updated CLAUDE.md and PROJECT_LOG.md to reflect new 6-file structure
+  - **Database total: 488 records across 6 sector files**
+
 ---
 
 ## Pending Tasks
 
 ### High priority — data quality
 
-- [ ] **Move Lyten (ex-Northvolt Drei)** from `recycling.json` to `companies.json` — misclassified; it is a cell manufacturer gigafactory site, not a recycler
+- [ ] **Move Lyten (ex-Northvolt Drei)** from `recycling.json` to `cell-manufacturers.json` — misclassified; it is a cell manufacturer gigafactory site, not a recycler
 - [ ] **Verify Befesa Erandio** — processes steel EAF dust, not EV batteries; may not belong in recycling.json at all
 - [ ] **Resolve 2 remaining unknown companies:**
   - Unknown, Tallinn, Estonia — SG anode active material producer, 1,000 t/a
   - Unknown, Gothenburg, Sweden (circular arrow logo) — module & pack sector
-- [x] **Research pass on `companies.json`** — completed Session 4 (2026-05-16); all 38 records have fresh research summaries
-- [ ] **Research pass on remaining files** — sweep `recycling.json`, `module-pack.json`, `active-materials.json`, `solid-state.json`, `components.json` for records with `open_questions`
+- [x] **Research pass on EU cell manufacturers** — completed Session 4 (2026-05-16); all 35 European records have fresh research summaries (now in `cell-manufacturers.json`)
+- [x] **Research pass on North America cell manufacturers** — completed Session 5 (2026-05-18); all 39 records researched
+- [x] **Research pass on Asia cell manufacturers** — completed Session 6 (2026-05-18); all 79 facility records researched and verified
+- [ ] **Research pass on remaining files** — sweep `recycling.json`, `module-pack.json`, `active-materials.json`, `components.json` for records with `open_questions`
+- [ ] **Belleville MI (North America)** — company identity still unconfirmed; remains `logo_research_needed: true`
 
 ### Medium priority — app improvements
 
