@@ -1,6 +1,6 @@
 # BTN_BVC-Company-Database-Dashboard — Project Log
 
-**Last updated:** 2026-05-16 (Session 4 — Full research pass on companies.json)  
+**Last updated:** 2026-05-18 (Session 6 — North America + Asia extraction; UI fixes)  
 **Owner:** Julian Renpenning (Battery-Tech Network)
 
 ---
@@ -22,13 +22,15 @@ A tool to extract structured company data from images (maps, slides, reports) �
 ```
 Claude Code/BTN_BVC-Company-Database-Dashboard/
 ├── data/
-│   ├── companies.json          ← Cell manufacturers (38 records)
-│   ├── recycling.json          ← Battery recyclers (65 records)
-│   ├── module-pack.json        ← Module & pack producers (110 records)
-│   ├── active-materials.json   ← Active material producers (29 records)
-│   ├── solid-state.json        ← Solid-state battery companies (17 records)
-│   ├── components.json         ← Passive cell components (50 records)
-│   └── equipment.json          ← Production equipment providers (87 records)
+│   ├── companies.json               ← Cell manufacturers — Europe (35 records)
+│   ├── companies-north-america.json ← Cell manufacturers — North America (39 records)
+│   ├── companies-asia.json          ← Cell manufacturers — Asia (17 records)
+│   ├── recycling.json               ← Battery recyclers (65 records)
+│   ├── module-pack.json             ← Module & pack producers (110 records)
+│   ├── active-materials.json        ← Active material producers (29 records)
+│   ├── solid-state.json             ← Solid-state battery companies (17 records)
+│   ├── components.json              ← Passive cell components (50 records)
+│   └── equipment.json               ← Production equipment providers (64 records)
 ├── app/
 │   ├── index.html           ← Visualization app (map + table + chart)
 │   ├── app.js               ← Data loading, filtering, rendering

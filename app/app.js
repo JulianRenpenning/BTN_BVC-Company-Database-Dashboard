@@ -2,6 +2,8 @@
 
 const DATA_FILES = [
   "../data/companies.json",
+  "../data/companies-north-america.json",
+  "../data/companies-asia.json",
   "../data/recycling.json",
   "../data/module-pack.json",
   "../data/components.json",

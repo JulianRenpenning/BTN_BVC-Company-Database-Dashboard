@@ -1,0 +1,1602 @@
+{
+  "meta": {
+    "last_updated": "2026-05-18",
+    "record_count": 39,
+    "schema_version": "1.3",
+    "region": "North America",
+    "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+    "source_date": "2024-07-16",
+    "notes": "Extracted from July 2024 source image showing battery cell production gigafactories across the US and Canada. Many planned facilities shown as of July 2024 may now be operational, delayed, or cancelled — research pass needed."
+  },
+  "companies": [
+    {
+      "id": "unknown-manteno",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Illinois",
+      "city": "Manteno",
+      "lat": 41.2508,
+      "lon": -87.8293,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Company not legible from source image — identify manufacturer. Possibly Stellantis-related.",
+          "Verify operational status and current output as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "40 GWh facility shown as commissioned 2024. Company logo not legible at source image resolution.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-belvidere",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Illinois",
+      "city": "Belvidere",
+      "lat": 42.2636,
+      "lon": -88.8445,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "planned capacity (figure not disclosed in source)"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Company logo not legible. Possibly Stellantis-related (Belvidere is a Stellantis assembly town).",
+          "Confirm capacity figure and project status — may have been revised or cancelled."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Planned battery plant shown for 2027; capacity marked as TBD/unknown in source image.",
+      "stage": "commercial"
+    },
+    {
+      "id": "samsung-sdi-new-carlisle",
+      "name": "Samsung SDI",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Indiana",
+      "city": "New Carlisle",
+      "lat": 41.7,
+      "lon": -86.5294,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify construction progress and updated commissioning timeline as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Samsung SDI standalone US plant in New Carlisle, Indiana; 30 GWh planned by 2027.",
+      "stage": "commercial"
+    },
+    {
+      "id": "starplus-energy-kokomo",
+      "name": "StarPlus Energy",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Indiana",
+      "city": "Kokomo",
+      "lat": 40.4864,
+      "lon": -86.1336,
+      "year": 2027,
+      "year_label": "2025 & 2027",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 23,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Phase 1 capacity (est.)"
+        },
+        {
+          "value": 67,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "full planned capacity (Phase 1+2)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm Phase 1 ramp status and Phase 2 timeline as of 2026.",
+          "JV between Samsung SDI and Stellantis — verify ownership structure unchanged."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "StarPlus Energy is the Samsung SDI / Stellantis joint venture in Kokomo IN. Source image shows 67 GWh total across 2025 and 2027 phases.",
+      "stage": "commercial"
+    },
+    {
+      "id": "nextstar-energy-windsor",
+      "name": "NextStar Energy",
+      "sector": "cell_manufacturer",
+      "country": "Canada",
+      "region": "Ontario",
+      "city": "Windsor",
+      "lat": 42.3149,
+      "lon": -83.0364,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 45,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm full ramp achieved at 45 GWh as of 2026 — early production had delays."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "NextStar Energy is the LG Energy Solution / Stellantis joint venture in Windsor, Ontario. 45 GWh pouch cell plant, commissioned 2024.",
+      "stage": "commercial"
+    },
+    {
+      "id": "powerco-st-thomas",
+      "name": "PowerCo",
+      "sector": "cell_manufacturer",
+      "country": "Canada",
+      "region": "Ontario",
+      "city": "St. Thomas",
+      "lat": 42.7793,
+      "lon": -81.1818,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 90,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm construction status and updated timeline as of 2026. Project was subject to political and financial scrutiny.",
+          "Verify that PowerCo's ownership by Volkswagen Group remains unchanged."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "PowerCo (Volkswagen Group's battery subsidiary) plans a 90 GWh gigafactory in St. Thomas, Ontario, supported by Canadian federal and provincial subsidies.",
+      "stage": "commercial"
+    },
+    {
+      "id": "northvolt-montreal",
+      "name": "Northvolt",
+      "sector": "cell_manufacturer",
+      "country": "Canada",
+      "region": "Quebec",
+      "city": "Montréal",
+      "lat": 45.5017,
+      "lon": -73.5673,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": 60,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Northvolt filed for bankruptcy November 2024 — confirm status of the Montréal project. Likely cancelled or transferred to new owner.",
+          "If project proceeds under new ownership, update company name and status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Northvolt had planned a 60 GWh gigafactory near Montréal (McMasterville, QC area). Project is in question following Northvolt's November 2024 bankruptcy filing.",
+      "stage": "commercial"
+    },
+    {
+      "id": "northvolt-quebec-city",
+      "name": "Northvolt",
+      "sector": "cell_manufacturer",
+      "country": "Canada",
+      "region": "Quebec",
+      "city": "Québec City",
+      "lat": 46.8139,
+      "lon": -71.2082,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Second Northvolt QC entry from source image — may refer to a different phase or site. Verify whether this is a separate project from the Montréal 60 GWh plant.",
+          "Confirm status following Northvolt's 2024 bankruptcy."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "A second Northvolt Quebec entry (10 GWh, 2030) appeared in the source image separate from the 60 GWh Montréal site. Exact location and project identity require verification.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-montreal-small",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "Canada",
+      "region": "Quebec",
+      "city": "Montréal",
+      "lat": 45.5017,
+      "lon": -73.5673,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 0.5,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 0.5 GWh capacity suggests a smaller, possibly existing facility or an early-stage startup. Logo not legible in source image."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Small 0.5 GWh Montreal entry separate from Northvolt. Could be Hydro-Québec research facility, Volta Energy Technologies, or similar small-scale producer. Needs identification.",
+      "stage": "unknown"
+    },
+    {
+      "id": "ultium-cells-warren",
+      "name": "Ultium Cells",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Ohio",
+      "city": "Warren",
+      "lat": 41.2376,
+      "lon": -80.8184,
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 41,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify actual annual output vs rated 41 GWh capacity as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Ultium Cells Plant 1 — joint venture between General Motors and LG Energy Solution. Located in Lordstown/Warren, Ohio. First US Ultium plant, operational since 2022.",
+      "stage": "commercial"
+    },
+    {
+      "id": "lh-battery-jeffersonville",
+      "name": "L-H Battery Company",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Ohio",
+      "city": "Jeffersonville",
+      "lat": 39.6545,
+      "lon": -83.5635,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify commissioning status as of 2026 — facility was planned for 2025.",
+          "L-H Battery is a Honda / LG Energy Solution JV — confirm current JV status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "L-H Battery Company is the Honda / LG Energy Solution joint venture in Jeffersonville, Ohio (Fayette County). 40 GWh pouch NMC cell plant targeting 2025.",
+      "stage": "commercial"
+    },
+    {
+      "id": "blueoval-sk-glendale",
+      "name": "BlueOval SK",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Kentucky",
+      "city": "Glendale",
+      "lat": 37.622,
+      "lon": -85.9019,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 86,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm ramp progress — plant targeted 2025; verify actual output as of 2026.",
+          "BlueOval SK is Ford + SK On JV — verify JV structure unchanged."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "BlueOval SK (Ford / SK On JV) Hardin County, Kentucky plant. 86 GWh pouch NMC cells, target 2025.",
+      "stage": "commercial"
+    },
+    {
+      "id": "aesc-bowling-green",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Kentucky",
+      "city": "Bowling Green",
+      "lat": 36.9903,
+      "lon": -86.4436,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 40,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify commissioning status as of 2026. Plant was targeted for Toyota production.",
+          "Confirm customer — reported as supplying Toyota."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "AESC Bowling Green, Kentucky — 40 GWh plant planned for 2025, reportedly to supply Toyota.",
+      "stage": "commercial"
+    },
+    {
+      "id": "im3ny-endicott",
+      "name": "iM3NY",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "New York",
+      "city": "Endicott",
+      "lat": 42.098,
+      "lon": -76.0685,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 12,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "target capacity (ramp ongoing)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Verify company name — logo partially readable; believed to be iM3NY (International Minerals and Mining NY).",
+          "Confirm actual production levels as of 2026 vs 12 GWh rated capacity — ramp may still be in progress.",
+          "Company was facing financial challenges — verify operational status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Believed to be iM3NY (International Minerals and Mining, New York) at the former IBM Endicott site. 12 GWh target for 2023; ramp status in 2026 uncertain.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-jamestown",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "New York",
+      "city": "Jamestown",
+      "lat": 42.097,
+      "lon": -79.2353,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 1,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2024,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 1 GWh Jamestown NY entry. Logo not legible from source image."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "1 GWh battery plant shown in Jamestown, NY (2024). Company not identifiable from source image resolution.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-morrisville",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "North Carolina",
+      "city": "Morrisville",
+      "lat": 35.8239,
+      "lon": -78.8256,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 1,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 1 GWh Morrisville NC entry. Logo not legible from source image."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Small 1 GWh plant shown in Morrisville, NC (Raleigh-Durham area). Company identity unknown.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-liberty-nc",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "North Carolina",
+      "city": "Liberty",
+      "lat": 35.8581,
+      "lon": -79.574,
+      "year": 2030,
+      "year_label": "2030",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 30 GWh Liberty NC plant planned for 2030. Possibly Toyota, VinFast, or another OEM-related cell plant.",
+          "Verify project status as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Large 30 GWh planned plant in Liberty, NC (Randolph County), target 2030. Company not identified from source image.",
+      "stage": "commercial"
+    },
+    {
+      "id": "aesc-florence",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "South Carolina",
+      "city": "Florence",
+      "lat": 34.1954,
+      "lon": -79.8258,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify project progress and customer (BMW reported as primary customer for this site)."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "AESC Florence County, South Carolina — 30 GWh plant, target 2027. Reported to supply BMW.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-colleton-sc",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "South Carolina",
+      "city": "Walterboro",
+      "lat": 32.9024,
+      "lon": -80.6696,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 3,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2024,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company in Colleton County SC (Walterboro area). 3 GWh facility shown for 2024. Logo not readable from source image."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "3 GWh facility shown in Colleton County, SC (Walterboro area), target 2024. Company unknown.",
+      "stage": "unknown"
+    },
+    {
+      "id": "freyr-coweta-county",
+      "name": "FREYR Battery",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Georgia",
+      "city": "Newnan",
+      "lat": 33.3802,
+      "lon": -84.7997,
+      "year": 2027,
+      "year_label": "2027",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": 38,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "FREYR merged with Trafigura in 2024 — confirm current project status and whether the Georgia plant is still planned.",
+          "If project transferred or cancelled under new ownership, update status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "FREYR Battery was planning a 38 GWh LFP factory in Coweta County, Georgia (Newnan area). FREYR merged with Trafigura in 2024, creating uncertainty about the project's future.",
+      "stage": "commercial"
+    },
+    {
+      "id": "aesc-smyrna-ga",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Georgia",
+      "city": "Smyrna",
+      "lat": 33.884,
+      "lon": -84.5144,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 22,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm actual output at Smyrna facility as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "AESC plant in Smyrna, Georgia (near Atlanta) — 22 GWh, shown as operational 2023. Supplies Nissan.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-bartow-county-ga",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Georgia",
+      "city": "Cartersville",
+      "lat": 34.1648,
+      "lon": -84.7997,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 35,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company in Bartow County GA (Cartersville area). 35 GWh by 2025. Possibly SK On or related JV.",
+          "Verify project status as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "35 GWh facility in Bartow County, Georgia (Cartersville area), target 2025. Company not identifiable from source image.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-bryan-county-ga",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Georgia",
+      "city": "Ellabell",
+      "lat": 32.1457,
+      "lon": -81.4677,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company in Bryan County GA (Ellabell/Hyundai HMGMA area). Possibly SK On or LG Energy Solution supplying Hyundai Metaplant America.",
+          "Verify whether this is a standalone battery plant or co-located with the Hyundai assembly plant."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "30 GWh facility in Bryan County, Georgia (near Ellabell, adjacent to Hyundai HMGMA plant), target 2025. Company not identified from image.",
+      "stage": "commercial"
+    },
+    {
+      "id": "aesc-jacksonville",
+      "name": "AESC",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Florida",
+      "city": "Jacksonville",
+      "lat": 30.3322,
+      "lon": -81.6557,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 2,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2024,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify operational status as of 2026 — targeted 2024. Confirm customer."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "AESC Jacksonville, Florida — small 2 GWh plant, targeted 2024.",
+      "stage": "commercial"
+    },
+    {
+      "id": "ultium-cells-spring-hill",
+      "name": "Ultium Cells",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Tennessee",
+      "city": "Spring Hill",
+      "lat": 35.7512,
+      "lon": -86.93,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 50,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm that this is Ultium Cells Plant 2 (GM/LG) — logo unclear at image resolution. Verify output levels as of 2026.",
+          "Source image shows 50 GWh and year 2023 — confirm ramp status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Believed to be Ultium Cells Plant 2 (GM + LG Energy Solution joint venture) in Spring Hill, Tennessee. 50 GWh, operational target 2023.",
+      "stage": "commercial"
+    },
+    {
+      "id": "blueoval-sk-stanton",
+      "name": "BlueOval SK",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Tennessee",
+      "city": "Stanton",
+      "lat": 35.46,
+      "lon": -89.2389,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 45,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm commissioning status — BlueOval City (Ford+SK On) Stanton TN targeted 2025. Verify production levels as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "BlueOval SK (Ford / SK On JV) at BlueOval City in Stanton (Marshall County), Tennessee — 45 GWh, target 2025.",
+      "stage": "commercial"
+    },
+    {
+      "id": "tesla-austin",
+      "name": "Tesla",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Texas",
+      "city": "Austin",
+      "lat": 30.2319,
+      "lon": -97.6297,
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 100,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "rated/target capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Actual 4680 cell output in 2026 likely well below rated 100 GWh — verify real ramp status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Tesla Gigafactory Texas (Giga Texas) in Austin — producing 4680 cylindrical cells. Rated at 100 GWh; actual production ramp ongoing as of 2024 source date.",
+      "stage": "commercial"
+    },
+    {
+      "id": "panasonic-desoto",
+      "name": "Panasonic",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Kansas",
+      "city": "De Soto",
+      "lat": 38.9836,
+      "lon": -94.9689,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify commissioning status of De Soto KS Panasonic plant as of 2026 — targeted 2025.",
+          "Source image shows 38 GWh total for KS; confirm if Panasonic De Soto accounts for all of this or if there is a second KS facility."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Panasonic Energy new cylindrical cell plant in De Soto, Kansas — 30 GWh target for 2025. Total KS capacity in source is 38 GWh, suggesting possible additional KS entries.",
+      "stage": "commercial"
+    },
+    {
+      "id": "panasonic-sparks",
+      "name": "Panasonic",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Nevada",
+      "city": "Sparks",
+      "lat": 39.5349,
+      "lon": -119.7527,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 36,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity (est.)"
+        },
+        {
+          "value": 100,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "target capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify whether the 100 GWh expansion target was reached or revised as of 2026. Original Tesla Gigafactory Nevada runs at ~36 GWh current; 100 GWh is the expansion target."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Panasonic Energy at Gigafactory Nevada (Sparks, NV) — long-running 21700 and 4680 cylindrical NCA cell plant co-located with Tesla. Expansion to 100 GWh targeted for 2026.",
+      "stage": "commercial"
+    },
+    {
+      "id": "tesla-fremont",
+      "name": "Tesla",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "California",
+      "city": "Fremont",
+      "lat": 37.5485,
+      "lon": -121.9886,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity (Kato Road module)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify current status of the Kato Road 4680 pilot/semi-production line in Fremont — may have been scaled up or production transferred to Giga Texas."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Tesla Fremont cell production — primarily the Kato Road facility producing 4680 cells at pilot/semi-commercial scale. 10 GWh shown in July 2024 source.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-imperial-valley-ca",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "California",
+      "city": "El Centro",
+      "lat": 32.792,
+      "lon": -115.563,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 54,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — likely Statevolt (Swedish startup that announced a large Imperial Valley CA plant). Logo not legible in source image.",
+          "Verify project status as of 2026 — project may have been delayed or cancelled."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "54 GWh plant in Imperial Valley, California (El Centro area), target 2025. Believed to be Statevolt but not confirmed from image.",
+      "stage": "commercial"
+    },
+    {
+      "id": "lges-holland-mi",
+      "name": "LG Energy Solution",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Michigan",
+      "city": "Holland",
+      "lat": 42.7875,
+      "lon": -86.1089,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 5,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity (existing plant)"
+        },
+        {
+          "value": 25,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "expanded capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Holland MI has been an LG facility for over a decade — verify the 25 GWh expansion target and current output levels as of 2026.",
+          "Logo partially legible from image — confirm it is LG Energy Solution."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "LG Energy Solution Holland, Michigan — long-running pouch cell facility. Source image shows 25 GWh expansion target for 2025.",
+      "stage": "commercial"
+    },
+    {
+      "id": "ultium-cells-lansing",
+      "name": "Ultium Cells",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Michigan",
+      "city": "Lansing",
+      "lat": 42.7325,
+      "lon": -84.5555,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 41,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm this is Ultium Cells Plant 3 (GM/LG) in the Lansing area — logo unclear at source image resolution. Verify commissioning status as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Believed to be Ultium Cells Plant 3 (GM + LG Energy Solution) in Lansing, Michigan — 41 GWh, target 2025.",
+      "stage": "commercial"
+    },
+    {
+      "id": "ford-marshall-mi",
+      "name": "Ford Motor Company",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Michigan",
+      "city": "Marshall",
+      "lat": 42.2728,
+      "lon": -84.9636,
+      "year": 2026,
+      "year_label": "2026",
+      "status": "Paused",
+      "capacities": [
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Ford's BlueOval Battery Park Michigan project was paused/scaled back in 2023 due to UAW negotiations and market conditions. Verify current status as of 2026.",
+          "Original plan used CATL technology (LFP) but this was controversial. Confirm technology partner."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Ford BlueOval Battery Park Michigan in Marshall, MI — 20 GWh LFP cell plant planned for 2026. The project was paused in late 2023 amid UAW pressure over CATL technology licensing.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-belleville-mi",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Michigan",
+      "city": "Belleville",
+      "lat": 42.2039,
+      "lon": -83.4855,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2024,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company in Belleville MI area — 20 GWh target 2024. Could be Our Next Energy (ONE), Gotion, or another Michigan-based cell startup.",
+          "Verify project status as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "20 GWh plant in Belleville, Michigan, target 2024. Company not identifiable from source image.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-brighton-co",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Colorado",
+      "city": "Brighton",
+      "lat": 39.9855,
+      "lon": -104.818,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 5,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 5 GWh Brighton CO plant. Could be Solid Power, Eos Energy, or another Colorado-based battery company.",
+          "Verify project status as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "5 GWh plant in Brighton, Colorado, target 2025. Company not identified from source image.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-louisville-co",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Colorado",
+      "city": "Louisville",
+      "lat": 39.9778,
+      "lon": -105.1316,
+      "year": null,
+      "year_label": "202X",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "planned",
+          "label": "planned capacity (figure not disclosed in source)"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — Louisville CO entry with unspecified capacity and timeline. Could be Solid Power (based in Louisville CO area).",
+          "Confirm capacity, timeline, and project status."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Battery plant shown in Louisville, Colorado with unspecified capacity and 202X timeline. Solid Power is headquartered in Louisville CO — this may be their production site.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-queen-creek-az",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Queen Creek",
+      "lat": 33.2484,
+      "lon": -111.6341,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 53,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2024,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 53 GWh Queen Creek AZ entry. Possibly KORE Power (announced a Phoenix-area 12 GWh plant, but 53 GWh seems too large). Verify company and actual project status.",
+          "KORE Power had funding challenges — confirm whether project is still active as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "Large 53 GWh plant shown in Queen Creek, Arizona, target 2024. Company not identifiable from source image. KORE Power is one candidate but the stated capacity is much larger than their announced plans.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-buckeye-az",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Buckeye",
+      "lat": 33.3703,
+      "lon": -112.5838,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 12,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — 12 GWh Buckeye AZ (west Phoenix suburbs) entry. Company logo not readable from source image.",
+          "Verify project status as of 2026."
+        ]
+      },
+      "source_image": "240716_Battery-Cell-Production_North-America.jpg",
+      "date_added": "2026-05-18",
+      "notes": "12 GWh plant in Buckeye, Arizona (west Phoenix area), target 2025. Company unknown.",
+      "stage": "unknown"
+    }
+  ]
+}

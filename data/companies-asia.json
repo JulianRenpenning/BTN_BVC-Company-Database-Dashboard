@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "last_updated": "2026-05-18",
+    "record_count": 17,
+    "schema_version": "1.3",
+    "region": "Asia",
+    "source_image": "230804_Asia_battery manufacturers.png",
+    "source_date": "2023-08-04",
+    "notes": "Extracted from August 2023 source image. City-level capacity data for most Chinese, Korean, and Japanese companies not legible at source image resolution — research pass needed. China total shown as ~2,245 GWh; South Korea 52 GWh; Japan 25.6 GWh."
+  },
+  "companies": [
+    {
+      "id": "samsung-sdi-cheonan",
+      "name": "Samsung SDI",
+      "sector": "cell_manufacturer",
+      "country": "South Korea",
+      "region": "South Chungcheong",
+      "city": "Cheonan",
+      "lat": 36.8151,
+      "lon": 127.1139,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Exact capacity at Cheonan plant not legible from source image — research to find current GWh figure.",
+          "South Korea total shown as 52 GWh across all SK SDI facilities — confirm Cheonan's share."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Samsung SDI's primary South Korean prismatic cell manufacturing site in Cheonan. Produces NMC prismatic cells for automotive customers.",
+      "stage": "commercial"
+    },
+    {
+      "id": "lg-energy-solution-ochang",
+      "name": "LG Energy Solution",
+      "sector": "cell_manufacturer",
+      "country": "South Korea",
+      "region": "North Chungcheong",
+      "city": "Cheongju",
+      "lat": 36.6085,
+      "lon": 127.5029,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Exact capacity at Cheongju/Ochang campus not legible from source image — research to confirm.",
+          "South Korea total 52 GWh across all LG/Samsung SDI/SK On sites — confirm LGES share."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "LG Energy Solution headquarters and major manufacturing campus in Cheongju (Ochang area), South Korea. Produces pouch NMC cells for automotive OEMs.",
+      "stage": "commercial"
+    },
+    {
+      "id": "sk-on-seosan",
+      "name": "SK On",
+      "sector": "cell_manufacturer",
+      "country": "South Korea",
+      "region": "South Chungcheong",
+      "city": "Seosan",
+      "lat": 36.7858,
+      "lon": 126.4502,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Exact capacity at Seosan/Boryeong plant not legible from source image.",
+          "SK On has multiple Korea sites — confirm primary facility location and capacity split."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "SK On primary South Korean manufacturing site near Seosan. Produces pouch NMC cells for Hyundai, Ford, and other OEM customers.",
+      "stage": "commercial"
+    },
+    {
+      "id": "panasonic-energy-kasai",
+      "name": "Panasonic Energy",
+      "sector": "cell_manufacturer",
+      "country": "Japan",
+      "region": "Hyogo",
+      "city": "Kasai",
+      "lat": 34.9239,
+      "lon": 134.8249,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NCA"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Japan total shown as 25.6 GWh in source — confirm Kasai plant's share and whether other Japan sites exist.",
+          "Verify current capacity and any expansion plans as of 2026."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Panasonic Energy primary cylindrical cell manufacturing site in Kasai, Hyogo, Japan. Produces NCA cylindrical cells, mainly for Tesla. Japan total shown as 25.6 GWh in August 2023 source.",
+      "stage": "commercial"
+    },
+    {
+      "id": "catl-ningde",
+      "name": "CATL",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Fujian",
+      "city": "Ningde",
+      "lat": 26.66,
+      "lon": 119.5485,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity at Ningde base (total CATL China much larger)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "CATL's China capacity is distributed across many sites (Ningde, Liyang, Yibin, Zhaoqing, Xiamen, etc.) — total China capacity per 2023 source is ~2,245 GWh across all CATL+others. Research to confirm CATL's individual capacity at Ningde.",
+          "Source image resolution does not allow reading city-level capacity breakdown for CATL."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "CATL headquarters and primary manufacturing base in Ningde, Fujian. CATL is the world's largest cell manufacturer with multiple China facilities. China total shown as ~2,245 GWh across all manufacturers in August 2023 source image.",
+      "stage": "commercial"
+    },
+    {
+      "id": "byd-shenzhen",
+      "name": "BYD",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Guangdong",
+      "city": "Shenzhen",
+      "lat": 22.5431,
+      "lon": 114.0579,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity at Shenzhen (BYD has many China sites)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "BYD has multiple major China manufacturing bases — capacity per site not readable from source image.",
+          "Verify current Shenzhen capacity and any expansion as of 2026."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "BYD's headquarters and major battery manufacturing base in Shenzhen, Guangdong. BYD is both a major EV OEM and one of the world's largest cell manufacturers (Blade LFP cells).",
+      "stage": "commercial"
+    },
+    {
+      "id": "eve-energy-huizhou",
+      "name": "EVE Energy",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Guangdong",
+      "city": "Huizhou",
+      "lat": 23.1115,
+      "lon": 114.4152,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "EVE Energy capacity at Huizhou not readable from source image. Research current capacity and planned expansions."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "EVE Energy primary manufacturing base in Huizhou, Guangdong, China. Produces LFP and NMC cells in cylindrical and prismatic formats.",
+      "stage": "commercial"
+    },
+    {
+      "id": "svolt-baoding",
+      "name": "SVOLT",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Hebei",
+      "city": "Baoding",
+      "lat": 38.8671,
+      "lon": 115.4646,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "SVOLT (Great Wall Motor spin-off) capacity at Baoding not readable from source. Research to confirm.",
+          "SVOLT also has European plants (Saarlouis) — this record is China only."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "SVOLT (spin-off of Great Wall Motor) primary manufacturing site in Baoding, Hebei, China. Produces NMC and LFP prismatic cells. Also operates European facilities.",
+      "stage": "commercial"
+    },
+    {
+      "id": "lishen-tianjin",
+      "name": "Lishen",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Tianjin",
+      "city": "Tianjin",
+      "lat": 39.0842,
+      "lon": 117.2009,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Lishen capacity at Tianjin not readable from source image. Research to confirm."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Lishen (天津力神) primary manufacturing base in Tianjin, China. One of China's older cell manufacturers, producing NMC and LFP cells.",
+      "stage": "commercial"
+    },
+    {
+      "id": "sunwoda-shenzhen",
+      "name": "Sunwoda",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Guangdong",
+      "city": "Shenzhen",
+      "lat": 22.5431,
+      "lon": 114.1234,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Sunwoda capacity at Shenzhen not readable from source image. Research to confirm."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Sunwoda (新旺达) primary manufacturing base in Shenzhen, Guangdong, China. Produces NMC pouch cells for consumer electronics and automotive.",
+      "stage": "commercial"
+    },
+    {
+      "id": "gotion-hefei",
+      "name": "Gotion High-Tech",
+      "sector": "cell_manufacturer",
+      "country": "China",
+      "region": "Anhui",
+      "city": "Hefei",
+      "lat": 31.8206,
+      "lon": 117.2272,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "current",
+          "label": "current capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Gotion capacity at Hefei not readable from source image. Research to confirm. Gotion is also expanding into Europe (Göttingen, Germany)."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Gotion High-Tech (国轩高科) primary manufacturing base in Hefei, Anhui, China. LFP prismatic cell specialist. Majority-owned by Volkswagen Group. Also building European plants.",
+      "stage": "commercial"
+    },
+    {
+      "id": "ola-electric-hosur",
+      "name": "Ola Electric",
+      "sector": "cell_manufacturer",
+      "country": "India",
+      "region": "Tamil Nadu",
+      "city": "Hosur",
+      "lat": 12.7409,
+      "lon": 77.8253,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "planned",
+          "label": "planned capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Ola Electric's India cell plant details not fully legible from source image — confirm capacity, timeline, and current status.",
+          "India total shown as 190 GWh in 2023 source — this represents planned capacity across multiple companies. Confirm Ola Electric's planned share.",
+          "Verify whether cell production has actually started as of 2026."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Ola Electric's 'Gigafactory' in Hosur, Tamil Nadu, India — one of several Indian companies planning large-scale battery cell production. India's 190 GWh shown in source is largely planned capacity for 2023 horizon.",
+      "stage": "pilot"
+    },
+    {
+      "id": "amara-raja-tirupati",
+      "name": "Amara Raja Advanced Cell Technologies",
+      "sector": "cell_manufacturer",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "city": "Tirupati",
+      "lat": 13.6288,
+      "lon": 79.4192,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": null,
+          "unit": "GWh",
+          "known": false,
+          "type": "planned",
+          "label": "planned capacity (figure not legible in source)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Amara Raja cell plant details not fully legible from source image — confirm capacity, location, and status as of 2026.",
+          "Company is working with technology partners — identify chemistry and format."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Amara Raja Advanced Cell Technologies (subsidiary of the Amara Raja Group) planning a gigafactory in Andhra Pradesh. One of India's most established battery companies expanding into cell manufacturing.",
+      "stage": "pilot"
+    },
+    {
+      "id": "hli-green-power-karawang",
+      "name": "HLI Green Power",
+      "sector": "cell_manufacturer",
+      "country": "Indonesia",
+      "region": "West Java",
+      "city": "Karawang",
+      "lat": -6.3254,
+      "lon": 107.3336,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Planned",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Confirm company name — Indonesia 10 GWh entry. HLI Green Power is a Hyundai/LG/Indonesian government JV. Verify from source image.",
+          "Verify commissioning status as of 2026 — plant was planned for 2024-2025."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Indonesia 10 GWh entry — believed to be HLI Green Power, a joint venture between Hyundai, LG Energy Solution, and Indonesian state entities in Karawang, West Java. Indonesia total shown as 10 GWh in August 2023 source.",
+      "stage": "commercial"
+    },
+    {
+      "id": "samsung-sdi-seremban",
+      "name": "Samsung SDI",
+      "sector": "cell_manufacturer",
+      "country": "Malaysia",
+      "region": "Negeri Sembilan",
+      "city": "Seremban",
+      "lat": 2.7297,
+      "lon": 101.9381,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 16,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity (per source image)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Verify current output levels at Seremban as of 2026 — capacity may have expanded since 2023 source."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Samsung SDI manufacturing facility in Seremban, Negeri Sembilan, Malaysia. Source image shows 16 GWh as Malaysia total; Samsung SDI Malaysia is the primary contributor.",
+      "stage": "commercial"
+    },
+    {
+      "id": "unknown-turkey",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "Turkey",
+      "region": "Kocaeli",
+      "city": "Gebze",
+      "lat": 40.7981,
+      "lon": 29.4371,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 0.5,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity (Turkey total per source)"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — Turkey 0.5 GWh entry in source image. Likely ASPILSAN Energia (Turkish defence/energy company) or Türk Telekom/Aselsan subsidiary. Logo not legible.",
+          "Confirm actual location — Gebze assumed based on known Turkish battery industry cluster."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Small 0.5 GWh battery cell producer shown in Turkey (August 2023 source). Location assumed Gebze, Kocaeli based on Turkey's battery industry presence. Company identity not legible from source image.",
+      "stage": "unknown"
+    },
+    {
+      "id": "unknown-thailand",
+      "name": "Unknown",
+      "sector": "cell_manufacturer",
+      "country": "Thailand",
+      "region": "Eastern Economic Corridor",
+      "city": "Rayong",
+      "lat": 12.6842,
+      "lon": 101.2816,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "capacities": [
+        {
+          "value": 1,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current capacity (Thailand total per source)"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": true,
+        "open_questions": [
+          "Identify company — Thailand 1 GWh entry. Could be DELTA Electronics, Amita Technologies (Taiwan), or another manufacturer. Logo not readable from source.",
+          "Confirm actual location within Thailand."
+        ]
+      },
+      "source_image": "230804_Asia_battery manufacturers.png",
+      "date_added": "2026-05-18",
+      "notes": "Small 1 GWh battery cell producer shown in Thailand (August 2023 source). Exact company and city not identifiable from source image. Location assumed in Eastern Economic Corridor area.",
+      "stage": "unknown"
+    }
+  ]
+}
