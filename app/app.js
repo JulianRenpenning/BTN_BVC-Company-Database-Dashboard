@@ -7,6 +7,7 @@ const DATA_FILES = [
   "../data/components.json",
   "../data/equipment.json",
   "../data/active-materials.json",
+  "../data/startups.json",
 ];
 
 const STATUS_COLORS = {

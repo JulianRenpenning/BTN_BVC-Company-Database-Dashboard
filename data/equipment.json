@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-05-17",
-    "record_count": 64,
+    "last_updated": "2026-05-20",
+    "record_count": 69,
     "schema_version": "1.3",
     "source_image": "2026-02_Equipment_Europe.jpg",
     "notes": "Battery Production Equipment Providers, Europe, as of February 2026. Authors: Sebastian Wolf, Heiner Heimes (PEM RWTH Aachen University). Image legend — equipment categories: Electrode manufacturing (blue) · Cell assembly (teal) · Cell finishing (light teal) · Module & pack production (green) · Atmosphere conditioning (light green). Map circles show aggregate company counts per country/category; individual company logos listed by country around the map perimeter. Equipment providers typically have no specific battery project site — most records have city:null and lat/lon:null. 34 records carry logo_research_needed:true. Some very small logos in the Germany column were not legible; those companies are omitted and noted below. Omitted unreadable logos from Germany column: approximately 5–8 very small entries not identifiable even at maximum zoom.",
@@ -2142,6 +2142,171 @@
         "summary": "Zeppelin Systems GmbH (Germany) provides safe and scalable bulk material handling and processing solutions for battery mass production, covering raw material intake, conveying, storage, and precise dosing into calender machines. Their FM intensive mixers support dry and semi-dry electrode compound mixing, including dispersion of nanoparticulate conductive additives for LFP, NCA, NCM, and graphite. Test series have been conducted with customers and research institutions, and the company presented battery solutions at the Batteries Event in Lyon.",
         "source": "https://www.zeppelin-systems.com/us/en/industries/chemistry/batteries/",
         "date": "2026-05-17"
+      }
+    },
+    {
+      "id": "andritz-sovema-italy",
+      "name": "ANDRITZ Sovema",
+      "sector": "equipment_provider",
+      "country": "Italy",
+      "city": "Villafranca di Verona",
+      "lat": null,
+      "lon": null,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        {
+          "category": "equipment_type",
+          "name": "electrode and cell production equipment (coaters, winding, notching, stacking)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Italian manufacturer of battery electrode and cell assembly equipment. Products include electrode coating lines, calendering, slitting, winding, stacking and electrolyte filling systems. Part of ANDRITZ Group.",
+      "research": {
+        "summary": "ANDRITZ Sovema (part of ANDRITZ Group) is a leading supplier of battery electrode and cell manufacturing equipment based in Villafranca di Verona. Their product range covers the full electrode process: slurry mixing, coating, drying, calendering, slitting, winding/stacking, and electrolyte filling. They supply to major cell manufacturers globally.",
+        "source": "https://www.andritz.com/sovema",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "grob-werke-mindelheim",
+      "name": "GROB-WERKE GmbH & Co. KG",
+      "sector": "equipment_provider",
+      "country": "Germany",
+      "city": "Mindelheim",
+      "lat": null,
+      "lon": null,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        {
+          "category": "equipment_type",
+          "name": "battery module and pack assembly automation"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "German machine tool manufacturer that expanded into battery production equipment. GROB offers automated module and pack assembly lines including cell handling, stacking, welding, and end-of-line testing.",
+      "research": {
+        "summary": "GROB-WERKE is a Bavarian machine tool manufacturer (founded 1926) that entered the battery production equipment market with automated module and pack assembly systems. Their battery lines cover cell insertion, contacting, laser welding, and final assembly. GROB also produces electrode manufacturing equipment (coating, calendering). Major customers include automotive OEMs and battery gigafactories.",
+        "source": "https://www.grob.de/en/battery-production",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "katop-automation-liyang",
+      "name": "KATOP Automation",
+      "sector": "equipment_provider",
+      "country": "China",
+      "city": "Liyang",
+      "lat": null,
+      "lon": null,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        {
+          "category": "equipment_type",
+          "name": "battery cell assembly and formation automation"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Full name: Jiangsu KATOP Automation Co., Ltd. HQ in Liyang (Changzhou), Jiangsu. Specialises in battery cell assembly, formation, and testing automation equipment. Multiple regional subsidiaries across China.",
+      "research": {
+        "summary": "Jiangsu KATOP Automation is a Chinese manufacturer of battery cell assembly and formation equipment headquartered in Liyang, Changzhou. The company supplies automated production lines for cell assembly, formation cycling, capacity grading, and end-of-line testing to major Chinese battery manufacturers.",
+        "source": "https://www.katop.com.cn",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "lead-intelligent-equipment-wuxi",
+      "name": "LEAD Intelligent Equipment",
+      "sector": "equipment_provider",
+      "country": "China",
+      "city": "Wuxi",
+      "lat": null,
+      "lon": null,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        {
+          "category": "equipment_type",
+          "name": "battery electrode and cell manufacturing equipment (winding, stacking, formation)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Listed company (Wuxi Lead Intelligent Equipment Co., Ltd., SHE: 300450). One of China's largest battery manufacturing equipment suppliers. Products span electrode, cell assembly, module/pack, and formation/testing.",
+      "research": {
+        "summary": "Wuxi Lead Intelligent Equipment (LEAD) is a publicly listed Chinese battery equipment supplier (SHE: 300450) and one of the largest globally. Its product portfolio covers electrode manufacturing (coaters, calenders, slitters), cell assembly (winding, stacking, tab welding), formation/grading systems, and module/pack assembly. Customers include CATL, BYD, LGES, and other top-tier battery makers worldwide.",
+        "source": "https://www.leadbattery.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "mbraun-garching",
+      "name": "MBRAUN",
+      "sector": "equipment_provider",
+      "country": "Germany",
+      "city": "Garching",
+      "lat": null,
+      "lon": null,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "capacities": [],
+      "products": [
+        {
+          "category": "equipment_type",
+          "name": "inert atmosphere gloveboxes and dry room systems for battery R&D and production"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Full name: M. BRAUN Inertgas-Systeme GmbH. Headquartered in Garching bei München. Global leader in inert gas glovebox systems used in battery R&D and pilot production. Dry room systems for gigafactory-scale electrode and cell manufacturing.",
+      "research": {
+        "summary": "MBRAUN (M. Braun Inertgas-Systeme GmbH) is the global leader in inert atmosphere gloveboxes and dry room systems essential for battery cell manufacturing. Based in Garching bei München, their systems maintain the ultra-low humidity (<1% RH) and inert atmosphere (Ar/N2) required for electrode preparation and cell assembly. Customers include virtually all major battery R&D labs and gigafactories globally.",
+        "source": "https://www.mbraun.com/applications/battery-technology",
+        "date": "2026-05-20"
       }
     }
   ]

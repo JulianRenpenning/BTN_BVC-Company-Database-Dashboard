@@ -1,0 +1,1160 @@
+{
+  "meta": {
+    "sector": "battery_startup",
+    "last_updated": "2026-05-20",
+    "record_count": 27,
+    "note": "R&D-stage, pre-commercial, or alternative-chemistry battery companies sourced from Airtable WP Company Directory (BVC Category: Cell Manufacturing). These companies do not yet have significant commercial cell production volume or operate in novel chemistries not covered by other sector files."
+  },
+  "companies": [
+    {
+      "id": "storedot-herzliya",
+      "name": "StoreDot",
+      "sector": "battery_startup",
+      "continent": "Asia",
+      "country": "Israel",
+      "city": "Herzliya",
+      "lat": 32.17,
+      "lon": 34.84,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Si-anode Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "extreme fast charge EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Manufacturing partnership: cells produced via partners (e.g. EVE Energy China) — no in-house production line",
+          "XFC (extreme fast charge) targets: 5 min to 100 km — confirm demonstration status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "StoreDot (Herzliya, Israel) develops extreme fast-charge (XFC) battery technology using silicon-dominant anodes. No in-house cell manufacturing; partners with EVE Energy (China) and others for cell production. Has demonstrated 5-minute partial charge capability. Technology targets EV and consumer electronics markets.",
+      "research": {
+        "summary": "StoreDot is an Israeli battery technology company specializing in extreme fast-charge (XFC) cells using silicon-dominant anodes. The company does not manufacture cells in-house but partners with Asian battery manufacturers (including EVE Energy) for sample and pre-commercial production. StoreDot has demonstrated charging to 100 km range in under 5 minutes and holds a portfolio of manufacturing and materials patents. Backed by BP, Daimler, and others.",
+        "source": "https://www.store-dot.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "phinergy-kfar-saba",
+      "name": "Phinergy",
+      "sector": "battery_startup",
+      "continent": "Asia",
+      "country": "Israel",
+      "city": "Kfar Saba",
+      "lat": 32.18,
+      "lon": 34.91,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "aluminum-air"
+        },
+        {
+          "category": "application",
+          "name": "EV range extender"
+        },
+        {
+          "category": "application",
+          "name": "defense / off-grid"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Aluminum-air is non-rechargeable (primary) — confirm business model (refillable aluminum plates)",
+          "Any commercial EV partnerships active as of 2026?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Phinergy (Kfar Saba, Israel) develops aluminum-air batteries for EV range extension and defense/off-grid applications. The technology is primary (non-rechargeable) — aluminum plates are mechanically replaced rather than electrically recharged. Has demonstrated EV range extension systems with Alcoa partnership.",
+      "research": {
+        "summary": "Phinergy develops aluminum-air battery technology for EV range extension and off-grid applications. The system uses aluminum plates as the fuel source (consumed during discharge); plates are mechanically replaced rather than electrically recharged. Phinergy has demonstrated the technology with a Peugeot C1 platform showing 1,000+ km range. Partnerships include Alcoa for aluminum supply. Applications also include defense and marine power.",
+        "source": "https://www.phinergy.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "3dbattery-rehovot",
+      "name": "3DBattery",
+      "sector": "battery_startup",
+      "continent": "Asia",
+      "country": "Israel",
+      "city": "Rehovot",
+      "lat": 31.89,
+      "lon": 34.81,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "IoT / wearables"
+        },
+        {
+          "category": "application",
+          "name": "medical devices"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Current funding and development stage — very limited public information",
+          "3D electrode architecture: confirm commercialization progress"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "3DBattery (Rehovot, Israel) develops 3D electrode architecture for Li-ion batteries targeting IoT and medical devices. Very limited public information. R&D stage.",
+      "research": {
+        "summary": "3DBattery is an Israeli battery startup based in Rehovot, focusing on three-dimensional electrode architectures for lithium-ion batteries. The company targets miniaturized applications such as IoT devices and medical electronics. Very limited public information is available on funding, team, or commercialization timeline. The company appears to be at an early R&D stage.",
+        "source": "https://3dbattery.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "eexion-petah-tikva",
+      "name": "EExion",
+      "sector": "battery_startup",
+      "continent": "Asia",
+      "country": "Israel",
+      "city": "Petah Tikva",
+      "lat": 32.09,
+      "lon": 34.89,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid-state Li-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Very limited public information — confirm technology focus and current development stage"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "EExion (Petah Tikva, Israel) is a battery R&D startup with very limited public presence. Technology focus appears to be solid-state.",
+      "research": {
+        "summary": "EExion is an Israeli battery startup based in Petah Tikva. Very limited public information is available about the company's technology, team, funding, or development stage. Appears to be an early-stage R&D company focused on advanced battery materials or cell architectures.",
+        "source": "",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "innolith-basel",
+      "name": "Innolith",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Basel",
+      "lat": 47.56,
+      "lon": 7.59,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "inorganic solid-state"
+        },
+        {
+          "category": "application",
+          "name": "EV"
+        },
+        {
+          "category": "application",
+          "name": "grid storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Innolith claimed 1,000 Wh/kg target in 2019 — confirm current technology maturity and credibility of that claim",
+          "No confirmed cell production beyond lab scale"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Innolith (Basel, Switzerland) is developing inorganic solid-state electrolyte batteries. The company attracted attention with a claimed 1,000 Wh/kg energy density target (2019) — far beyond current Li-ion. Technology uses inorganic electrolyte salts. Early R&D stage.",
+      "research": {
+        "summary": "Innolith is a Swiss battery company developing inorganic solid-state electrolytes. The company attracted significant media attention in 2019 with claims of a 1,000 Wh/kg energy density target — approximately three times current Li-ion. The technology uses non-flammable inorganic salts as electrolyte. Progress has been limited and slower than initial claims suggested. The company remains at early R&D stage without confirmed commercial production.",
+        "source": "https://innolith.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "btry-dubendorf",
+      "name": "BTRY",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Switzerland",
+      "city": "Dübendorf",
+      "lat": 47.39,
+      "lon": 8.62,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "thin-film solid-state Li-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "ETH Zurich spin-out — confirm current funding and scale of operations",
+          "Target applications and timeline to pilot production?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "BTRY (Dübendorf, Switzerland) is an ETH Zurich spin-out developing thin-film solid-state batteries. Early R&D stage. Located at Empa / ETH campus Dübendorf.",
+      "research": {
+        "summary": "BTRY is a Swiss battery startup and ETH Zurich spin-out focused on thin-film solid-state battery technology. Based at the Empa research campus in Dübendorf near Zurich, the company is developing solid-state cells targeting consumer electronics and potentially EV applications. The company is at an early R&D stage with limited public information on funding and commercialization timelines.",
+        "source": "https://btry.energy/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "lionvolt-eindhoven",
+      "name": "LionVolt",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Eindhoven",
+      "lat": 51.44,
+      "lon": 5.48,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "thin-film solid-state"
+        },
+        {
+          "category": "application",
+          "name": "IoT / wearables"
+        },
+        {
+          "category": "application",
+          "name": "medical devices"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Spin-out from Holst Centre (TNO/imec)? Confirm current status and investors",
+          "Any partnership with major battery or electronics company?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "LionVolt (Eindhoven, Netherlands) develops thin-film 3D solid-state batteries targeting IoT, wearables, and medical devices. Spin-out from imec/Holst Centre research. R&D stage.",
+      "research": {
+        "summary": "LionVolt is a Dutch battery startup developing thin-film 3D solid-state batteries for miniaturized applications including IoT sensors, wearables, and medical implants. The company is a spin-out from the imec/Holst Centre research ecosystem in Eindhoven. The technology uses thin-film deposition techniques to create all-solid-state cells. LionVolt is at an R&D and early pilot stage.",
+        "source": "https://lionvolt.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "thenanox-amsterdam",
+      "name": "TheNanoX",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "lat": 52.37,
+      "lon": 4.9,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-ion (advanced materials)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Very limited public information — confirm technology focus and current development stage"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "TheNanoX (Amsterdam, Netherlands) is a battery materials startup with very limited public presence. Early R&D stage.",
+      "research": {
+        "summary": "TheNanoX is a Dutch battery startup based in Amsterdam. Very limited public information is available on the company's technology, team, funding, or development stage. Appears to focus on advanced nanomaterials for battery applications at early R&D stage.",
+        "source": "",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "altris-uppsala",
+      "name": "Altris AB",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Sweden",
+      "city": "Uppsala",
+      "lat": 59.86,
+      "lon": 17.64,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Na-ion (Prussian Blue)"
+        },
+        {
+          "category": "application",
+          "name": "stationary storage"
+        },
+        {
+          "category": "application",
+          "name": "EV (development)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Cathode: Prussian Blue analog (PBA) — confirm supply volume and pilot production scale",
+          "Partnerships with Na-ion cell manufacturers (e.g. CATL, HiNa)?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Altris AB (Uppsala, Sweden) is a sodium-ion battery materials company producing Prussian Blue analog (PBA) cathode materials. Uppsala University spin-out. Supplies cathode material to Na-ion cell manufacturers rather than making finished cells in-house. Pilot-scale production underway.",
+      "research": {
+        "summary": "Altris AB is a Swedish sodium-ion battery company and Uppsala University spin-out specializing in Prussian Blue analog (PBA) cathode materials for Na-ion batteries. Rather than manufacturing finished cells, Altris supplies its cathode material to battery cell producers. The company operates a pilot production facility in Uppsala and is scaling toward commercial volumes. Na-ion batteries using PBA cathodes offer low cost, abundant raw materials, and good cycling stability at the expense of energy density vs. NMC.",
+        "source": "https://www.altris.se/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "enerpoly-stockholm",
+      "name": "Enerpoly",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "lat": 59.33,
+      "lon": 18.07,
+      "year": null,
+      "year_label": null,
+      "status": "Paused",
+      "stage": "pilot",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "zinc-ion"
+        },
+        {
+          "category": "application",
+          "name": "stationary storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Enerpoly went insolvent in early 2025 — confirm current status: wound down, acquired, or restructured?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Enerpoly (Stockholm, Sweden) developed zinc-ion batteries for stationary energy storage. The company went insolvent in early 2025. Status: effectively wound down unless acquired or restructured.",
+      "research": {
+        "summary": "Enerpoly was a Swedish zinc-ion battery startup focused on stationary energy storage. The company developed cells using zinc anodes and aqueous electrolyte — a safer, lower-cost alternative to Li-ion for grid applications. Enerpoly went insolvent in early 2025 and appears to have ceased operations. It is unclear whether any assets or IP were acquired.",
+        "source": "https://enerpoly.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "vanevo-oldenburg",
+      "name": "VANEVO GmbH",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Oldenburg",
+      "lat": 53.14,
+      "lon": 8.21,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "vanadium redox flow"
+        },
+        {
+          "category": "application",
+          "name": "grid / industrial storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Vanadium redox flow is not a conventional cell manufacturer — confirm product type (stacks, modules, or electrolyte)",
+          "Current commercial deployments and scale?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "VANEVO GmbH (Oldenburg, Germany) develops vanadium redox flow batteries for industrial and grid energy storage. Vanadium flow batteries are not conventional cells — they use liquid vanadium electrolyte pumped through membrane stacks. VANEVO appears to be at an early commercial / pilot stage.",
+      "research": {
+        "summary": "VANEVO GmbH is a German company developing vanadium redox flow battery (VRFB) systems for stationary energy storage. Based in Oldenburg, the company is targeting industrial and grid applications where long-duration, scalable storage is required. Vanadium flow batteries offer virtually unlimited cycle life and decoupled energy/power design. VANEVO appears to be at a pilot or early commercial stage.",
+        "source": "https://vanevo.eu/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "novali-tildonk",
+      "name": "novali",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "Belgium",
+      "city": "Tildonk",
+      "lat": 50.93,
+      "lon": 4.55,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-metal"
+        },
+        {
+          "category": "application",
+          "name": "high-energy-density EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Spin-out from KU Leuven? Confirm origins and current investors",
+          "Li-metal architecture: liquid or solid electrolyte?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "novali (Tildonk, Belgium) is a Belgian battery startup developing lithium-metal batteries. Appears to be an early R&D stage company. Limited public information available.",
+      "research": {
+        "summary": "novali is a Belgian lithium-metal battery startup based in Tildonk. The company is developing high-energy-density lithium-metal cell technology. Limited public information is available on the company's funding, team size, or commercialization timeline. The technology likely targets EV applications where higher energy density than conventional Li-ion is required.",
+        "source": "https://novali.eu/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "arkenlight-london",
+      "name": "Arkenlight",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "UK",
+      "city": "London",
+      "lat": 51.51,
+      "lon": -0.12,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "nuclear diamond betavoltaic"
+        },
+        {
+          "category": "application",
+          "name": "IoT / space / medical (ultra-long life)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Nuclear diamond battery uses C-14 from nuclear waste — confirm regulatory pathway for commercialization",
+          "Energy density extremely low; confirm target applications"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Arkenlight (London, UK) is developing nuclear diamond batteries using Carbon-14 (C-14) radioactive isotopes from nuclear waste encased in diamond. The batteries generate power from beta radiation for thousands of years but at very low power density. Targets ultra-long-life applications (IoT, space, medical). Not a conventional electrochemical battery.",
+      "research": {
+        "summary": "Arkenlight is a UK battery startup developing nuclear diamond betavoltaic batteries. The technology encases Carbon-14 radioactive material (sourced from nuclear reactor graphite waste) within a diamond matrix to create batteries that generate microwatts of power for thousands of years. While not a conventional Li-ion manufacturer, the company targets niche applications requiring extreme longevity — medical implants, deep-space probes, and remote IoT sensors. The technology has attracted UK government research funding.",
+        "source": "https://arkenlight.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "gelion-london",
+      "name": "Gelion",
+      "sector": "battery_startup",
+      "continent": "Europe",
+      "country": "UK",
+      "city": "London",
+      "lat": 51.51,
+      "lon": -0.12,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-S"
+        },
+        {
+          "category": "chemistry",
+          "name": "Na-S"
+        },
+        {
+          "category": "application",
+          "name": "stationary storage"
+        },
+        {
+          "category": "application",
+          "name": "aerospace"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Pivoted from Zn-bromide to Li-S and Na-S — confirm current core technology focus",
+          "University of Sydney spin-out: confirm current operations split between Australia and UK"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Gelion (London, UK) is a University of Sydney spin-out that pivoted from zinc-bromide flow batteries to lithium-sulfur (Li-S) and sodium-sulfur (Na-S) cell technology. Targets stationary storage and aerospace applications. Pilot stage.",
+      "research": {
+        "summary": "Gelion is a battery company that originated as a University of Sydney spin-out. The company originally developed zinc-bromide flow battery technology but has since pivoted to focus on lithium-sulfur (Li-S) and sodium-sulfur (Na-S) cell chemistry for stationary storage and aerospace applications. Gelion has offices in London and Sydney and is operating at a pilot/development stage.",
+        "source": "https://gelion.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "tasmanion-wellington",
+      "name": "TasmanIon",
+      "sector": "battery_startup",
+      "continent": "Oceania",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "lat": -41.29,
+      "lon": 174.78,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "aluminum-ion"
+        },
+        {
+          "category": "application",
+          "name": "stationary storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Aluminum-ion technology: current TRL level and key milestones achieved?",
+          "Funding stage and partnerships?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "TasmanIon (Wellington, New Zealand) is developing aluminum-ion battery technology for stationary energy storage. Very early R&D stage. Aluminum-ion batteries use aluminum as the charge carrier (instead of lithium or sodium), offering potential cost advantages if commercialized.",
+      "research": {
+        "summary": "TasmanIon is a New Zealand battery startup based in Wellington, developing aluminum-ion battery technology for stationary energy storage applications. Aluminum-ion chemistry offers potential advantages in raw material cost and abundance over lithium-ion. The company is at an early R&D stage with limited public information on technology maturity, funding, or commercialization timeline.",
+        "source": "https://tasmanion.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "gbatteries-ottawa",
+      "name": "GBatteries",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Ottawa",
+      "lat": 45.42,
+      "lon": -75.69,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "application",
+          "name": "BMS / charging algorithm software"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "GBatteries does not manufacture cells — BMS algorithm tech only; consider reclassifying to software/component sector",
+          "Y Combinator alumni — confirm current product status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "GBatteries (Ottawa, Canada) develops AI-driven battery management algorithms for faster charging and extended cell life. Y Combinator alumni. Does NOT manufacture cells — pure software/algorithm technology company. Included here as sourced from Airtable Cell Manufacturing list, but may be better categorized under components or software.",
+      "research": {
+        "summary": "GBatteries is a Canadian battery technology company (Y Combinator W16) focused on AI-driven charging algorithms that optimize charge speed and battery longevity at the BMS level. The company does not manufacture battery cells; it provides software-based solutions that can be licensed to device manufacturers. Based in Ottawa, GBatteries targets consumer electronics and EV charging applications.",
+        "source": "https://gbatteries.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "quantumscape-san-jose",
+      "name": "QuantumScape",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "San Jose",
+      "lat": 37.34,
+      "lon": -121.89,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid-state Li-metal"
+        },
+        {
+          "category": "application",
+          "name": "EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "QS-0 pilot facility: confirm current production rate and A-sample delivery status with VW/PowerCo",
+          "Path to GWh-scale manufacturing and cost parity — timeline unclear"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "QuantumScape (San Jose, CA) is developing solid-state lithium-metal batteries for EVs, with Volkswagen as primary strategic partner. Nasdaq-listed (QS). Operates QS-0 pilot facility in San Jose. Key challenge: lithium-metal anode and solid electrolyte interface at scale. Has delivered A-sample cells to automotive partners.",
+      "research": {
+        "summary": "QuantumScape is developing solid-state lithium-metal batteries for EV applications, with Volkswagen/PowerCo as the primary strategic partner and major investor. The company operates the QS-0 pre-pilot facility in San Jose and has delivered A-sample cells for automotive testing. QuantumScape is publicly listed on Nasdaq (QS). Key technical challenges remain around scaling the anode-free solid-state architecture to automotive production rates and achieving competitive cost structures.",
+        "source": "https://www.quantumscape.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "conamix-ithaca",
+      "name": "Conamix",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Ithaca",
+      "lat": 42.44,
+      "lon": -76.5,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-S"
+        },
+        {
+          "category": "application",
+          "name": "EV / aerospace"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Cornell University spin-out — confirm current funding and R&D scale",
+          "Li-S cathode materials: binder-free architecture progress?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Conamix (Ithaca, NY) is a Cornell University spin-out developing lithium-sulfur (Li-S) battery materials with a binder-free cathode architecture. Li-S targets >500 Wh/kg but faces polysulfide shuttle and cycle life challenges. R&D stage.",
+      "research": {
+        "summary": "Conamix is a Cornell University spin-out based in Ithaca, NY, developing lithium-sulfur (Li-S) battery cathode materials. The company's binder-free cathode architecture aims to improve volumetric energy density and cycle life in Li-S cells. Li-S chemistry offers potential energy density above 500 Wh/kg at significantly lower raw material cost than Li-ion, but faces technical challenges around polysulfide shuttle and capacity fade. Conamix is at an early R&D/materials development stage.",
+        "source": "https://conamix.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "coreshell-san-leandro",
+      "name": "Coreshell Technologies",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "San Leandro",
+      "lat": 37.72,
+      "lon": -122.16,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Si-anode coating"
+        },
+        {
+          "category": "application",
+          "name": "EV / consumer electronics"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Coating technology: drop-in for existing Li-ion lines? Confirm compatibility claims",
+          "Any OEM or cell manufacturer licensing partnerships confirmed?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Coreshell Technologies (San Leandro, CA) develops a silicon anode coating technology to improve energy density in Li-ion batteries. The coating is designed as a drop-in upgrade for existing graphite anode manufacturing lines. Pilot stage.",
+      "research": {
+        "summary": "Coreshell Technologies develops a nano-scale silicon anode coating that improves energy density and cycle life of lithium-ion batteries. The coating is designed as a drop-in upgrade compatible with existing graphite anode manufacturing infrastructure. The company is at a pilot stage and working to license or supply the technology to battery cell manufacturers and anode suppliers. Based in San Leandro, California.",
+        "source": "https://www.coreshell.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "blue-current-hayward",
+      "name": "Blue Current",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Hayward",
+      "lat": 37.67,
+      "lon": -122.08,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "hybrid solid electrolyte Li-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Hybrid solid electrolyte: polymer-ceramic composite? Confirm architecture details",
+          "ARPA-E funded — confirm current project status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Blue Current (Hayward, CA) is developing hybrid solid electrolyte technology for lithium-ion batteries. The company uses a polymer-ceramic composite electrolyte approach. ARPA-E funded. R&D stage.",
+      "research": {
+        "summary": "Blue Current is a Hayward, California battery startup developing hybrid solid electrolyte technology — combining polymer and ceramic components to create a composite electrolyte that balances ionic conductivity with mechanical flexibility. The company has received ARPA-E funding and is focused on improving energy density and safety compared to liquid electrolyte Li-ion. Currently at an R&D stage.",
+        "source": "https://bluecurrent.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "ampcera-milpitas",
+      "name": "Ampcera",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Milpitas",
+      "lat": 37.43,
+      "lon": -121.9,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid electrolyte (LLZO / sulfide)"
+        },
+        {
+          "category": "application",
+          "name": "solid-state EV battery"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Ampcera supplies solid electrolyte material, not finished cells — confirm product scope",
+          "Garnet (LLZO) vs. sulfide electrolyte: confirm primary product line"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Ampcera (Milpitas, CA) develops and supplies solid electrolyte materials (garnet LLZO and sulfide types) for solid-state batteries. Materials supplier, not a finished cell manufacturer. Pilot-scale production of solid electrolyte sheets/powders.",
+      "research": {
+        "summary": "Ampcera is a solid electrolyte materials company based in Milpitas, California. The company develops and manufactures garnet (LLZO) and sulfide-based solid electrolyte materials for solid-state battery applications. Ampcera supplies electrolyte components to battery research institutions and cell developers rather than manufacturing finished cells. The company is at a pilot production stage for its electrolyte materials.",
+        "source": "https://www.ampcera.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "enzinc-richmond",
+      "name": "Enzinc",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Richmond",
+      "lat": 37.94,
+      "lon": -122.35,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "zinc anode / 3D zinc sponge"
+        },
+        {
+          "category": "application",
+          "name": "rechargeable alkaline"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "3D zinc sponge anode: confirm which cathode chemistries it targets (NiMH, MnO2, air?)",
+          "ARPA-E funded — confirm current R&D status and partner manufacturers"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Enzinc (Richmond, CA) develops a 3D zinc sponge anode technology to enable rechargeable zinc-based batteries. The sponge architecture prevents dendrite formation and enables cycling. ARPA-E funded. R&D/pilot stage.",
+      "research": {
+        "summary": "Enzinc develops a patented 3D zinc sponge anode for rechargeable zinc-based batteries. The technology addresses the key failure mode of conventional zinc electrodes (dendrite formation and shape change) by using a highly porous, interconnected zinc structure. Enzinc has received ARPA-E funding and targets applications in rechargeable alkaline and zinc-air batteries. The company is at R&D/early pilot stage in Richmond, California.",
+        "source": "https://enzinc.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "ionblox-fremont",
+      "name": "Ionblox",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Fremont",
+      "lat": 37.55,
+      "lon": -121.99,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Si-dominant anode Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "EV"
+        },
+        {
+          "category": "application",
+          "name": "consumer electronics"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Formerly Zenlabs Energy — rebranded to Ionblox; confirm product status",
+          "Any OEM cell supply contracts announced?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Ionblox (Fremont, CA) — formerly Zenlabs Energy — develops silicon-dominant anode Li-ion cells. Targets EV and consumer electronics markets. Pilot scale.",
+      "research": {
+        "summary": "Ionblox (formerly Zenlabs Energy) is a Fremont, California battery company developing silicon-dominant anode lithium-ion cells. The company targets both EV and consumer electronics applications with its high-energy-density silicon anode technology. Ionblox is at a pilot production stage and has received funding from the US Department of Energy. The Ionblox brand reflects a broader product strategy beyond the original R&D-focused Zenlabs name.",
+        "source": "https://ionblox.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "sakuu-san-jose",
+      "name": "Sakuu",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "San Jose",
+      "lat": 37.34,
+      "lon": -121.89,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid-state Li-metal"
+        },
+        {
+          "category": "application",
+          "name": "consumer electronics"
+        },
+        {
+          "category": "application",
+          "name": "EV (development)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "3D printing / Kavian platform: confirm manufacturing scale and unit economics vs. conventional",
+          "Solid-state cell samples: TRL and partner qualification status?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Sakuu (San Jose, CA) manufactures solid-state batteries using a proprietary 3D printing platform (Kavian). The additive manufacturing approach claims to enable thinner cells with higher energy density and lower cost at scale. Pilot stage production of solid-state cells.",
+      "research": {
+        "summary": "Sakuu develops solid-state lithium-metal batteries using its proprietary Kavian 3D printing manufacturing platform. The additive manufacturing approach aims to reduce material waste and enable customized cell form factors not achievable with conventional roll-to-roll manufacturing. Sakuu is at a pilot production stage in San Jose, California, with solid-state cell samples available for partner qualification. Target applications include consumer electronics and future EV platforms.",
+        "source": "https://www.sakuu.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "desten-palo-alto",
+      "name": "DESTEN",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Palo Alto",
+      "lat": 37.44,
+      "lon": -122.14,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "ultra-fast charge Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "EV charging / commercial vehicle"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "DESTEN claims 5-minute ultra-fast charge: confirm cell chemistry and TRL",
+          "Manufacturing location — Palo Alto is US HQ; main R&D/production may be in China"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "DESTEN (Palo Alto, CA) is developing ultra-fast charge Li-ion technology targeting 5-minute charge capability for commercial EVs. The company has operations in both the US and China. Pilot stage.",
+      "research": {
+        "summary": "DESTEN is developing ultra-fast charge (UFC) lithium-ion battery technology targeting charge times under 5 minutes for commercial electric vehicles, including buses and trucks. The company has US operations in Palo Alto and what appears to be Chinese manufacturing or R&D operations. DESTEN has demonstrated fast-charge cells with impressive energy recovery rates. The company is at a pilot stage with limited public disclosures on manufacturing scale.",
+        "source": "https://www.desten.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "enpower-indianapolis",
+      "name": "EnPower",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Indianapolis",
+      "lat": 39.77,
+      "lon": -86.16,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "high-power Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "defense"
+        },
+        {
+          "category": "application",
+          "name": "aerospace"
+        },
+        {
+          "category": "application",
+          "name": "grid storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "EnPower focuses on high-power (not high-energy) Li-ion — confirm target applications and cell format",
+          "Any active US DoD contracts?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "EnPower (Indianapolis, IN) develops high-power lithium-ion batteries for defense, aerospace, and grid applications. Focuses on power density rather than energy density. US DoD-funded research. Pilot production.",
+      "research": {
+        "summary": "EnPower is an Indianapolis-based battery company focused on high-power lithium-ion cell technology for demanding applications including defense, aerospace, and grid services. The company has received US Department of Defense research funding and is working to scale pilot production of its high-power cells. EnPower's technology prioritizes power density and cycle life over energy density.",
+        "source": "https://enpowerinc.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "seeo-hayward",
+      "name": "Seeo (defunct)",
+      "sector": "battery_startup",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Hayward",
+      "lat": 37.67,
+      "lon": -122.08,
+      "year": null,
+      "year_label": null,
+      "status": "Cancelled",
+      "stage": "pilot",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "solid polymer Li-metal"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Acquired by Bosch ~2015–2018; operations wound down — confirm IP fate"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Seeo was a Hayward, CA solid polymer Li-metal battery startup (Lawrence Berkeley National Lab spin-out). Acquired by Robert Bosch GmbH around 2015–2018; subsequently wound down as an independent entity. IP likely absorbed into Bosch's solid-state battery R&D program.",
+      "research": {
+        "summary": "Seeo was a solid-state polymer Li-metal battery startup founded in 2007, spun out of Lawrence Berkeley National Laboratory. The company developed a block copolymer electrolyte system for high-energy solid-state cells. Seeo was acquired by Robert Bosch GmbH in the 2015–2018 timeframe and subsequently ceased independent operations. Its IP and technology were absorbed into Bosch's internal battery research program. No longer an active independent company.",
+        "source": "https://www.bosch.com/",
+        "date": "2026-05-20"
+      }
+    }
+  ]
+}

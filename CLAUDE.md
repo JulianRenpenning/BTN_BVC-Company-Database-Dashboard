@@ -172,16 +172,19 @@ Categories: `Cell-Manufacturers` · `Module-Pack` · `Recycling` · `Components`
 
 | File | Sector | Records |
 |---|---|---|
-| `data/cell-manufacturers.json` | cell_manufacturer | 170 |
+| `data/cell-manufacturers.json` | cell_manufacturer | 213 |
 | `data/module-pack.json` | module_pack_manufacturer | 110 |
 | `data/recycling.json` | recycler | 65 |
 | `data/active-materials.json` | active_material_producer | 29 |
 | `data/components.json` | component_manufacturer | 50 |
-| `data/equipment.json` | equipment_provider | 64 |
+| `data/equipment.json` | equipment_provider | 69 |
+| `data/startups.json` | battery_startup | 27 |
 
-**Total: 488 records. All source images processed. `reference-data/unprocessed/` is empty.**
+**Total: 563 records. All source images processed. `reference-data/unprocessed/` is empty.**
 
-**`cell-manufacturers.json` covers Europe (52), North America (39), and Asia (79).** Each record = one physical manufacturing facility. Solid-state specialists are included here (sector remains `cell_manufacturer`).
+**`cell-manufacturers.json` covers Europe, North America, and Asia.** Each record = one physical manufacturing facility. Solid-state specialists are included here (sector remains `cell_manufacturer`).
+
+**`startups.json`** covers R&D-stage, pre-commercial, and alternative-chemistry battery companies (sector: `battery_startup`). Added 2026-05-20 from Airtable WP Company Directory enrichment.
 
 ---
 

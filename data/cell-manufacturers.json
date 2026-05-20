@@ -1,8 +1,8 @@
 {
   "meta": {
     "sector": "cell_manufacturer",
-    "last_updated": "2026-05-18",
-    "record_count": 170,
+    "last_updated": "2026-05-20",
+    "record_count": 213,
     "note": "Merged from companies.json (Europe), companies-north-america.json, companies-asia.json, and solid-state.json. Each record represents one physical manufacturing facility. Added 'continent' field."
   },
   "companies": [
@@ -9049,6 +9049,2160 @@
         "date": "2026-05-18"
       },
       "continent": "Asia"
+    },
+    {
+      "id": "saft-nersac",
+      "name": "Saft",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Nersac",
+      "lat": 45.68,
+      "lon": 0.17,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 60,
+          "unit": "MWh",
+          "known": true,
+          "type": "current",
+          "label": "annual cell production"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "specialty (aerospace, defense, industrial)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current capacity at Nersac — ~60 MWh is an estimate; exact figure not publicly disclosed",
+          "ACC pilot line at Nersac site — confirm current usage/status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Primary cell manufacturing site for Saft (TotalEnergies subsidiary). Produces specialty Li-ion cells for aerospace, defense, and industrial markets. Not a mass EV cell producer — focused on high-reliability niche segments.",
+      "research": {
+        "summary": "Saft's Nersac facility (Charente, France) is its primary Li-ion cell manufacturing site, producing cells for aerospace, defense, and industrial applications. Capacity is approximately 60 MWh/year — small compared to EV gigafactories but targeted at high-value specialty markets. The site previously hosted the ACC pilot line before ACC opened its Billy-Berclau gigafactory.",
+        "source": "https://en.wikipedia.org/wiki/Saft_Groupe_S.A.",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "saft-bordeaux",
+      "name": "Saft",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "France",
+      "city": "Bordeaux",
+      "lat": 44.84,
+      "lon": -0.58,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NiCd"
+        },
+        {
+          "category": "chemistry",
+          "name": "NiMH"
+        },
+        {
+          "category": "cell_type",
+          "name": "specialty (aviation, space)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": []
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Saft Bordeaux is R&D and multi-chemistry production site (NiCd, NiMH, Li-ion). Serves aerospace and space sectors. Capacity figures not publicly disclosed.",
+      "research": {
+        "summary": "Saft's Bordeaux facility handles R&D and multi-chemistry cell production for aerospace and space customers including the European Space Agency. Produces NiCd and NiMH cells alongside Li-ion development work. No public GWh capacity figure.",
+        "source": "https://www.saftbatteries.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "customcells-itzehoe",
+      "name": "CustomCells",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Itzehoe",
+      "lat": 53.92,
+      "lon": 9.52,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 1,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "pilot line target"
+        }
+      ],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "cylindrical"
+        },
+        {
+          "category": "cell_type",
+          "name": "pouch"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "CustomCells filed for insolvency Apr 2025 — confirm restructuring complete and operations continuing",
+          "Verify 1 GWh 2026 pilot demonstration target still active post-restructuring"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Custom cell developer and pilot-scale manufacturer. Filed for insolvency Apr 2025 but rescued by new investors. Refocusing on defense, motorsport, and aerospace specialty cells. ~100 employees post-restructuring.",
+      "research": {
+        "summary": "CustomCells (Itzehoe) is a German custom cell developer that filed for insolvency in April 2025 but was rescued by a new investor consortium and continues operating with ~100 employees. The Itzehoe facility has flexible R&D and pilot production lines for custom cylindrical, pouch, and prismatic cells across chemistries. Post-restructuring focus is on high-margin specialty markets (defense, motorsport). Targets a 1 GWh demonstration line by 2026.",
+        "source": "https://customcells.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "liacon-ottendorf-okrilla",
+      "name": "Liacon",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "Germany",
+      "city": "Ottendorf-Okrilla",
+      "lat": 51.21,
+      "lon": 13.83,
+      "year": 2014,
+      "year_label": "2014",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 350,
+          "unit": "MWh",
+          "known": true,
+          "type": "current",
+          "label": "annual cell production (approx.)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "large-format prismatic"
+        },
+        {
+          "category": "cell_type",
+          "name": "specialty (marine, automotive, industrial)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm exact annual capacity — estimates range 350–500 MWh depending on cell format"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "One of Europe's established LFP cell factories near Dresden. Operating since 2014. Sells under TRION Batteries brand. Markets: marine starting, automotive 12V, industrial. No major expansion announced.",
+      "research": {
+        "summary": "Liacon operates one of Europe's few established LFP cell factories near Dresden (Ottendorf-Okrilla, Saxony), producing over 1 million large-format LFP cells/year (~350–500 MWh). Cells are marketed under the TRION Batteries brand for demanding specialty applications including marine, automotive, and industrial. The facility has operated continuously since 2014. New products include the TRION T-Rex dual-purpose LFP cell launched at METSTRADE 2025.",
+        "source": "https://liacon.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "faradion-sheffield",
+      "name": "Faradion",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Sheffield",
+      "lat": 53.38,
+      "lon": -1.47,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Na-ion"
+        },
+        {
+          "category": "cell_type",
+          "name": "oxide cathode sodium-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Sheffield is pilot/R&D only — commercial-scale manufacturing to move to Reliance Jamnagar (India); confirm timeline",
+          "Confirm Sheffield operational capacity and team size post-Reliance acquisition"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Sodium-ion battery pioneer. Acquired by Reliance New Energy (India) in 2022 (100% ownership Oct 2024). Sheffield retains pilot production and R&D hub. Commercial scale planned at Reliance's Jamnagar gigafactory, India.",
+      "research": {
+        "summary": "Faradion, the UK's leading sodium-ion battery developer, is fully owned by Reliance New Energy (India) since October 2024 following a £100M acquisition. The Sheffield site operates as a technology R&D and pilot production hub. Commercial-scale sodium-ion cell manufacturing is planned at Reliance's Jamnagar gigafactory in Gujarat, with pack assembly H2 2025 and cell manufacturing to follow. Sheffield cells use oxide cathode Na-ion chemistry.",
+        "source": "https://faradion.co.uk",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "nyobolt-cambridge",
+      "name": "Nyobolt",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Cambridge",
+      "lat": 52.21,
+      "lon": 0.12,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "Nb-oxide anode ultra-fast-charge"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Cell manufacturing is in Asia (contracted CM) — identify specific facility location",
+          "UK battery pack assembly site — confirm location and timeline (targeted 2026)"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "University of Cambridge spin-out. Niobium oxide anode enables 6-minute full charge and 20,000+ cycles. Serial production for warehouse robotics (Symbotic) underway 2025. Cells manufactured by CM partner in Asia; Cambridge is HQ and pack development. Raised >£50M. Orders >$120M.",
+      "research": {
+        "summary": "Nyobolt (Cambridge spin-out) produces ultra-fast-charging cells using niobium oxide anodes for robotics (Symbotic contract), e-mobility, and industrial applications. Serial cell production occurs at a contracted manufacturer in Asia; Cambridge houses R&D and future UK battery pack assembly (targeted 2026). The company has raised over £50M and secured >$120M in contracts. EV battery cell production targeted from late 2026.",
+        "source": "https://nyobolt.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "volklec-coventry",
+      "name": "Volklec",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "city": "Coventry",
+      "lat": 52.41,
+      "lon": -1.51,
+      "year": 2025,
+      "year_label": "2025",
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 100,
+          "unit": "MWh",
+          "known": true,
+          "type": "current",
+          "label": "shared UKBIC line"
+        },
+        {
+          "value": 1,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "dedicated line planned"
+        },
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2030,
+          "label": "gigafactory target"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "21700 cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Currently using UKBIC shared 100 MWh line — confirm standalone factory site selected",
+          "Verify gigafactory location and funding status (£1B planned investment)"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "UK startup (founded 2024). Licensed battery technology from China's Far East Battery. Production started late 2025 on UKBIC's shared 100 MWh line. Plans: dedicated 1 GWh line by end 2026, 10 GWh gigafactory by 2030. UK government DRIVE35 funding secured.",
+      "research": {
+        "summary": "Volklec is a UK battery startup (founded 2024) that licensed NMC 21700 cylindrical cell technology from China's Far East Battery and began production at UKBIC in Coventry in late 2025 using a shared 100 MWh line. The company plans a dedicated 1 GWh production line by end 2026 and a £1 billion 10 GWh gigafactory by 2030, with site not yet selected. UK government DRIVE35 funding secured.",
+        "source": "https://eandt.theiet.org/2025/02/27/uk-battery-start-volklec-manufacture-lithium-ion-batteries-end-2025",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "cegasa-minano",
+      "name": "CEGASA Energía",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "Spain",
+      "city": "Miñano",
+      "lat": 42.84,
+      "lon": -2.7,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 0.9,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "annual production"
+        },
+        {
+          "value": 1.8,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "expansion target"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "ESS / BESS systems"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "CEGASA integrates LFP cells from EVE Energy — confirm whether they manufacture cells or only assemble packs"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Spain's most established battery manufacturer. 0.9 GWh at Parque Tecnológico de Álava. Technology partnership with China's EVE Energy for LFP cells. Expanded with new factory Nov 2025. New 600 MWh Vitoria-Gasteiz plant by Feb 2026.",
+      "research": {
+        "summary": "CEGASA Energía, Spain's longest-established battery manufacturer, operates at Miñano (Parque Tecnológico de Álava) with 0.9 GWh annual LFP battery capacity. A technology partnership with EVE Energy (China) underpins its LFP product line. The company opened a new factory in November 2025 and is expanding to 1.8 GWh by 2027. CEGASA competes in residential and utility-scale BESS markets across Europe. Note: may primarily assemble LFP packs from EVE cells rather than manufacture cells from raw materials.",
+        "source": "https://www.ess-news.com/2025/11/06/cegasa-skeleton-technologies-open-new-factories-boosting-europen-battery-manufacturing/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "italvolt-milano",
+      "name": "Italvolt",
+      "sector": "cell_manufacturer",
+      "continent": "Europe",
+      "country": "Italy",
+      "city": "Milano",
+      "lat": 45.46,
+      "lon": 9.19,
+      "year": null,
+      "year_label": null,
+      "status": "Cancelled",
+      "stage": "unknown",
+      "location_type": "headquarters",
+      "capacities": [
+        {
+          "value": 45,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "label": "original planned capacity (cancelled)"
+        }
+      ],
+      "products": [],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Founder Lars Carlström now pursuing UAE gigafactory (Ras Al Khaimah) — separate entity; track separately if relevant"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Italian gigafactory project for the former Olivetti site in Scarmagno, Piedmont — cancelled Jan 2024 due to grid infrastructure constraints, permitting delays, and lack of funding. No cells ever produced. Milano HQ address only; Scarmagno site was never built.",
+      "research": {
+        "summary": "Italvolt's planned 45 GWh gigafactory at the former Olivetti site in Scarmagno, Piedmont entered crisis management in January 2024 and was effectively cancelled. Grid upgrade requirements (estimated 4-year timeline), permitting delays, and funding gaps were cited. Founder Lars Carlström subsequently pursued a UAE gigafactory project in Ras Al Khaimah. No cells were ever produced. Italvolt remains as a European commercial entity only.",
+        "source": "https://www.bestmag.co.uk/italvolt-gives-up-on-italy-gigafactory-sets-up-in-uae/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "gs-yuasa-kyoto",
+      "name": "GS Yuasa",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "Japan",
+      "city": "Kyoto",
+      "lat": 35.01,
+      "lon": 135.77,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 20,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2035,
+          "label": "group capacity target (incl. JVs)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "automotive HV/EV"
+        },
+        {
+          "category": "cell_type",
+          "name": "aerospace / defense"
+        },
+        {
+          "category": "cell_type",
+          "name": "industrial / stationary"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current operational GWh capacity across all JVs (Blue Energy with Honda, Lithium Energy Japan with Mitsubishi)",
+          "Confirm Fukuchiyama plant ramp status under Blue Energy JV"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Major established Japanese Li-ion and lead-acid manufacturer. Key JVs: Blue Energy (Honda, Fukuchiyama, ~20 GWh target by 2030), Lithium Energy Japan (Mitsubishi, Ritto, ~0.8 GWh). Also produces NiCd and specialty cells. 2 GWh ESS factory planned from Oct 2028.",
+      "research": {
+        "summary": "GS Yuasa is one of Japan's leading battery manufacturers, producing Li-ion, lead-acid, NiCd, and specialty cells across multiple Japanese sites. Key EV/HV battery production occurs through the Blue Energy JV with Honda (Kyoto/Fukuchiyama, targeting ~20 GWh by 2030) and Lithium Energy Japan JV with Mitsubishi (Ritto, ~0.8 GWh). A new 2 GWh energy storage battery factory is planned, with production starting October 2028. Group capacity target is 20 GWh by 2035.",
+        "source": "https://www.gs-yuasa.com/en",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "molicel-taipei",
+      "name": "Molicel",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "Taiwan",
+      "city": "Taipei",
+      "lat": 25.03,
+      "lon": 121.57,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 1.6,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Taipei plant annual capacity (approx.)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "21700 cylindrical (high-power and high-energy)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm exact Taipei plant capacity — ~1.6 GWh is an estimate; demand reportedly exceeds combined capacity"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Brand name of E-One Moli Energy Corp. Taipei is the original plant (~1.6 GWh). Specialises in high-power 21700 NMC cells for eVTOL, performance EVs, robotics, aerospace. Key supplier to Archer Aviation, Vertical Aerospace.",
+      "research": {
+        "summary": "Molicel (E-One Moli Energy) is a Taiwanese specialist in high-power 21700 NMC cylindrical cells, supplying eVTOL manufacturers (Archer, Vertical Aerospace), robotics, and performance EV applications. The original Taipei factory has approximately 1.6 GWh annual capacity. Demand reportedly exceeds combined capacity of both Taiwan facilities. Molicel is a subsidiary of E-One Moli Energy Corp.",
+        "source": "https://www.molicel.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "molicel-kaohsiung",
+      "name": "Molicel",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "Taiwan",
+      "city": "Kaohsiung",
+      "lat": 22.63,
+      "lon": 120.29,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 2.0,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Gigafactory 2 annual capacity (approx.)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "21700 cylindrical (high-power and high-energy)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm exact Kaohsiung Gigafactory 2 capacity — ~2 GWh is an estimate; opened 2023"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Molicel Gigafactory 2 in Kaohsiung, opened 2023. Approximately 2 GWh annual capacity. Combined with Taipei site: ~3.6 GWh total. Demand exceeds combined capacity.",
+      "research": {
+        "summary": "Molicel's Kaohsiung Gigafactory 2 opened in 2023 with approximately 2 GWh annual capacity for 21700 NMC cylindrical cells. Combined with the original Taipei factory, total Molicel capacity is approximately 3.6 GWh. Order demand reportedly exceeds the combined capacity of both facilities as of 2025–2026.",
+        "source": "https://www.molicel.com/about/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "pylontech-hefei",
+      "name": "Pylontech",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Hefei",
+      "lat": 31.86,
+      "lon": 117.28,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Phase I annual capacity"
+        },
+        {
+          "value": 12,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "Phase II addition (groundbreaking Dec 2025)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "residential / C&I / utility ESS"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Pylontech also has Yangzhou manufacturing base — confirm status and capacity",
+          "Italy JV factory (Padua, with Energy SpA) — 400 MWh line started early 2025, targeting 8 GWh — track separately"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Primary manufacturing base in Feixi County, Hefei (Anhui). Phase I 10 GWh operational; Phase II groundbreaking Dec 2025. HQ: Shanghai (Pudong). Also: Yangzhou secondary base; Italy JV (Padua, 8 GWh planned).",
+      "research": {
+        "summary": "Pylontech's primary cell manufacturing base is in Feixi County, Hefei (Anhui Province) with 10 GWh Phase I operational and Phase II groundbreaking in December 2025. Pylontech is a leading global LFP battery supplier for residential and utility-scale energy storage, with HQ in Shanghai. Additional manufacturing in Yangzhou and a European JV factory in Padua, Italy (400 MWh first line started early 2025, targeting 8 GWh).",
+        "source": "https://www.energytrend.com/news/20251222-50628.html",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "pylontech-yangzhou",
+      "name": "Pylontech",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Yangzhou",
+      "lat": 32.39,
+      "lon": 119.42,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "ESS"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm Yangzhou capacity and operational status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Secondary Pylontech manufacturing base in Yangzhou, Jiangsu. Capacity details not publicly disclosed.",
+      "research": {
+        "summary": "Pylontech operates a secondary LFP cell manufacturing base in Yangzhou, Jiangsu, complementing the primary Hefei facility. Detailed capacity figures for the Yangzhou site are not publicly disclosed.",
+        "source": "https://www.pylon-tech.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "narada-hangzhou",
+      "name": "Narada Power Source",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Hangzhou",
+      "lat": 30.26,
+      "lon": 120.16,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 15,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "combined battery capacity (lead-acid + Li-ion, approx.)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "lead-acid"
+        },
+        {
+          "category": "cell_type",
+          "name": "data center / telecom / ESS / EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Distinguish Li-ion capacity from lead-acid — Li-ion ~2.5 GWh (2024), growing; lead-acid ~12+ GWh",
+          "Confirm Yangzhou Li-ion expansion (10 GWh integration line) and Jiuquan (Gansu) 4 GWh plan"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Dual-chemistry manufacturer: #1 in China for data-center lead-acid batteries. Growing Li-ion (LFP) for ESS and EV. HQ and primary production in Hangzhou (Lin'an district). Also: Yangzhou Li-ion expansion; Jiuquan (Gansu) 4 GWh planned.",
+      "research": {
+        "summary": "Narada Power Source is a major Chinese dual-chemistry battery manufacturer headquartered in Hangzhou. It holds the #1 position in China's data-center lead-acid segment (~12 GWh) and is growing its Li-ion (LFP) capacity (~1.5 GWh in 2024, expanding to 2.5 GWh). Total battery capacity exceeds 15 GWh combining both chemistries. Expansion plans include a Yangzhou Li-ion integration line (10 GWh) and a Jiuquan (Gansu) 4 GWh LFP project.",
+        "source": "https://www.energytrend.com/news/20250912-50135.html",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "rept-battero-wenzhou",
+      "name": "REPT BATTERO",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Wenzhou",
+      "lat": 28.02,
+      "lon": 120.67,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 90,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "total group capacity (all sites, 2025)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "large-format prismatic (EV + ESS)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm capacity split across sites: Wenzhou, Jiashan, Foshan, Liuzhou, Chongqing, Indonesia",
+          "Verify 150 GWh 2025 zero-carbon capacity target — actual ~90 GWh shipped"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "REPT BATTERO backed by Tsingshan Group. Six manufacturing bases in China + Indonesia. 90 GWh total capacity (2025). Q4 2025 shipments >27 GWh. HK-listed. Wenzhou is HQ and original manufacturing base.",
+      "research": {
+        "summary": "REPT BATTERO (Tsingshan Group-backed) is a Hong Kong-listed mid-tier LFP cell manufacturer with six manufacturing bases across China (Wenzhou, Jiashan, Foshan, Liuzhou, Chongqing) and Indonesia. Total capacity surpassed 90 GWh in 2025, with Q4 2025 quarterly shipments exceeding 27 GWh. The Jiashan plant is the largest single site. REPT competes in ESS and EV segments globally.",
+        "source": "https://www.reptbattero.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "rept-battero-jiashan",
+      "name": "REPT BATTERO",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Jiashan",
+      "lat": 30.83,
+      "lon": 120.93,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 77,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "label": "site target capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "large-format prismatic (EV + ESS)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current operational capacity at Jiashan (77 GWh is the site target from 2023 IPO filing)"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "REPT BATTERO's largest manufacturing site. 77 GWh site target capacity (per 2023 IPO filing). Single production line exceeds 10 GWh.",
+      "research": {
+        "summary": "REPT BATTERO's Jiashan facility is the company's largest single manufacturing site, with a target capacity of 77 GWh per the 2023 IPO filing. Individual production lines at this site exceed 10 GWh capacity each. The site forms the core of REPT's LFP production for both EV and ESS customers.",
+        "source": "https://www.reptbattero.com/manufacturing/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "cosmx-zhuhai",
+      "name": "COSMX",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Zhuhai",
+      "lat": 22.27,
+      "lon": 113.57,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "aggregated capacity (approx., 2025)"
+        },
+        {
+          "value": 30,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2027,
+          "label": "cumulative target incl. Malaysia factory"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "consumer electronics (smartphones, laptops, wearables)"
+        },
+        {
+          "category": "cell_type",
+          "name": "silicon-anode high-energy-density"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Malaysia factory planned for 2026 — confirm progress and location",
+          "Confirm current capacity split across Zhuhai, Chongqing, Zhejiang sites"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Shanghai Stock Exchange listed (688772). Leading consumer Li-ion cell producer. Supplies Apple, Huawei, Xiaomi, Samsung. Consumer batteries ~90% of revenue. Mass production of 25% silicon-anode cells at 900 Wh/L. Also developing Na-ion and semi-solid-state.",
+      "research": {
+        "summary": "COSMX (SSE: 688772) is a leading Chinese consumer Li-ion cell manufacturer supplying Apple, Huawei, Xiaomi, and Samsung. The company has achieved mass production of 25% silicon-rich anode cells at 900 Wh/L volumetric density. Current aggregated capacity exceeds 10 GWh across Zhuhai, Chongqing, and Zhejiang sites. A Malaysian factory is planned for 2026, targeting ~30 GWh cumulative capacity by 2027.",
+        "source": "https://dcfmodeling.com/blogs/history/688772ss-history-mission-ownership",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "tianneng-huzhou",
+      "name": "Tianneng Power International",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Huzhou",
+      "lat": 30.87,
+      "lon": 120.09,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 100,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "total combined capacity (lead-acid + Li-ion, approx.)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "lead-acid"
+        },
+        {
+          "category": "cell_type",
+          "name": "e-bike / EV / ESS"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Li-ion capacity ~20 GWh of the 100 GWh total — confirm split",
+          "18 production bases across 7 provinces + Vietnam — Huzhou is primary Li-ion hub (South Taihu Lake base)"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "One of China's largest battery groups. 18 production bases across Zhejiang, Jiangsu, Anhui, Henan, Guizhou, Shandong, Jiangxi + Vietnam. Primary Li-ion hub: Huzhou South Taihu Lake base (15 GWh expansion + 10 GWh LFP project). Lead-acid dominant by volume.",
+      "research": {
+        "summary": "Tianneng Power International is one of China's largest battery groups with 18 production bases and over 100 GWh combined capacity (lead-acid dominant, ~20 GWh Li-ion). The primary Li-ion hub is the South Taihu Lake base in Huzhou (Zhejiang), where a ¥5.17 billion 15 GWh expansion and a separate 10 GWh LFP project are under development. Tianneng also has a Vietnam facility.",
+        "source": "https://www.tiannengglobal.com",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "dmegc-dongyang",
+      "name": "DMEGC",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Dongyang",
+      "lat": 29.27,
+      "lon": 120.22,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 8,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Li-ion cell manufacturing capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "residential and commercial ESS"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "DMEGC primarily known for solar panels and magnetic materials — confirm battery cell manufacturing capacity figure (8 GWh from third-party sources)"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Hengdian Group DMEGC Magnetics (known for solar, magnets). DMEGC-ESS division: 8 GWh LFP cell manufacturing for home and C&I energy storage. European market presence. Parent: Hengdian Group, Dongyang, Zhejiang.",
+      "research": {
+        "summary": "DMEGC (Hengdian Group) primarily produces solar panels and magnetic materials but operates an 8 GWh LFP battery cell manufacturing line through its DMEGC-ESS division, targeting residential and commercial energy storage. The company has European market presence for its home ESS products. Capacity figure sourced from industry references; 8 GWh is from Dongyang, Zhejiang headquarters site.",
+        "source": "https://www.dmegc-ess.com/about.html",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "qingtao-energy-kunshan",
+      "name": "Qingtao Energy",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Kunshan",
+      "lat": 31.37,
+      "lon": 120.97,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 6.8,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "combined capacity across sites (2026)"
+        },
+        {
+          "value": 55,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2026,
+          "label": "total planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "semi-solid-state LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "all-solid-state (pilot)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Five production bases: Kunshan (primary), Taizhou, Yichun, Chengdu, + Taizhou Phase II commissioned Mar 2026",
+          "Qingtao filed Hong Kong IPO Apr 2026 despite net loss of ¥1.3B in 2025 — verify financial stability"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Tsinghua University spin-out. Global leader in semi-solid-state battery shipments (2 GWh shipped 2025, 33.6% market share). 5 production bases. 3.5 GWh Taizhou line commissioned Mar 2026. HK IPO filed Apr 2026. All-solid-state in pilot production 2025.",
+      "research": {
+        "summary": "Qingtao Energy (Kunshan) is the global leader in semi-solid-state battery shipments, with 2 GWh shipped in 2025 (33.6% global market share) and 6.8 GWh current combined capacity across five production bases. A 3.5 GWh Taizhou line commissioned in March 2026 pushed planned total capacity past 55 GWh. Qingtao filed for a Hong Kong IPO in April 2026 despite a net loss of ¥1.3 billion in 2025. Founded as a Tsinghua University spin-out.",
+        "source": "https://www.caixinglobal.com/2026-04-09/solid-state-battery-maker-qingtao-energy-files-for-hong-kong-ipo-102432317.html",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "sinowatt-dongguan",
+      "name": "Sinowatt",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Dongguan",
+      "lat": 23.02,
+      "lon": 113.75,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "cylindrical (18650, 21700, 26650)"
+        },
+        {
+          "category": "cell_type",
+          "name": "prismatic"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "GWh capacity not publicly disclosed — daily output ~300k cylindrical + ~50k prismatic cells implies ~0.5–1 GWh/year",
+          "State-backed (China Zhenhua Group, state-owned) — confirm current ownership/status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Subsidiary of China Zhenhua Group (state-owned). Established 2010. Cylindrical and prismatic Li-ion cells for consumer electronics, e-mobility, stationary storage. Daily output ~300,000 cylindrical + 50,000 prismatic cells.",
+      "research": {
+        "summary": "Sinowatt Dongguan Limited (China Zhenhua Group) was established in 2010 and produces cylindrical (18650, 21700, 26650, 26700) and prismatic Li-ion cells for consumer electronics, e-mobility, and stationary storage. Daily output is approximately 300,000 cylindrical and 50,000 prismatic cells, implying an estimated 0.5–1 GWh annual capacity. GWh-level capacity data is not publicly disclosed.",
+        "source": "https://sinowatt.en.alibaba.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "durapower-suzhou",
+      "name": "Durapower",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Suzhou",
+      "lat": 31.3,
+      "lon": 120.62,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 1.0,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "existing Suzhou factory"
+        },
+        {
+          "value": 2.0,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2025,
+          "label": "new Suzhou factory (groundbreaking early 2024)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "cell_type",
+          "name": "EV / marine / industrial / energy storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "HQ is Singapore but no significant cell manufacturing there — all production in Suzhou",
+          "New Suzhou factory (32,500 sqm, 3 production lines) targeted Q2 2025 full operation — confirm status",
+          "US manufacturing presence under consideration — confirm if progressed"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Singapore-headquartered, primary cell manufacturing in Suzhou, China. Existing factory: ~1 GWh. New 32,500 sqm Suzhou factory (groundbreaking early 2024) targeting 2 GWh at full utilization. Also exploring US presence.",
+      "research": {
+        "summary": "Durapower Holdings is a Singapore-headquartered Li-ion battery manufacturer with primary cell production in Suzhou, China. The existing Suzhou factory produces approximately 1 GWh/year. A new 32,500 sqm Suzhou factory (three production lines) broke ground in early 2024 and targeted 2 GWh/year at full utilization by Q2 2025. Durapower serves EV, marine, industrial, and ESS markets and is also considering US manufacturing expansion.",
+        "source": "https://durapowergroup.com/durapower-breaks-ground-for-new-suzhou-battery-manufacturing-factory-in-china/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "duksan-futurecell-sejong",
+      "name": "Duksan Futurecell",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "South Korea",
+      "city": "Sejong",
+      "lat": 36.48,
+      "lon": 127.29,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "cylindrical Li-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Capacity figures and expansion plans not available in public English-language sources — requires Korean-language or direct company data",
+          "Distinguish from Duksan Electera Co. (electrolytes, separate entity within Duksan group)"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Cylindrical Li-ion cell manufacturer within Duksan group ecosystem. Sejong City. Separate from Duksan Electera (battery electrolytes). Detailed GWh capacity not publicly disclosed.",
+      "research": {
+        "summary": "Duksan Futurecell is a South Korean cylindrical Li-ion cell manufacturer operating in Sejong City, part of the broader Duksan group (which also includes Duksan Electera for battery electrolytes). Specific capacity figures and expansion plans are not available from public English-language sources; the company supplies cylindrical cells primarily for industrial and specialty applications.",
+        "source": "https://battery-tech.net/company/duksan-electera-co-ltd/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "atl-battery-india-rewari",
+      "name": "ATLBattery India",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Rewari",
+      "lat": 28.2,
+      "lon": 76.62,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "cell_type",
+          "name": "consumer Li-ion (smartphones, laptops, wearables, AirPods)"
+        },
+        {
+          "category": "cell_type",
+          "name": "iPhone batteries (from 2025)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "ATL = Amperex Technology Limited (TDK subsidiary, world's largest consumer Li-ion producer) — this is the India subsidiary at Rewari (IMT Bawal)",
+          "Output measured in battery packs (200M/year), not GWh — no public GWh figure",
+          "Primarily consumer electronics, not EV/ESS cells"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "India subsidiary of Amperex Technology Limited (ATL, TDK subsidiary). 180-acre site at IMT Bawal, Rewari, Haryana. ~5,000 employees. ~200M battery packs/year for consumer electronics. From 2025: iPhone batteries for India-assembled iPhones. Revenue: ₹483 crore FY2025.",
+      "research": {
+        "summary": "ATLBattery Technology India (subsidiary of ATL/TDK, world's largest consumer Li-ion producer) operates India's largest Li-ion battery facility at IMT Bawal, Rewari, Haryana — a 180-acre site with ~5,000 direct employees and ~$73M investment. The plant produces approximately 200 million battery packs per year for consumer electronics and from 2025 also manufactures batteries for iPhones assembled in India.",
+        "source": "https://tracxn.com/d/legal-entities/india/atlbattery-technology-india-private-limited/__Z8RHiUlhLmoFKxfIt0duMwjJNWspYYWJgckh-l-Hs-0",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "log9-materials-bengaluru",
+      "name": "Log9 Materials",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "India",
+      "city": "Bengaluru",
+      "lat": 12.97,
+      "lon": 77.59,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Paused",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 50,
+          "unit": "MWh",
+          "known": true,
+          "type": "current",
+          "label": "initial pilot line capacity (operational Apr 2023)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "LTO"
+        },
+        {
+          "category": "cell_type",
+          "name": "fast-charge commercial EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Log9 entered insolvency proceedings late 2025 — confirm current operational status and whether pilot line is still running",
+          "Gigafactory plans (5 GWh by 2026, 40 GWh by 2030) are considered defunct unless restructuring succeeds"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Launched India's first commercial Li-ion cell production line (Jakkuru, Bengaluru) Apr 2023 at 50 MWh. Graphene-enhanced LTO/LFP for rapid-charge commercial EVs. Entered insolvency proceedings late 2025. Gigafactory plans (¥2,350 crore) defunct.",
+      "research": {
+        "summary": "Log9 Materials launched India's first commercial Li-ion cell manufacturing line at Jakkuru, Bengaluru in April 2023 with 50 MWh initial capacity, producing LTO and LFP cells for fast-charge commercial EVs. The company entered insolvency/financial distress by late 2025, rendering its 5 GWh by FY2026 gigafactory plans effectively suspended. The 50 MWh pilot line was the last confirmed operational capacity figure.",
+        "source": "https://etn.news/iesa-contacts-menu/4988-log9-materials-localized-cell-manufacturing-facility-bengaluru-launched",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "ganfeng-lienergy-xinyu",
+      "name": "GanfengLithium (LiEnergy)",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Xinyu",
+      "lat": 27.8,
+      "lon": 114.93,
+      "year": 2022,
+      "year_label": "2022",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 10,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "Xinyu Phase II (operational since 2022)"
+        },
+        {
+          "value": 144,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "label": "total group planned capacity (power + ESS, all sites)"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC (soft-pack)"
+        },
+        {
+          "category": "chemistry",
+          "name": "semi-solid-state (pilot)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "GanfengLithium is primarily a lithium chemicals producer; battery cells are downstream integration via GanfengLiEnergy subsidiary",
+          "Multiple sites: Xinyu (most mature), Dongguan, Ningbo (solid-state R&D), Suzhou, Chongqing",
+          "Overseas solid-state project (¥3.5B announced 2024) and Turkey plant ($500M) — confirm status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Battery cell subsidiary of Ganfeng Lithium (world's 3rd largest lithium producer). Xinyu Phase II (Jiangxi) is 10 GWh operational since 2022. Total planned: 144 GWh across 5+ China sites + overseas. Semi-solid-state in pilot. Turkey plant $500M announced.",
+      "research": {
+        "summary": "GanfengLiEnergy (battery subsidiary of Ganfeng Lithium) operates a 10 GWh Phase II facility in Xinyu, Jiangxi (operational 2022) alongside newer bases in Dongguan, Ningbo, Suzhou, and Chongqing. Total planned capacity across all sites is 144 GWh including semi-solid-state cells. Ganfeng Lithium is primarily a lithium chemicals producer; GanfengLiEnergy is its downstream battery integration. A $500M Turkey plant and overseas solid-state project were announced in 2024.",
+        "source": "https://www.electrive.com/2022/01/24/ganfeng-lienergy-opens-10-gwh-battery-plant-in-jiangxi/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "batterotech-jiashan",
+      "name": "Batterotech",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Jiashan",
+      "lat": 30.83,
+      "lon": 120.93,
+      "year": 2023,
+      "year_label": "2023",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "large-format prismatic (314Ah ESS)"
+        },
+        {
+          "category": "cell_type",
+          "name": "4680 cylindrical (BTL)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "GWh capacity not publicly disclosed — Tsingshan backing suggests substantial industrial resources",
+          "Batterotech ≠ REPT BATTERO — both are Tsingshan-backed but separate entities; confirm relationship"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Founded 2020, backed by Tsingshan Holding Group. HQ: Shanghai. Manufacturing: Jiashan, Zhejiang. Mass produced 314Ah LFP prismatic cell from Sep 2023 for utility-scale ESS. Also: BTL 4680 cylindrical cell, 53Ah LFP (>6,000 cycles). Separate from REPT BATTERO (also Tsingshan-backed).",
+      "research": {
+        "summary": "Batterotech (founded 2020, Tsingshan-backed) is a Shanghai-based Li-ion company manufacturing primarily in Jiashan, Zhejiang. The company mass-produced its 314Ah LFP prismatic cell from September 2023 for utility-scale ESS, alongside a 4680-type BTL cylindrical cell. Exact GWh capacity is not publicly disclosed. Batterotech is a distinct entity from REPT BATTERO, which is also backed by Tsingshan.",
+        "source": "https://battery-tech.net/company/batterotech/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "biwatt-shenzhen",
+      "name": "Biwatt",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Shenzhen",
+      "lat": 22.54,
+      "lon": 114.06,
+      "year": 2017,
+      "year_label": "2017",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Na-ion"
+        },
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "cell_type",
+          "name": "residential ESS"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Company appears to be primarily a system integrator rather than a large-scale cell manufacturer — confirm whether cells are self-manufactured or sourced externally",
+          "No GWh manufacturing capacity publicly confirmed"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Founded 2017, Shenzhen. Positioned primarily as sodium-ion battery pioneer for residential ESS. PowerNest Na-ion product (4.5 kWh residential) released 2025. AI-based BMS and energy cloud platform. Small company (51–200 employees). Likely a system integrator sourcing cells rather than a GWh-scale cell manufacturer.",
+      "research": {
+        "summary": "Biwatt (founded 2017, Shenzhen) is positioned as a sodium-ion battery specialist for residential and commercial energy storage, with its PowerNest Na-ion product line (4.5 kWh residential unit released 2025). The company integrates AI-based BMS and energy cloud platforms. With 51–200 employees, Biwatt is likely an ESS integrator sourcing cells rather than a large-scale cell manufacturer; no GWh manufacturing capacity has been publicly confirmed.",
+        "source": "https://www.ess-news.com/2025/04/30/biwatt-releases-4-5-kwh-sodium-ion-battery/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "enersys-greenville",
+      "name": "EnerSys",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Greenville",
+      "lat": 34.85,
+      "lon": -82.4,
+      "year": 2028,
+      "year_label": "2028 (planned)",
+      "status": "Planned",
+      "stage": "pilot",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 4.5,
+          "unit": "GWh",
+          "known": true,
+          "type": "planned",
+          "target_year": 2028,
+          "label": "planned capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "industrial / motive power"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Greenville SC gigafactory: confirm construction start and 4.5 GWh by 2028 timeline is on track",
+          "EnerSys also produces VRLA/lead-acid globally; confirm focus chemistry for the Greenville Li-ion plant"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "EnerSys (Reading, PA HQ) is a major industrial battery manufacturer. Li-ion gigafactory announced for Greenville, SC — 4.5 GWh planned capacity, construction started 2025, production targeted 2028. Company focuses on reserve power (data centers, telecom) and motive power (forklifts, aerospace). Also produces AGM/VRLA batteries globally.",
+      "research": {
+        "summary": "EnerSys is building a 4.5 GWh Li-ion gigafactory in Greenville, SC, with production targeted for 2028. The plant targets industrial applications including data center UPS, aerospace, and defense. EnerSys is one of the world's largest industrial battery manufacturers by revenue, with a broad portfolio spanning Li-ion, VRLA, and AGM. Construction began in 2025.",
+        "source": "https://www.enersys.com/en/about-us/media-center/press-releases/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "clarios-milwaukee",
+      "name": "Clarios",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Milwaukee",
+      "lat": 43.04,
+      "lon": -87.91,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "lead-acid"
+        },
+        {
+          "category": "chemistry",
+          "name": "AGM"
+        },
+        {
+          "category": "application",
+          "name": "automotive starter battery"
+        },
+        {
+          "category": "application",
+          "name": "stop-start vehicle"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Clarios operates ~16 manufacturing plants in the US and many more globally — individual facility records could be added for completeness",
+          "Any confirmed plans to expand into Li-ion cell manufacturing beyond AGM/lead-acid?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Clarios (Milwaukee, WI) is the world's largest lead-acid and AGM battery manufacturer, supplying ~30% of global automotive starting batteries. Spun off from Johnson Controls in 2019; acquired by Brookfield Business Partners. Operates ~16 US plants and many more globally. Focused on low-voltage 12V batteries for ICE and mild-hybrid vehicles. HQ record only; individual facility records not yet added.",
+      "research": {
+        "summary": "Clarios is the world's largest manufacturer of low-voltage automotive batteries (lead-acid and AGM), producing approximately 150 million batteries per year across a global manufacturing network of ~16 US plants and dozens more internationally. The company was spun off from Johnson Controls in 2019 and is privately held by Brookfield Business Partners. Core products are 12V starter batteries for conventional and stop-start vehicles; the company has announced ambitions in energy storage and vehicle electrification.",
+        "source": "https://www.clarios.com/company/about-us/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "zincfive-tualatin",
+      "name": "ZincFive",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Tualatin",
+      "lat": 45.38,
+      "lon": -122.76,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "NiZn"
+        },
+        {
+          "category": "application",
+          "name": "data center UPS"
+        },
+        {
+          "category": "application",
+          "name": "industrial backup power"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm GWh-scale manufacturing capacity — company reports GW-scale deployed/contracted but unit unclear",
+          "US manufacturing footprint: Tualatin OR confirmed as primary site?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "ZincFive (Tualatin, OR) manufactures nickel-zinc (NiZn) batteries for data center UPS and industrial backup power applications. Chemistry offers higher energy density than lead-acid with no toxic heavy metals. Company reports significant deployments in US data centers. Privately held, founded ~2010.",
+      "research": {
+        "summary": "ZincFive manufactures nickel-zinc (NiZn) batteries primarily for data center uninterruptible power supply (UPS) applications. Based in Tualatin, Oregon, the company positions NiZn as a safer, more energy-dense, and longer-lasting alternative to VRLA lead-acid for short-duration backup power. The company has reported GW-scale contracted deployments across US data centers and is commercially operational.",
+        "source": "https://www.zincfive.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "ambri-marlborough",
+      "name": "Ambri",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Marlborough",
+      "lat": 42.35,
+      "lon": -71.55,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "liquid metal"
+        },
+        {
+          "category": "application",
+          "name": "grid-scale energy storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Ambri filed for bankruptcy in early 2024 and emerged in Jul 2024 — verify current operational status and ownership",
+          "Confirm scale of commercial deployments post-restructuring — pilot or early commercial?",
+          "Any GWh capacity figures publicly disclosed?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Ambri (Marlborough, MA) develops liquid metal batteries for long-duration grid storage. Spun out of MIT in 2010. Filed for Chapter 11 bankruptcy in early 2024; emerged in July 2024 with new ownership. Chemistry uses calcium-antimony liquid electrodes operating at ~500°C — suited for utility-scale, multi-hour discharge. Early commercial deployments in progress.",
+      "research": {
+        "summary": "Ambri produces calcium-antimony liquid metal batteries for grid-scale long-duration energy storage. Founded as an MIT spin-out in 2010, the company filed for Chapter 11 bankruptcy in early 2024 and emerged in July 2024 under restructured ownership. The technology operates at ~500°C, targets multi-hour discharge cycles, and is positioned for utility and industrial applications. Commercial deployments are in early stages following the restructuring.",
+        "source": "https://ambri.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "voltaxplore-montreal",
+      "name": "VoltaXplore",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Montreal",
+      "lat": 45.51,
+      "lon": -73.55,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [
+        {
+          "value": 1,
+          "unit": "MWh",
+          "known": true,
+          "type": "current",
+          "label": "pilot line capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-ion"
+        },
+        {
+          "category": "cell_type",
+          "name": "21700 cylindrical"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current operational status and pilot line output — any scale-up plans announced?",
+          "Ownership/investors and funding stage?",
+          "Any cathode chemistry (NMC, NCA, LFP) specified for the 21700 cells?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "VoltaXplore (Montreal, Canada) operates a 1 MWh pilot line producing 21700 cylindrical Li-ion cells. Limited public information available — appears to be an early-stage Canadian battery manufacturer. Cathode chemistry and target markets not publicly confirmed.",
+      "research": {
+        "summary": "VoltaXplore is a Montreal-based battery company operating a 1 MWh pilot-scale manufacturing line for 21700 cylindrical lithium-ion cells. The company is at an early commercial stage with limited public profile. Specific cathode chemistry, target customers, and scale-up timeline have not been publicly disclosed as of 2026.",
+        "source": "https://voltaxplore.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "im3ny-endicott",
+      "name": "iM3NY (C4V)",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Endicott",
+      "lat": 42.1,
+      "lon": -76.07,
+      "year": null,
+      "year_label": null,
+      "status": "Cancelled",
+      "stage": "pilot",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "EV / stationary storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Assets reportedly sold Apr 2025 — confirm buyer and whether any production continues at the Endicott site"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Imperium3 New York (iM3NY) was a joint venture between C4V (Binghamton NY) and Imperium3 targeting Li-ion cell manufacturing in Endicott, NY. iM3NY filed for bankruptcy in January 2025 with assets sold in April 2025. C4V (the parent technology company) continues independently with its proprietary BiSCTM cathode chemistry.",
+      "research": {
+        "summary": "iM3NY (Imperium3 New York) was a Li-ion cell manufacturing JV between C4V and international partners, located in Endicott, NY. The company filed for Chapter 11 bankruptcy in January 2025 and its manufacturing assets were liquidated in April 2025. C4V, the technology and IP parent, continues as an independent battery technology company based in Binghamton, NY, with its proprietary BiSC cathode chemistry.",
+        "source": "https://www.c4v.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "energizer-maryville",
+      "name": "Energizer Holdings",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Maryville",
+      "lat": 40.35,
+      "lon": -94.87,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "alkaline"
+        },
+        {
+          "category": "chemistry",
+          "name": "zinc-carbon"
+        },
+        {
+          "category": "application",
+          "name": "consumer primary batteries"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Energizer focuses on primary (non-rechargeable) batteries — confirm any rechargeable/Li-ion production",
+          "Maryville MO: confirm as primary US manufacturing site; Energizer also has plants globally"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Energizer Holdings (St. Louis, MO HQ) is one of the world's largest primary battery manufacturers, producing alkaline and zinc-carbon consumer batteries (AA, AAA, etc.). The Maryville, MO facility is a major US manufacturing site. Energizer also owns Rayovac brand. Not a lithium-ion / rechargeable battery manufacturer — primary batteries only.",
+      "research": {
+        "summary": "Energizer Holdings is a major manufacturer of primary (non-rechargeable) alkaline and zinc-carbon batteries, marketed under the Energizer and Rayovac brands. The company produces AA, AAA, C, D, and 9V batteries for consumer and industrial use. Energizer's Maryville, MO plant is one of its key US manufacturing facilities. The company is not involved in Li-ion rechargeable cell manufacturing.",
+        "source": "https://www.energizer.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "altairnano-reno",
+      "name": "Altairnano",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "USA",
+      "city": "Reno",
+      "lat": 39.53,
+      "lon": -119.81,
+      "year": null,
+      "year_label": null,
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "hq_and_manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LTO"
+        },
+        {
+          "category": "application",
+          "name": "grid storage"
+        },
+        {
+          "category": "application",
+          "name": "heavy-duty vehicle"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Reno facility: confirm current operational status and manufacturing scale",
+          "GREE Altairnano China JV (Zhuhai) appears to be the larger manufacturing entity — clarify relationship"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Altairnano (Altair Nanotechnologies, Reno NV) manufactures lithium titanate oxide (LTO) batteries known for very fast charging, long cycle life, and wide temperature range. Company has a JV with GREE Electric Appliances in China (GREE Altairnano, Zhuhai) that operates larger-scale LTO manufacturing. Reno site is a smaller-scale operation; the bulk of commercial volume comes from the China JV.",
+      "research": {
+        "summary": "Altairnano manufactures lithium titanate oxide (LTO) batteries at its Reno, NV facility, offering fast charging, very long cycle life (>20,000 cycles), and wide operating temperature ranges. The company has a strategic JV with China's GREE Electric Appliances — GREE Altairnano in Zhuhai — which handles large-scale commercial production for the Chinese market. The Reno facility serves US and international customers at smaller scale.",
+        "source": "https://www.altairnano.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "stromvolt-mississauga",
+      "name": "StromVolt",
+      "sector": "cell_manufacturer",
+      "continent": "North America",
+      "country": "Canada",
+      "city": "Mississauga",
+      "lat": 43.59,
+      "lon": -79.64,
+      "year": null,
+      "year_label": null,
+      "status": "Planned",
+      "stage": "rd",
+      "location_type": "headquarters",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-ion"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current project status — no confirmed construction progress as of 2026",
+          "Manufacturing site location — Mississauga is HQ; actual plant location TBC",
+          "Capacity targets, chemistry focus, and funding status unconfirmed"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "StromVolt (Mississauga, ON, Canada) is a Canadian battery company with announced plans for Li-ion cell manufacturing. Very limited public information available; no confirmed construction progress or commercial production as of 2026. HQ record only.",
+      "research": {
+        "summary": "StromVolt is a Canadian battery startup with announced ambitions for domestic Li-ion cell manufacturing. The company is based in Mississauga, Ontario. As of 2026, limited public information is available on funding, partnerships, construction progress, or target production capacity. The project remains in early planning or development stage.",
+        "source": "https://www.stromvolt.ca/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "a123-changzhou",
+      "name": "A123 Systems",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Changzhou",
+      "lat": 31.77,
+      "lon": 119.97,
+      "year": 2014,
+      "year_label": "2014",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "application",
+          "name": "automotive"
+        },
+        {
+          "category": "application",
+          "name": "grid storage"
+        },
+        {
+          "category": "application",
+          "name": "commercial vehicle"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current GWh capacity at Changzhou facility — figures not publicly disclosed",
+          "A123 owned by Wanxiang Group since 2013; clarify integration level and brand status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "A123 Systems (US origin, acquired by Wanxiang Group China in 2013) operates primary LFP cell manufacturing in Changzhou, China. US operations in Michigan are mainly R&D and pack assembly. China manufacturing serves automotive OEMs, grid storage, and commercial vehicle markets. A123 is an early LFP pioneer with established commercial production.",
+      "research": {
+        "summary": "A123 Systems is a pioneer of lithium iron phosphate (LFP) battery technology, originally founded in MIT's labs in 2001. Acquired by Chinese conglomerate Wanxiang Group in 2013 following bankruptcy, A123 now operates its primary cell manufacturing in Changzhou, China, serving automotive OEMs and grid storage customers. US operations (Michigan) focus on R&D and pack assembly. The Changzhou plant supplies commercial vehicle and stationary storage applications.",
+        "source": "https://www.a123systems.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "microvast-huzhou",
+      "name": "Microvast",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Huzhou",
+      "lat": 30.87,
+      "lon": 120.09,
+      "year": 2006,
+      "year_label": "2006",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [
+        {
+          "value": 4,
+          "unit": "GWh",
+          "known": true,
+          "type": "current",
+          "label": "current production capacity"
+        }
+      ],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LFP"
+        },
+        {
+          "category": "chemistry",
+          "name": "NMC"
+        },
+        {
+          "category": "chemistry",
+          "name": "NTO"
+        },
+        {
+          "category": "application",
+          "name": "commercial EV"
+        },
+        {
+          "category": "application",
+          "name": "bus"
+        },
+        {
+          "category": "application",
+          "name": "grid storage"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "4 GWh capacity figure — confirm year of measurement and current utilization rate",
+          "Microvast went public via SPAC (2021) on Nasdaq; confirm current financial status"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "Microvast (Stafford, TX HQ; primary manufacturing in Huzhou, China) produces LFP, NMC, and NTO (nano-titanate oxide) cells for commercial EVs, buses, and grid storage. Founded 2006 in China; US-listed via SPAC in 2021. Huzhou facility is the main cell manufacturing site with ~4 GWh capacity. US Stafford TX site is HQ and application engineering only.",
+      "research": {
+        "summary": "Microvast is a Chinese-origin battery company (founded 2006) with primary cell manufacturing at its Huzhou, China facility, which has approximately 4 GWh of annual production capacity. The company produces LFP, NMC, and proprietary NTO (nano-titanate) cells primarily for commercial electric vehicles, buses, and grid storage. Microvast went public on Nasdaq via SPAC in 2021 (ticker: MVST). US headquarters in Stafford, TX serves as engineering and sales hub without cell manufacturing.",
+        "source": "https://www.microvast.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "enovix-penang",
+      "name": "ENOVIX",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "Malaysia",
+      "city": "Penang",
+      "lat": 5.41,
+      "lon": 100.33,
+      "year": 2024,
+      "year_label": "2024",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Si-anode Li-ion"
+        },
+        {
+          "category": "application",
+          "name": "consumer electronics"
+        },
+        {
+          "category": "application",
+          "name": "IoT / wearables"
+        },
+        {
+          "category": "application",
+          "name": "EV (development)"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Penang Fab2: confirm current production rate and capacity ramp — GWh or MWh figures not publicly disclosed",
+          "EV-scale cell production: any confirmed automotive customer partnerships?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "ENOVIX (Fremont, CA HQ) produces silicon-anode lithium-ion cells using a 3D silicon architecture (100% active silicon anode). Commercial production at Fab2 in Batu Kawan, Penang, Malaysia — operational since 2024. Fremont, CA (Fab1) was used for early R&D and pilot production; now serves as R&D center. Nasdaq-listed (ENVX). Targets premium consumer electronics and eventually EV applications.",
+      "research": {
+        "summary": "ENOVIX produces high-energy-density silicon-anode lithium-ion cells using its proprietary 3D silicon architecture, enabling 100% active silicon anodes without the expansion problems of conventional silicon blends. Commercial manufacturing runs at Fab2 in Batu Kawan, Penang, Malaysia (operational since 2024). The Fremont, CA headquarters now focuses on R&D. ENOVIX is publicly traded on Nasdaq (ENVX) and targets premium consumer electronics and future automotive applications.",
+        "source": "https://www.enovix.com/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "ses-ai-shanghai",
+      "name": "SES AI",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Shanghai",
+      "lat": 31.23,
+      "lon": 121.47,
+      "year": 2021,
+      "year_label": "2021",
+      "status": "Operational",
+      "stage": "pilot",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "Li-metal"
+        },
+        {
+          "category": "application",
+          "name": "automotive EV"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current pilot production capacity in Shanghai — MWh scale?",
+          "Partnership with GM and Honda: confirm status of A-sample / B-sample deliveries",
+          "SES AI also has a pilot plant in Chungju, South Korea — add separate record?"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "SES AI (Woburn, MA HQ) develops hybrid Li-metal batteries for automotive applications. Primary manufacturing pilot is in Shanghai, China, with a second pilot in Chungju, South Korea. Woburn MA site is R&D headquarters. Partnerships with GM, Honda, and Hyundai for A-sample cell deliveries. Nasdaq-listed (SES). Technology targets 400+ Wh/kg energy density.",
+      "research": {
+        "summary": "SES AI is developing hybrid lithium-metal batteries targeting automotive OEM applications, with pilot production facilities in Shanghai, China and Chungju, South Korea. The Woburn, Massachusetts headquarters houses R&D operations. The company has formal development partnerships with GM, Honda, and Hyundai, and has delivered A-sample cells for testing. SES AI is publicly listed on NYSE (ticker: SES) and targets energy densities above 400 Wh/kg for next-generation EV platforms.",
+        "source": "https://www.ses.ai/",
+        "date": "2026-05-20"
+      }
+    },
+    {
+      "id": "gree-altairnano-zhuhai",
+      "name": "GREE Altairnano",
+      "sector": "cell_manufacturer",
+      "continent": "Asia",
+      "country": "China",
+      "city": "Zhuhai",
+      "lat": 22.27,
+      "lon": 113.57,
+      "year": 2014,
+      "year_label": "2014",
+      "status": "Operational",
+      "stage": "commercial",
+      "location_type": "manufacturing",
+      "capacities": [],
+      "products": [
+        {
+          "category": "chemistry",
+          "name": "LTO"
+        },
+        {
+          "category": "application",
+          "name": "grid storage"
+        },
+        {
+          "category": "application",
+          "name": "heavy-duty vehicle"
+        },
+        {
+          "category": "application",
+          "name": "industrial"
+        }
+      ],
+      "materials": [],
+      "attributes": {
+        "logo_research_needed": false,
+        "open_questions": [
+          "Confirm current GWh capacity at Zhuhai — figures not publicly disclosed",
+          "JV structure: confirm ownership split between GREE Electric and Altairnano"
+        ]
+      },
+      "source_image": "airtable-wp-company-directory",
+      "date_added": "2026-05-20",
+      "notes": "GREE Altairnano Energy (Zhuhai, Guangdong) is a joint venture between GREE Electric Appliances (major Chinese appliance manufacturer) and Altairnano (US). Produces LTO batteries commercially for grid storage and heavy-duty vehicles at larger scale than Altairnano's US Reno facility. Established ~2014.",
+      "research": {
+        "summary": "GREE Altairnano Energy is a Zhuhai-based joint venture between GREE Electric Appliances (one of China's largest appliance manufacturers) and Altair Nanotechnologies (Altairnano), established around 2014. The JV manufactures lithium titanate oxide (LTO) batteries commercially for grid-scale energy storage and heavy-duty vehicle applications in China. It represents the primary commercial-scale manufacturing arm of the Altairnano technology platform.",
+        "source": "https://www.altairnano.com/",
+        "date": "2026-05-20"
+      }
     }
   ]
 }

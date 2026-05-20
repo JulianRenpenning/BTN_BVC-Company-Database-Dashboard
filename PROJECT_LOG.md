@@ -1,6 +1,6 @@
 # BTN_BVC-Company-Database-Dashboard — Project Log
 
-**Last updated:** 2026-05-18 (Session 7 — Cell manufacturer file consolidation; continent field added)  
+**Last updated:** 2026-05-20 (Session 9 — Airtable gap-fill: North America + Asia cell mfg records; startups.json created)  
 **Owner:** Julian Renpenning (Battery-Tech Network)
 
 ---
@@ -22,12 +22,13 @@ A tool to extract structured company data from images (maps, slides, reports) �
 ```
 Claude Code/BTN_BVC-Company-Database-Dashboard/
 ├── data/
-│   ├── cell-manufacturers.json      ← Cell manufacturers — global (170 records: 52 EU, 39 NA, 79 Asia)
+│   ├── cell-manufacturers.json      ← Cell manufacturers — global (213 records)
 │   ├── recycling.json               ← Battery recyclers (65 records)
 │   ├── module-pack.json             ← Module & pack producers (110 records)
 │   ├── active-materials.json        ← Active material producers (29 records)
 │   ├── components.json              ← Passive cell components (50 records)
-│   └── equipment.json               ← Production equipment providers (64 records)
+│   ├── equipment.json               ← Production equipment providers (69 records)
+│   └── startups.json                ← R&D/pre-commercial battery startups (27 records)
 ├── app/
 │   ├── index.html           ← Visualization app (map + table + chart)
 │   ├── app.js               ← Data loading, filtering, rendering
@@ -82,6 +83,7 @@ One JSON file per sector. Each file has a `meta` block and a `companies` array.
 - `component_manufacturer`
 - `equipment_provider`
 - `active_material_producer`
+- `battery_startup` (added v1.5 — R&D/pre-commercial companies in `startups.json`)
 
 **Stage values:**
 
@@ -155,7 +157,7 @@ reference-data/
 | `240716_Battery-Cell-Production_North-America.jpg` | processed | cell-manufacturers.json | 39 (NA records) |
 | `230804_Asia_battery manufacturers.png` | processed | cell-manufacturers.json | 79 (Asia facility records) |
 
-**Total: 488 records across 6 files. All source images processed.**
+**Total: 563 records across 7 files. All source images processed.**
 
 ---
 
@@ -316,34 +318,52 @@ reference-data/
   - Updated CLAUDE.md and PROJECT_LOG.md to reflect new 6-file structure
   - **Database total: 488 records across 6 sector files**
 
+### Session 8 — 2026-05-20
+
+- [x] **Airtable gap-fill — Europe/Japan/Taiwan batch** (+12 records to `cell-manufacturers.json`)
+  - Source: Airtable WP Company Directory, BVC Category = Cell Manufacturing, fuzzy-matched against dashboard
+  - Added: Saft Nersac, Saft Bordeaux, CustomCells Itzehoe, Liacon Ottendorf-Okrilla, Faradion Sheffield, Nyobolt Cambridge, Volklec Coventry, CEGASA Miñano, Italvolt Milan, GS Yuasa Kyoto, Molicel Taipei, Molicel Kaohsiung
+  - All records include `location_type`, `continent`, `source_image: "airtable-wp-company-directory"`, full research block
+  - `cell-manufacturers.json` total: **182 records**
+- [x] **Airtable gap-fill — Asia batch** (+17 records to `cell-manufacturers.json`)
+  - Added: Pylontech Hefei, Pylontech Yangzhou, Narada Hangzhou, REPT Battero Wenzhou, REPT Battero Jiashan, COSMX Zhuhai, Tianneng Huzhou, DMEGC Dongyang, Qingtao Kunshan, Sinowatt Dongguan, Durapower Suzhou, Duksan Futurecell Sejong-si, ATL Battery India Rewari, Log9 Materials Bengaluru, GanfengLiEnergy Xinyu, Batterotech Jiashan, Biwatt Shenzhen
+  - Skipped (already in DB): V4Smart Nördlingen, FAAM Teverola/Monterubbiano, BMZ Karlstein (in module-pack.json)
+  - `cell-manufacturers.json` total: **199 records**
+- [x] **Airtable gap-fill — 5 misclassified equipment companies** (+5 records to `equipment.json`)
+  - Added: ANDRITZ Sovema (Italy), GROB-WERKE (Germany), KATOP Automation (China), Lead Intelligent Equipment (China), MBRAUN (Germany)
+  - `equipment.json` total: **69 records**
+- [x] **New `location_type` field** introduced for all Airtable-sourced records: `headquarters` | `manufacturing` | `hq_and_manufacturing` | `unknown`
+
+### Session 9 — 2026-05-20
+
+- [x] **Airtable gap-fill — North America + Asia manufacturing locations** (+14 records to `cell-manufacturers.json`)
+  - North America: EnerSys Greenville SC (Planned 4.5 GWh), Clarios Milwaukee, ZincFive Tualatin OR, Ambri Marlborough MA, VoltaXplore Montreal, iM3NY Endicott NY (Cancelled), Energizer Maryville MO, Altairnano Reno NV, StromVolt Mississauga
+  - Asia (actual manufacturing sites of US-HQ companies): A123 Changzhou, Microvast Huzhou, ENOVIX Penang, SES AI Shanghai, GREE Altairnano Zhuhai
+  - `cell-manufacturers.json` total: **213 records**
+- [x] **Created `data/startups.json`** — new sector file for R&D/pre-commercial battery companies (sector: `battery_startup`)
+  - 27 records: StoreDot, Phinergy, 3DBattery, EExion (Israel); Innolith, BTRY (Switzerland); LionVolt, TheNanoX (Netherlands); Altris AB, Enerpoly (Sweden); VANEVO (Germany); novali (Belgium); Arkenlight, Gelion (UK); TasmanIon (New Zealand); GBatteries (Canada); QuantumScape, Conamix, Coreshell, Blue Current, Ampcera, Enzinc, Ionblox, Sakuu, DESTEN, EnPower, Seeo (USA)
+  - All records include full research block
+- [x] **Added `battery_startup` sector tag** to `styles.css` (orange tone: `#fff3e0` / `#e65100`)
+- [x] **Updated `app/app.js` DATA_FILES** — 6 → 7 entries (added `startups.json`)
+- [x] **Database total: 563 records across 7 sector files**
+
 ---
 
 ## Pending Tasks
 
-### High priority — Airtable enrichment (planned 2026-05-18, not yet executed)
+### High priority — Airtable gap-fill continuation (partially executed)
 
-**Goal:** Enrich the dashboard JSON records with data from the BTN Account Database in Airtable.
+**Completed (Sessions 8–9):** Equipment companies (5), EU/Japan/Taiwan cell manufacturers (12), Asia cell manufacturers (17), North America + Asia-manufacturing cell manufacturers (14), startups.json (27). Total added: 75 records.
 
-**Sources:**
-- `WP Company Directory` table (1,044 records) — BVC Stage/Category taxonomy, WordPress profile URL, Technology Categories, company descriptions
-- `BTN Accounts` table — website domain (match key), LinkedIn URL, overview, key technologies, facilities, recent developments
+**Remaining from the 106-company gap list — not yet added:**
+- **Germany:** Beff GmbH (Stuttgart), Chem4Batteries (Wiesbaden), TERRAE (Karlstein am Main)
+- **France:** Advantelec (Vénissieux), NAWA Technologies (Rousset), Novacium SAS (Solaize)
+- **India:** Aatral ESP (Chennai), Libamare (Hyderabad), Uneverse (Kolkata)
+- **UK:** BATRI Ltd (Bridgend Wales), Celltris (Bristol), UKBIC (Coventry — research institute, probably skip)
+- **US:** First Mode (Seattle), Group1 (Austin), Intecells (Troy MI), Navitas Systems (Ann Arbor), Nuvvon (Bordentown NJ), Nxu (Mesa AZ), Recharge Industries (New York), Standard Potential (Tarrytown NY), Tyfast (San Diego), Valence/Lithion (Henderson NV), BMZ USA (Virginia Beach — probably module-pack)
+- **Other:** Volterion (Germany — vanadium flow, probably startups.json)
 
-**Match key:** `domain` field in BTN Accounts (e.g. `catl.com`) matched against company name or website in dashboard records. Domain is the most reliable cross-system identifier.
-
-**Enrichment fields to add to dashboard records:**
-- `website` / `domain` — from BTN Accounts
-- `linkedin` — from BTN Accounts
-- `btn_profile_url` — the battery-tech.net company page URL (from WP Company Directory `URL` field)
-- `bvc_category` — detailed BVC Category from WP Company Directory (e.g. "Cell Manufacturing", "Material Recycling")
-- `overview` — short company description from BTN Accounts
-
-**Airtable connection:** MCP is live and connected. Base ID: `appOF0MlHF4imAtG5`. WP Company Directory table ID: `tblcBP5HbtaLkuxqi`. BTN Accounts table ID: `tblfZg9UAZQtaSZKV`.
-
-**Next steps when resuming:**
-1. Decide which enrichment fields to add to the dashboard schema
-2. Build a matching script: for each dashboard record, look up by company name (fuzzy) or domain in Airtable
-3. Write matched data into the JSON files
-4. Consider adding a `btn_profile_url` link in the map popup and table
+**Next steps:** Research each remaining company and decide: add to existing JSON / startups.json / skip.
 
 ---
 
