@@ -210,7 +210,7 @@ After any session that adds new records, corrects existing ones, or updates data
 After updating any `data/*.json` files, run:
 
 ```bash
-cd "/Users/julianrenpenning/Library/CloudStorage/OneDrive-CreativeMarketing/_Claude Playground/Claude Code/BTN_BVC-Company-Database-Dashboard"
+cd "/Users/julianrenpenning/Documents/_Claude Playground/Claude Code/BTN_BVC-Company-Database-Dashboard"
 git add data/
 git commit -m "Data update — <brief description of what changed>"
 GIT_SSH_COMMAND="ssh -i ~/.ssh/btn_bvc_deploy" git push
