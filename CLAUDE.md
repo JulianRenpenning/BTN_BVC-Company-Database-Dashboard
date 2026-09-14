@@ -233,3 +233,12 @@ Confirm the deploy by checking:
 https://github.com/JulianRenpenning/BTN_BVC-Company-Database-Dashboard/actions
 
 The deploy action should show a green checkmark within 1–2 minutes.
+
+## Hosted CI is for the code, not the pipeline (workspace rule, 2026-09-14)
+
+GitHub Actions — and any hosted CI runner — may only build, test, deploy or publish the software in
+this repository. It is never the scheduler or the compute for a data pipeline: no scraping, no model
+calls over a record list, no writes to Airtable/Supabase/WordPress, no keep-alives, no polling.
+GitHub suspended the account for exactly that on 2026-09-13 (four repos had such workflows). Rule,
+test and where pipelines run instead: `Claude Code/_Reference/GitHub-Actions-Rules.md`. Do not
+create or restore a `.github/workflows/` file without reading it.
