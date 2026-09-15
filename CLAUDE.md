@@ -1,5 +1,16 @@
 # BTN_BVC-Company-Database-Dashboard — Project Instructions
 
+
+> ## ⛔ GitHub account suspended 2026-09-13 — what it means in this repo (2026-09-15)
+> GitHub suspended the account `JulianRenpenning` because pipelines in four of our repositories
+> ran on Actions runners, which the Actions terms forbid. Support declined to restore; an appeal is
+> filed (`BTN-068`). Consequences here: **there is no remote** — `git push`, `git fetch` and the
+> backup convention's `push --tags` fail; commit and tag locally, nothing is lost, the clone is
+> complete. **Never create a `.github/workflows/` file for a pipeline, a poll or a keep-alive**
+> (rule at the end of this file; `Claude Code/_Reference/GitHub-Actions-Rules.md`). The future
+> remote is a bare repository on the Mac mini (`Claude Code/_Reference/Local-Runner-Plan.md`);
+> until it exists, do not rebuild anything on GitHub or any hosted CI.
+
 Read `PROJECT_LOG.md` for full project context, schema documentation, completed tasks, and pending tasks.
 
 ---
