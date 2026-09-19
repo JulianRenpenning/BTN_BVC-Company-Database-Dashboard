@@ -1,6 +1,33 @@
 # BTN_BVC-Company-Database-Dashboard — Project Instructions
 
 
+## 🔁 Handover — state after the move to the Mac mini (2026-09-19) · read this first
+
+**This section supersedes anything further down that says "there is no remote", "runs on this
+laptop", "Mac mini next", or names GitHub/Actions as current.** The move itself was done in a
+separate infrastructure session (2026-09-18/19); this is what a session working on this project
+needs from it.
+
+- **Git remote = the bare repository `~/git/BTN_BVC-Company-Database-Dashboard.git` on the Mac mini.** On the M3:
+  `git pull mini main` before working, `git push mini main` after committing (tags:
+  `git push mini --tags`). `origin` still points at the suspended GitHub account and fails — do
+  not use it and do not recreate anything on GitHub (appeal pending, `BTN-068`).
+- **Machines:** the M3 is where code is edited (this folder). The **Mac mini runs every scheduled
+  job** (`ssh mini`, over Tailscale). The M3 schedules nothing.
+- **How it all fits together** — access, deploying code to the mini, keys, logs, adding a job,
+  known gaps: **`Claude Code/_Reference/Runner-Operations-Manual.md`**. History and every test
+  result of the move: `Claude Code/_Reference/Local-Runner-Plan.md` §4a.
+- **Rules:** no `.github/workflows/` for a pipeline on any host · a job runs on **one** machine
+  (the mini) · code reaches the mini only by an explicit
+  `ssh mini 'git -C ~/runner/BTN_BVC-Company-Database-Dashboard pull --ff-only'` — there is no automatic pull.
+- **No scheduled job; not a pipeline.** Only the bare repository exists on the mini (no working copy).
+- **⚠️ The GitHub Pages site is offline:** `julianrenpenning.github.io/BTN_BVC-Company-Database-Dashboard/app/`
+  returns **404** since the suspension (checked 2026-09-19). The section "Publishing updates to
+  GitHub Pages" below no longer works. If this dashboard is still needed publicly, it needs a new
+  host — a decision for Julian before any publishing work.
+
+---
+
 > ## ⛔ GitHub account suspended 2026-09-13 — what it means in this repo (2026-09-15)
 > GitHub suspended the account `JulianRenpenning` because pipelines in four of our repositories
 > ran on Actions runners, which the Actions terms forbid. Support declined to restore; an appeal is
