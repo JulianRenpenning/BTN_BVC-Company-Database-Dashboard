@@ -10,8 +10,10 @@ needs from it.
 
 - **Git remote = the bare repository `~/git/BTN_BVC-Company-Database-Dashboard.git` on the Mac mini.** On the M3:
   `git pull mini main` before working, `git push mini main` after committing (tags:
-  `git push mini --tags`). `origin` still points at the suspended GitHub account and fails — do
-  not use it and do not recreate anything on GitHub (appeal pending, `BTN-068`).
+  `git push mini --tags`). **`origin` names GitHub, which works again since 2026-09-22** (the account
+  was suspended 13.–22.09.) — so name the remote explicitly, because a bare `git push` now reaches
+  GitHub, which is behind. Whether GitHub returns as a mirror is `BTN-083`; **no pipeline ever goes
+  back onto Actions.**
 - **Machines:** the M3 is where code is edited (this folder). The **Mac mini runs every scheduled
   job** (`ssh mini`, over Tailscale). The M3 schedules nothing.
 - **How it all fits together** — access, deploying code to the mini, keys, logs, adding a job,
