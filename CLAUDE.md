@@ -1,50 +1,29 @@
 # BTN_BVC-Company-Database-Dashboard — Project Instructions
 
+## Status: frozen — superseded by v2
 
-## 🔁 Handover — state after the move to the Mac mini (2026-09-19) · read this first
+This is **v1** of the BTN company directory (site/capacity level, static JSON). It is **frozen**.
+The live directory, its database and every current pipeline are in
+**`Claude Code/BTN_BVC-Company-Database-Dashboard-v2`**. Do not lift code or conventions from here
+without checking v2 first, and do not start new work here unless Julian asks for it explicitly.
 
-**This section supersedes anything further down that says "there is no remote", "runs on this
-laptop", "Mac mini next", or names GitHub/Actions as current.** The move itself was done in a
-separate infrastructure session (2026-09-18/19); this is what a session working on this project
-needs from it.
-
-- **Git remote = the bare repository `~/git/BTN_BVC-Company-Database-Dashboard.git` on the Mac mini.** On the M3:
-  `git pull mini main` before working, `git push mini main` after committing (tags:
-  `git push mini --tags`). **`origin` names GitHub, which works again since 2026-09-22** (the account
-  was suspended 13.–22.09.) — so name the remote explicitly, because a bare `git push` now reaches
-  GitHub, which is behind. Whether GitHub returns as a mirror is `BTN-083`; **no pipeline ever goes
-  back onto Actions.**
-- **Machines:** the M3 is where code is edited (this folder). The **Mac mini runs every scheduled
-  job** (`ssh mini`, over Tailscale). The M3 schedules nothing.
-- **How it all fits together** — access, deploying code to the mini, keys, logs, adding a job,
-  known gaps: **`Claude Code/_Reference/Runner-Operations-Manual.md`**. History and every test
-  result of the move: `Claude Code/_Reference/Local-Runner-Plan.md` §4a.
-- **Rules:** no `.github/workflows/` for a pipeline on any host · a job runs on **one** machine
-  (the mini) · code reaches the mini only by an explicit
-  `ssh mini 'git -C ~/runner/BTN_BVC-Company-Database-Dashboard pull --ff-only'` — there is no automatic pull.
-- **No scheduled job; not a pipeline.** Only the bare repository exists on the mini (no working copy).
-- **⚠️ The GitHub Pages site is offline:** `julianrenpenning.github.io/BTN_BVC-Company-Database-Dashboard/app/`
-  returns **404** since the suspension (checked 2026-09-19). The section "Publishing updates to
-  GitHub Pages" below no longer works. If this dashboard is still needed publicly, it needs a new
-  host — a decision for Julian before any publishing work.
+- **Git:** remote `mini` (`mini:git/BTN_BVC-Company-Database-Dashboard.git`); no working copy and
+  no job on the mini. Shared infrastructure and rules: `Claude Code/CLAUDE.md`.
+- **Publishing:** the section "Publishing updates to GitHub Pages" below describes the old path.
+  The Pages site returned 404 after the suspension (checked 2026-09-19; not rechecked since the
+  account was restored on 2026-09-22). Whether this dashboard still needs a public host is Julian's
+  decision; do not push to `origin` to publish.
 
 ---
-
-> ## ⛔ GitHub account suspended 2026-09-13 — what it means in this repo (2026-09-15)
-> GitHub suspended the account `JulianRenpenning` because pipelines in four of our repositories
-> ran on Actions runners, which the Actions terms forbid. Support declined to restore; an appeal is
-> filed (`BTN-068`). Consequences here: **there is no remote** — `git push`, `git fetch` and the
-> backup convention's `push --tags` fail; commit and tag locally, nothing is lost, the clone is
-> complete. **Never create a `.github/workflows/` file for a pipeline, a poll or a keep-alive**
-> (rule at the end of this file; `Claude Code/_Reference/GitHub-Actions-Rules.md`). The future
-> remote is a bare repository on the Mac mini (`Claude Code/_Reference/Local-Runner-Plan.md`);
-> until it exists, do not rebuild anything on GitHub or any hosted CI.
 
 Read `PROJECT_LOG.md` for full project context, schema documentation, completed tasks, and pending tasks.
 
 ---
 
 ## On every session start
+
+0. **Say first that this project is frozen and v2 is the live one** (see the top of this file).
+   The steps below date from when v1 was active.
 
 1. **Check `reference-data/unprocessed/`** for any files that have not yet been processed.
    - If files are found: list them and ask Julian whether to process them now.
