@@ -9,10 +9,9 @@ without checking v2 first, and do not start new work here unless Julian asks for
 
 - **Git:** remote `mini` (`mini:git/BTN_BVC-Company-Database-Dashboard.git`); no working copy and
   no job on the mini. Shared infrastructure and rules: `Claude Code/CLAUDE.md`.
-- **Publishing:** the section "Publishing updates to GitHub Pages" below describes the old path.
-  The Pages site returned 404 after the suspension (checked 2026-09-19; not rechecked since the
-  account was restored on 2026-09-22). Whether this dashboard still needs a public host is Julian's
-  decision; do not push to `origin` to publish.
+- **Publishing:** the public site is GitHub Pages (live, checked 2026-10-11). It is fed by the mini's
+  nightly GitHub mirror (07:45), so **anything pushed to `main` on the mini goes public the next
+  morning.** There is no other publishing step. Whether the dashboard stays online is `BTN-073`.
 
 ---
 
@@ -221,37 +220,16 @@ python3 server.py
 The app is publicly hosted at:
 **https://julianrenpenning.github.io/BTN_BVC-Company-Database-Dashboard/app/**
 
-### When to publish
-After any session that adds new records, corrects existing ones, or updates data files — push the changes to GitHub. GitHub Pages redeploys automatically within ~1 minute.
+**How it gets there (since 2026-10-10):** commit on the M3, `git push mini main`. The Mac mini's
+nightly mirror (`Claude Code/INT_Runner-Tool/mirror-github.sh`, 07:45) pushes the repository to
+GitHub, and GitHub Pages redeploys from `main` within a few minutes. **Never push to GitHub from the
+M3** — `origin`'s push URL is blocked on purpose (`Claude Code/CLAUDE.md`). Because v1 is frozen,
+publish only on Julian's explicit request: a push to the mini is a public change the next morning.
 
-### How to publish (Claude does this)
+Actions stays **on** in this one repository: Pages builds with GitHub's internal
+"pages build and deployment" workflow. No workflow file of our own belongs here.
 
-After updating any `data/*.json` files, run:
-
-```bash
-cd "/Users/julianrenpenning/Documents/_Claude Playground/Claude Code/BTN_BVC-Company-Database-Dashboard"
-git add data/
-git commit -m "Data update — <brief description of what changed>"
-GIT_SSH_COMMAND="ssh -i ~/.ssh/btn_bvc_deploy" git push
-```
-
-If app files were also changed (app.js, styles.css, index.html), stage those too:
-
-```bash
-git add data/ app/
-git commit -m "Update — <description>"
-GIT_SSH_COMMAND="ssh -i ~/.ssh/btn_bvc_deploy" git push
-```
-
-### SSH key
-Authentication uses the key at `~/.ssh/btn_bvc_deploy` (added to GitHub on 2026-05-16).
-The `GIT_SSH_COMMAND` prefix is required every time — it tells git to use this specific key.
-
-### After pushing
-Confirm the deploy by checking:
-https://github.com/JulianRenpenning/BTN_BVC-Company-Database-Dashboard/actions
-
-The deploy action should show a green checkmark within 1–2 minutes.
+To check a deploy: https://github.com/JulianRenpenning/BTN_BVC-Company-Database-Dashboard/deployments
 
 ## Hosted CI is for the code, not the pipeline (workspace rule, 2026-09-14)
 
